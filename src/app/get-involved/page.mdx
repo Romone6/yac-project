@@ -1,0 +1,46 @@
+import { Container } from "@/components/Container";
+import { PageHeader } from "@/components/PageHeader";
+import { Section } from "@/components/Section";
+import { Card } from "@/components/Card";
+import { PrimaryButton } from "@/components/PrimaryButton";
+
+export const metadata = {
+  title: "Get Involved | Pathway to Entry",
+  description:
+    "Stakeholder and mentor expressions of interest for the Pathway to Entry project.",
+};
+
+{/* Update content in this file as the project evolves. */}
+<Container className="space-y-12">
+  <PageHeader
+    eyebrow="Stakeholder Engagement"
+    title="Get Involved"
+    summary="Expressions of interest are collected to understand the availability of mentors and stakeholder partners. Roles are non-operational at this stage."
+  />
+
+  <Section title="Mentor expression of interest">
+    <Card title="Mentor EOI">
+      Mentors may contribute to future program design discussions or advisory
+      input. No delivery commitments are required at this stage.
+
+      <PrimaryButton href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__V8w6xNUMk9WT042Tkk5SFFURFY4TkhFUVRLWFZNTy4u">
+        {"Submit mentor EOI"}
+      </PrimaryButton>
+    </Card>
+  </Section>
+
+  <Section title="Educator and stakeholder contact">
+    <Card title="Educator / stakeholder contact form">
+      Educators, schools, training providers, and community organisations can
+      register interest to support consultation and evidence gathering.
+
+      <PrimaryButton href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__V8w6xNUOVRKNVlCNVY2VlozMkFWSUdNSk5KR01FQi4u">
+        {"Submit contact details"}
+      </PrimaryButton>
+      <div className="mt-3 text-sm text-slate-600">
+        Contact details are used only for consultation and stakeholder
+        engagement. Roles are non-operational at this stage.
+      </div>
+    </Card>
+  </Section>
+</Container>

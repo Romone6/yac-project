@@ -1,0 +1,56 @@
+import { Container } from "@/components/Container";
+import { PageHeader } from "@/components/PageHeader";
+import { Section } from "@/components/Section";
+import { Card } from "@/components/Card";
+import { Tag } from "@/components/Tag";
+
+export const metadata = {
+  title: "Toolkit | Pathway to Entry",
+  description:
+    "Draft toolkit components under development for the Pathway to Entry project.",
+};
+
+{/* Update content in this file as the project evolves. */}
+<Container className="space-y-12">
+  <PageHeader
+    eyebrow="Draft Toolkit — In Development"
+    title="Toolkit"
+    summary="Draft resources are being developed and will be refined after consultation. Each section below is a working draft."
+  >
+    <Tag>Draft / In development</Tag>
+  </PageHeader>
+
+  <Section title="Draft sections">
+    <div className="grid gap-6 md:grid-cols-2">
+      <Card title="Subject alignment checklist">
+        <Tag>Draft / To be refined after consultation</Tag>
+        <div className="mt-3">
+          Checklist to help students align subject choices with intended
+          post-school pathways, including minimum requirements and prerequisite
+          considerations.
+        </div>
+      </Card>
+      <Card title="Application timelines">
+        <Tag>Draft / To be refined after consultation</Tag>
+        <div className="mt-3">
+          Timeline templates outlining key steps for university, TAFE, and
+          apprenticeship applications, with regionally relevant milestones.
+        </div>
+      </Card>
+      <Card title="Financial pathway explainer">
+        <Tag>Draft / To be refined after consultation</Tag>
+        <div className="mt-3">
+          Plain-language guidance covering costs, support options, and common
+          funding questions for post-school pathways.
+        </div>
+      </Card>
+      <Card title="If-then pathway logic">
+        <Tag>Draft / To be refined after consultation</Tag>
+        <div className="mt-3">
+          Decision pathways that map common situations to next steps, designed
+          to support clearer action between pathway selection and entry.
+        </div>
+      </Card>
+    </div>
+  </Section>
+</Container>

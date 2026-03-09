@@ -1,0 +1,174 @@
+import { Container } from "@/components/Container";
+import { PageHeader } from "@/components/PageHeader";
+import { Section } from "@/components/Section";
+import { Card } from "@/components/Card";
+import { EvidenceCharts } from "@/components/EvidenceCharts";
+
+export const metadata = {
+  title: "The Problem | Pathway to Entry",
+  description:
+    "Exploring the drop-off between post-school pathway selection and entry, with a focus on regional participation barriers.",
+};
+
+{/* Update content in this file as the project evolves. */}
+<Container className="space-y-12">
+  <PageHeader
+    eyebrow="Evidence Context"
+    title="The Problem"
+    summary="A visible drop-off exists between students identifying a post-school pathway and reaching entry into university, TAFE, or skilled employment."
+  />
+
+  <Section title="Where the gap shows up">
+    <div className="grid gap-6 md:grid-cols-2">
+      <Card title="Regional versus metro participation gap">
+        Regional students often face additional travel, cost, and availability
+        barriers after selecting a pathway. These barriers can compound over
+        time and reduce progression into entry pathways.
+
+        This project will hold space for regional-specific evidence and
+        consultation insights.
+      </Card>
+      <Card title="Limited execution support after selection">
+        The period after a pathway decision can lack practical, step-by-step
+        support. Students may have clarity on intent but limited guidance for
+        timelines, application milestones, and resource access.
+
+        The project focuses on the actions and supports needed between
+        intention and entry.
+      </Card>
+    </div>
+  </Section>
+
+  <Section title="Evidence and data (NSW sources)">
+    <div className="space-y-10">
+      <div className="text-slate-700">
+        The figures below draw on NSW Government data for recent school leavers,
+        with peer-reviewed NSW research used to contextualise barrier drivers.
+        This section will be updated as the project consultation produces
+        additional evidence.
+      </div>
+
+      <EvidenceCharts />
+
+      <div className="space-y-4">
+        <div className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+          NSW school leaver outcomes by remoteness (percent)
+        </div>
+        <div className="overflow-x-auto rounded-sm border border-slate-200 bg-white">
+          <table className="w-full text-left text-sm text-slate-700">
+            <caption className="sr-only">
+              NSW school leaver outcomes by remoteness
+            </caption>
+            <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
+              <tr>
+                <th className="px-4 py-3">Measure</th>
+                <th className="px-4 py-3">Major city</th>
+                <th className="px-4 py-3">Inner regional</th>
+                <th className="px-4 py-3">Outer regional / remote</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-slate-200">
+                <td className="px-4 py-3">Education, training or employment</td>
+                <td className="px-4 py-3">91.5</td>
+                <td className="px-4 py-3">89.6</td>
+                <td className="px-4 py-3">86.3</td>
+              </tr>
+              <tr className="border-t border-slate-200">
+                <td className="px-4 py-3">Not in education, training or employment (derived)</td>
+                <td className="px-4 py-3">8.5</td>
+                <td className="px-4 py-3">10.4</td>
+                <td className="px-4 py-3">13.7</td>
+              </tr>
+              <tr className="border-t border-slate-200">
+                <td className="px-4 py-3">Bachelor degree enrolment</td>
+                <td className="px-4 py-3">44.2</td>
+                <td className="px-4 py-3">18.6</td>
+                <td className="px-4 py-3">15.6</td>
+              </tr>
+              <tr className="border-t border-slate-200">
+                <td className="px-4 py-3">Apprenticeship</td>
+                <td className="px-4 py-3">12.0</td>
+                <td className="px-4 py-3">18.4</td>
+                <td className="px-4 py-3">19.5</td>
+              </tr>
+              <tr className="border-t border-slate-200">
+                <td className="px-4 py-3">Traineeship</td>
+                <td className="px-4 py-3">4.5</td>
+                <td className="px-4 py-3">7.9</td>
+                <td className="px-4 py-3">7.4</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="text-xs text-slate-500">
+          Notes: “Not in education, training or employment” is calculated as
+          100 minus the ETE rate. Figures are from the NSW Post‑School
+          Destinations and Experiences Survey 2023 remoteness factsheet.
+        </div>
+      </div>
+
+      <div className="space-y-4">
+        <div className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+          Peer‑reviewed evidence themes (NSW)
+        </div>
+        <div className="overflow-x-auto rounded-sm border border-slate-200 bg-white">
+          <table className="w-full text-left text-sm text-slate-700">
+            <caption className="sr-only">
+              Peer-reviewed evidence themes from NSW regional research
+            </caption>
+            <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
+              <tr>
+                <th className="px-4 py-3">Theme</th>
+                <th className="px-4 py-3">Evidence summary</th>
+                <th className="px-4 py-3">Implication for the project</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-slate-200">
+                <td className="px-4 py-3">Local context shapes aspirations</td>
+                <td className="px-4 py-3">
+                  Research in two rural NSW communities found that young
+                  people’s futures are grounded in the emotional and material
+                  realities of local contexts.
+                </td>
+                <td className="px-4 py-3">
+                  Consultation must capture local constraints and assets rather
+                  than assume a single “rural deficit” narrative.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div className="rounded-sm border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
+        <div className="font-semibold text-slate-800">Sources</div>
+        <ul className="mt-2">
+          <li>
+            <a
+              className="underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
+              href="https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2023-post-school-destinations-and-experiences-remoteness-factsheet.pdf"
+              rel="noreferrer"
+              target="_blank"
+            >
+              NSW Department of Education, CESE. Post‑School Destinations and
+              Experiences Survey 2023 Remoteness Factsheet.
+            </a>
+          </li>
+          <li>
+            <a
+              className="underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
+              href="https://link.springer.com/article/10.1007/s13384-020-00408-6"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Peer‑reviewed NSW study: Australian Educational Researcher
+              (aspirations in rural NSW communities).
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </Section>
+</Container>

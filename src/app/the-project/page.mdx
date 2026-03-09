@@ -1,0 +1,81 @@
+import { Container } from "@/components/Container";
+import { PageHeader } from "@/components/PageHeader";
+import { Section } from "@/components/Section";
+import { Card } from "@/components/Card";
+
+export const metadata = {
+  title: "The Project | Pathway to Entry",
+  description:
+    "Project scope, boundaries, and phases for the Pathway to Entry initiative.",
+};
+
+{/* Update content in this file as the project evolves. */}
+<Container className="space-y-12">
+  <PageHeader
+    eyebrow="Scope and Boundaries"
+    title="The Project"
+    summary="This initiative builds an evidence-based program framework that NSW YAC can adopt and run. It does not deliver direct services or replace existing education supports."
+  />
+
+  <div className="grid gap-6 md:grid-cols-2">
+    <Card title="What the project does">
+      <ul>
+        <li>Collects consultation evidence from students and stakeholders.</li>
+        <li>Maps the gap between pathway selection and entry.</li>
+        <li>Designs a practical toolkit and program framework.</li>
+        <li>Defines implementation considerations for NSW YAC.</li>
+      </ul>
+    </Card>
+    <Card title="What the project does not do">
+      <ul>
+        <li>Provide direct student support or case management.</li>
+        <li>Replace schools, careers advisors, or existing services.</li>
+        <li>Promise outcomes or guarantee entry into pathways.</li>
+        <li>Deliver operational programs during this phase.</li>
+      </ul>
+    </Card>
+  </div>
+
+  <Section title="High-level phases">
+    <div className="grid gap-4 border border-slate-200 bg-white p-6 md:grid-cols-4">
+      <div className="space-y-2">
+        <p className="text-xs uppercase tracking-[0.18em] text-slate-500">
+          Phase 1
+        </p>
+        <p className="text-base font-semibold text-slate-900">Consultation</p>
+        <p className="text-sm text-slate-700">
+          Survey and focus group inputs are gathered and documented.
+        </p>
+      </div>
+      <div className="space-y-2">
+        <p className="text-xs uppercase tracking-[0.18em] text-slate-500">
+          Phase 2
+        </p>
+        <p className="text-base font-semibold text-slate-900">Analysis</p>
+        <p className="text-sm text-slate-700">
+          Evidence is reviewed to identify barriers and levers for change.
+        </p>
+      </div>
+      <div className="space-y-2">
+        <p className="text-xs uppercase tracking-[0.18em] text-slate-500">
+          Phase 3
+        </p>
+        <p className="text-base font-semibold text-slate-900">Toolkit</p>
+        <p className="text-sm text-slate-700">
+          Draft resources are developed to address identified gaps.
+        </p>
+      </div>
+      <div className="space-y-2">
+        <p className="text-xs uppercase tracking-[0.18em] text-slate-500">
+          Phase 4
+        </p>
+        <p className="text-base font-semibold text-slate-900">
+          Program design
+        </p>
+        <p className="text-sm text-slate-700">
+          A delivery framework is assembled for NSW YAC adoption.
+        </p>
+      </div>
+    </div>
+  </Section>
+</Container>

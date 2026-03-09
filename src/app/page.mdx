@@ -1,0 +1,75 @@
+import { Container } from "@/components/Container";
+import { PageHeader } from "@/components/PageHeader";
+import { Section } from "@/components/Section";
+import { Card } from "@/components/Card";
+import { PrimaryButton } from "@/components/PrimaryButton";
+import { SecondaryButton } from "@/components/SecondaryButton";
+
+export const metadata = {
+  title: "Pathway to Entry | Home",
+  description:
+    "Pathway to Entry is a NSW YAC–aligned project examining why regional students disengage between choosing a post-school pathway and reaching entry — and designing practical program responses.",
+};
+
+{/* Update content in this file as the project evolves. */}
+<Container className="space-y-12">
+  <PageHeader
+    eyebrow="NSW YAC–Aligned Policy Project"
+    title="Pathway to Entry"
+    summary="Pathway to Entry is a NSW YAC–aligned project examining why regional students disengage between choosing a post-school pathway and reaching entry — and designing practical program responses."
+  >
+    {/* Update CTA destinations when consultation links are finalised. */}
+    <div className="flex flex-wrap gap-3">
+      <PrimaryButton href="/consultation">
+        {"Contribute to the consultation"}
+      </PrimaryButton>
+      <SecondaryButton href="/the-project">
+        {"View project scope"}
+      </SecondaryButton>
+    </div>
+  </PageHeader>
+
+  <div className="grid gap-6 md:grid-cols-3">
+    <Card title="The problem">
+      A consistent drop-off occurs between identifying a post-school pathway
+      and reaching entry. Regional students face additional distance, access,
+      and information barriers, even after deciding on a pathway.
+
+      This project documents the gap between intention and entry with clear
+      evidence and regional perspectives.
+    </Card>
+    <Card title="What this project is doing">
+      The project is gathering lived experience through surveys and focus
+      groups, then translating findings into a practical program framework NSW
+      YAC can adopt and run.
+
+      Consultation findings will guide the toolkit and program design
+      components.
+    </Card>
+    <Card title="How to get involved">
+      Students, educators, and stakeholders can contribute through the online
+      survey, focus group expressions of interest, or mentor and stakeholder
+      registration.
+
+      Participation informs advocacy and program design.
+    </Card>
+  </div>
+
+  <Section title="Contribute to the consultation">
+    <div className="rounded-sm border border-slate-200 bg-slate-50 p-6">
+      <div className="text-base leading-7 text-slate-700">
+        Consultation inputs are used to build an evidence base and design a
+        program framework NSW YAC can deliver. Participation is voluntary, with
+        anonymous options available.
+      </div>
+      <div className="mt-4 flex flex-wrap gap-3">
+        <PrimaryButton href="/consultation">
+          {"Open consultation"}
+        </PrimaryButton>
+        <SecondaryButton href="/get-involved">
+          {"Register interest"}
+        </SecondaryButton>
+      </div>
+    </div>
+  </Section>
+</Container>

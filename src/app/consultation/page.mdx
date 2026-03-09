@@ -1,0 +1,71 @@
+import { Container } from "@/components/Container";
+import { PageHeader } from "@/components/PageHeader";
+import { Section } from "@/components/Section";
+import { Card } from "@/components/Card";
+import { PrimaryButton } from "@/components/PrimaryButton";
+import { SecondaryButton } from "@/components/SecondaryButton";
+
+export const metadata = {
+  title: "Consultation | Pathway to Entry",
+  description:
+    "Consultation survey and focus group expression of interest for the Pathway to Entry project.",
+};
+
+{/* Update content in this file as the project evolves. */}
+<Container className="space-y-12">
+  <PageHeader
+    eyebrow="Consultation"
+    title="Consultation"
+    summary="Consultation gathers evidence about the gap between pathway selection and entry. Inputs will inform advocacy and program design."
+  />
+
+  <Section title="Participate in the survey">
+    <Card title="Online survey">
+      The survey is open to young people aged 16–18 and 18–23, as well as
+      educators and stakeholders. Responses can be anonymous.
+
+      Data is aggregated and used to build the evidence base for the project.
+      <div className="flex flex-wrap gap-3">
+        <PrimaryButton href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__V8w6xNUNVhKNVpVMFFSR0YyRTJUSE9FOEEwOFNYNi4u">
+          {"Open survey"}
+        </PrimaryButton>
+        <SecondaryButton href="/the-project">
+          {"View project scope"}
+        </SecondaryButton>
+      </div>
+    </Card>
+  </Section>
+
+  <Section title="Focus group expression of interest">
+    <Card title="Register interest">
+      Focus groups explore pathway experiences in more depth and help identify
+      practical supports. Participants can select anonymous options when
+      registering interest.
+
+      Sessions will be scheduled after consultation close and will prioritise
+      regional representation.
+      <div className="flex flex-wrap gap-3">
+        <PrimaryButton href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__V8w6xNUMzNMWTg1MFJHVFNFMkoyTTJDV0FONlZORC4u">
+          {"Submit expression of interest"}
+        </PrimaryButton>
+        <SecondaryButton href="/get-involved">
+          {"Additional involvement options"}
+        </SecondaryButton>
+      </div>
+    </Card>
+  </Section>
+
+  <Section title="How data will be used">
+    <div className="rounded-sm border border-slate-200 bg-slate-50 p-6">
+      <ul>
+        <li>Responses inform advocacy priorities and program design.</li>
+        <li>Findings are reported in summary form only.</li>
+        <li>Participation is voluntary and can be anonymous.</li>
+        <li>Age groups include 16–18 and 18–23.</li>
+      </ul>
+      <div className="mt-3 font-semibold text-slate-800">
+        Participants are contributing to advocacy and program design.
+      </div>
+    </div>
+  </Section>
+</Container>
