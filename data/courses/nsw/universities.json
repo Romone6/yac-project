@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Australian Catholic University",
+    "slug": "australian-catholic-university",
+    "state": "NSW",
+    "website": "https://www.acu.edu.au",
+    "courseSearchUrl": "https://www.acu.edu.au/courses",
+    "type": "religious",
+    "locations": ["North Sydney", "Strathfield", "Blacktown"]
+  },
+  {
+    "name": "Charles Sturt University",
+    "slug": "charles-sturt-university",
+    "state": "NSW",
+    "website": "https://www.csu.edu.au",
+    "courseSearchUrl": "https://study.csu.edu.au",
+    "type": "public",
+    "locations": ["Bathurst", "Wagga Wagga", "Albury", "Dubbo", "Orange", "Port Macquarie"]
+  },
+  {
+    "name": "Macquarie University",
+    "slug": "macquarie-university",
+    "state": "NSW",
+    "website": "https://www.mq.edu.au",
+    "courseSearchUrl": "https://courses.mq.edu.au",
+    "type": "public",
+    "locations": ["Sydney", "North Ryde"]
+  },
+  {
+    "name": "Southern Cross University",
+    "slug": "southern-cross-university",
+    "state": "NSW",
+    "website": "https://www.scu.edu.au",
+    "courseSearchUrl": "https://www.scu.edu.au/study",
+    "type": "public",
+    "locations": ["Lismore", "Coffs Harbour", "Gold Coast"]
+  },
+  {
+    "name": "University of Newcastle",
+    "slug": "university-of-newcastle",
+    "state": "NSW",
+    "website": "https://www.newcastle.edu.au",
+    "courseSearchUrl": "https://www.newcastle.edu.au/degrees",
+    "type": "public",
+    "locations": ["Callaghan", "Newcastle", "Ourimbah", "Port Macquarie", "Sydney"]
+  },
+  {
+    "name": "University of Sydney",
+    "slug": "university-of-sydney",
+    "state": "NSW",
+    "website": "https://www.sydney.edu.au",
+    "courseSearchUrl": "https://www.sydney.edu.au/study/search-for-a-course.html",
+    "type": "public",
+    "locations": ["Sydney", "Camperdown", "Darlington"]
+  },
+  {
+    "name": "University of New England",
+    "slug": "university-of-new-england",
+    "state": "NSW",
+    "website": "https://www.une.edu.au",
+    "courseSearchUrl": "https://www.une.edu.au/study",
+    "type": "public",
+    "locations": ["Armidale"]
+  },
+  {
+    "name": "University of New South Wales",
+    "slug": "unsw",
+    "state": "NSW",
+    "website": "https://www.unsw.edu.au",
+    "courseSearchUrl": "https://www.unsw.edu.au/study/find-a-degree-or-course",
+    "type": "public",
+    "locations": ["Sydney", "Kensington"]
+  },
+  {
+    "name": "University of Technology Sydney",
+    "slug": "uts",
+    "state": "NSW",
+    "website": "https://www.uts.edu.au",
+    "courseSearchUrl": "https://www.uts.edu.au/study/find-course",
+    "type": "public",
+    "locations": ["Sydney", "Ultimo", "Broadway"]
+  },
+  {
+    "name": "University of Wollongong",
+    "slug": "university-of-wollongong",
+    "state": "NSW",
+    "website": "https://www.uow.edu.au",
+    "courseSearchUrl": "https://www.uow.edu.au/study/courses",
+    "type": "public",
+    "locations": ["Wollongong", "Batemans Bay", "Bega", "Loftus", "Moss Vale", "Shoalhaven"]
+  },
+  {
+    "name": "Western Sydney University",
+    "slug": "western-sydney-university",
+    "state": "NSW",
+    "website": "https://www.westernsydney.edu.au",
+    "courseSearchUrl": "https://www.westernsydney.edu.au/courses",
+    "type": "public",
+    "locations": ["Penrith", "Parramatta", "Bankstown", "Campbelltown", "Blacktown", "Hawkesbury", "Liverpool"]
+  }
+]

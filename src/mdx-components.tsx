@@ -1,4 +1,6 @@
-import type { MDXComponents } from "mdx/types";
+import type { ElementType } from "react";
+
+type MDXComponents = Record<string, ElementType>;
 
 const cx = (base: string, extra?: string) =>
   extra ? `${base} ${extra}` : base;

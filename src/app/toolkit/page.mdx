@@ -2,55 +2,41 @@ import { Container } from "@/components/Container";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
-import { Tag } from "@/components/Tag";
+import Link from "next/link";
 
 export const metadata = {
   title: "Toolkit | Pathway to Entry",
   description:
-    "Draft toolkit components under development for the Pathway to Entry project.",
+    "Practical tools to help students navigate the gap between choosing a post-school pathway and reaching entry.",
 };
 
-{/* Update content in this file as the project evolves. */}
 <Container className="space-y-12">
   <PageHeader
-    eyebrow="Draft Toolkit — In Development"
-    title="Toolkit"
-    summary="Draft resources are being developed and will be refined after consultation. Each section below is a working draft."
-  >
-    <Tag>Draft / In development</Tag>
-  </PageHeader>
+    eyebrow="Toolkit"
+    title="Pathway Tools"
+    summary="Practical tools to help students navigate the gap between choosing a post-school pathway and reaching entry. Each tool is built from real consultation evidence."
+  />
 
-  <Section title="Draft sections">
+  <Section title="Available tools">
     <div className="grid gap-6 md:grid-cols-2">
-      <Card title="Subject alignment checklist">
-        <Tag>Draft / To be refined after consultation</Tag>
-        <div className="mt-3">
-          Checklist to help students align subject choices with intended
-          post-school pathways, including minimum requirements and prerequisite
-          considerations.
-        </div>
-      </Card>
-      <Card title="Application timelines">
-        <Tag>Draft / To be refined after consultation</Tag>
-        <div className="mt-3">
-          Timeline templates outlining key steps for university, TAFE, and
-          apprenticeship applications, with regionally relevant milestones.
-        </div>
-      </Card>
-      <Card title="Financial pathway explainer">
-        <Tag>Draft / To be refined after consultation</Tag>
-        <div className="mt-3">
-          Plain-language guidance covering costs, support options, and common
-          funding questions for post-school pathways.
-        </div>
-      </Card>
-      <Card title="If-then pathway logic">
-        <Tag>Draft / To be refined after consultation</Tag>
-        <div className="mt-3">
-          Decision pathways that map common situations to next steps, designed
-          to support clearer action between pathway selection and entry.
-        </div>
-      </Card>
+      <Link href="/toolkit/subject-alignment" className="block">
+        <Card title="Subject Alignment Checklist" className="cursor-pointer transition hover:border-slate-400">
+          Explore current prerequisite and subject signals across NSW universities, then jump straight to the official course page to confirm the live requirements before final subject selection.
+          <div className="mt-3 text-sm font-semibold text-slate-900">Open tool →</div>
+        </Card>
+      </Link>
+      <Link href="/toolkit/application-timelines" className="block">
+        <Card title="Application Timelines" className="cursor-pointer transition hover:border-slate-400">
+          Track verified application and early-entry milestones sourced from UAC and university pages, with source links attached to every record.
+          <div className="mt-3 text-sm font-semibold text-slate-900">Open tool →</div>
+        </Card>
+      </Link>
+      <Link href="/toolkit/financial-pathways" className="block">
+        <Card title="Financial Pathway Explainer" className="cursor-pointer transition hover:border-slate-400">
+          Plain-language guidance on HELP loans, Youth Allowance, regional move support and scholarships, refreshed against official government pages.
+          <div className="mt-3 text-sm font-semibold text-slate-900">Open tool →</div>
+        </Card>
+      </Link>
     </div>
   </Section>
 </Container>
