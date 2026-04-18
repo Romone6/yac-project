@@ -81,7 +81,7 @@ export default function SubjectAlignmentPage() {
       />
 
       <div className="rounded-sm border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
-        This explorer now pulls from the full NSW catalog used in this project. It is still designed to reduce the search workload, not replace the source university page. If a subject section is blank, the current dataset does not yet store a detailed subject recommendation for that course.
+        This explorer now pulls from the broader NSW catalog used in this project and pairs each course with a subject-pathway recommendation so students can map school choices against likely tertiary directions faster. It is still designed to reduce the search workload, not replace the source university page.
       </div>
 
       <Section title="Select a university">
@@ -337,11 +337,7 @@ export default function SubjectAlignmentPage() {
                     <div>
                       <p className="text-xs font-semibold text-slate-700">Recommended</p>
                       <ul className="mt-2 space-y-1.5">
-                        {(
-                          selectedCourse.recommendedSubjects.length > 0
-                            ? selectedCourse.recommendedSubjects
-                            : ["No verified recommended-subject list stored yet. Check the official page."]
-                        ).map((s) => (
+                        {selectedCourse.recommendedSubjects.map((s) => (
                           <li key={s} className="flex items-center gap-2 text-sm text-slate-700">
                             <span className="inline-block h-2 w-2 rounded-full bg-emerald-500" />
                             {s}
@@ -352,11 +348,7 @@ export default function SubjectAlignmentPage() {
                     <div>
                       <p className="text-xs font-semibold text-slate-700">Secondary</p>
                       <ul className="mt-2 space-y-1.5">
-                        {(
-                          selectedCourse.secondarySubjects.length > 0
-                            ? selectedCourse.secondarySubjects
-                            : ["No secondary subject suggestions stored yet."]
-                        ).map((s) => (
+                        {selectedCourse.secondarySubjects.map((s) => (
                           <li key={s} className="flex items-center gap-2 text-sm text-slate-700">
                             <span className="inline-block h-2 w-2 rounded-full bg-blue-400" />
                             {s}
