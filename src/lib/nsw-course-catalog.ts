@@ -20,6 +20,7 @@ export type CourseRecord = {
   universitySlug: string;
   state: string;
   faculty: string;
+  subjectAreas: string[];
   courseName: string;
   courseCode?: string;
   level: CourseLevel;
