@@ -1,15 +1,16 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useMemo } from "react";
 import { Container } from "@/components/Container";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { cx } from "@/lib/cx";
+import { buildCourseDetailHref } from "@/lib/course-directory";
 import universitiesData from "../../../../data/courses/nsw/universities.json";
 import {
   allNswCourses,
   type CourseLevel,
-  type CourseRecord,
 } from "@/lib/nsw-course-catalog";
 
 type UniversityRecord = {
@@ -32,7 +33,6 @@ export default function SubjectAlignmentPage() {
   const [selectedState] = useState("NSW");
   const [selectedUni, setSelectedUni] = useState<string | null>(null);
   const [selectedFaculty, setSelectedFaculty] = useState<string | null>(null);
-  const [selectedCourse, setSelectedCourse] = useState<CourseRecord | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedLevel, setSelectedLevel] = useState<"All" | CourseLevel>("All");
 
@@ -44,7 +44,7 @@ export default function SubjectAlignmentPage() {
   const filteredCourses = useMemo(() => {
     return allNswCourses.filter((c) => {
       if (selectedUni && c.universitySlug !== selectedUni) return false;
-      if (selectedFaculty && c.faculty !== selectedFaculty) return false;
+      if (selectedFaculty && !c.subjectAreas.includes(selectedFaculty)) return false;
       if (selectedLevel !== "All" && c.level !== selectedLevel) return false;
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
@@ -67,7 +67,7 @@ export default function SubjectAlignmentPage() {
         allNswCourses
           .filter((course) => course.universitySlug === selectedUni)
           .filter((course) => selectedLevel === "All" || course.level === selectedLevel)
-          .map((course) => course.faculty)
+          .flatMap((course) => course.subjectAreas)
       ),
     ].sort();
   }, [selectedUni, selectedLevel]);
@@ -77,7 +77,7 @@ export default function SubjectAlignmentPage() {
       <PageHeader
         eyebrow="Toolkit"
         title="Subject Alignment Checklist"
-        summary="Explore compiled course coverage across every NSW university in this toolkit, including undergraduate, diploma/pathway and postgraduate options, then jump to the official university search page to confirm the live details."
+        summary="Explore compiled course coverage across every NSW university in this toolkit, including undergraduate, diploma/pathway and postgraduate options, then click into any course for its summary and official university course-information link."
       />
 
       <div className="rounded-sm border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
@@ -92,7 +92,6 @@ export default function SubjectAlignmentPage() {
               onClick={() => {
                 setSelectedUni(uni.slug);
                 setSelectedFaculty(null);
-                setSelectedCourse(null);
               }}
               className={cx(
                 "rounded-sm border p-5 text-left transition",
@@ -111,7 +110,7 @@ export default function SubjectAlignmentPage() {
       </Section>
 
       {selectedUni && (
-        <Section title="Select a faculty and level">
+        <Section title="Select a subject area and level">
           <div className="space-y-4">
             <div className="flex flex-wrap gap-2">
               {Object.entries(levelLabels).map(([value, label]) => (
@@ -120,7 +119,6 @@ export default function SubjectAlignmentPage() {
                   onClick={() => {
                     setSelectedLevel(value as "All" | CourseLevel);
                     setSelectedFaculty(null);
-                    setSelectedCourse(null);
                   }}
                   className={cx(
                     "rounded-sm border px-4 py-2 text-sm font-medium transition",
@@ -139,7 +137,6 @@ export default function SubjectAlignmentPage() {
                 key={f}
                 onClick={() => {
                   setSelectedFaculty(f);
-                  setSelectedCourse(null);
                 }}
                 className={cx(
                   "rounded-sm border px-4 py-2 text-sm font-medium transition",
@@ -169,10 +166,10 @@ export default function SubjectAlignmentPage() {
           </div>
           <div className="space-y-3">
             {filteredCourses.map((course) => (
-              <button
+              <Link
                 key={course.id}
-                onClick={() => setSelectedCourse(course)}
-                className="w-full rounded-sm border border-slate-200 bg-white p-5 text-left transition hover:border-slate-400"
+                href={buildCourseDetailHref(course.id)}
+                className="block w-full rounded-sm border border-slate-200 bg-white p-5 text-left transition hover:border-slate-400"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div>
@@ -190,6 +187,12 @@ export default function SubjectAlignmentPage() {
                     </div>
                   )}
                 </div>
+                <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">
+                  {course.description}
+                </p>
+                <p className="mt-2 text-xs font-medium uppercase tracking-wide text-slate-400">
+                  {course.subjectAreas.slice(0, 3).join(" · ")}
+                </p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {(course.recommendedSubjects.length > 0
                     ? course.recommendedSubjects
@@ -216,150 +219,21 @@ export default function SubjectAlignmentPage() {
                     </span>
                   )}
                 </div>
-              </button>
+                <div className="mt-4 flex items-center justify-between text-sm">
+                  <span className="text-slate-500">
+                    Click for summary, subject pathway and official course link
+                  </span>
+                  <span className="font-medium text-slate-900">
+                    Open course →
+                  </span>
+                </div>
+              </Link>
             ))}
             {filteredCourses.length === 0 && (
               <div className="rounded-sm border border-slate-200 bg-slate-50 p-8 text-center text-sm text-slate-500">
                 No courses match your search. Try a different query or faculty.
               </div>
             )}
-          </div>
-        </Section>
-      )}
-
-      {selectedCourse && (
-        <Section>
-          <div className="rounded-sm border border-slate-200 bg-white">
-            <div className="border-b border-slate-200 p-6">
-              <button
-                onClick={() => setSelectedCourse(null)}
-                className="text-sm text-slate-500 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
-              >
-                ← Back to courses
-              </button>
-              <div className="mt-4 flex items-start justify-between gap-6">
-                <div>
-                  <h2 className="text-2xl font-semibold tracking-tight text-slate-900">
-                    {selectedCourse.courseName}
-                  </h2>
-                  <p className="mt-1 text-sm text-slate-500">
-                    {[selectedCourse.university, selectedCourse.faculty, selectedCourse.courseCode]
-                      .filter(Boolean)
-                      .join(" · ")}
-                  </p>
-                  <p className="mt-1 text-xs uppercase tracking-wide text-slate-400">
-                    {levelLabels[selectedCourse.level]}
-                  </p>
-                </div>
-                {selectedCourse.atar && (
-                  <div className="shrink-0 rounded-sm bg-slate-100 px-4 py-2 text-center">
-                    <p className="text-xs uppercase tracking-wide text-slate-500">ATAR</p>
-                    <p className="text-2xl font-bold text-slate-900">{selectedCourse.atar}</p>
-                  </div>
-                )}
-              </div>
-            </div>
-
-            <div className="grid gap-6 p-6 md:grid-cols-5">
-              <div className="space-y-6 md:col-span-3">
-                <div>
-                  <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">Description</h3>
-                  <p className="mt-2 text-base leading-7 text-slate-700">{selectedCourse.description}</p>
-                </div>
-
-                <div>
-                  <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">Duration</h3>
-                  <p className="mt-2 text-base text-slate-700">{selectedCourse.duration}</p>
-                </div>
-
-                {selectedCourse.prerequisites.length > 0 && (
-                  <div>
-                    <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">Prerequisites (Required)</h3>
-                    <ul className="mt-2 space-y-1">
-                      {selectedCourse.prerequisites.map((s) => (
-                        <li key={s} className="flex items-center gap-2 text-sm text-slate-700">
-                          <span className="inline-block h-2 w-2 rounded-full bg-red-500" />
-                          {s}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                {selectedCourse.assumedKnowledge.length > 0 && (
-                  <div>
-                    <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">Assumed Knowledge (Helpful)</h3>
-                    <ul className="mt-2 space-y-1">
-                      {selectedCourse.assumedKnowledge.map((s) => (
-                        <li key={s} className="flex items-center gap-2 text-sm text-slate-700">
-                          <span className="inline-block h-2 w-2 rounded-full bg-amber-500" />
-                          {s}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                {selectedCourse.careerOutcomes.length > 0 && (
-                  <div>
-                    <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">Career Outcomes</h3>
-                    <div className="mt-2 flex flex-wrap gap-1.5">
-                      {selectedCourse.careerOutcomes.map((c) => (
-                        <span key={c} className="rounded-sm border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs text-slate-600">
-                          {c}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                <div>
-                  <a
-                    href={selectedCourse.officialUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sm text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
-                  >
-                    View official course page →
-                  </a>
-                  <p className="mt-2 text-xs uppercase tracking-wide text-slate-400">
-                    Dataset last refreshed {selectedCourse.lastUpdated.slice(0, 10)}
-                  </p>
-                </div>
-              </div>
-
-              <div className="space-y-6 md:col-span-2">
-                <div className="rounded-sm border border-slate-200 bg-slate-50 p-5">
-                  <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-                    Current HSC Subject Signals
-                  </h3>
-                  <div className="mt-3 space-y-4">
-                    <div>
-                      <p className="text-xs font-semibold text-slate-700">Recommended</p>
-                      <ul className="mt-2 space-y-1.5">
-                        {selectedCourse.recommendedSubjects.map((s) => (
-                          <li key={s} className="flex items-center gap-2 text-sm text-slate-700">
-                            <span className="inline-block h-2 w-2 rounded-full bg-emerald-500" />
-                            {s}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div>
-                      <p className="text-xs font-semibold text-slate-700">Secondary</p>
-                      <ul className="mt-2 space-y-1.5">
-                        {selectedCourse.secondarySubjects.map((s) => (
-                          <li key={s} className="flex items-center gap-2 text-sm text-slate-700">
-                            <span className="inline-block h-2 w-2 rounded-full bg-blue-400" />
-                            {s}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </Section>
       )}

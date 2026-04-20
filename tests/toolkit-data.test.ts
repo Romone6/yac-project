@@ -115,6 +115,90 @@ test("every course exposes subject-pathway guidance", () => {
       course.description.trim().length >= 40,
       `${course.id} needs a more useful course summary`
     );
+    assert.ok(course.subjectAreas.length > 0, `${course.id} is missing subject areas`);
+    assert.ok(
+      course.subjectAreas.includes(course.faculty),
+      `${course.id} primary faculty should also be a subject area`
+    );
+  }
+});
+
+test("course descriptions include enough detail for subject-selection decisions", () => {
+  const thinDescriptions = allNswCourses.filter((course) => {
+    const description = course.description.trim();
+
+    return (
+      description.length < 220 ||
+      description.toLowerCase() === course.courseName.trim().toLowerCase()
+    );
+  });
+
+  assert.equal(
+    thinDescriptions.length,
+    0,
+    `thin course descriptions: ${thinDescriptions
+      .slice(0, 10)
+      .map((course) => `${course.id} (${course.description.length})`)
+      .join(", ")}`
+  );
+});
+
+test("high-confidence course title families land in coherent subject areas", () => {
+  const expectations: Array<{
+    label: string;
+    match: RegExp;
+    faculty: string;
+    recommended: string;
+  }> = [
+    {
+      label: "software, cyber and IT",
+      match: /\b(?:cybersecurity|cyber security|application development|information technology|software engineering|computer science)\b/i,
+      faculty: "Engineering, Design and Technology",
+      recommended: "Software Engineering",
+    },
+    {
+      label: "nursing, paramedicine and sport health",
+      match: /\b(?:nursing|midwifery|paramedicine|clinical exercise physiology|exercise science|high performance sport|sport and exercise)\b/i,
+      faculty: "Health and Science",
+      recommended: "Biology",
+    },
+    {
+      label: "teaching and education",
+      match: /\b(?:teaching|education|educational studies|educational leadership)\b/i,
+      faculty: "Education",
+      recommended: "English Advanced",
+    },
+    {
+      label: "accounting, finance and marketing",
+      match: /\b(?:accounting|finance|marketing|commerce|business administration)\b/i,
+      faculty: "Business",
+      recommended: "Business Studies",
+    },
+    {
+      label: "law and justice",
+      match: /\b(?:law|legal studies|juris doctor|criminology|criminal justice)\b/i,
+      faculty: "Law, Justice and Criminology",
+      recommended: "Legal Studies",
+    },
+  ];
+
+  for (const expectation of expectations) {
+    const matches = allNswCourses.filter((course) =>
+      expectation.match.test(course.courseName)
+    );
+
+    assert.ok(matches.length > 0, `${expectation.label} had no matching courses`);
+
+    for (const course of matches) {
+      assert.ok(
+        course.subjectAreas.includes(expectation.faculty),
+        `${course.id} should appear under ${expectation.faculty}`
+      );
+      assert.ok(
+        course.recommendedSubjects.includes(expectation.recommended),
+        `${course.id} should recommend ${expectation.recommended}`
+      );
+    }
   }
 });
 
