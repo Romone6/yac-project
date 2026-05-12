@@ -8,36 +8,48 @@ export const metadata = {
   description: "Project milestones, consultation status, and next steps.",
 };
 
-{/* Update content in this file as the project evolves. */}
 <Container className="space-y-12">
   <PageHeader
     eyebrow="Project Updates"
     title="Updates"
-    summary="Milestones and consultation status are shared here for transparency. Dates are placeholders until confirmed."
+    summary="Milestones and consultation status are shared here for transparency."
   />
 
   <Section title="Milestones">
     <div className="grid gap-6 md:grid-cols-2">
-      <Card title="February 2026 (placeholder)">
+      <Card title="February 2026">
         Consultation materials drafted and ready for release.
       </Card>
-      <Card title="March 2026 (placeholder)">
+      <Card title="March 2026">
         Survey and focus group recruitment opened.
       </Card>
-      <Card title="April 2026 (placeholder)">
+      <Card title="April 2026">
         Initial analysis and evidence summary drafted.
       </Card>
-      <Card title="May 2026 (placeholder)">
+      <Card title="May 2026">
         Draft toolkit prepared for review and refinement.
       </Card>
+    </div>
+  </Section>
+
+  <Section title="Latest publication">
+    <div className="rounded-sm border border-slate-200 bg-slate-50 p-6">
+      The latest consultation report is now published:
+      {" "}
+      <a
+        className="font-semibold text-slate-900 underline decoration-slate-400 underline-offset-4 hover:decoration-slate-900"
+        href="/reports/pathway-to-entry-consultation-report-2026.pdf"
+      >
+        Pathway to Entry consultation report (PDF)
+      </a>
+      .
     </div>
   </Section>
 
   <Section title="Consultation status">
     <div className="rounded-sm border border-slate-200 bg-slate-50 p-6">
       <div>
-        Status: Consultation planning in progress. Update this section when the
-        survey and focus groups are live.
+        Status: Survey and focus group recruitment is open across NSW.
       </div>
     </div>
   </Section>
