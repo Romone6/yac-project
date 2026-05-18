@@ -6,6 +6,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { findCourseById } from "@/lib/course-directory";
 import type { CourseLevel } from "@/lib/nsw-course-catalog";
+import { courseHasAtar } from "@/lib/subject-alignment-filter";
 
 const levelLabels: Record<CourseLevel, string> = {
   undergraduate: "Undergraduate",
@@ -95,11 +96,15 @@ export default async function CourseDetailPage({
         <div className="rounded-sm border border-slate-200 bg-white p-6 space-y-4">
           <p className="text-base leading-7 text-slate-700">{course.description}</p>
           <div className="flex flex-wrap items-center gap-4">
-            {course.atar ? (
+            {courseHasAtar(course) ? (
               <div className="rounded-sm bg-slate-100 px-4 py-2 text-sm text-slate-800">
                 Indicative ATAR: <span className="font-semibold">{course.atar}</span>
               </div>
-            ) : null}
+            ) : (
+              <div className="rounded-sm bg-amber-50 px-4 py-2 text-sm text-amber-900">
+                Indicative ATAR is not currently available in the verified dataset.
+              </div>
+            )}
             <a
               href={course.officialUrl}
               target="_blank"

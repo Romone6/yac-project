@@ -3,7 +3,7 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const DATA_ROOT = path.join(ROOT, "data/courses/nsw");
-const LAST_UPDATED = new Date("2026-04-16T00:00:00.000Z").toISOString();
+const LAST_UPDATED = new Date().toISOString();
 const SUBJECT_PATTERNS = [
   { pattern: /\bmathematics extension 2\b/i, subject: "Mathematics Extension 2" },
   { pattern: /\bmathematics extension 1\b/i, subject: "Mathematics Extension 1" },
@@ -522,6 +522,23 @@ function extractNextData(html) {
   }
 }
 
+function extractSelectionRankFromHtml(html = "") {
+  const matches = [
+    ...html.matchAll(/Lowest Selection Rank[^0-9]{0,120}([0-9]{2}(?:\.[0-9]{1,2})?)/gi),
+    ...html.matchAll(/Selection Rank[^0-9]{0,120}([0-9]{2}(?:\.[0-9]{1,2})?)/gi),
+  ];
+
+  for (const match of matches) {
+    const value = Number.parseFloat(match[1]);
+
+    if (Number.isFinite(value) && value >= 30 && value <= 99.95) {
+      return value;
+    }
+  }
+
+  return null;
+}
+
 function stripMarkdown(input = "") {
   return input
     .replace(/!\[[^\]]*]\([^)]+\)/g, " ")
@@ -578,6 +595,14 @@ function parseSubjectGuidanceText(text = "") {
     }
   }
 
+  if (/\bmathematics\b/i.test(normalized)) {
+    assumedKnowledge.push("Mathematics Advanced");
+  }
+
+  if (/\benglish\b/i.test(normalized)) {
+    assumedKnowledge.push("English Standard");
+  }
+
   return {
     assumedKnowledge: uniq(assumedKnowledge),
     recommendedSubjects: uniq(recommendedSubjects),
@@ -596,11 +621,25 @@ function extractUnswAssumedKnowledgeText(html = "") {
 }
 
 function extractUtsAssumedKnowledgeText(html = "") {
-  const match = html.match(
-    /Admissions information_Assumed knowledge[\s\S]{0,1200}?<div class="wysiwyg-user-content-output">([\s\S]{0,2500}?)<\/div>\s*<\/div>/i
+  const explicitMatch = html.match(
+    /Admissions information_Assumed knowledge[\s\S]{0,2200}?<div class="wysiwyg-user-content-output">([\s\S]{0,3500}?)<\/div>/i
   );
 
-  return match?.[1] || "";
+  if (explicitMatch?.[1]) {
+    return explicitMatch[1];
+  }
+
+  const marker = html.search(/Admissions information_Assumed knowledge|Assumed knowledge/i);
+  if (marker === -1) {
+    return "";
+  }
+
+  const slice = html.slice(marker, marker + 7000);
+  const matches = Array.from(
+    slice.matchAll(/<div class="wysiwyg-user-content-output">([\s\S]{0,3500}?)<\/div>/gi)
+  ).map((match) => match[1]);
+
+  return matches.slice(0, 2).join(" ");
 }
 
 function parseNewcastleIndex(markdown) {
@@ -1015,6 +1054,7 @@ async function generateUnsw() {
       const meta = result.metaData || {};
       const html = await fetchText(result.liveUrl).catch(() => "");
       const subjectGuidance = parseSubjectGuidanceText(extractUnswAssumedKnowledgeText(html));
+      const parsedAtar = extractSelectionRankFromHtml(html);
       return baseRecord({
         university: "University of New South Wales",
         universitySlug: "unsw",
@@ -1024,7 +1064,7 @@ async function generateUnsw() {
         level: levelFromText(result.title || "", `${meta.degreeType || ""} ${meta.degreeCategory || ""}`),
         description: meta.degreeTagline || result.summary || result.title,
         duration: meta.degreeDuration || "",
-        atar: null,
+        atar: parsedAtar,
         officialUrl: result.liveUrl,
         assumedKnowledge: subjectGuidance.assumedKnowledge,
         recommendedSubjects: subjectGuidance.recommendedSubjects,

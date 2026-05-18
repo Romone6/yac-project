@@ -243,3 +243,28 @@ test("UNSW and UTS raw datasets preserve official subject-detail fields", () => 
     "UTS raw course data is still missing too much official subject detail"
   );
 });
+
+test("UNSW and UTS scrape retains non-zero ATAR coverage for undergraduate listings", () => {
+  const unswUndergraduate = (unswCoursesJson as Array<{ level?: string; atar?: number | null }>).filter(
+    (course) => course.level === "undergraduate"
+  );
+  const utsUndergraduate = (utsCoursesJson as Array<{ level?: string; atar?: number | null }>).filter(
+    (course) => course.level === "undergraduate"
+  );
+
+  const unswWithAtar = unswUndergraduate.filter(
+    (course) => typeof course.atar === "number"
+  ).length;
+  const utsWithAtar = utsUndergraduate.filter(
+    (course) => typeof course.atar === "number"
+  ).length;
+
+  assert.ok(
+    unswWithAtar >= 120,
+    "UNSW undergraduate ATAR coverage dropped below expected baseline"
+  );
+  assert.ok(
+    utsWithAtar >= 70,
+    "UTS undergraduate ATAR coverage dropped below expected baseline"
+  );
+});
