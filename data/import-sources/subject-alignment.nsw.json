@@ -1,7 +1,8 @@
 {
   "region": "NSW",
+  "target_level": "undergraduate",
   "output": "data/courses/nsw",
-  "notes": "Subject alignment data is refreshed through the existing course scraper and normalizer. Provider pages are treated as official source roots for course title, description, ATAR and subject signals.",
+  "notes": "Subject alignment is undergraduate bachelor-entry focused. Provider pages are treated as official source roots for course title, description, ATAR and subject signals; postgraduate, professional certificate, and non-entry pathway records are excluded from the visible subject-alignment catalog.",
   "sources": [
     "https://www.acu.edu.au/courses",
     "https://study.csu.edu.au",

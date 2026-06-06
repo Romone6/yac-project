@@ -5,10 +5,10 @@ import {
   buildCourseDetailHref,
   findCourseById,
 } from "../src/lib/course-directory";
-import { allNswCourses } from "../src/lib/nsw-course-catalog";
+import { subjectAlignmentCourses } from "../src/lib/nsw-course-catalog";
 
 test("findCourseById returns a course record for known course ids", () => {
-  const knownCourse = allNswCourses.find(
+  const knownCourse = subjectAlignmentCourses.find(
     (course) => course.university === "University of New South Wales"
   );
   const course = findCourseById(knownCourse?.id ?? "");

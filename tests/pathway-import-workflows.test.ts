@@ -16,6 +16,7 @@ test("pathway data import manifests cover scholarships, timelines and subject al
 
   assert.ok(scholarshipSources.providers.length >= 14);
   assert.ok(timelineSources.sources.length >= 2);
+  assert.equal(subjectSources.target_level, "undergraduate");
   assert.ok(subjectSources.sources.length >= 11);
 });
 

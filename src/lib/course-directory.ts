@@ -1,7 +1,7 @@
-import { allNswCourses } from "@/lib/nsw-course-catalog";
+import { subjectAlignmentCourses } from "@/lib/nsw-course-catalog";
 
 export function findCourseById(courseId: string) {
-  return allNswCourses.find((course) => course.id === courseId) ?? null;
+  return subjectAlignmentCourses.find((course) => course.id === courseId) ?? null;
 }
 
 export function buildCourseDetailHref(courseId: string) {

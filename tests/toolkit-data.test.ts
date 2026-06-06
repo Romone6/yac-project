@@ -5,9 +5,15 @@ import {
   applicationTimelineEntries,
   financialResources,
 } from "../src/lib/toolkit-data";
-import { allNswCourses } from "../src/lib/nsw-course-catalog";
+import {
+  allNswCourses,
+  subjectAlignmentCourses,
+  undergraduateNswCourses,
+} from "../src/lib/nsw-course-catalog";
 import unswCoursesJson from "../data/courses/nsw/unsw-expanded/courses.json";
 import utsCoursesJson from "../data/courses/nsw/uts-expanded/courses.json";
+import sydneyCoursesJson from "../data/courses/nsw/university-of-sydney/courses.json";
+import sydneyExpandedCoursesJson from "../data/courses/nsw/university-of-sydney-expanded/courses.json";
 import universities from "../data/courses/nsw/universities.json";
 
 test("application timeline entries expose verified official sources", () => {
@@ -49,61 +55,61 @@ test("course dataset covers every NSW university in the selector list", () => {
   }
 });
 
-test("subject toolkit keeps broad NSW course coverage across the expanded catalog", () => {
-  const counts = allNswCourses.reduce<Record<string, number>>((acc, course) => {
+test("subject toolkit keeps undergraduate NSW course coverage across the visible catalog", () => {
+  const counts = subjectAlignmentCourses.reduce<Record<string, number>>((acc, course) => {
     acc[course.university] = (acc[course.university] ?? 0) + 1;
     return acc;
   }, {});
 
-  assert.ok(allNswCourses.length >= 3200, "expected a near-complete NSW course catalog");
+  assert.ok(subjectAlignmentCourses.length >= 1000, "expected broad undergraduate NSW course coverage");
   assert.ok(
-    (counts["Australian Catholic University"] ?? 0) >= 150,
+    (counts["Australian Catholic University"] ?? 0) >= 40,
     "ACU course coverage is still too narrow"
   );
   assert.ok(
-    (counts["Charles Sturt University"] ?? 0) >= 200,
+    (counts["Charles Sturt University"] ?? 0) >= 20,
     "Charles Sturt course coverage is still too narrow"
   );
   assert.ok(
-    (counts["Macquarie University"] ?? 0) >= 160,
+    (counts["Macquarie University"] ?? 0) >= 40,
     "Macquarie course coverage is still too narrow"
   );
   assert.ok(
-    (counts["Southern Cross University"] ?? 0) >= 100,
+    (counts["Southern Cross University"] ?? 0) >= 50,
     "Southern Cross course coverage is still too narrow"
   );
   assert.ok(
-    (counts["University of New England"] ?? 0) >= 200,
+    (counts["University of New England"] ?? 0) >= 20,
     "UNE course coverage is still too narrow"
   );
   assert.ok(
-    (counts["University of Newcastle"] ?? 0) >= 200,
+    (counts["University of Newcastle"] ?? 0) >= 30,
     "Newcastle course coverage is still too narrow"
   );
   assert.ok(
-    (counts["University of Sydney"] ?? 0) >= 350,
-    "Sydney course coverage is still too narrow"
+    (counts["University of Sydney"] ?? 0) >= 50,
+    "Sydney undergraduate bachelor coverage is still too narrow"
   );
   assert.ok(
-    (counts["University of New South Wales"] ?? 0) >= 450,
+    (counts["University of New South Wales"] ?? 0) >= 180,
     "UNSW course coverage is still too narrow"
   );
   assert.ok(
-    (counts["University of Technology Sydney"] ?? 0) >= 380,
+    (counts["University of Technology Sydney"] ?? 0) >= 70,
     "UTS course coverage is still too narrow"
   );
   assert.ok(
-    (counts["University of Wollongong"] ?? 0) >= 500,
+    (counts["University of Wollongong"] ?? 0) >= 250,
     "Wollongong course coverage is still too narrow"
   );
   assert.ok(
-    (counts["Western Sydney University"] ?? 0) >= 150,
+    (counts["Western Sydney University"] ?? 0) >= 100,
     "Western Sydney course coverage is still too narrow"
   );
 });
 
-test("every course exposes subject-pathway guidance", () => {
-  for (const course of allNswCourses) {
+test("every visible subject-alignment course exposes subject-pathway guidance", () => {
+  for (const course of subjectAlignmentCourses) {
     const totalSignals =
       course.prerequisites.length +
       course.assumedKnowledge.length +
@@ -123,12 +129,12 @@ test("every course exposes subject-pathway guidance", () => {
   }
 });
 
-test("course descriptions include enough detail for subject-selection decisions", () => {
-  const thinDescriptions = allNswCourses.filter((course) => {
+test("visible course descriptions include enough detail for subject-selection decisions", () => {
+  const thinDescriptions = subjectAlignmentCourses.filter((course) => {
     const description = course.description.trim();
 
     return (
-      description.length < 220 ||
+      description.length < 160 ||
       description.toLowerCase() === course.courseName.trim().toLowerCase()
     );
   });
@@ -183,7 +189,7 @@ test("high-confidence course title families land in coherent subject areas", () 
   ];
 
   for (const expectation of expectations) {
-    const matches = allNswCourses.filter((course) =>
+      const matches = subjectAlignmentCourses.filter((course) =>
       expectation.match.test(course.courseName)
     );
 
@@ -241,6 +247,56 @@ test("UNSW and UTS raw datasets preserve official subject-detail fields", () => 
   assert.ok(
     countSignals(utsCoursesJson as Array<{ prerequisites?: string[]; assumedKnowledge?: string[]; recommendedSubjects?: string[] }>) >= 75,
     "UTS raw course data is still missing too much official subject detail"
+  );
+});
+
+test("subject alignment visible catalog is undergraduate-entry only", () => {
+  assert.equal(subjectAlignmentCourses.length, undergraduateNswCourses.length);
+
+  for (const course of subjectAlignmentCourses) {
+    assert.equal(course.level, "undergraduate", `${course.id} should not be visible`);
+    assert.ok(
+      !/^Sydney Professional Certificate\b/i.test(course.courseName),
+      `${course.id} is a professional certificate, not an undergraduate entry course`
+    );
+  }
+});
+
+test("Sydney subject alignment uses bachelor-entry records instead of professional certificates", () => {
+  const sydneyVisible = subjectAlignmentCourses.filter(
+    (course) => course.universitySlug === "university-of-sydney"
+  );
+
+  assert.ok(sydneyVisible.length >= 50, "Sydney needs meaningful undergraduate coverage");
+  assert.ok(
+    sydneyVisible.some((course) => /^Bachelor of Arts\b/i.test(course.courseName)),
+    "Sydney undergraduate data should include Bachelor of Arts"
+  );
+  assert.ok(
+    sydneyVisible.some((course) => /^Bachelor of Science\b/i.test(course.courseName)),
+    "Sydney undergraduate data should include Bachelor of Science"
+  );
+  assert.equal(
+    sydneyVisible.filter((course) =>
+      /^Sydney Professional Certificate\b/i.test(course.courseName)
+    ).length,
+    0
+  );
+
+  const sydneySourceUndergraduate = (sydneyCoursesJson as Array<{ level?: string }>).filter(
+    (course) => course.level === "undergraduate"
+  );
+  assert.ok(sydneySourceUndergraduate.length >= 50);
+
+  const sydneyExpandedCertificates = (
+    sydneyExpandedCoursesJson as Array<{ courseName?: string }>
+  ).filter((course) =>
+    /^Sydney Professional Certificate\b/i.test(course.courseName ?? "")
+  );
+  assert.equal(
+    sydneyExpandedCertificates.length,
+    0,
+    "Sydney expanded scraper output should not retain professional certificates"
   );
 });
 

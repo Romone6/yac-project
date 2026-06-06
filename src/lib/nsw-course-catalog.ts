@@ -3,7 +3,7 @@ import csuCoursesJson from "../../data/courses/nsw/charles-sturt-university/cour
 import macquarieCoursesJson from "../../data/courses/nsw/macquarie-university-expanded/courses.json";
 import newcastleCoursesJson from "../../data/courses/nsw/university-of-newcastle-expanded/courses.json";
 import scuCoursesJson from "../../data/courses/nsw/southern-cross-university/courses.json";
-import sydneyCoursesJson from "../../data/courses/nsw/university-of-sydney-expanded/courses.json";
+import sydneyCoursesJson from "../../data/courses/nsw/university-of-sydney/courses.json";
 import uneCoursesJson from "../../data/courses/nsw/university-of-new-england-expanded/courses.json";
 import uowCoursesJson from "../../data/courses/nsw/university-of-wollongong-expanded/courses.json";
 import unswCoursesJson from "../../data/courses/nsw/unsw-expanded/courses.json";
@@ -67,3 +67,14 @@ export const allNswCourses: CourseRecord[] = [
     a.faculty.localeCompare(b.faculty) ||
     a.courseName.localeCompare(b.courseName)
 );
+
+function isUndergraduateEntryCourse(course: CourseRecord): boolean {
+  if (course.level !== "undergraduate") return false;
+
+  return !/^Sydney Professional Certificate\b/i.test(course.courseName);
+}
+
+export const undergraduateNswCourses: CourseRecord[] =
+  allNswCourses.filter(isUndergraduateEntryCourse);
+
+export const subjectAlignmentCourses: CourseRecord[] = undergraduateNswCourses;
