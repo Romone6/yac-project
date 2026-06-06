@@ -12,7 +12,7 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Pathway to Entry",
   description:
-    "Pathway to Entry is a NSW YAC–aligned project examining why regional students disengage between choosing a post-school pathway and reaching entry — and designing practical program responses.",
+    "Pathway to Entry is a NSW Youth Advisory Council-aligned initiative helping regional NSW students navigate post-school pathways with consultation, tools, scholarship information and financial support resources.",
   metadataBase: new URL("https://pathwaytoentry.org.au"),
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={sourceSans.variable}>
-      <body className="min-h-screen bg-white text-slate-900 antialiased">
+      <body className="min-h-screen bg-[var(--background)] text-slate-900 antialiased">
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-6 focus:z-50 focus:rounded-sm focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-slate-900 focus:shadow"

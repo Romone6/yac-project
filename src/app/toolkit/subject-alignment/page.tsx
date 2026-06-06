@@ -12,6 +12,10 @@ import {
   allNswCourses,
   type CourseLevel,
 } from "@/lib/nsw-course-catalog";
+import {
+  courseHasAtar,
+  filterSubjectAlignmentCourses,
+} from "@/lib/subject-alignment-filter";
 
 type UniversityRecord = {
   name: string;
@@ -42,24 +46,26 @@ export default function SubjectAlignmentPage() {
   );
 
   const filteredCourses = useMemo(() => {
-    return allNswCourses.filter((c) => {
-      if (selectedUni && c.universitySlug !== selectedUni) return false;
-      if (selectedFaculty && !c.subjectAreas.includes(selectedFaculty)) return false;
-      if (selectedLevel !== "All" && c.level !== selectedLevel) return false;
-      if (searchQuery) {
-        const q = searchQuery.toLowerCase();
-        return (
-          c.courseName.toLowerCase().includes(q) ||
-          (c.courseCode ?? "").toLowerCase().includes(q) ||
-          c.description.toLowerCase().includes(q) ||
-          c.recommendedSubjects.some((subject) => subject.toLowerCase().includes(q)) ||
-          c.prerequisites.some((subject) => subject.toLowerCase().includes(q)) ||
-          c.assumedKnowledge.some((subject) => subject.toLowerCase().includes(q))
-        );
-      }
-      return true;
+    return filterSubjectAlignmentCourses(allNswCourses, {
+      selectedUni,
+      selectedFaculty,
+      selectedLevel,
+      searchQuery,
     });
   }, [selectedUni, selectedFaculty, searchQuery, selectedLevel]);
+
+  const selectedUniversityAtarCoverage = useMemo(() => {
+    if (!selectedUni) return { total: 0, withAtar: 0 };
+
+    const universityCourses = allNswCourses.filter(
+      (course) => course.universitySlug === selectedUni
+    );
+
+    return {
+      total: universityCourses.length,
+      withAtar: universityCourses.filter((course) => courseHasAtar(course)).length,
+    };
+  }, [selectedUni]);
 
   const faculties = useMemo(() => {
     return [
@@ -149,11 +155,19 @@ export default function SubjectAlignmentPage() {
               </button>
             ))}
             </div>
+            {selectedUniversityAtarCoverage.total > 0 &&
+            selectedUniversityAtarCoverage.withAtar === 0 ? (
+              <div className="rounded-sm border border-amber-200 bg-amber-50 p-3 text-xs text-amber-900">
+                Indicative ATAR values are not currently available in the verified
+                dataset for this university. Use each course&apos;s official link to confirm
+                admission requirements.
+              </div>
+            ) : null}
           </div>
         </Section>
       )}
 
-      {selectedUni && selectedFaculty && (
+      {selectedUni && (
         <Section title={`Browse courses (${filteredCourses.length})`}>
           <div className="mb-4">
             <input
@@ -180,7 +194,7 @@ export default function SubjectAlignmentPage() {
                         .join(" · ")}
                     </p>
                   </div>
-                  {course.atar && (
+                  {courseHasAtar(course) && (
                     <div className="shrink-0 rounded-sm bg-slate-100 px-3 py-1.5 text-center">
                       <p className="text-xs uppercase tracking-wide text-slate-500">ATAR</p>
                       <p className="text-lg font-bold text-slate-900">{course.atar}</p>

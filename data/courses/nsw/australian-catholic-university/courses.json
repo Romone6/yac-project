@@ -9,21 +9,21 @@
     "level": "undergraduate",
     "description": "Unlike pure accounting degrees, our Bachelor of Accounting and Finance will broaden your career choices. In addition to graduating with an extensive corporate accounting education, you will gain a good understanding of financial instruments, institutions, markets and systems. This course also covers financial decision-making under uncertainty which can be applied to careers in banking, financial consulting, funds management, merchant banking, stockbroking or treasury. Future employers will know instantly what you are qualified in when you apply with a named degree. And you’ll be eligible for membership with CPA Australia, Chartered Accountants Australia and New Zealand, and the Institute of Public Accountants.",
     "duration": "Minimum Duration: 3 years full-time or equivalent part-time",
-    "atar": 58.5,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-accounting-and-finance",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-applied-public-health-honours",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and leadership",
+    "faculty": "Public health and administration",
     "courseName": "Bachelor of Applied Public Health (Honours)",
     "level": "undergraduate",
     "description": "The Bachelor of Applied Public Health (Honours) allows students to develop research skills and work closely with an academic to contribute to a particular area of interest.",
@@ -35,14 +35,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-applied-public-health-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-arts",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Creative arts|Arts, humanities and social sciences|Theology and philosophy",
+    "faculty": "Theology|Humanities and social sciences||Creative arts|Philosophy|Global studies and international development|Youth work and community development",
     "courseName": "Bachelor of Arts",
     "level": "undergraduate",
     "description": "Investigate contemporary issues from political, cultural, geographical, historical, sociological and philosophical perspectives to develop practical skills in humanities, social sciences and creative arts.",
@@ -54,7 +54,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-arts",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-arts-honours",
@@ -73,14 +73,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-arts-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-arts-western-civilisation",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology and philosophy|Arts, humanities and social sciences|Creative arts",
+    "faculty": "Theology|Humanities and social sciences|Creative arts|Philosophy|Global studies and international development",
     "courseName": "Bachelor of Arts (Western Civilisation)",
     "level": "undergraduate",
     "description": "This course provides students with a rigorous and stimulating intellectual program in which they engage with western philosophy, history, literature, politics, art and culture, and develop a deep understanding of the great works, ideas and movements within the western intellectual tradition in the core of the program.",
@@ -92,14 +92,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-arts-western-civilisation",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-arts-western-civilisation-honours",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Arts, humanities and social sciences",
+    "faculty": "Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Bachelor of Arts (Western Civilisation) (Honours)",
     "level": "undergraduate",
     "description": "Build and strengthen your knowledge on the history of ideas of Western culture by exploring the great works of history, literature, philosophy and arts.",
@@ -111,14 +111,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-arts-western-civilisation-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-arts-western-civilisationbachelor-of-laws",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Law and criminology|Arts, humanities and social sciences",
+    "faculty": "Humanities and social sciences|Law|Law and criminology",
     "courseName": "Bachelor of Arts (Western Civilisation)/Bachelor of Laws",
     "level": "undergraduate",
     "description": "This five-year double degree combines practical, ethical and theoretical training in legal knowledge with the study of Western civilisation. You’ll graduate with a deep understanding of legal practice as well as Western literature, philosophy, art, politics, religion, science and history, and how these help us to comprehend our world and the dialogue between cultures.",
@@ -130,14 +130,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-arts-western-civilisationbachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-arts-western-civilisationmaster-of-teaching-secondary",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching and education|Theology and philosophy|Arts, humanities and social sciences|Creative arts",
+    "faculty": "Teaching|Humanities and social sciences",
     "courseName": "Bachelor of Arts (Western Civilisation)/Master of Teaching (Secondary)",
     "level": "postgraduate",
     "description": "This fast-tracked course will see you graduate with two degrees in just 4.5 years and will allow you to become a secondary school humanities teacher. A generous scholarship is available to help you on your journey.",
@@ -149,7 +149,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-arts-western-civilisationmaster-of-teaching-secondary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-artsbachelor-of-commerce",
@@ -161,21 +161,21 @@
     "level": "undergraduate",
     "description": "Sharpen your business qualification with communication, research and analytical skills learnt in liberal arts fields such as psychology, economics or digital journalism. Combine these with your business specialisation, such as accounting, marketing or human resource management, and you’ll be equipped for a huge range of careers. Gain two degrees with only one extra year of study.",
     "duration": "Minimum Duration: 4 years full-time or equivalent part-time",
-    "atar": 58.5,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-artsbachelor-of-commerce",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-artsbachelor-of-global-studies",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology and philosophy|Creative arts|Arts, humanities and social sciences",
+    "faculty": "Humanities and social sciences|Creative arts|Global studies and international development||Philosophy",
     "courseName": "Bachelor of Arts/Bachelor of Global Studies",
     "level": "undergraduate",
     "description": "Follow your dreams as a diplomat, humanitarian worker or journalist, or work in social entrepreneurship, media, international relations or tourism. This course also offers an international education, with students able to study abroad and/or do an internship that provides international work experience and networks.",
@@ -187,14 +187,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-artsbachelor-of-global-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-artsbachelor-of-laws",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Law and criminology|Theology and philosophy|Arts, humanities and social sciences|Creative arts",
+    "faculty": "Humanities and social sciences|Law|Professional education|Creative arts|Global studies and international development|Philosophy",
     "courseName": "Bachelor of Arts/Bachelor of Laws",
     "level": "undergraduate",
     "description": "This double degree produces specialist legal practitioners in such fields as education, policy development, commerce, travel, and tourism.",
@@ -206,14 +206,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-artsbachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-artsmaster-of-teaching-secondary",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology and philosophy|Teaching|Arts, humanities and social sciences|Creative arts",
+    "faculty": "Teaching|Humanities and social sciences",
     "courseName": "Bachelor of Arts/Master of Teaching (Secondary)",
     "level": "postgraduate",
     "description": "This four-year degree will see students graduate with an undergraduate and masters level degree equipping them with the skills to become a secondary school teacher.",
@@ -225,7 +225,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-artsmaster-of-teaching-secondary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-biomedical-science",
@@ -244,7 +244,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-biomedical-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-biomedical-science-honours",
@@ -263,33 +263,33 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-biomedical-science-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-biomedical-sciencebachelor-of-business",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Nutrition and biomedical science|Business",
+    "faculty": "Business|Nutrition and biomedical science",
     "courseName": "Bachelor of Biomedical Science/Bachelor of Business",
     "level": "undergraduate",
     "description": "Learn about science and its commercialisation. You will develop an understanding of the natural sciences from biology and physiology through to clinical medicine. Learn how the human body functions, what causes disease and how disease is treated. With only one additional year of study, you will gain the skills to apply commercial knowledge and understanding – including accounting, finance, marketing and business law – to a science and research environment.",
     "duration": "Minimum Duration: 4 years full-time or equivalent part-time",
-    "atar": 0.6,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-biomedical-sciencebachelor-of-business",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-biomedical-sciencebachelor-of-laws",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Law and criminology|Nutrition and biomedical science",
+    "faculty": "Nutrition and biomedical science|Law and criminology",
     "courseName": "Bachelor of Biomedical Science/Bachelor of Laws",
     "level": "undergraduate",
     "description": "Combining bachelor degrees in biomedical science and law helps develop legal specialists in the pharmaceutical and medical technology industries.",
@@ -301,7 +301,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-biomedical-sciencebachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-business",
@@ -313,14 +313,14 @@
     "level": "undergraduate",
     "description": "Our new Bachelor of Business is future-focused and co-designed with industry, offering you the flexibility to tailor your degree to match your interests and career goals. Choose from a wide range of majors and minors, including accounting, finance, marketing, data analytics, human resources, information systems, healthcare management, cybersecurity, artificial intelligence, and sustainability.",
     "duration": "Minimum Duration: 3 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-business",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-businessbachelor-of-global-studies",
@@ -332,14 +332,14 @@
     "level": "undergraduate",
     "description": "This course allows you to combine business know-how with an understanding of the social, political, cultural, environmental and economic factors shaping the world.",
     "duration": "Minimum Duration: 4 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-businessbachelor-of-global-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-businessbachelor-of-laws",
@@ -351,14 +351,14 @@
     "level": "undergraduate",
     "description": "Combining a business degree with a law degree produces graduates ready for legal practice and a range of professional business careers.",
     "duration": "Minimum Duration: 5 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 75,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-businessbachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-commerce",
@@ -370,14 +370,14 @@
     "level": "undergraduate",
     "description": "Create a unique career path whilst honing communication skills as part of your commerce degree. You can select your major from accounting, human resource management, data analytics, management, or marketing. Our Work Integrated Learning programs give you essential job-ready skills and experiences throughout your degree. Our industry partnerships and connections ensure you will be ready for any career path and our fully accredited commerce specialisations.",
     "duration": "Minimum Duration: 3 years full-time or equivalent part-time",
-    "atar": 58.5,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-commerce",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-commerce-online",
@@ -396,7 +396,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-commerce-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-commercebachelor-of-global-studies",
@@ -408,14 +408,14 @@
     "level": "undergraduate",
     "description": "Understand the social, political, cultural, environmental, and economic changes shaping our world.",
     "duration": "Minimum Duration: 4 years full-time or equivalent part-time",
-    "atar": 58.5,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-commercebachelor-of-global-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-commercebachelor-of-laws",
@@ -434,33 +434,33 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-commercebachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-computer-science",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Business|Computer Science and IT",
+    "faculty": "Information technology",
     "courseName": "Bachelor of Computer Science",
     "level": "undergraduate",
     "description": "Computer science sits at the cutting edge of technology, offering exciting opportunities to create real-world impact. You'll develop advanced technical skills and a strong theoretical foundation in areas such as programming, software development, data analytics, statistics, cloud computing, networking, cybersecurity, and more. Once you graduate, you’ll be equipped to lead innovation and drive progress across a range of industries. Your skills will be in high demand—enabling you to help organisations solve complex challenges and make smarter, data-driven decisions.",
     "duration": "Minimum Duration: 3 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 70,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-computer-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-studyonline-acu-edu-au-landing-bcs",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Business|Computer Science and IT",
+    "faculty": "Business|Computer Science and IT|Information technology",
     "courseName": "Bachelor of Computer Science (ACU Online)",
     "level": "undergraduate",
     "description": "Computer science sits at the cutting edge of technology, offering exciting opportunities to create real-world impact. You'll develop advanced technical skills and a strong theoretical foundation in areas such as programming, software development, data analytics, statistics, cloud computing, networking, cybersecurity, and more. Once you graduate, you’ll be equipped to lead innovation and drive progress across a range of industries. Your skills will be in high demand—enabling you to help organisations solve complex challenges and make smarter, data-driven decisions.",
@@ -472,33 +472,33 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://studyonline.acu.edu.au/landing/bcs",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-computer-science-master-of-data-science",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Business|Computer Science and IT",
+    "faculty": "Information technology",
     "courseName": "Bachelor of Computer Science / Master of Data Science",
     "level": "postgraduate",
     "description": "Accelerate your career – Gain both a Bachelor of Computer Science and a Master of Data Science in just four years. You’ll be in demand across a huge range of industries, with the skills to support organisations to make informed decisions and solve complex problems.",
     "duration": "Minimum Duration: 4 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 70,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-computer-science--master-of-data-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-http-studyonline-acu-edu-au-landing-bcs-mds",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Computer Science and IT|Business",
+    "faculty": "Computer Science and IT|Business|Information technology",
     "courseName": "Bachelor of Computer Science / Master of Data Science (ACU Online)",
     "level": "postgraduate",
     "description": "Accelerate your career – Gain both a Bachelor of Computer Science and a Master of Data Science in just four years. You’ll be in demand across a huge range of industries, with the skills to support organisations to make informed decisions and solve complex problems.",
@@ -510,7 +510,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "http://studyonline.acu.edu.au/landing/bcs-mds",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-creative-arts",
@@ -529,7 +529,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-creative-arts",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-criminology-and-criminal-justice",
@@ -541,14 +541,14 @@
     "level": "undergraduate",
     "description": "Our Bachelor of Criminology and Criminal Justice explores the causes of antisocial behaviour and develops the knowledge and expertise you’ll need to make a valuable contribution in the criminal justice sector. You’ll graduate prepared for a range of exciting career opportunities in areas such as cybersecurity, law enforcement, intelligence and investigation, correctional and rehabilitation services, and more.",
     "duration": "Minimum Duration: 3 years full-time or equivalent part-time",
-    "atar": 58.5,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-criminology-and-criminal-justice",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-criminology-and-criminal-justicebachelor-of-laws",
@@ -567,14 +567,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-criminology-and-criminal-justicebachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-early-childhood-education-birth-to-five-years",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching and education",
+    "faculty": "Teaching",
     "courseName": "Bachelor of Early Childhood Education (Birth to Five Years)",
     "level": "undergraduate",
     "description": "Pursue a career as an early childhood teacher. Develop an understanding of the importance of the early years and your role as a teacher through a balance of practice and theory.",
@@ -586,7 +586,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-early-childhood-education-birth-to-five-years",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-early-childhood-and-primary",
@@ -605,7 +605,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-early-childhood-and-primary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-primary-and-secondary",
@@ -624,7 +624,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-primary-and-secondary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-primary-and-secondary-online",
@@ -643,7 +643,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-primary-and-secondary-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-primary-and-special-education",
@@ -662,7 +662,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-primary-and-special-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-primary",
@@ -681,14 +681,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-primary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-primary-away-from-base",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching and education",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Bachelor of Education (Primary) (Away from Base)",
     "level": "undergraduate",
     "description": "This course enables Aboriginal and Torres Strait Islander students to live and work in their local community while studying to become a primary school teacher.",
@@ -700,7 +700,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-primary-away-from-base",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-secondary-and-special-education",
@@ -719,7 +719,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-secondary-and-special-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-secondary",
@@ -738,26 +738,26 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-secondary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-secondarybachelor-of-arts-design-innovation-and-technologies",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Creative arts|Teaching and education|Arts, humanities and social sciences",
+    "faculty": "Teaching|Creative arts|Humanities and social sciences",
     "courseName": "Bachelor of Education (Secondary)/Bachelor of Arts (Design Innovation and Technologies)",
     "level": "undergraduate",
     "description": "This course is for students who want to teach technology in secondary schools specialising in design, timber and metal work, food, textiles, technology and computing.",
     "duration": "Minimum Duration: 4 years in accelerated mode full-time or equivalent part-time",
-    "atar": 68,
+    "atar": 67,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-secondarybachelor-of-arts-design-innovation-and-technologies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-secondarybachelor-of-arts-humanities",
@@ -776,7 +776,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-secondarybachelor-of-arts-humanities",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-secondarybachelor-of-arts-mathematics",
@@ -795,7 +795,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-secondarybachelor-of-arts-mathematics",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-secondarybachelor-of-arts-visual-arts",
@@ -814,7 +814,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-secondarybachelor-of-arts-visual-arts",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-education-secondarybachelor-of-exercise-science",
@@ -833,7 +833,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-education-secondarybachelor-of-exercise-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-educational-studies",
@@ -852,14 +852,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-educational-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-exercise-and-sports-science",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Exercise and sport science",
+    "faculty": "Sport and exercise science",
     "courseName": "Bachelor of Exercise and Sports Science",
     "level": "undergraduate",
     "description": "In this course, accredited with Exercise and Sports Science Australia (ESSA), you will learn about human movement and how to optimise the fitness, health and wellbeing of individuals and teams to benefit sports performance. You'll gain a thorough grounding in the scientific basis of exercise, developing skills such as leadership, advanced problem-solving, technical proficiency and the capacity to communicate effectively.",
@@ -871,14 +871,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-exercise-and-sports-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-exercise-and-sports-science-honours",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Exercise and sport science",
+    "faculty": "Sport and exercise science",
     "courseName": "Bachelor of Exercise and Sports Science (Honours)",
     "level": "undergraduate",
     "description": "The Bachelor of Exercise and Sports Science (Honours) allows students to develop research skills and work closely with an academic to contribute to a particular area of interest.",
@@ -890,14 +890,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-exercise-and-sports-science-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-exercise-and-sports-sciencebachelor-of-nutrition-science",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Exercise and sport science|Nutrition and biomedical science",
+    "faculty": "Sport and exercise science|Nutrition and biomedical science",
     "courseName": "Bachelor of Exercise and Sports Science/Bachelor of Nutrition Science",
     "level": "undergraduate",
     "description": "This double degree combines two complementary fields focused on improving performance of the human body, whether in sport or life in general. Become an expert in the science of exercise and nutrition, and capitalise on the synergies between the two fields to graduate with the aim of promoting optimal health and nutrition across the lifespan.",
@@ -909,7 +909,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-exercise-and-sports-sciencebachelor-of-nutrition-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-exercise-sciencebachelor-of-business-administration",
@@ -928,14 +928,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-exercise-sciencebachelor-of-business-administration",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-high-performance-sport-honours",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Exercise and sport science",
+    "faculty": "Sport and exercise science",
     "courseName": "Bachelor of High Performance Sport (Honours)",
     "level": "undergraduate",
     "description": "Develop research skills that will assist with future higher degree study and work closely with an academic expert to contribute to a particular area of interest.",
@@ -947,14 +947,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-high-performance-sport-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-human-rights",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Law and criminology|Arts, humanities and social sciences",
+    "faculty": "Humanities and social sciences|Global studies and international development|Youth work and community development|Law and criminology|",
     "courseName": "Bachelor of Human Rights",
     "level": "undergraduate",
     "description": "Our Bachelor of Human Rights will provide you with a deep understanding of human rights that is enriched by perspectives from law, philosophy and the humanities. Students will apply their knowledge to practical professional contexts, and complete a placement in the human rights sector. Graduates of this program will bring their multidisciplinary expertise in human rights to a wide variety of professional settings in the corporate, government and non-government sectors.",
@@ -966,7 +966,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-human-rights",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-human-rightsbachelor-of-criminology-and-criminal-justice",
@@ -978,21 +978,21 @@
     "level": "undergraduate",
     "description": "Human rights advocacy and criminology are rapidly growing fields across the world and involves aspects of law, criminal justice, history, philosophy and politics. Our Bachelor of Criminology and Criminal Justice explores the causes of antisocial behaviour and develops the knowledge and expertise you’ll need to make a valuable contribution in the criminal justice sector. Studying a Bachelor of Human Rights/Bachelor of Criminology and Criminal Justice will prepare you for a rewarding career in human rights within the criminal justice sector both in Australia and globally.",
     "duration": "Minimum Duration: 5 years full-time or equivalent part-time",
-    "atar": 58.5,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-human-rightsbachelor-of-criminology-and-criminal-justice",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-human-rightsbachelor-of-laws",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Arts, humanities and social sciences|Law and criminology",
+    "faculty": "Law and criminology",
     "courseName": "Bachelor of Human Rights/Bachelor of Laws",
     "level": "undergraduate",
     "description": "Human rights advocacy has never been more important. It’s a rapidly growing field across the world and involves aspects of law, criminal justice, history, philosophy and politics. Studying a Bachelor of Human Rights/Bachelor of Laws will prepare you for a rewarding legal career in human rights both in Australia and globally. Your strong commitment to social justice is at the heart of this double degree. Like you, we believe in standing up for people in need and issues that matter. We want you to see life through the eyes of others and be inspired to become the leading human rights lawyers and advocates of the 21st century. As a central part of your studies, you will gain essential skills in critical thinking, writing, analysis and debating – skills in high demand from employers. Our law degree fulfills the academic requirements for admission to the legal profession in Australia.",
@@ -1004,14 +1004,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-human-rightsbachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-information-technology",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Business|Computer Science and IT",
+    "faculty": "Information technology",
     "courseName": "Bachelor of Information Technology",
     "level": "undergraduate",
     "description": "This course prepares students for a myriad of careers in IT – such as applications developer, software architect, programmer, software engineer, data scientist, cyber security analyst, web specialist and more. Students gain cutting-edge professional knowledge in cyber security, game design and applications development, data science and data analytics as well as broader ethical skills to make a positive impact in society",
@@ -1023,14 +1023,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-information-technology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-studyonline-acu-edu-au-landing-bs-it",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Business|Computer Science and IT",
+    "faculty": "Business|Computer Science and IT|Information technology",
     "courseName": "Bachelor of Information Technology (ACU Online)",
     "level": "undergraduate",
     "description": "This course prepares students for a myriad of careers in IT – such as applications developer, software architect, programmer, software engineer, data scientist, cyber security analyst, web specialist and more. Students gain cutting-edge professional knowledge in cyber security, game design and applications development, data science and data analytics as well as broader ethical skills to make a positive impact in society",
@@ -1042,26 +1042,26 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://studyonline.acu.edu.au/landing/bs-it",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-information-technologybachelor-of-business",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Business|Computer Science and IT",
+    "faculty": "Business|Information technology",
     "courseName": "Bachelor of Information Technology/Bachelor of Business",
     "level": "undergraduate",
     "description": "Get the skills for a huge range of exciting career opportunities with our double degree in information technology and business. With technology playing a growing role in all aspects of business, you will develop skills that are highly desired by employers and you’ll be ready to take up a range of roles in areas such as data science, business analytics and artificial intelligence.",
     "duration": "Minimum Duration: 4 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-information-technologybachelor-of-business",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-laws",
@@ -1080,7 +1080,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-laws-graduate-entry",
@@ -1099,14 +1099,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-laws-graduate-entry",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-lawsbachelor-of-global-studies",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Arts, humanities and social sciences|Law and criminology",
+    "faculty": "Global studies and international development|Humanities and social sciences|Law|Law and criminology",
     "courseName": "Bachelor of Laws/Bachelor of Global Studies",
     "level": "undergraduate",
     "description": "Combining law and global studies develops an awareness of the broader context for legal issues for the modern global legal professional.",
@@ -1118,7 +1118,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-lawsbachelor-of-global-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-lawsbachelor-of-social-and-environmental-sustainability",
@@ -1130,14 +1130,14 @@
     "level": "undergraduate",
     "description": "Become a lawyer who stands up for people in need and causes that matter. The Bachelor of Laws /Bachelor of Social and Environmental Sustainability is designed to produce well-rounded and articulate graduates ready for legal practice and a defender of communities and the environment.",
     "duration": "Minimum Duration: 5 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 75,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-lawsbachelor-of-social-and-environmental-sustainability",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-midwifery",
@@ -1156,7 +1156,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-midwifery",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-midwifery-graduate-entry",
@@ -1175,7 +1175,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-midwifery-graduate-entry",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-midwifery-honours",
@@ -1194,7 +1194,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-midwifery-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-midwifery-indigenous",
@@ -1213,7 +1213,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-midwifery-indigenous",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-nursing",
@@ -1232,7 +1232,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-nursing",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-nursing-enrolled-nurses",
@@ -1251,7 +1251,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-nursing-enrolled-nurses",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-nursing-honours",
@@ -1270,7 +1270,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-nursing-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-nursingbachelor-of-business",
@@ -1289,7 +1289,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-nursingbachelor-of-business",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-nursingbachelor-of-paramedicine",
@@ -1308,14 +1308,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-nursingbachelor-of-paramedicine",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-nutrition-science",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Exercise and sport science|Nutrition and biomedical science",
+    "faculty": "Nutrition and biomedical science",
     "courseName": "Bachelor of Nutrition Science",
     "level": "undergraduate",
     "description": "Focus on the role of food and nutrition in health promotion and disease prevention for individuals, communities and populations. Your studies will focus on general health care, chronic disease management, Indigenous health and other emerging areas of need. You will gain an understanding of the science behind food and nutrition and have the opportunity to undertake major studies in food science, culinary nutrition or public health.",
@@ -1327,7 +1327,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-nutrition-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-nutrition-science-honours",
@@ -1346,7 +1346,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-nutrition-science-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-nutrition-sciencebachelor-of-business",
@@ -1358,14 +1358,14 @@
     "level": "undergraduate",
     "description": "Nutrition science promotes health and nutrition in individuals as well as the wider community. The additional business content expands your job options.",
     "duration": "Minimum Duration: 4 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-nutrition-sciencebachelor-of-business",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-occupational-therapy",
@@ -1384,7 +1384,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-occupational-therapy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-paramedicine",
@@ -1403,7 +1403,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-paramedicine",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-paramedicine-honours",
@@ -1422,14 +1422,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-paramedicine-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-philosophybachelor-of-laws",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Law and criminology|Theology and philosophy|Arts, humanities and social sciences",
+    "faculty": "Law|Philosophy|Law and criminology",
     "courseName": "Bachelor of Philosophy/Bachelor of Laws",
     "level": "undergraduate",
     "description": "This double degree in philosophy and law combines the study of law required for accreditation for legal practice, but within a wider philosophical focus.",
@@ -1441,7 +1441,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-philosophybachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-physiotherapy",
@@ -1460,14 +1460,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-physiotherapy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-science",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Psychology|Humanities and social sciences",
+    "faculty": "Psychology|Arts, humanities and social sciences",
     "courseName": "Bachelor of Psychological Science",
     "level": "undergraduate",
     "description": "Gain a comprehensive understanding of psychology, with in-depth studies in topics such as, lifespan development, biological psychology, social psychology, abnormal psychology, individual differences, and research methods. While gaining an approved Level 1 Australian Psychology Accreditation Council (APAC) sequence in psychology, which is the first step in becoming a psychologist, you will also acquire sought-after employable skills in research, communication and problem-solving.",
@@ -1479,7 +1479,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-science-honours",
@@ -1498,7 +1498,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-science-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-sciencebachelor-of-arts",
@@ -1517,7 +1517,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-sciencebachelor-of-arts",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-sciencebachelor-of-commerce",
@@ -1536,7 +1536,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-sciencebachelor-of-commerce",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-sciencebachelor-of-criminology-and-criminal-justice",
@@ -1555,7 +1555,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-sciencebachelor-of-criminology-and-criminal-justice",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-sciencebachelor-of-exercise-and-sports-science",
@@ -1574,14 +1574,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-sciencebachelor-of-exercise-and-sports-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-sciencebachelor-of-laws",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Law and criminology|Psychology|Arts, humanities and social sciences",
+    "faculty": "Law|Psychology|Law and criminology",
     "courseName": "Bachelor of Psychological Science/Bachelor of Laws",
     "level": "undergraduate",
     "description": "This double degree in psychological science and law combines the study of human behaviour with the study of law, ideal for a range of professional careers.",
@@ -1593,7 +1593,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-sciencebachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-sciencebachelor-of-nutrition-science",
@@ -1612,26 +1612,26 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-sciencebachelor-of-nutrition-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychological-sciencemaster-of-teaching-primary",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Psychology|Teaching and education|Arts, humanities and social sciences",
+    "faculty": "Psychology|Teaching and education|Arts, humanities and social sciences|Teaching|Humanities and social sciences",
     "courseName": "Bachelor of Psychological Science/Master of Teaching (Primary)",
     "level": "postgraduate",
     "description": "The Bachelor of Psychological Science/Master of Teaching (Primary) offers students the unique opportunity to gain a deep foundation in Psychology to support a career in teaching.",
     "duration": "Minimum Duration: 4.5 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 60,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychological-sciencemaster-of-teaching-primary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-psychology-honours",
@@ -1650,45 +1650,45 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-psychology-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-social-and-environmental-sustainability",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Humanities and social sciences|Global studies and international development",
+    "faculty": "Humanities and social sciences|Global studies and international development|Arts, humanities and social sciences",
     "courseName": "Bachelor of Social and Environmental Sustainability",
     "level": "undergraduate",
     "description": "Lead positive change. Be prepared to tackle the great sustainability challenges of the 21st century and make a positive impact on the world and in our communities.",
     "duration": "Minimum Duration: 3 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 58.5,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-social-and-environmental-sustainability",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-social-and-environmental-sustainabilitybachelor-of-global-studies",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Arts, humanities and social sciences",
+    "faculty": "Humanities and social sciences|Global studies and international development|Arts, humanities and social sciences",
     "courseName": "Bachelor of Social and Environmental Sustainability/Bachelor of Global Studies",
     "level": "undergraduate",
     "description": "Become a force for change with this double degree, designed for those driven to tackle today’s global challenges.",
     "duration": "Minimum Duration: 4 years full-time or equivalent part-time",
-    "atar": null,
+    "atar": 58.5,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-social-and-environmental-sustainabilitybachelor-of-global-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-social-work",
@@ -1707,7 +1707,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-social-work",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-speech-pathology",
@@ -1726,7 +1726,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-speech-pathology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-theology",
@@ -1745,7 +1745,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-theology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-theology-honours",
@@ -1764,7 +1764,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-theology-honours",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-theologybachelor-of-global-studies",
@@ -1783,7 +1783,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-theologybachelor-of-global-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-theologybachelor-of-laws",
@@ -1802,7 +1802,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-theologybachelor-of-laws",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-theologybachelor-of-philosophy",
@@ -1821,7 +1821,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-theologybachelor-of-philosophy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-visual-arts-and-design",
@@ -1840,7 +1840,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-visual-arts-and-design",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-bachelor-of-youth-work",
@@ -1859,7 +1859,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/bachelor-of-youth-work",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-certificate-in-liberal-arts",
@@ -1878,14 +1878,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/certificate-in-liberal-arts",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-certificate-in-philosophy",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Philosophy|Humanities and social sciences|Theology",
+    "faculty": "Theology and philosophy|Arts, humanities and social sciences|Humanities and social sciences|Philosophy",
     "courseName": "Certificate in Philosophy",
     "level": "pathway",
     "description": "The Certificate in Philosophy is for those who want to pursue an interest in philosophy or update their existing knowledge.",
@@ -1897,14 +1897,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/certificate-in-philosophy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-certificate-in-theology",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology",
+    "faculty": "Theology and philosophy|Arts, humanities and social sciences|Humanities and social sciences|Theology",
     "courseName": "Certificate in Theology",
     "level": "pathway",
     "description": "The Certificate in Theology is for those who want to pursue an interest in theology or update their existing knowledge.",
@@ -1916,7 +1916,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/certificate-in-theology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-biomedical-science",
@@ -1935,7 +1935,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-biomedical-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-business",
@@ -1954,7 +1954,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-business",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-business-online",
@@ -1973,7 +1973,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-business-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-criminology",
@@ -1992,7 +1992,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-criminology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-educational-studies-tertiary-preparation",
@@ -2011,14 +2011,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-educational-studies-tertiary-preparation",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-educational-studies-tertiary-preparation-away-from-base-mode",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Diploma in Educational Studies (Tertiary Preparation) (Away from Base Mode)",
     "level": "pathway",
     "description": "This pathway course enables Aboriginal and Torres Strait Islander students to live and work in their local community while studying to become a teacher but have not met the entry requirements into our initial teacher education courses.",
@@ -2030,7 +2030,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-educational-studies-tertiary-preparation-away-from-base-mode",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-exercise-science",
@@ -2049,7 +2049,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-exercise-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-information-technology",
@@ -2068,7 +2068,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-information-technology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-information-technology-online",
@@ -2087,14 +2087,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-information-technology-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-languages",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Global studies and international development|Humanities and social sciences",
+    "faculty": "Arts, humanities and social sciences|Creative arts|Humanities and social sciences",
     "courseName": "Diploma in Languages",
     "level": "pathway",
     "description": "Want to learn Italian or Spanish? The Diploma in Languages is offered as a standalone course and can also be taken at the same time as your undergraduate degree.",
@@ -2106,7 +2106,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-languages",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-liberal-arts",
@@ -2125,7 +2125,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-liberal-arts",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-nutrition-science",
@@ -2144,7 +2144,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-nutrition-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-diploma-in-visual-arts-and-design",
@@ -2163,7 +2163,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/diploma-in-visual-arts-and-design",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-doctor-of-ministry",
@@ -2182,7 +2182,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/doctor-of-ministry",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-doctor-of-philosophy",
@@ -2201,7 +2201,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/doctor-of-philosophy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-foundation-studies",
@@ -2220,14 +2220,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/foundation-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-application-development",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Information technology",
+    "faculty": "Computer Science and IT|Information technology",
     "courseName": "Graduate Certificate in Application Development",
     "level": "postgraduate",
     "description": "The Graduate Certificate in Application Development develops advanced knowledge in developing industry-strength Web and mobile applications.",
@@ -2239,7 +2239,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-application-development",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-business-administration",
@@ -2258,7 +2258,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-business-administration",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-business-administration-online",
@@ -2277,7 +2277,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-business-administration-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-catholic-studies",
@@ -2296,7 +2296,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-catholic-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-clinical-nursing-online",
@@ -2315,7 +2315,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-clinical-nursing-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-culinary-nutrition-science",
@@ -2334,17 +2334,17 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-culinary-nutrition-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-cyber-security",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Information technology",
+    "faculty": "Computer Science and IT|Information technology",
     "courseName": "Graduate Certificate in Cyber Security",
     "level": "postgraduate",
-    "description": "The Graduate Certificate in Cyber Security covers the theoretical foundations and concepts needed to understand the security issues in a networked environment.For those wishing to study face-to-face, this course is offered on our North Sydney campus.We also offer the course fully online so you can study anywhere, anytime to suit your schedule.",
+    "description": "The Graduate Certificate in Cyber Security covers the theoretical foundations and concepts needed to understand the security issues in a networked environment. For those wishing to study face-to-face, this course is offered on our North Sydney campus. We also offer the course fully online so you can study anywhere, anytime to suit your schedule.",
     "duration": "Minimum Duration: 0.5 year full-time or equivalent part-time",
     "atar": null,
     "prerequisites": [],
@@ -2353,10 +2353,10 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-cyber-security",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
-    "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-cyber-security-online",
+    "id": "australian-catholic-university-https-studyonline-acu-edu-au-landing-postgraduate-cyber-security",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
@@ -2371,8 +2371,8 @@
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
-    "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-cyber-security-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "officialUrl": "https://studyonline.acu.edu.au/landing/postgraduate-cyber-security",
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-data-analytics",
@@ -2391,17 +2391,17 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-data-analytics",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-data-science",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Information technology",
+    "faculty": "Computer Science and IT|Information technology",
     "courseName": "Graduate Certificate in Data Science",
     "level": "postgraduate",
-    "description": "The Graduate Certificate in Data Science lays the foundation for developing the knowledge and skills to design, implement and administer large-scale database solutions for organisations, while preserving data privacy and security.For those wishing to study face-to-face, this course is offered on our North Sydney campus.We also offer the course fully online so you can study anywhere, anytime to suit your schedule.",
+    "description": "The Graduate Certificate in Data Science lays the foundation for developing the knowledge and skills to design, implement and administer large-scale database solutions for organisations, while preserving data privacy and security. For those wishing to study face-to-face, this course is offered on our North Sydney campus. We also offer the course fully online so you can study anywhere, anytime to suit your schedule.",
     "duration": "Minimum Duration: 0.5 year full-time or equivalent part-time",
     "atar": null,
     "prerequisites": [],
@@ -2410,14 +2410,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-data-science",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-studyonline-acu-edu-au-landing-digital-health",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration",
+    "faculty": "Public health and leadership|Public health and administration",
     "courseName": "Graduate Certificate in Digital Health (ACU Online)",
     "level": "postgraduate",
     "description": "The Graduate Certificate in Digital Health is designed to ensure that students develop an evidence-based foundation of digital health, and a sound understanding of the relevant concepts and application of digital health technologies to suit the health industry. The ethical underpinnings of the course will lead to the development of humanistic and ethical strategic directions for future selection of adoption of various digital health technologies.",
@@ -2429,14 +2429,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://studyonline.acu.edu.au/landing/digital-health",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-education",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching|Professional education",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Graduate Certificate in Education",
     "level": "postgraduate",
     "description": "Advance your career and become a specialist in your discipline area. The Graduate Certificate in Education will enable you to deepen your knowledge and expertise in a specialisation area and empower you to extend your understanding of educational disciplines.",
@@ -2448,14 +2448,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-education-research",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Professional education",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Graduate Certificate in Education Research",
     "level": "postgraduate",
     "description": "Take the next step in your career. The Graduate Certificate in Education Research is your pathway to PhD studies in Education",
@@ -2467,26 +2467,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-education-research",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
-  },
-  {
-    "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-educational-leadership",
-    "university": "Australian Catholic University",
-    "universitySlug": "australian-catholic-university",
-    "state": "NSW",
-    "faculty": "|Professional education",
-    "courseName": "Graduate Certificate in Educational Leadership",
-    "level": "postgraduate",
-    "description": "The Graduate Certificate in Educational Leadership is your next step to becoming an educational leader.",
-    "duration": "Minimum Duration: 0.5 year full-time or equivalent part-time",
-    "atar": null,
-    "prerequisites": [],
-    "assumedKnowledge": [],
-    "recommendedSubjects": [],
-    "secondarySubjects": [],
-    "careerOutcomes": [],
-    "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-educational-leadership",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-exercise-rehabilitation-for-sports-injuries-online",
@@ -2505,14 +2486,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-exercise-rehabilitation-for-sports-injuries-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-family-and-systemic-therapy",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Allied health|Humanities and social sciences",
+    "faculty": "Allied health|Arts, humanities and social sciences|Psychology|Humanities and social sciences",
     "courseName": "Graduate Certificate in Family and Systemic Therapy",
     "level": "postgraduate",
     "description": "Systemic and family therapy aims to assist families and complex human systems to mobilise their own strengths and relationships to make disturbing symptoms lessen",
@@ -2524,14 +2505,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-family-and-systemic-therapy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-global-health",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration|Allied health",
+    "faculty": "Public health and leadership",
     "courseName": "Graduate Certificate in Global Health",
     "level": "postgraduate",
     "description": "Gain advanced knowledge and skills in global health to advocate for and contribute to the health and well-being of populations throughout the world.",
@@ -2543,14 +2524,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-global-health",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-health-professional-education-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration|Nursing, midwifery and paramedicine",
+    "faculty": "Public health and leadership|Public health and administration",
     "courseName": "Graduate Certificate in Health Professional Education (ACU Online)",
     "level": "postgraduate",
     "description": "This fully-online course provides the flexibility of online learning. The course extends students’ knowledge, critical thinking skills in relation to health professional education and its integral relationship to quality and safe patient care.",
@@ -2562,14 +2543,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-health-professional-education-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-high-performance-sport-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Sport and exercise science",
+    "faculty": "Exercise and sport science",
     "courseName": "Graduate Certificate in High Performance Sport (ACU Online)",
     "level": "postgraduate",
     "description": "Gain the knowledge and skills needed to enhance the conditioning of high performance athletes, with the aim of optimising individual and team performance.",
@@ -2581,14 +2562,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-high-performance-sport-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-higher-education",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Professional education|Teaching",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Graduate Certificate in Higher Education",
     "level": "postgraduate",
     "description": "This course is designed for teachers and other educational professionals who want to improve their tertiary teaching and gain formal qualifications in post-secondary education.",
@@ -2600,7 +2581,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-higher-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-information-technology",
@@ -2619,7 +2600,26 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-information-technology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
+  },
+  {
+    "id": "australian-catholic-university-https-studyonline-acu-edu-au-landing-postgraduate-it",
+    "university": "Australian Catholic University",
+    "universitySlug": "australian-catholic-university",
+    "state": "NSW",
+    "faculty": "Business|Computer Science and IT|Information technology",
+    "courseName": "Graduate Certificate in Information Technology (ACU Online)",
+    "level": "postgraduate",
+    "description": "The Graduate Certificate in Information Technology provides you with the introduction to important information technology principles.",
+    "duration": "Minimum Duration: 0.5 year full-time or equivalent part-time",
+    "atar": null,
+    "prerequisites": [],
+    "assumedKnowledge": [],
+    "recommendedSubjects": [],
+    "secondarySubjects": [],
+    "careerOutcomes": [],
+    "officialUrl": "https://studyonline.acu.edu.au/landing/postgraduate-it/",
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-innovation-and-entrepreneurship",
@@ -2638,14 +2638,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-innovation-and-entrepreneurship",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-leadership-and-catholic-culture",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Business|Theology",
+    "faculty": "Theology and philosophy|Theology|Philosophy",
     "courseName": "Graduate Certificate in Leadership and Catholic Culture",
     "level": "postgraduate",
     "description": "Effective leadership in Catholic organisations is not only about engaging the energies of their people, it is also about tapping into each person’s motivation to achieve something worthwhile and focusing that motivation upon a task that is worth their commitment.",
@@ -2657,14 +2657,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-leadership-and-catholic-culture",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-leadership-and-management-in-healthcare-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Allied health|Public health and administration",
+    "faculty": "Public health and leadership",
     "courseName": "Graduate Certificate in Leadership and Management in Healthcare (ACU Online)",
     "level": "postgraduate",
     "description": "Gain skills to examine organisational culture, management concepts, governance and quality improvement within the health care workplace.",
@@ -2676,7 +2676,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-leadership-and-management-in-healthcare-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-mental-health-online",
@@ -2695,14 +2695,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-mental-health-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-mission-and-culture",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology",
+    "faculty": "Theology and philosophy|Theology",
     "courseName": "Graduate Certificate in Mission and Culture",
     "level": "postgraduate",
     "description": "The Graduate Certificate in Mission and Catholic Culture is designed to meet the formative needs of educational professionals working in Catholic institutions of higher education or other faith-based organisations with regard to their appreciation of and alignment with the mission and culture of Catholic institutions of education, and more specifically higher education",
@@ -2714,7 +2714,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-mission-and-culture",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-occupational-health-safety-and-environmental-management-online",
@@ -2733,14 +2733,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-occupational-health-safety-and-environmental-management-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-public-health",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration",
+    "faculty": "Public health and leadership",
     "courseName": "Graduate Certificate in Public Health",
     "level": "postgraduate",
     "description": "Gain knowledge, understanding and skills in public health to improve population health and well-being and practice with a community, national or global focus.",
@@ -2752,7 +2752,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-public-health",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-religious-education",
@@ -2771,14 +2771,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-religious-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-religious-education-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching|Professional education",
+    "faculty": "Teaching and education|Theology and philosophy|Teaching|Theology",
     "courseName": "Graduate Certificate in Religious Education (ACU Online)",
     "level": "postgraduate",
     "description": "The Graduate Certificate in Religious Education is for primary and secondary school teachers who want to teach religious education.",
@@ -2790,14 +2790,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-religious-education-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-sports-analytics-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Sport and exercise science",
+    "faculty": "Exercise and sport science|Sport and exercise science",
     "courseName": "Graduate Certificate in Sports Analytics (ACU Online)",
     "level": "postgraduate",
     "description": "The Graduate Certificate in Sports Analytics is designed to ensure that you develop an evidence-based foundation in sports analytics, and a sound understanding of the relevant concepts and application of data science and technologies to suit the sports industry. The degree is delivered online, with a curriculum that will provide knowledge and skills immediately applicable to employment situations.",
@@ -2809,14 +2809,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-sports-analytics-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-supervision",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology",
+    "faculty": "Theology and philosophy|Theology|Philosophy",
     "courseName": "Graduate Certificate in Supervision",
     "level": "postgraduate",
     "description": "In line with community professional standards, students are trained and develop the necessary skills for professional practice as supervisors across a variety of contexts.",
@@ -2828,14 +2828,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-supervision",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-certificate-in-theological-studies",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology|Philosophy",
+    "faculty": "Theology and philosophy|Arts, humanities and social sciences|Humanities and social sciences|Theology",
     "courseName": "Graduate Certificate in Theological Studies",
     "level": "postgraduate",
     "description": "This course gives graduates in other disciplines a basic foundation in Christian theology, as well as allowing theology graduates the opportunity to extend their knowledge in specific",
@@ -2847,14 +2847,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-certificate-in-theological-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-australian-migration-law-and-practice",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Law|Law and criminology",
+    "faculty": "Law and criminology",
     "courseName": "Graduate Diploma in Australian Migration Law and Practice",
     "level": "diploma",
     "description": "The Graduate Diploma in Australian Migration Law and Practice will equip students to practice as qualified migration agents in Australia.",
@@ -2866,7 +2866,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-australian-migration-law-and-practice",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-business-administration",
@@ -2885,7 +2885,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-business-administration",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-clinical-nursing-online",
@@ -2904,14 +2904,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-clinical-nursing-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-design-and-technologies-education",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Professional education|Teaching",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Graduate Diploma in Design and Technologies Education",
     "level": "diploma",
     "description": "The Graduate Diploma in Design and Technologies Education meets the needs of teachers looking to upskill and gain professional recognition to teach students in design and technologies.",
@@ -2923,14 +2923,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-design-and-technologies-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-family-and-systemic-therapy",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Allied health",
+    "faculty": "Allied health|Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Graduate Diploma in Family and Systemic Therapy",
     "level": "diploma",
     "description": "Systemic and family therapy aims to assist families and complex human systems to mobilise their own strengths and relationships to make disturbing symptoms less problematic for suffering individuals",
@@ -2942,14 +2942,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-family-and-systemic-therapy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-health-professional-education-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration",
+    "faculty": "Public health and leadership|Public health and administration",
     "courseName": "Graduate Diploma in Health Professional Education (ACU Online)",
     "level": "diploma",
     "description": "Develop skills in designing, implementing and evaluating clinical education programs within the health care workplace, with a focus on ethics.",
@@ -2961,14 +2961,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-health-professional-education-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-high-performance-sport-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Sport and exercise science",
+    "faculty": "Exercise and sport science|Sport and exercise science",
     "courseName": "Graduate Diploma in High Performance Sport (ACU Online)",
     "level": "diploma",
     "description": "Gain the knowledge and skills needed to enhance the conditioning of high performance athletes, with the aim of optimising individual and team performance.",
@@ -2980,14 +2980,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-high-performance-sport-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-leadership-and-management-in-healthcare-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration|Allied health",
+    "faculty": "Public health and leadership|Public health and administration",
     "courseName": "Graduate Diploma in Leadership and Management in Healthcare (ACU Online)",
     "level": "diploma",
     "description": "Build on your administrative or management foundations by evaluating current approaches to policy development and implementation in health care delivery.",
@@ -2999,7 +2999,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-leadership-and-management-in-healthcare-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-mental-health-online",
@@ -3018,7 +3018,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-mental-health-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-studyonline-acu-edu-au-landing-mh-nursing",
@@ -3037,7 +3037,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://studyonline.acu.edu.au/landing/mh-nursing",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-occupational-health-safety-and-environmental-management-online",
@@ -3056,14 +3056,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-occupational-health-safety-and-environmental-management-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-psychology-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Psychology",
+    "faculty": "Psychology|Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Graduate Diploma in Psychology (ACU Online)",
     "level": "diploma",
     "description": "This course offers bachelor-qualified students of any discipline, the opportunity to qualify with a Level 1 Bachelor of Psychology in accelerated time.",
@@ -3075,14 +3075,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-psychology-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-public-health",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration|Allied health",
+    "faculty": "Public health and leadership",
     "courseName": "Graduate Diploma in Public Health",
     "level": "diploma",
     "description": "Gain advanced knowledge, understanding and skills in public health to improve population health and well-being, with a community, national or global focus.",
@@ -3094,14 +3094,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-public-health",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-spiritual-direction",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology",
+    "faculty": "Theology and philosophy|Theology",
     "courseName": "Graduate Diploma in Spiritual Direction",
     "level": "diploma",
     "description": "The Graduate Diploma in Spiritual Direction is coursework degree for those who are interested in becoming a spiritual director, but do not have formal background in theology. You will develop knowledge, understanding and the foundational skills suited to the ethical, self-aware and safe practice of spiritual direction in the Ignatian tradition, normally in Christian contexts.",
@@ -3113,14 +3113,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-spiritual-direction",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-graduate-diploma-in-theological-studies",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology|Philosophy|Humanities and social sciences",
+    "faculty": "Theology and philosophy|Arts, humanities and social sciences|Theology|Humanities and social sciences",
     "courseName": "Graduate Diploma in Theological Studies",
     "level": "diploma",
     "description": "The Graduate Diploma Theological Studies is a coursework award providing pathways for graduates in other disciplines to gain a foundation in the study of Christian Theology.",
@@ -3132,14 +3132,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/graduate-diploma-in-theological-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-studyonline-acu-edu-au-landing-ai-courses",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Information technology",
+    "faculty": "Business|Computer Science and IT|Information technology",
     "courseName": "Master of Artificial Intelligence (ACU Online)",
     "level": "postgraduate",
     "description": "Accelerate your career with a Master of Artificial Intelligence. Gain the expertise to design intelligent, ethical, and human-centred technologies that transform industries and empower communities. You’ll graduate with the skills to lead innovation, solve complex challenges, and help create flourishing lives, thriving communities, and an ethical future.",
@@ -3151,14 +3151,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://studyonline.acu.edu.au/landing/ai-courses",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-australian-migration-law-and-practice",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Law|Law and criminology",
+    "faculty": "Law and criminology",
     "courseName": "Master of Australian Migration Law and Practice",
     "level": "postgraduate",
     "description": "The Master of Australian Migration Law and Practice is for individuals seeking to accelerate their career through extended subject knowledge and improved personal and professional skills. After completing the Graduate Diploma you can choose from a series of electives to deepen your knowledge and enhance your career ambitions.",
@@ -3170,7 +3170,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-australian-migration-law-and-practice",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-business-administration",
@@ -3180,7 +3180,7 @@
     "faculty": "Business",
     "courseName": "Master of Business Administration",
     "level": "postgraduate",
-    "description": "Advance your career with our unique MBA structure that allows you to design your own specialist qualification to suit your individual professional journey. Choose four open electives in specialist areas such as health, education, marketing, human resources or information technology. You can even apply for credit from any relevant postgraduate study you may already hold from any university.Become a well-rounded management professional with an MBA that puts ethics and sustainability at the forefront.",
+    "description": "Advance your career with our unique MBA structure that allows you to design your own specialist qualification to suit your individual professional journey. Choose four open electives in specialist areas such as health, education, marketing, human resources or information technology. You can even apply for credit from any relevant postgraduate study you may already hold from any university. Become a well-rounded management professional with an MBA that puts ethics and sustainability at the forefront.",
     "duration": "Minimum Duration: 2 years full-time or equivalent part-time",
     "atar": null,
     "prerequisites": [],
@@ -3189,7 +3189,25 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-business-administration",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
+  },
+  {
+    "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-business-administration-via-emeritus",
+    "university": "Australian Catholic University",
+    "universitySlug": "australian-catholic-university",
+    "state": "NSW",
+    "faculty": "Business",
+    "courseName": "Master of Business Administration",
+    "level": "postgraduate",
+    "description": "Advance your career with our MBA to become a well-rounded management professional with an MBA that puts ethics and sustainability at the forefront",
+    "atar": null,
+    "prerequisites": [],
+    "assumedKnowledge": [],
+    "recommendedSubjects": [],
+    "secondarySubjects": [],
+    "careerOutcomes": [],
+    "officialUrl": "https://www.acu.edu.au/course/master-of-business-administration-via-emeritus",
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-business-administration-online",
@@ -3208,7 +3226,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-business-administration-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-clinical-exercise-physiology",
@@ -3227,7 +3245,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-clinical-exercise-physiology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-clinical-nursing-online",
@@ -3246,14 +3264,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-clinical-nursing-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-clinical-psychology-post-registration-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Psychology",
+    "faculty": "Psychology|Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Master of Clinical Psychology (Post Registration) (ACU Online)",
     "level": "postgraduate",
     "description": "Post-registration sixth year program in psychology. Acquire APAC Level 4 professional competencies to prepare for professional practice and research in clinical psychology.",
@@ -3265,7 +3283,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-clinical-psychology-post-registration-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-dietetic-practice",
@@ -3284,7 +3302,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-dietetic-practice",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-education",
@@ -3303,14 +3321,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-educational-leadership",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Professional education|Teaching",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Master of Educational Leadership",
     "level": "postgraduate",
     "description": "Equip yourself to be an educational leader with impact. The Master of Educational Leadership is a research-driven and critically conscious program that will help you shape education for individuals and communities.",
@@ -3322,14 +3340,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-educational-leadership",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-family-and-systemic-therapy",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Allied health",
+    "faculty": "Allied health|Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Master of Family and Systemic Therapy",
     "level": "postgraduate",
     "description": "Systemic and family therapy aims to assist families and complex human systems to mobilise their own strengths and relationships to make disturbing symptoms less problematic for suffering individuals.",
@@ -3341,14 +3359,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-family-and-systemic-therapy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-health-professional-education-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration",
+    "faculty": "Public health and leadership|Public health and administration",
     "courseName": "Master of Health Professional Education (ACU Online)",
     "level": "postgraduate",
     "description": "Evaluate issues and challenges; connect theory, practice and research; conceptualise new and creative approaches to clinical education in healthcare settings.",
@@ -3360,14 +3378,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-health-professional-education-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-high-performance-sport-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Sport and exercise science",
+    "faculty": "Exercise and sport science|Sport and exercise science",
     "courseName": "Master of High Performance Sport (ACU Online)",
     "level": "postgraduate",
     "description": "This degree focuses on preparation and performance of high performance athletes, including technological advances for athlete monitoring, strength and conditioning and more.",
@@ -3379,7 +3397,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-high-performance-sport-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-information-technology",
@@ -3398,26 +3416,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-information-technology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
-  },
-  {
-    "id": "australian-catholic-university-https-studyonline-acu-edu-au-landing-postgraduate-it",
-    "university": "Australian Catholic University",
-    "universitySlug": "australian-catholic-university",
-    "state": "NSW",
-    "faculty": "Information technology|Business",
-    "courseName": "Master of Information Technology (ACU Online)",
-    "level": "postgraduate",
-    "description": "Graduates in the Master of Information Technology gain high-level specialised ICT skills and understand integrated information systems in business.",
-    "duration": "Minimum Duration: 2 years full-time or equivalent part-time",
-    "atar": null,
-    "prerequisites": [],
-    "assumedKnowledge": [],
-    "recommendedSubjects": [],
-    "secondarySubjects": [],
-    "careerOutcomes": [],
-    "officialUrl": "https://studyonline.acu.edu.au/landing/postgraduate-it/",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-leadership-and-management-in-health-care",
@@ -3436,14 +3435,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-leadership-and-management-in-health-care",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-leadership-and-management-in-healthcare-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration|Allied health",
+    "faculty": "Public health and leadership|Public health and administration",
     "courseName": "Master of Leadership and Management in Healthcare (ACU Online)",
     "level": "postgraduate",
     "description": "Expand your knowledge and skills in healthcare. Evaluate issues and challenges that confront the industry; conceptualise new and creative approaches.",
@@ -3455,14 +3454,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-leadership-and-management-in-healthcare-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-liberal-arts-western-civilisation",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Humanities and social sciences",
+    "faculty": "Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Master of Liberal Arts (Western Civilisation)",
     "level": "postgraduate",
     "description": "Deepen and broaden your knowledge and expertise of Western culture by studying the great works of history, literature, philosophy and arts. You will engage with the great works that have emerged from over 2500 years of Western civilisation and develop and critical appreciation of that heritage.",
@@ -3474,7 +3473,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-liberal-arts-western-civilisation",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-mental-health-online",
@@ -3493,7 +3492,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-mental-health-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-occupational-health-safety-and-environmental-management-online",
@@ -3512,7 +3511,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-occupational-health-safety-and-environmental-management-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-philosophy",
@@ -3531,7 +3530,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-philosophy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-professional-accounting",
@@ -3550,7 +3549,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-professional-accounting",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-professional-psychology",
@@ -3569,7 +3568,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-professional-psychology",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-psychology-clinical",
@@ -3588,14 +3587,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-psychology-clinical",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-psychology-clinicaldoctor-of-philosophy",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Psychology",
+    "faculty": "Psychology|Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Master of Psychology (Clinical)/Doctor of Philosophy",
     "level": "postgraduate",
     "description": "These concurrent degrees combine professional training within clinical psychology with a research Doctor of Philosophy (PhD).",
@@ -3607,14 +3606,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-psychology-clinicaldoctor-of-philosophy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-psychology-educational-and-developmental",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Psychology",
+    "faculty": "Psychology|Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Master of Psychology (Educational and Developmental)",
     "level": "postgraduate",
     "description": "A fifth and sixth year psychology degree. Acquire knowledge and skills for professional practice and research in educational and developmental psychology.",
@@ -3626,14 +3625,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-psychology-educational-and-developmental",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-psychology-educational-and-developmentaldoctor-of-philosophy",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Psychology",
+    "faculty": "Psychology|Arts, humanities and social sciences|Human and social sciences",
     "courseName": "Master of Psychology (Educational and Developmental)/Doctor of Philosophy",
     "level": "postgraduate",
     "description": "These concurrent degrees combine professional training within educational and developmental psychology with a research Doctor of Philosophy (PhD).",
@@ -3645,14 +3644,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-psychology-educational-and-developmentaldoctor-of-philosophy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-public-health",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration",
+    "faculty": "Public health and leadership",
     "courseName": "Master of Public Health",
     "level": "postgraduate",
     "description": "Gain knowledge and skills in public health to improve and advance population health and well-being, and practice with a community, national or global focus.",
@@ -3664,17 +3663,17 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-public-health",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-public-health-global-health-and-advocacy",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Public health and administration",
+    "faculty": "Public health and leadership",
     "courseName": "Master of Public Health (Global Health and Advocacy)",
     "level": "postgraduate",
-    "description": "ACU’s Master of Public Health equips graduates with specialised knowledge, understanding and skills in public health to improve and advance population health and well-being.",
+    "description": "ACU’s Master of Public Health (Global Health advocacy) equips graduates with specialised knowledge, understanding and skills in public health to improve and advance population health and well-being.",
     "duration": "Minimum Duration: 2 years full-time or equivalent part-time",
     "atar": null,
     "prerequisites": [],
@@ -3683,14 +3682,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-public-health-global-health-and-advocacy",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-religious-education",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Professional education|Theology",
+    "faculty": "Teaching and education|Theology and philosophy|Teaching|Theology",
     "courseName": "Master of Religious Education",
     "level": "postgraduate",
     "description": "This course is designed for students who want to become leaders in religious education at a school, parish, or diocesan level or those with a special interest in religious education.",
@@ -3702,7 +3701,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-religious-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-social-work-qualifying",
@@ -3721,14 +3720,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-social-work-qualifying",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-social-work-qualifying-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Allied health",
+    "faculty": "Allied health|Arts, humanities and social sciences|Humanities and social sciences",
     "courseName": "Master of Social Work (Qualifying) (ACU Online)",
     "level": "postgraduate",
     "description": "The Master of Social Work is a vibrant and challenging program that encourages you to build on your existing knowledge and experience as well as providing a sound understanding of social work values and practice approaches.",
@@ -3740,14 +3739,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-social-work-qualifying-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-spiritual-direction",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology",
+    "faculty": "Theology and philosophy|Theology",
     "courseName": "Master of Spiritual Direction",
     "level": "postgraduate",
     "description": "The Master of Spiritual Direction is a coursework degree for graduates who have a background in theology and an interest in developing a specialisation in spiritual direction. Students develop knowledge, understanding and advanced skills suited to the ethical, self-aware and safe practice of spiritual direction in the Ignatian tradition, normally in Christian contexts.",
@@ -3759,14 +3758,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-spiritual-direction",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-sports-and-exercise-physiotherapy-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Allied health",
+    "faculty": "Allied health|Exercise and sport science|Sports and exercise science",
     "courseName": "Master of Sports and Exercise Physiotherapy (ACU Online)",
     "level": "postgraduate",
     "description": "The Master of Sports and Exercise Physiotherapy will provide physiotherapists with the opportunity to acquire advanced theoretical, scientific and clinical knowledge of normal and pathological human movement as it relates to sports, exercise, performance, injuries, pathology and disease.",
@@ -3778,14 +3777,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-sports-and-exercise-physiotherapy-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-sports-and-exercise-physiotherapymaster-of-high-performance-sport-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Allied health",
+    "faculty": "Allied health|Exercise and sport science|Sport and exercise science",
     "courseName": "Master of Sports and Exercise Physiotherapy/ Master of High Performance Sport",
     "level": "postgraduate",
     "description": "Gain the knowledge and technical skills to work with athletes and people of all ages and abilities, in community, elite or high performance sport and exercise settings. The course emphasises the application and integration of these knowledge and specialised technical skills in an ethical manner that promotes the dignity of the individual.",
@@ -3797,14 +3796,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-sports-and-exercise-physiotherapymaster-of-high-performance-sport-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-teaching-early-childhood-and-primary",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Master of Teaching (Early Childhood and Primary)",
     "level": "postgraduate",
     "description": "This course cultivates graduates to be articulate and passionate teachers who are committed to the generation and dissemination of knowledge, skills and attitudes that can facilitate the implementation of high quality early childhood and primary education for all children.",
@@ -3816,14 +3815,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-teaching-early-childhood-and-primary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-teaching-early-childhood-and-primary-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Master of Teaching (Early Childhood and Primary) (ACU Online)",
     "level": "postgraduate",
     "description": "This course cultivates graduates to be articulate and passionate teachers who are committed to the generation and dissemination of knowledge, skills and attitudes that can facilitate the implementation of high quality early childhood and primary education for all children.",
@@ -3835,14 +3834,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-teaching-early-childhood-and-primary-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-teaching-early-childhood-and-primarygraduate-certificate-in-religious-education",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching|Theology",
+    "faculty": "Teaching and education|Theology and philosophy|Teaching|Theology",
     "courseName": "Master of Teaching (Early Childhood and Primary)/Graduate Certificate in Religious Education",
     "level": "postgraduate",
     "description": "This course cultivates graduates to be articulate and passionate teachers who are committed to the generation and dissemination of knowledge, skills and attitudes that can facilitate the implementation of high quality early childhood and primary education for all children. Combine the Graduate Certificate in Religious Education with this course to gain the certification and knowledge to teach Religious Education in Catholic Schools.",
@@ -3854,14 +3853,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-teaching-early-childhood-and-primarygraduate-certificate-in-religious-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-teaching-early-childhood-and-primarygraduate-certificate-in-religious-education-online",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching|Theology",
+    "faculty": "Theology and philosophy|Teaching and education|Teaching|Theology",
     "courseName": "Master of Teaching (Early Childhood and Primary)/Graduate Certificate in Religious Education (ACU Online)",
     "level": "postgraduate",
     "description": "This course cultivates graduates to be articulate and passionate teachers who are committed to the generation and dissemination of knowledge, skills and attitudes that can facilitate the implementation of high quality early childhood and primary education for all children. Combine the Graduate Certificate in Religious Education with this course to gain the certification and knowledge to teach Religious Education in Catholic Schools.",
@@ -3873,14 +3872,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-teaching-early-childhood-and-primarygraduate-certificate-in-religious-education-online",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-teaching-primary",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching|Professional education",
+    "faculty": "Teaching|Professional education|Teaching and education",
     "courseName": "Master of Teaching (Primary)",
     "level": "postgraduate",
     "description": "Our primary education degrees are innovative, inquiry-based and future-focused. Studying primary education at ACU is your opportunity to be rewarded with a creative and challenging career, inspiring young children and future generations.",
@@ -3892,14 +3891,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-teaching-primary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-teaching-primarygraduate-certificate-in-religious-education",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Teaching|Theology",
+    "faculty": "Teaching and education|Theology and philosophy",
     "courseName": "Master of Teaching (Primary)/Graduate Certificate in Religious Education",
     "level": "postgraduate",
     "description": "Combine the Graduate Certificate in Religious Education with the Master of Teaching (Primary) to gain the certification to teach Religious Education in Catholic Schools. This is your opportunity to be rewarded with a career inspiring young children and future generations.",
@@ -3911,14 +3910,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-teaching-primarygraduate-certificate-in-religious-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-teaching-secondary",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Business|Humanities and social sciences|Teaching|Professional education|Theology|Creative arts",
+    "faculty": "Teaching and education|Teaching",
     "courseName": "Master of Teaching (Secondary)",
     "level": "postgraduate",
     "description": "This course is designed for graduates who want to influence and inspire future generations by becoming a secondary school teacher.",
@@ -3930,7 +3929,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-teaching-secondary",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-teaching-secondarygraduate-certificate-in-religious-education",
@@ -3949,14 +3948,14 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-teaching-secondarygraduate-certificate-in-religious-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-master-of-theological-studies",
     "university": "Australian Catholic University",
     "universitySlug": "australian-catholic-university",
     "state": "NSW",
-    "faculty": "Theology|Philosophy",
+    "faculty": "Theology and philosophy|Arts, humanities and social sciences|Theology|Humanities and social sciences",
     "courseName": "Master of Theological Studies",
     "level": "postgraduate",
     "description": "The Master of Theological Studies is a coursework degree for students seeking to develop mastery of theological knowledge and develop skills in communicating that knowledge.",
@@ -3968,7 +3967,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/master-of-theological-studies",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-postgraduate-education-and-arts-cross-institutional-study",
@@ -3986,7 +3985,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/postgraduate-education-and-arts-cross-institutional-study",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-postgraduate-health-sciences-cross-institutional-study",
@@ -4004,7 +4003,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/postgraduate-health-sciences-cross-institutional-study",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-postgraduate-individual-unit",
@@ -4022,7 +4021,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/postgraduate-individual-unit",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-postgraduate-law-and-business-cross-institutional-study",
@@ -4040,7 +4039,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/postgraduate-law-and-business-cross-institutional-study",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-postgraduate-theology-cross-institutional-study",
@@ -4058,7 +4057,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/postgraduate-theology-cross-institutional-study",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-professional-learning-in-higher-education",
@@ -4077,7 +4076,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/professional-learning-in-higher-education",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-tertiary-preparation-program-health-sciences",
@@ -4096,7 +4095,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/tertiary-preparation-program-health-sciences",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-undergraduate-education-and-arts-cross-institutional-study",
@@ -4114,7 +4113,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/undergraduate-education-and-arts-cross-institutional-study",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-undergraduate-health-sciences-cross-institutional-study",
@@ -4132,7 +4131,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/undergraduate-health-sciences-cross-institutional-study",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-undergraduate-individual-unit",
@@ -4150,7 +4149,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/undergraduate-individual-unit",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-undergraduate-law-and-business-cross-institutional-study",
@@ -4168,7 +4167,7 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/undergraduate-law-and-business-cross-institutional-study",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   },
   {
     "id": "australian-catholic-university-https-www-acu-edu-au-course-undergraduate-theology-cross-institutional-study",
@@ -4186,6 +4185,6 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.acu.edu.au/course/undergraduate-theology-cross-institutional-study",
-    "lastUpdated": "2026-04-16T00:00:00.000Z"
+    "lastUpdated": "2026-05-18T17:54:57.282Z"
   }
 ]

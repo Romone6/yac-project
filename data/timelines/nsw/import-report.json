@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-06-06T00:33:14.104Z",
+  "output": "data/timelines/nsw/admission-rounds.json",
+  "sources_checked": 13,
+  "sources_ok": 6,
+  "statuses": [
+    {
+      "provider": "UAC",
+      "url": "https://www.uac.edu.au/key-dates",
+      "ok": true,
+      "status": 200,
+      "bytes": 360619
+    },
+    {
+      "provider": "UAC",
+      "url": "https://www.uac.edu.au/current-applicants/undergraduate-applications-and-offers",
+      "ok": true,
+      "status": 200,
+      "bytes": 152789
+    },
+    {
+      "provider": "UAC",
+      "url": "https://www.uac.edu.au/current-applicants/undergraduate-applications-and-offers/early-offer-schemes-for-year-12-students",
+      "ok": true,
+      "status": 200,
+      "bytes": 127821
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.unsw.edu.au/study/how-to-apply/undergraduate/admission-pathways/gateway",
+      "ok": true,
+      "status": 200,
+      "bytes": 159193
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.uts.edu.au/study/undergraduate/admission-requirements/admission-schemes/year-12-early-entry-program",
+      "ok": false,
+      "status": 404,
+      "bytes": 94789
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.uow.edu.au/study/apply/early-admission/",
+      "ok": false,
+      "status": 404,
+      "bytes": 33469
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.newcastle.edu.au/study/undergraduate/getting-in/entry-schemes/early-entry-program",
+      "ok": false,
+      "status": 403,
+      "bytes": 10018
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.mq.edu.au/study/admissions-and-entry/undergraduate/entry-requirements/early-entry",
+      "ok": false,
+      "status": 403,
+      "bytes": 10032
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.westernsydney.edu.au/future/study/application-pathways/hsc-true-reward",
+      "ok": true,
+      "status": 200,
+      "bytes": 193042
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.une.edu.au/study/study-on-campus/early-entry",
+      "ok": false,
+      "status": 403,
+      "bytes": 9828
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.scu.edu.au/study-at-scu/high-school-students/star-early-offer/",
+      "ok": false,
+      "status": 404,
+      "bytes": 107506
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.csu.edu.au/study/high-school-students/early-offer-program",
+      "ok": false,
+      "status": 403,
+      "bytes": 5777
+    },
+    {
+      "provider": "NSW universities",
+      "url": "https://www.acu.edu.au/study-at-acu/admission-pathways/acu-guarantee",
+      "ok": true,
+      "status": 200,
+      "bytes": 212686
+    }
+  ]
+}

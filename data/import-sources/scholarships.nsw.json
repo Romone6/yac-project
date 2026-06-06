@@ -1,0 +1,153 @@
+{
+  "generated_at": null,
+  "region": "NSW",
+  "source_policy": "Official provider, government, institution, and established regional-support sources only. Imported records must keep official source_url and last_verified_at.",
+  "providers": [
+    {
+      "provider": "Universities Admissions Centre",
+      "institution": "UAC participating institutions",
+      "slug": "uac",
+      "sources": [
+        "https://www.uac.edu.au/future-applicants/scholarships-and-schemes/equity-scholarships",
+        "https://www.uac.edu.au/key-dates"
+      ]
+    },
+    {
+      "provider": "Services Australia",
+      "institution": "Australian Government",
+      "slug": "services-australia",
+      "sources": [
+        "https://www.servicesaustralia.gov.au/tertiary-access-payment",
+        "https://www.servicesaustralia.gov.au/relocation-scholarship"
+      ]
+    },
+    {
+      "provider": "NSW Health",
+      "institution": "NSW Health",
+      "slug": "nsw-health",
+      "sources": [
+        "https://www.health.nsw.gov.au/nursing/scholarship/Pages/undergrad_clinical.aspx",
+        "https://www.health.nsw.gov.au/nursing/scholarship/Pages/default.aspx"
+      ]
+    },
+    {
+      "provider": "Country Education Foundation of Australia",
+      "institution": "Local CEF foundations",
+      "slug": "cef",
+      "sources": [
+        "https://cef.org.au/student-support-program/",
+        "https://cef.org.au/scholarships-guide/"
+      ]
+    },
+    {
+      "provider": "Australian Catholic University",
+      "institution": "Australian Catholic University",
+      "slug": "acu",
+      "sources": [
+        "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship",
+        "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-accommodation-scholarship",
+        "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/indigenous-commonwealth-accommodation-scholarship",
+        "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-relocation-scholarship"
+      ]
+    },
+    {
+      "provider": "Charles Sturt University",
+      "institution": "Charles Sturt University",
+      "slug": "csu",
+      "sources": [
+        "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/equity",
+        "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation",
+        "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/grants"
+      ]
+    },
+    {
+      "provider": "Macquarie University",
+      "institution": "Macquarie University",
+      "slug": "macquarie",
+      "sources": [
+        "https://www.mq.edu.au/study/admissions-and-entry/scholarships",
+        "https://www.mq.edu.au/about/about-the-university/indigenous-engagement-and-initiatives/engage-with-walanga-muru/student-engagement/early-entry-scholarships",
+        "https://www.mq.edu.au/research/phd-and-research-degrees/how-to-apply/scholarship-opportunities/scholarship-search/indigenous-research-excellence-scholarship"
+      ]
+    },
+    {
+      "provider": "Southern Cross University",
+      "institution": "Southern Cross University",
+      "slug": "scu",
+      "sources": [
+        "https://www.scu.edu.au/scholarships/",
+        "https://www.scu.edu.au/scholarships/scu-equity-scholarships/",
+        "https://www.scu.edu.au/scholarships/commonwealth-indigenous-scholarships/"
+      ]
+    },
+    {
+      "provider": "University of Newcastle",
+      "institution": "University of Newcastle",
+      "slug": "newcastle",
+      "sources": [
+        "https://www.newcastle.edu.au/scholarships",
+        "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program",
+        "https://www.newcastle.edu.au/study/international/scholarships"
+      ]
+    },
+    {
+      "provider": "University of New England",
+      "institution": "University of New England",
+      "slug": "une",
+      "sources": [
+        "https://www.une.edu.au/scholarships",
+        "https://www.une.edu.au/scholarships/new-student-scholarships",
+        "https://www.une.edu.au/scholarships/new-student-scholarships/wilmot-residential-scholarship"
+      ]
+    },
+    {
+      "provider": "UNSW Sydney",
+      "institution": "UNSW Sydney",
+      "slug": "unsw",
+      "sources": [
+        "https://www.scholarships.unsw.edu.au/scholarships",
+        "https://www.scholarships.unsw.edu.au/scholarships/id/1878",
+        "https://www.scholarships.unsw.edu.au/scholarships/id/1891"
+      ]
+    },
+    {
+      "provider": "University of Sydney",
+      "institution": "University of Sydney",
+      "slug": "sydney",
+      "sources": [
+        "https://www.sydney.edu.au/scholarships/",
+        "https://www.sydney.edu.au/scholarships/domestic.html"
+      ]
+    },
+    {
+      "provider": "University of Technology Sydney",
+      "institution": "University of Technology Sydney",
+      "slug": "uts",
+      "sources": [
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search",
+        "https://www.uts.edu.au/current-students/opportunities/scholarships-prizes-and-awards/scholarships-uts/equal-access-scholarship"
+      ]
+    },
+    {
+      "provider": "University of Wollongong",
+      "institution": "University of Wollongong",
+      "slug": "uow",
+      "sources": [
+        "https://www.uow.edu.au/study/scholarships/",
+        "https://www.uow.edu.au/study/scholarships/domestic/equity-scholarships/",
+        "https://www.uow.edu.au/study/scholarships/regional-scholarships/"
+      ]
+    },
+    {
+      "provider": "Western Sydney University",
+      "institution": "Western Sydney University",
+      "slug": "western-sydney",
+      "sources": [
+        "https://www.westernsydney.edu.au/scholarships",
+        "https://www.westernsydney.edu.au/scholarships/important-dates/equity",
+        "https://www.westernsydney.edu.au/scholarships/all-scholarships/community"
+      ]
+    }
+  ]
+}

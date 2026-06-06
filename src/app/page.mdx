@@ -1,75 +1,97 @@
 import { Container } from "@/components/Container";
-import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { SecondaryButton } from "@/components/SecondaryButton";
 
 export const metadata = {
-  title: "Pathway to Entry | Home",
+  title: "Pathway to Entry | Regional NSW post-school pathways",
   description:
-    "Pathway to Entry is a NSW YAC–aligned project examining why regional students disengage between choosing a post-school pathway and reaching entry — and designing practical program responses.",
+    "Pathway to Entry brings together student consultation, practical pathway tools, application timelines, scholarship information and financial support resources for regional NSW students.",
 };
 
-{/* Update content in this file as the project evolves. */}
-<Container className="space-y-12">
-  <PageHeader
-    eyebrow="NSW YAC–Aligned Policy Project"
-    title="Pathway to Entry"
-    summary="Pathway to Entry is a NSW YAC–aligned project examining why regional students disengage between choosing a post-school pathway and reaching entry — and designing practical program responses."
-  >
-    {/* Update CTA destinations when consultation links are finalised. */}
-    <div className="flex flex-wrap gap-3">
-      <PrimaryButton href="/consultation">
-        {"Contribute to the consultation"}
-      </PrimaryButton>
-      <SecondaryButton href="/the-project">
-        {"View project scope"}
-      </SecondaryButton>
+<Container className="space-y-14">
+  <section className="overflow-hidden rounded-sm border border-[var(--line)] bg-[var(--surface)]">
+    <div className="grid gap-8 p-6 md:grid-cols-[1.15fr_0.85fr] md:p-10">
+      <div className="space-y-6">
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--green)]">
+          NSW Youth Advisory Council-aligned initiative
+        </p>
+        <div className="space-y-4">
+          <h1 className="max-w-4xl text-4xl font-semibold tracking-tight text-slate-950 md:text-6xl">
+            Helping regional NSW students navigate life after school.
+          </h1>
+          <p className="max-w-3xl text-lg leading-8 text-slate-700">
+            Pathway to Entry brings together student consultation, practical
+            pathway tools, application timelines, scholarship information, and
+            financial support resources to make post-school entry clearer,
+            fairer, and easier to navigate.
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <PrimaryButton href="/toolkit">{"Explore the Toolkit"}</PrimaryButton>
+          <SecondaryButton href="/scholarships">{"Search Scholarships"}</SecondaryButton>
+          <SecondaryButton href="/research">{"Read the Research"}</SecondaryButton>
+        </div>
+      </div>
+      <div className="relative min-h-72 rounded-sm bg-[#f0eadc] p-6">
+        <div className="absolute inset-x-6 top-8 h-px bg-[var(--line)]" />
+        <div className="absolute bottom-6 left-6 right-6 h-24 rounded-t-full border-x border-t border-[var(--green)]" />
+        <div className="absolute bottom-6 left-1/2 h-36 w-24 -translate-x-1/2 rounded-t-sm bg-[var(--accent)]" />
+        <div className="absolute bottom-6 left-1/2 h-28 w-14 -translate-x-1/2 rounded-t-sm bg-[var(--surface)]" />
+        <div className="absolute bottom-10 left-8 right-8 h-3 rounded-full bg-[var(--amber)]" />
+        <div className="absolute bottom-16 left-12 right-16 h-3 rounded-full bg-[var(--green)]/80" />
+        <div className="absolute bottom-[5.5rem] left-[4.5rem] right-24 h-3 rounded-full bg-[var(--accent)]/80" />
+        <div className="absolute right-8 top-12 rounded-sm bg-[var(--surface)] px-3 py-2 text-xs font-semibold uppercase tracking-wide text-slate-700 shadow-sm">
+          Source-backed tools
+        </div>
+      </div>
     </div>
-  </PageHeader>
+  </section>
+
+  <Section title="What The Project Does">
+    <div className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-6 text-base leading-8 text-slate-700">
+      Built from regional student consultation and aligned with the NSW Youth
+      Advisory Council, Pathway to Entry responds to the information gap
+      students face when moving from school into university, TAFE, training,
+      employment, and other post-school pathways.
+    </div>
+  </Section>
 
   <div className="grid gap-6 md:grid-cols-3">
-    <Card title="The problem">
-      A consistent drop-off occurs between identifying a post-school pathway
-      and reaching entry. Regional students face additional distance, access,
-      and information barriers, even after deciding on a pathway.
-
-      This project documents the gap between intention and entry with clear
-      evidence and regional perspectives.
+    <Card title="Consultation Into Action">
+      Student voice and regional consultation shape the tools, timelines and
+      advocacy priorities so the project stays grounded in real post-school
+      decision points.
     </Card>
-    <Card title="What this project is doing">
-      The project is gathering lived experience through surveys and focus
-      groups, then translating findings into a practical program framework NSW
-      YAC can adopt and run.
-
-      Consultation findings will guide the toolkit and program design
-      components.
+    <Card title="Practical Pathway Support">
+      The toolkit helps students track deadlines, compare subject signals,
+      understand financial options and find source-backed support before key
+      dates pass.
     </Card>
-    <Card title="How to get involved">
-      Students, educators, and stakeholders can contribute through the online
-      survey, focus group expressions of interest, or mentor and stakeholder
-      registration.
-
-      Participation informs advocacy and program design.
+    <Card title="Policy Recommendations">
+      Research findings remain visible through the research page, where
+      consultation themes and recommendations can inform NSW YAC-aligned
+      advocacy.
     </Card>
   </div>
 
-  <Section title="Contribute to the consultation">
-    <div className="rounded-sm border border-slate-200 bg-slate-50 p-6">
-      <div className="text-base leading-7 text-slate-700">
-        Consultation inputs are used to build an evidence base and design a
-        program framework NSW YAC can deliver. Participation is voluntary, with
-        anonymous options available.
-      </div>
-      <div className="mt-4 flex flex-wrap gap-3">
-        <PrimaryButton href="/consultation">
-          {"Open consultation"}
-        </PrimaryButton>
-        <SecondaryButton href="/get-involved">
-          {"Register interest"}
-        </SecondaryButton>
-      </div>
+  <Section title="Start With The Toolkit">
+    <div className="grid gap-6 md:grid-cols-2">
+      <Card title="Scholarship Finder">
+        Search scholarships, bursaries, relocation support, accommodation help
+        and equity funding with official source links and last-verified dates.
+        <div className="pt-2">
+          <PrimaryButton href="/scholarships">{"Search Scholarships"}</PrimaryButton>
+        </div>
+      </Card>
+      <Card title="Timelines And Pathway Tools">
+        Use the application timeline tracker, subject alignment tool, financial
+        explainer and checklists to plan the next step after school.
+        <div className="pt-2">
+          <SecondaryButton href="/toolkit">{"Explore Tools"}</SecondaryButton>
+        </div>
+      </Card>
     </div>
   </Section>
 </Container>
