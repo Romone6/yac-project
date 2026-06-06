@@ -10,9 +10,9 @@ import { courseHasAtar } from "@/lib/subject-alignment-filter";
 
 const levelLabels: Record<CourseLevel, string> = {
   undergraduate: "Undergraduate",
-  postgraduate: "Postgraduate",
-  diploma: "Diploma",
-  pathway: "Pathway",
+  postgraduate: "Not shown in subject alignment",
+  diploma: "Not shown in subject alignment",
+  pathway: "Not shown in subject alignment",
 };
 
 function formatList(items: string[]) {
@@ -42,7 +42,7 @@ export default async function CourseDetailPage({
       <PageHeader
         eyebrow="Toolkit"
         title={course.courseName}
-        summary="Course summary, subject-pathway guidance, and the official university course information link for this NSW program."
+        summary="Undergraduate course summary, subject-pathway guidance, and the official university course information link for this NSW program."
       >
         <div className="flex flex-wrap gap-3 text-sm text-slate-600">
           <Link

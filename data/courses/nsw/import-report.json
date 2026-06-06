@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-06-06T05:34:27.189Z",
+  "output": "data/courses/nsw",
+  "target_level": "undergraduate",
+  "requested_providers": [
+    "acu",
+    "wsu",
+    "csu",
+    "macquarie",
+    "une",
+    "scu",
+    "newcastle",
+    "uow",
+    "sydney",
+    "unsw",
+    "uts"
+  ],
+  "sources_checked": 11,
+  "sources_ok": 5,
+  "provider_runs": [
+    {
+      "provider": "acu",
+      "output": "australian-catholic-university/courses.json",
+      "status": 0,
+      "before_count": 221,
+      "after_count": 0,
+      "final_count": 221,
+      "min_records": 40,
+      "restored": true,
+      "stdout": "wrote 0 -> data\\courses\\nsw\\australian-catholic-university\\courses.json\n",
+      "stderr": ""
+    },
+    {
+      "provider": "wsu",
+      "output": "western-sydney-university/courses.json",
+      "status": 1,
+      "before_count": 272,
+      "after_count": 272,
+      "final_count": 272,
+      "min_records": 100,
+      "restored": true,
+      "stdout": "",
+      "stderr": "file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:206\r\n    throw new Error(`${response.status} ${url}`);\r\n          ^\r\n\r\nError: 403 https://NY25AYQTZ8-dsn.algolia.net/1/indexes/*/queries\r\n    at fetchJson (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:206:11)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\r\n    at async generateWsu (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:293:19)\r\n    at async file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:1209:3\r\n\r\nNode.js v24.13.0\r\n"
+    },
+    {
+      "provider": "csu",
+      "output": "charles-sturt-university/courses.json",
+      "status": 3221226505,
+      "before_count": 264,
+      "after_count": 264,
+      "final_count": 264,
+      "min_records": 20,
+      "restored": true,
+      "stdout": "",
+      "stderr": "file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:196\r\n    throw new Error(`${response.status} ${url}`);\r\n          ^\r\n\r\nError: 403 https://study.csu.edu.au/sitemap.xml\r\n    at fetchText (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:196:11)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\r\n    at async generateCsu (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:354:19)\r\n    at async file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:1209:3\r\n\r\nNode.js v24.13.0\r\nAssertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\\win\\async.c, line 76\r\n"
+    },
+    {
+      "provider": "macquarie",
+      "output": "macquarie-university-expanded/courses.json",
+      "status": 1,
+      "before_count": 177,
+      "after_count": 177,
+      "final_count": 177,
+      "min_records": 40,
+      "restored": true,
+      "stdout": "",
+      "stderr": "file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:196\r\n    throw new Error(`${response.status} ${url}`);\r\n          ^\r\n\r\nError: 403 https://coursehandbook.mq.edu.au/sitemap.xml\r\n    at fetchText (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:196:11)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\r\n    at async generateMacquarie (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:696:24)\r\n    at async file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:1209:3\r\n\r\nNode.js v24.13.0\r\n"
+    },
+    {
+      "provider": "une",
+      "output": "university-of-new-england-expanded/courses.json",
+      "status": 1,
+      "before_count": 240,
+      "after_count": 240,
+      "final_count": 240,
+      "min_records": 20,
+      "restored": true,
+      "stdout": "",
+      "stderr": "file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:196\r\n    throw new Error(`${response.status} ${url}`);\r\n          ^\r\n\r\nError: 403 https://handbook.une.edu.au/sitemap.xml\r\n    at fetchText (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:196:11)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\r\n    at async generateUne (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:769:24)\r\n    at async file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:1209:3\r\n\r\nNode.js v24.13.0\r\n"
+    },
+    {
+      "provider": "scu",
+      "output": "southern-cross-university/courses.json",
+      "status": 0,
+      "before_count": 124,
+      "after_count": 124,
+      "final_count": 124,
+      "min_records": 100,
+      "restored": false,
+      "stdout": "wrote 124 -> data\\courses\\nsw\\southern-cross-university\\courses.json\n",
+      "stderr": ""
+    },
+    {
+      "provider": "newcastle",
+      "output": "university-of-newcastle-expanded/courses.json",
+      "status": 1,
+      "before_count": 410,
+      "after_count": 410,
+      "final_count": 410,
+      "min_records": 30,
+      "restored": true,
+      "stdout": "",
+      "stderr": "file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:196\r\n    throw new Error(`${response.status} ${url}`);\r\n          ^\r\n\r\nError: 403 https://handbook.newcastle.edu.au/sitemap.xml\r\n    at fetchText (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:196:11)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\r\n    at async generateNewcastle (file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:860:24)\r\n    at async file:///C:/YAC%20PROJECT%20WEBSITE/yac-project-main/src/scrapers/generate-expanded-nsw-courses.mjs:1209:3\r\n\r\nNode.js v24.13.0\r\n"
+    },
+    {
+      "provider": "uow",
+      "output": "university-of-wollongong-expanded/courses.json",
+      "status": 0,
+      "before_count": 606,
+      "after_count": 606,
+      "final_count": 606,
+      "min_records": 250,
+      "restored": false,
+      "stdout": "wrote 606 -> data\\courses\\nsw\\university-of-wollongong-expanded\\courses.json\n",
+      "stderr": ""
+    },
+    {
+      "provider": "sydney",
+      "output": "university-of-sydney-expanded/courses.json",
+      "status": 0,
+      "before_count": 62,
+      "after_count": 62,
+      "final_count": 62,
+      "min_records": 50,
+      "restored": false,
+      "stdout": "wrote 62 -> data\\courses\\nsw\\university-of-sydney-expanded\\courses.json\n",
+      "stderr": ""
+    },
+    {
+      "provider": "unsw",
+      "output": "unsw-expanded/courses.json",
+      "status": 0,
+      "before_count": 475,
+      "after_count": 475,
+      "final_count": 475,
+      "min_records": 200,
+      "restored": false,
+      "stdout": "wrote 475 -> data\\courses\\nsw\\unsw-expanded\\courses.json\n",
+      "stderr": ""
+    },
+    {
+      "provider": "uts",
+      "output": "uts-expanded/courses.json",
+      "status": 0,
+      "before_count": 372,
+      "after_count": 355,
+      "final_count": 355,
+      "min_records": 70,
+      "restored": false,
+      "stdout": "wrote 355 -> data\\courses\\nsw\\uts-expanded\\courses.json\n",
+      "stderr": ""
+    }
+  ],
+  "providers_restored": [
+    "acu",
+    "wsu",
+    "csu",
+    "macquarie",
+    "une",
+    "newcastle"
+  ],
+  "sydney_undergraduate_records": 62,
+  "sydney_professional_certificates_visible": 0,
+  "statuses": [
+    {
+      "url": "https://www.acu.edu.au/courses",
+      "ok": true,
+      "status": 200,
+      "bytes": 206196
+    },
+    {
+      "url": "https://study.csu.edu.au",
+      "ok": false,
+      "status": 403,
+      "bytes": 5577
+    },
+    {
+      "url": "https://courses.mq.edu.au",
+      "ok": false,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://www.scu.edu.au/study",
+      "ok": true,
+      "status": 200,
+      "bytes": 199692
+    },
+    {
+      "url": "https://www.newcastle.edu.au/degrees",
+      "ok": false,
+      "status": 403,
+      "bytes": 9749
+    },
+    {
+      "url": "https://www.sydney.edu.au/study/search-for-a-course.html",
+      "ok": true,
+      "status": 200,
+      "bytes": 39443
+    },
+    {
+      "url": "https://www.une.edu.au/study",
+      "ok": false,
+      "status": 403,
+      "bytes": 9694
+    },
+    {
+      "url": "https://www.unsw.edu.au/study/find-a-degree-or-course",
+      "ok": true,
+      "status": 200,
+      "bytes": 129445
+    },
+    {
+      "url": "https://www.uts.edu.au/study/find-course",
+      "ok": false,
+      "status": 404,
+      "bytes": 94789
+    },
+    {
+      "url": "https://www.uow.edu.au/study/courses",
+      "ok": true,
+      "status": 200,
+      "bytes": 96273
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/courses",
+      "ok": false,
+      "status": 404,
+      "bytes": 7231
+    }
+  ]
+}

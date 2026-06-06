@@ -2,7 +2,10 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import type { CourseRecord } from "../src/lib/nsw-course-catalog";
-import { allNswCourses } from "../src/lib/nsw-course-catalog";
+import {
+  allNswCourses,
+  subjectAlignmentCourses,
+} from "../src/lib/nsw-course-catalog";
 import {
   courseHasAtar,
   filterSubjectAlignmentCourses,
@@ -69,22 +72,39 @@ test("text search routes level keywords to the matching level classification", (
   assert.deepEqual(diplomaResults.map((course) => course.level), ["diploma"]);
 });
 
-test("UNSW level filtering returns courses for undergraduate, postgraduate, and diploma", () => {
-  for (const level of ["undergraduate", "postgraduate", "diploma"] as const) {
-    const filtered = filterSubjectAlignmentCourses(allNswCourses, {
-      selectedUni: "unsw",
-      selectedFaculty: null,
-      selectedLevel: level,
-      searchQuery: "",
-    });
+test("subject alignment catalog exposes only undergraduate UNSW results", () => {
+  const filtered = filterSubjectAlignmentCourses(subjectAlignmentCourses, {
+    selectedUni: "unsw",
+    selectedFaculty: null,
+    selectedLevel: "undergraduate",
+    searchQuery: "",
+  });
 
-    assert.ok(filtered.length > 0, `expected UNSW ${level} results`);
-    assert.ok(filtered.every((course) => course.level === level));
-  }
+  assert.ok(filtered.length > 0, "expected UNSW undergraduate results");
+  assert.ok(filtered.every((course) => course.level === "undergraduate"));
+
+  const hiddenPostgraduate = filterSubjectAlignmentCourses(subjectAlignmentCourses, {
+    selectedUni: "unsw",
+    selectedFaculty: null,
+    selectedLevel: "postgraduate",
+    searchQuery: "",
+  });
+  assert.equal(hiddenPostgraduate.length, 0);
+});
+
+test("broader course catalog can still classify non-undergraduate levels outside subject alignment", () => {
+  const postgraduate = filterSubjectAlignmentCourses(allNswCourses, {
+    selectedUni: "unsw",
+    selectedFaculty: null,
+    selectedLevel: "postgraduate",
+    searchQuery: "",
+  });
+
+  assert.ok(postgraduate.length > 0, "expected broader catalog to retain postgraduate records");
+  assert.ok(postgraduate.every((course) => course.level === "postgraduate"));
 });
 
 test("courseHasAtar treats null as unavailable and numbers as available", () => {
   assert.equal(courseHasAtar({ atar: null }), false);
   assert.equal(courseHasAtar({ atar: 82.35 }), true);
 });
-

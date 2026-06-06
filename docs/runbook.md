@@ -48,6 +48,22 @@ pnpm import:subjects
 
 Checks official course source roots from `data/import-sources/subject-alignment.nsw.json`, writes `data/courses/nsw/import-report.json`, then runs the NSW course and subject-alignment generator.
 
+Refresh one or more course providers by setting `PATHWAY_SUBJECT_PROVIDERS` before the import:
+
+```powershell
+$env:PATHWAY_SUBJECT_PROVIDERS = "sydney,unsw"
+pnpm import:subjects
+Remove-Item Env:\PATHWAY_SUBJECT_PROVIDERS
+```
+
+Automated subject-alignment route smoke command after a production build/server:
+
+```powershell
+node scripts/smoke-subject-alignment-routes.mjs http://127.0.0.1:4300
+```
+
+This verifies the undergraduate-first subject alignment page, the University of Sydney Bachelor of Arts detail route, and the absence of Sydney Professional Certificate records from the visible subject-alignment surface.
+
 ```powershell
 pnpm import:all
 ```

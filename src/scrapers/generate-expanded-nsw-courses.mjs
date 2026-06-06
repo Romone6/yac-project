@@ -70,6 +70,10 @@ function titleCaseFromSlug(slug) {
 function levelFromText(name = "", hint = "") {
   const text = `${name} ${hint}`.toLowerCase();
 
+  if (/(professional certificate|\/pc\/)/.test(text)) {
+    return "postgraduate";
+  }
+
   if (/(foundation|pathway|entry|preparation|enabling)/.test(text)) {
     return "pathway";
   }
@@ -981,7 +985,7 @@ async function generateSydney() {
     new Set(
       Array.from(
         sitemap.matchAll(
-          /<loc>(https:\/\/www\.sydney\.edu\.au\/courses\/courses\/(?:ug|dc|pc)\/[^<]+)<\/loc>/g
+          /<loc>(https:\/\/www\.sydney\.edu\.au\/courses\/courses\/ug\/[^<]+)<\/loc>/g
         )
       ).map((match) => match[1])
     )
@@ -1009,9 +1013,29 @@ async function generateSydney() {
     });
   });
 
+  const undergraduatePages = pages.filter(
+    (course) =>
+      course.level === "undergraduate" &&
+      !/^Sydney Professional Certificate\b/i.test(course.courseName)
+  );
+
+  if (undergraduatePages.length < 50) {
+    const fallback = JSON.parse(
+      fs.readFileSync(
+        path.join(DATA_ROOT, "university-of-sydney", "courses.json"),
+        "utf8"
+      )
+    );
+    writeJson(
+      "university-of-sydney-expanded",
+      fallback.sort((a, b) => a.courseName.localeCompare(b.courseName))
+    );
+    return;
+  }
+
   writeJson(
     "university-of-sydney-expanded",
-    pages.sort((a, b) => a.courseName.localeCompare(b.courseName))
+    undergraduatePages.sort((a, b) => a.courseName.localeCompare(b.courseName))
   );
 }
 
