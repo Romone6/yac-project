@@ -1,0 +1,261 @@
+{
+  "generated_at": "2026-06-06T00:31:23.359Z",
+  "write_mode": "write",
+  "curated_records": 38,
+  "discovered_records": 67,
+  "output_records": 83,
+  "providers": [
+    {
+      "provider": "Universities Admissions Centre",
+      "sources": 2,
+      "fetched_sources": 2,
+      "discovered_links": 15,
+      "fetched_candidate_pages": 15,
+      "generated_records": 4,
+      "errors": []
+    },
+    {
+      "provider": "Services Australia",
+      "sources": 2,
+      "fetched_sources": 0,
+      "discovered_links": 0,
+      "fetched_candidate_pages": 0,
+      "generated_records": 0,
+      "errors": [
+        {
+          "url": "https://www.servicesaustralia.gov.au/tertiary-access-payment",
+          "message": "This operation was aborted"
+        },
+        {
+          "url": "https://www.servicesaustralia.gov.au/relocation-scholarship",
+          "message": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "provider": "NSW Health",
+      "sources": 2,
+      "fetched_sources": 2,
+      "discovered_links": 17,
+      "fetched_candidate_pages": 15,
+      "generated_records": 9,
+      "errors": [
+        {
+          "url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/https&",
+          "message": "404 NOT FOUND"
+        },
+        {
+          "url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/mailto&",
+          "message": "404 NOT FOUND"
+        }
+      ]
+    },
+    {
+      "provider": "Country Education Foundation of Australia",
+      "sources": 2,
+      "fetched_sources": 1,
+      "discovered_links": 7,
+      "fetched_candidate_pages": 7,
+      "generated_records": 4,
+      "errors": [
+        {
+          "url": "https://cef.org.au/scholarships-guide/",
+          "message": "404 Not Found"
+        }
+      ]
+    },
+    {
+      "provider": "Australian Catholic University",
+      "sources": 4,
+      "fetched_sources": 4,
+      "discovered_links": 20,
+      "fetched_candidate_pages": 19,
+      "generated_records": 4,
+      "errors": [
+        {
+          "url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/category.Url",
+          "message": "404 Not Found"
+        }
+      ]
+    },
+    {
+      "provider": "Charles Sturt University",
+      "sources": 3,
+      "fetched_sources": 0,
+      "discovered_links": 0,
+      "fetched_candidate_pages": 0,
+      "generated_records": 0,
+      "errors": [
+        {
+          "url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/equity",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/grants",
+          "message": "403 Forbidden"
+        }
+      ]
+    },
+    {
+      "provider": "Macquarie University",
+      "sources": 3,
+      "fetched_sources": 0,
+      "discovered_links": 0,
+      "fetched_candidate_pages": 0,
+      "generated_records": 0,
+      "errors": [
+        {
+          "url": "https://www.mq.edu.au/study/admissions-and-entry/scholarships",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.mq.edu.au/about/about-the-university/indigenous-engagement-and-initiatives/engage-with-walanga-muru/student-engagement/early-entry-scholarships",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.mq.edu.au/research/phd-and-research-degrees/how-to-apply/scholarship-opportunities/scholarship-search/indigenous-research-excellence-scholarship",
+          "message": "403 Forbidden"
+        }
+      ]
+    },
+    {
+      "provider": "Southern Cross University",
+      "sources": 3,
+      "fetched_sources": 3,
+      "discovered_links": 25,
+      "fetched_candidate_pages": 25,
+      "generated_records": 8,
+      "errors": []
+    },
+    {
+      "provider": "University of Newcastle",
+      "sources": 3,
+      "fetched_sources": 1,
+      "discovered_links": 9,
+      "fetched_candidate_pages": 0,
+      "generated_records": 0,
+      "errors": [
+        {
+          "url": "https://www.newcastle.edu.au/scholarships",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/study/international/scholarships",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/scholarships",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program/application-help",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program/about",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program/values",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program/scholarships",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program/scholars/scholar-experience",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program/scholars",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.newcastle.edu.au/our-uni/indigenous-commitment",
+          "message": "403 Forbidden"
+        }
+      ]
+    },
+    {
+      "provider": "University of New England",
+      "sources": 3,
+      "fetched_sources": 0,
+      "discovered_links": 0,
+      "fetched_candidate_pages": 0,
+      "generated_records": 0,
+      "errors": [
+        {
+          "url": "https://www.une.edu.au/scholarships",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.une.edu.au/scholarships/new-student-scholarships",
+          "message": "403 Forbidden"
+        },
+        {
+          "url": "https://www.une.edu.au/scholarships/new-student-scholarships/wilmot-residential-scholarship",
+          "message": "403 Forbidden"
+        }
+      ]
+    },
+    {
+      "provider": "UNSW Sydney",
+      "sources": 3,
+      "fetched_sources": 2,
+      "discovered_links": 8,
+      "fetched_candidate_pages": 8,
+      "generated_records": 4,
+      "errors": [
+        {
+          "url": "https://www.scholarships.unsw.edu.au/scholarships",
+          "message": "404 Not Found"
+        }
+      ]
+    },
+    {
+      "provider": "University of Sydney",
+      "sources": 2,
+      "fetched_sources": 2,
+      "discovered_links": 6,
+      "fetched_candidate_pages": 6,
+      "generated_records": 0,
+      "errors": []
+    },
+    {
+      "provider": "University of Technology Sydney",
+      "sources": 3,
+      "fetched_sources": 3,
+      "discovered_links": 25,
+      "fetched_candidate_pages": 25,
+      "generated_records": 9,
+      "errors": []
+    },
+    {
+      "provider": "University of Wollongong",
+      "sources": 3,
+      "fetched_sources": 3,
+      "discovered_links": 15,
+      "fetched_candidate_pages": 15,
+      "generated_records": 4,
+      "errors": []
+    },
+    {
+      "provider": "Western Sydney University",
+      "sources": 3,
+      "fetched_sources": 3,
+      "discovered_links": 25,
+      "fetched_candidate_pages": 25,
+      "generated_records": 21,
+      "errors": []
+    }
+  ]
+}

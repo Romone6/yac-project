@@ -1,0 +1,18 @@
+{
+  "region": "NSW",
+  "output": "data/courses/nsw",
+  "notes": "Subject alignment data is refreshed through the existing course scraper and normalizer. Provider pages are treated as official source roots for course title, description, ATAR and subject signals.",
+  "sources": [
+    "https://www.acu.edu.au/courses",
+    "https://study.csu.edu.au",
+    "https://courses.mq.edu.au",
+    "https://www.scu.edu.au/study",
+    "https://www.newcastle.edu.au/degrees",
+    "https://www.sydney.edu.au/study/search-for-a-course.html",
+    "https://www.une.edu.au/study",
+    "https://www.unsw.edu.au/study/find-a-degree-or-course",
+    "https://www.uts.edu.au/study/find-course",
+    "https://www.uow.edu.au/study/courses",
+    "https://www.westernsydney.edu.au/courses"
+  ]
+}

@@ -1,0 +1,3695 @@
+[
+  {
+    "id": "acu-academic-excellence-scholarship-2026",
+    "slug": "acu-academic-excellence-scholarship",
+    "scholarship_name": "ACU Academic Excellence Scholarship",
+    "provider": "Australian Catholic University",
+    "institution": "Australian Catholic University",
+    "description": "Merit scholarship for high-achieving domestic undergraduate ACU students across all faculties.",
+    "value_text": "$5,000.",
+    "value_amount": 5000,
+    "value_type": "Merit scholarship",
+    "opens_at": "2025-11-13",
+    "closes_at": "2026-03-01",
+    "status": "closed",
+    "eligibility_summary": "For high-achieving domestic undergraduate students across ACU faculties.",
+    "eligibility_tags": [
+      "academic-merit"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "ACU scholarship application",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Apply through ACU Scholarships during the annual round.",
+    "source_url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-academic-excellence-scholarship",
+    "source_name": "ACU Academic Excellence Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Closed for the verified round but retained for academic-merit planning."
+  },
+  {
+    "id": "acu-accommodation-scholarship-2026",
+    "slug": "acu-accommodation-scholarship",
+    "scholarship_name": "ACU Accommodation Scholarship",
+    "provider": "Australian Catholic University",
+    "institution": "Australian Catholic University",
+    "description": "Accommodation scholarship supporting access to higher education for undergraduate students, including students at ACU NSW-based campuses.",
+    "value_text": "30% reduction in accommodation fee.",
+    "value_amount": null,
+    "value_type": "Accommodation scholarship",
+    "opens_at": "2026-05-22",
+    "closes_at": "2026-06-30",
+    "status": "open",
+    "eligibility_summary": "For eligible current or future ACU undergraduate students seeking accommodation support at listed campuses.",
+    "eligibility_tags": [
+      "accommodation",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "ACT",
+      "VIC",
+      "QLD"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "ACU scholarship application",
+      "Accommodation and enrolment evidence",
+      "Equity evidence where requested"
+    ],
+    "application_method": "Apply through the ACU scholarship page before the close date.",
+    "source_url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-accommodation-scholarship",
+    "source_name": "ACU Accommodation Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The verified page states the Semester 2 value as a 30% accommodation fee reduction."
+  },
+  {
+    "id": "acu-relocation-scholarship-2026",
+    "slug": "acu-relocation-scholarship",
+    "scholarship_name": "ACU Relocation Scholarship",
+    "provider": "Australian Catholic University",
+    "institution": "Australian Catholic University",
+    "description": "Accommodation-fee reduction for domestic undergraduate students who have overcome hardship or barriers to accessing higher education.",
+    "value_text": "$3,500 reduction in accommodation fee.",
+    "value_amount": 3500,
+    "value_type": "Relocation and accommodation scholarship",
+    "opens_at": "2026-05-22",
+    "closes_at": "2026-06-30",
+    "status": "open",
+    "eligibility_summary": "For eligible current or future domestic undergraduate ACU students needing relocation or accommodation support.",
+    "eligibility_tags": [
+      "relocation",
+      "accommodation",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "ACU scholarship application",
+      "Accommodation evidence",
+      "Hardship or barrier evidence"
+    ],
+    "application_method": "Apply through the ACU scholarship page before the close date.",
+    "source_url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-relocation-scholarship",
+    "source_name": "ACU Relocation Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Included because it directly addresses relocation and accommodation barriers."
+  },
+  {
+    "id": "acu-acu-student-accommodation-scholarships",
+    "slug": "acu-acu-student-accommodation-scholarships",
+    "scholarship_name": "ACU student accommodation scholarships",
+    "provider": "Australian Catholic University",
+    "institution": "Australian Catholic University",
+    "description": "We know moving away from home to live closer to uni can be challenging, but our scholarships are here to help. Browse our scholarships below - you could be eligible for one or more to fund your studies.",
+    "value_text": "$3,500",
+    "value_amount": 3500,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Australian Catholic University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "engineering",
+      "law",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Australian Catholic University source page for the current application method.",
+    "source_url": "https://www.acu.edu.au/student-life/student-accommodation/acu-student-accommodation-scholarships",
+    "source_name": "ACU student accommodation scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "acu-elite-athlete-performer-scholarship-2026",
+    "slug": "acu-elite-athlete-performer-scholarship",
+    "scholarship_name": "Elite Athlete and Performer Program Scholarship",
+    "provider": "Australian Catholic University",
+    "institution": "Australian Catholic University",
+    "description": "Scholarship supporting student athletes and performers to succeed in elite competition while studying.",
+    "value_text": "$500 to $2,500.",
+    "value_amount": 2500,
+    "value_type": "Merit scholarship",
+    "opens_at": "2026-06-01",
+    "closes_at": "2026-07-31",
+    "status": "open",
+    "eligibility_summary": "For eligible current or future ACU students who are elite athletes or performers.",
+    "eligibility_tags": [
+      "academic-merit",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "ACU scholarship application",
+      "Elite athlete or performer evidence"
+    ],
+    "application_method": "Apply through the ACU scholarship page before the close date.",
+    "source_url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/elite-athlete-and-performer-program-scholarship",
+    "source_name": "ACU Elite Athlete and Performer Program Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Adds merit and leadership/performance coverage beyond equity-only support."
+  },
+  {
+    "id": "acu-indigenous-commonwealth-accommodation-scholarship-2026",
+    "slug": "acu-indigenous-commonwealth-accommodation-scholarship",
+    "scholarship_name": "Indigenous Commonwealth Accommodation Scholarship",
+    "provider": "Australian Catholic University",
+    "institution": "Australian Catholic University",
+    "description": "Accommodation scholarship for Aboriginal and Torres Strait Islander ACU students from regional, rural or remote locations.",
+    "value_text": "$22,048.",
+    "value_amount": 22048,
+    "value_type": "Indigenous accommodation scholarship",
+    "opens_at": "2026-04-27",
+    "closes_at": "2026-07-10",
+    "status": "open",
+    "eligibility_summary": "For Aboriginal and Torres Strait Islander current or commencing students from regional, rural or remote locations; applications are made via UAC.",
+    "eligibility_tags": [
+      "aboriginal-torres-strait-islander",
+      "regional-rural",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "regional-australia",
+      "rural-australia",
+      "remote-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship application",
+      "Indigenous identity evidence where requested",
+      "Regional/rural/remote location evidence"
+    ],
+    "application_method": "Apply through UAC as directed by ACU.",
+    "source_url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/indigenous-commonwealth-accommodation-scholarship",
+    "source_name": "ACU Indigenous Commonwealth Accommodation Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Strong fit for regional students because ACU explicitly names regional, rural and remote origin."
+  },
+  {
+    "id": "services-australia-relocation-scholarship-2026",
+    "slug": "relocation-scholarship",
+    "scholarship_name": "Relocation Scholarship",
+    "provider": "Services Australia",
+    "institution": "Australian Government",
+    "description": "Once-a-year payment for eligible students who get Youth Allowance or ABSTUDY and need to move to or from a regional or remote area for higher education study.",
+    "value_text": "Amount depends on eligible circumstances and year of study; check Services Australia for current rate.",
+    "value_amount": null,
+    "value_type": "Government relocation payment",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "For eligible students receiving Youth Allowance or ABSTUDY who meet regional/remote relocation rules for higher education.",
+    "eligibility_tags": [
+      "regional-rural",
+      "relocation",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "regional-australia",
+      "remote-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Centrelink claim details",
+      "Study enrolment evidence",
+      "Address and relocation evidence"
+    ],
+    "application_method": "Claim or confirm eligibility through Services Australia and Centrelink.",
+    "source_url": "https://www.servicesaustralia.gov.au/relocation-scholarship",
+    "source_name": "Services Australia Relocation Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Included because regional students often need to combine provider scholarships with government relocation support."
+  },
+  {
+    "id": "services-australia-tertiary-access-payment-2026",
+    "slug": "tertiary-access-payment",
+    "scholarship_name": "Tertiary Access Payment",
+    "provider": "Services Australia",
+    "institution": "Australian Government",
+    "description": "One-off payment to help eligible students move from a regional or remote area for tertiary study after Year 12 or equivalent.",
+    "value_text": "$3,000 for eligible inner regional students or $5,000 for eligible outer regional, remote or very remote students.",
+    "value_amount": 5000,
+    "value_type": "Relocation payment",
+    "opens_at": "2026-01-01",
+    "closes_at": "2026-12-31",
+    "status": "open",
+    "eligibility_summary": "For eligible students aged 22 or under who need to move from a regional or remote family home for tertiary study within 12 months of finishing Year 12 or equivalent.",
+    "eligibility_tags": [
+      "regional-rural",
+      "relocation"
+    ],
+    "study_level": [
+      "certificate-iv-and-above",
+      "undergraduate",
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "inner-regional",
+      "outer-regional",
+      "remote",
+      "very-remote"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Proof of family home location",
+      "Study details",
+      "Parental income evidence where requested",
+      "Identity and myGov/Centrelink claim details"
+    ],
+    "application_method": "Claim through Centrelink online via myGov.",
+    "source_url": "https://www.servicesaustralia.gov.au/tertiary-access-payment",
+    "source_name": "Services Australia Tertiary Access Payment",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "This is a government payment rather than a provider scholarship, included because it directly supports regional relocation costs."
+  },
+  {
+    "id": "csu-continuing-student-on-campus-accommodation-grant-2026",
+    "slug": "csu-continuing-student-on-campus-accommodation-grant",
+    "scholarship_name": "2026 Continuing Student On Campus Accommodation Grant",
+    "provider": "Charles Sturt University",
+    "institution": "Charles Sturt University",
+    "description": "Accommodation grant for domestic on-campus undergraduate students transitioning from first to second year and seeking financial assistance with accommodation costs.",
+    "value_text": "$5,000 paid to the student university account.",
+    "value_amount": 5000,
+    "value_type": "Accommodation grant",
+    "opens_at": null,
+    "closes_at": "2026-01-31",
+    "status": "closed",
+    "eligibility_summary": "For eligible domestic Charles Sturt students in on-campus accommodation who are First Nations and/or from low-SES areas, with preferences for financial hardship, regional or remote home address and first-in-family.",
+    "eligibility_tags": [
+      "accommodation",
+      "low-income-equity",
+      "regional-rural",
+      "first-in-family",
+      "aboriginal-torres-strait-islander"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "regional-australia",
+      "csu-campuses"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Accommodation evidence",
+      "Centrelink income statement or payslips where relevant",
+      "Equity or First Nations evidence"
+    ],
+    "application_method": "Apply through the Charles Sturt scholarship page during the relevant accommodation grant round.",
+    "source_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/equity/2026-continuing-student-on-campus-accommodation-grant",
+    "source_name": "Charles Sturt Continuing Student On Campus Accommodation Grant",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Closed for Session 1 2026 but valuable for planning accommodation support."
+  },
+  {
+    "id": "csu-first-nations-education-costs-scholarship-2026",
+    "slug": "csu-first-nations-education-costs-scholarship",
+    "scholarship_name": "First Nations Education Costs Scholarship",
+    "provider": "Charles Sturt University",
+    "institution": "Charles Sturt University",
+    "description": "Scholarship assisting First Nations Charles Sturt students with study costs including compulsory textbooks, study equipment and laptops.",
+    "value_text": "Up to $10,000 over up to two sessions.",
+    "value_amount": 10000,
+    "value_type": "First Nations education-cost scholarship",
+    "opens_at": null,
+    "closes_at": "2026-02-20",
+    "status": "closed",
+    "eligibility_summary": "For First Nations Australian citizens who are active Charles Sturt students in enabling, undergraduate, honours or postgraduate Commonwealth-supported awards.",
+    "eligibility_tags": [
+      "aboriginal-torres-strait-islander",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "enabling",
+      "undergraduate",
+      "honours",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "regional-australia",
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Charles Sturt scholarship application",
+      "First Nations student registration or identity evidence",
+      "Study-cost evidence where requested"
+    ],
+    "application_method": "Apply through the Charles Sturt scholarship page when allocations are available.",
+    "source_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/equity/indigenous-education-costs",
+    "source_name": "Charles Sturt First Nations Education Costs Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The source reports the 2026 allocation was fully allocated by 20 February 2026."
+  },
+  {
+    "id": "csu-pathways-to-practice-intensive-school-2026",
+    "slug": "csu-pathways-to-practice-intensive-school",
+    "scholarship_name": "Pathways to Practice - Intensive School Scholarship",
+    "provider": "Charles Sturt University",
+    "institution": "Charles Sturt University",
+    "description": "Equity grant supporting Charles Sturt students who need to attend a compulsory intensive school, including distance-related additional support.",
+    "value_text": "$80 per day of compulsory intensive school, plus additional funds determined by distance travelled.",
+    "value_amount": 80,
+    "value_type": "Placement or intensive-school support",
+    "opens_at": "2026-04-20",
+    "closes_at": "2026-06-12",
+    "status": "closing_soon",
+    "eligibility_summary": "For commencing or continuing Charles Sturt students in eligible study modes who meet financial hardship or means-testing criteria and intensive-school requirements.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "regional-rural",
+      "disability-accessibility"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "csu-campuses",
+      "online",
+      "mixed-mode"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Intensive school confirmation",
+      "Centrelink income statement or payslips",
+      "Exceptional-circumstances evidence where relevant"
+    ],
+    "application_method": "Apply through the Charles Sturt scholarship portal before the round closes.",
+    "source_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/equity/pathways-to-practice-intensive-school-scholarship",
+    "source_name": "Charles Sturt University scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Useful for regional students whose course requires travel to a compulsory intensive school."
+  },
+  {
+    "id": "csu-three-rivers-first-nations-careers-health-scholarship-2026",
+    "slug": "csu-three-rivers-first-nations-careers-health-scholarship",
+    "scholarship_name": "Three Rivers DRH First Nations Careers in Health Scholarship",
+    "provider": "Charles Sturt University",
+    "institution": "Charles Sturt University",
+    "description": "Scholarship supporting First Nations students in Three Rivers Department of Rural Health supported health courses at Charles Sturt.",
+    "value_text": "$10,000, paid as two $5,000 payments.",
+    "value_amount": 10000,
+    "value_type": "First Nations health scholarship",
+    "opens_at": null,
+    "closes_at": "2026-05-31",
+    "status": "closed",
+    "eligibility_summary": "For eligible First Nations students enrolled in Three Rivers DRH supported health courses at regional Charles Sturt campuses or online while residing in supported locations.",
+    "eligibility_tags": [
+      "aboriginal-torres-strait-islander",
+      "regional-rural",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "orange",
+      "wagga-wagga",
+      "albury",
+      "bathurst",
+      "dubbo",
+      "regional-nsw"
+    ],
+    "field_of_study": [
+      "health",
+      "nursing",
+      "allied-health",
+      "dentistry"
+    ],
+    "required_documents": [
+      "Charles Sturt scholarship application",
+      "First Nations identity evidence where requested",
+      "Course and location eligibility evidence"
+    ],
+    "application_method": "Apply through the Charles Sturt scholarship page before the close date.",
+    "source_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/equity/2026-three-rivers-drh-first-nations-careers-in-health-scholarship",
+    "source_name": "Charles Sturt Three Rivers DRH First Nations Careers in Health Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Outcome notice date listed by source is 19 June 2026."
+  },
+  {
+    "id": "csu-transgrid-engineering-scholarship-2026",
+    "slug": "csu-transgrid-engineering-scholarship",
+    "scholarship_name": "Transgrid Engineering Scholarship",
+    "provider": "Charles Sturt University",
+    "institution": "Charles Sturt University",
+    "description": "Engineering scholarship supporting Charles Sturt engineering students with costs associated with study, living expenses or learning resources.",
+    "value_text": "$20,000 paid over four years.",
+    "value_amount": 20000,
+    "value_type": "Engineering scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "closed",
+    "eligibility_summary": "For eligible domestic students applying to study engineering at Charles Sturt.",
+    "eligibility_tags": [
+      "regional-rural",
+      "academic-merit"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "regional-australia",
+      "csu-campuses"
+    ],
+    "field_of_study": [
+      "engineering"
+    ],
+    "required_documents": [
+      "Charles Sturt scholarship application",
+      "Engineering course application evidence"
+    ],
+    "application_method": "Check the Charles Sturt Foundation scholarship listing and apply during the relevant round.",
+    "source_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation",
+    "source_name": "Charles Sturt Foundation scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The Foundation listing reported this scholarship as closed at time of verification."
+  },
+  {
+    "id": "cef-2026-grants-now-open",
+    "slug": "cef-2026-grants-now-open",
+    "scholarship_name": "2026 Grants Now Open",
+    "provider": "Country Education Foundation of Australia",
+    "institution": "Local CEF foundations",
+    "description": "Apply for a CEF grant. Country Education Foundation provides grants to local youth via our network of local foundations through Australia. Education grants for higher education for Rural students",
+    "value_text": "$250",
+    "value_amount": 5000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Country Education Foundation of Australia. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "leadership-community",
+      "accommodation"
+    ],
+    "study_level": [
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "engineering",
+      "law"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official Country Education Foundation of Australia source page for the current application method.",
+    "source_url": "https://cef.org.au/apply-for-a-grant/",
+    "source_name": "2026 Grants Now Open",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "cef-cef-extra",
+    "slug": "cef-cef-extra",
+    "scholarship_name": "CEF EXTRA",
+    "provider": "Country Education Foundation of Australia",
+    "institution": "Local CEF foundations",
+    "description": "We work closely with our partners each year to offer extra funding opportunities in addition to our local grants. See what &#039;extra&#039; you could get!",
+    "value_text": "$5,000",
+    "value_amount": 50000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Country Education Foundation of Australia. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "law",
+      "social-work",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Country Education Foundation of Australia source page for the current application method.",
+    "source_url": "https://cef.org.au/cef-extra/",
+    "source_name": "CEF EXTRA",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "cef-local-student-grants",
+    "slug": "cef-local-student-grants",
+    "scholarship_name": "Country Education Foundation Local Student Grants",
+    "provider": "Country Education Foundation of Australia",
+    "institution": "Local CEF foundations",
+    "description": "Local grants helping rural and regional youth pay for post-school education expenses such as accommodation, textbooks, tools and technology.",
+    "value_text": "Varies by local foundation and grant round.",
+    "value_amount": null,
+    "value_type": "Local grant",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "For rural and regional youth seeking further study, training or vocational pathways through participating local CEF foundations.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "accommodation",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "tafe",
+      "training",
+      "vocational"
+    ],
+    "location_eligibility": [
+      "rural-australia",
+      "regional-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Local foundation application requirements vary",
+      "Evidence of education expenses where requested"
+    ],
+    "application_method": "Apply through the relevant local CEF foundation or CEF student portal.",
+    "source_url": "https://cef.org.au/student-support-program/",
+    "source_name": "Country Education Foundation Student Support Program",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Included as a regional support pathway with variable local grant rounds rather than a single statewide closing date."
+  },
+  {
+    "id": "cef-our-grants",
+    "slug": "cef-our-grants",
+    "scholarship_name": "Our Grants",
+    "provider": "Country Education Foundation of Australia",
+    "institution": "Local CEF foundations",
+    "description": "Your local Country Education Foundation (CEF) supports youth in your area through financial grants for education and employment expenses.",
+    "value_text": "Check official source for current value.",
+    "value_amount": null,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Country Education Foundation of Australia. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "law"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Country Education Foundation of Australia source page for the current application method.",
+    "source_url": "https://cef.org.au/our-grants/",
+    "source_name": "Our Grants",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "macquarie-dunmore-lang-regional-rural-scholarship",
+    "slug": "macquarie-dunmore-lang-regional-rural-scholarship",
+    "scholarship_name": "Dunmore Lang College Regional and Rural Scholarship",
+    "provider": "Macquarie University",
+    "institution": "Macquarie University",
+    "description": "Scholarship referenced by Macquarie for students relocating from regional and rural Australia to study at Macquarie University.",
+    "value_text": "Check official source for current value and round.",
+    "value_amount": null,
+    "value_type": "Regional accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "For students from regional and rural Australia relocating to study at Macquarie, subject to current scholarship conditions.",
+    "eligibility_tags": [
+      "regional-rural",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "regional-australia",
+      "rural-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Macquarie or college scholarship requirements",
+      "Regional/rural relocation evidence"
+    ],
+    "application_method": "Check Macquarie and Dunmore Lang College scholarship instructions before applying.",
+    "source_url": "https://www.mq.edu.au/about/about-the-university/indigenous-engagement-and-initiatives/engage-with-walanga-muru/student-engagement/early-entry-scholarships",
+    "source_name": "Macquarie Early entry and scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Marked check source because Macquarie verifies the scholarship purpose but not a current public value/date in the retrieved text."
+  },
+  {
+    "id": "macquarie-indigenous-research-excellence-scholarship-2026",
+    "slug": "macquarie-indigenous-research-excellence-scholarship",
+    "scholarship_name": "Indigenous Research Excellence Scholarship",
+    "provider": "Macquarie University",
+    "institution": "Macquarie University",
+    "description": "Macquarie research scholarship encouraging Indigenous Australians to undertake postgraduate research study.",
+    "value_text": "$10,000 to $51,700 per year depending on research course and component.",
+    "value_amount": 51700,
+    "value_type": "Indigenous research scholarship",
+    "opens_at": null,
+    "closes_at": "2026-04-30",
+    "status": "closed",
+    "eligibility_summary": "For eligible Indigenous Australian students enrolling or enrolled in Macquarie research pathway programs including MRes, MPhil or PhD.",
+    "eligibility_tags": [
+      "aboriginal-torres-strait-islander",
+      "academic-merit"
+    ],
+    "study_level": [
+      "research",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Macquarie research scholarship application",
+      "Evidence of Aboriginality or Torres Strait Islander identity",
+      "Research admission documents"
+    ],
+    "application_method": "Select the Indigenous Macquarie University Research Excellence scholarship type in the research application.",
+    "source_url": "https://www.mq.edu.au/research/phd-and-research-degrees/how-to-apply/scholarship-opportunities/scholarship-search/indigenous-research-excellence-scholarship",
+    "source_name": "Macquarie Indigenous Research Excellence Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Included for students considering post-school-to-research pathways beyond undergraduate entry."
+  },
+  {
+    "id": "nsw-health-aboriginal-nursing-and-midwifery-undergraduate-scholarships",
+    "slug": "nsw-health-aboriginal-nursing-and-midwifery-undergraduate-scholarships",
+    "scholarship_name": "Aboriginal nursing and midwifery undergraduate scholarships",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "Aboriginal nursing and midwifery undergraduate scholarships is listed by NSW Health. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$1000 per subject are available for Aboriginal and/or Torres Strait Islander students und",
+    "value_amount": 30000,
+    "value_type": "Relocation or placement support",
+    "opens_at": null,
+    "closes_at": "2025-12-15",
+    "status": "closed",
+    "eligibility_summary": "Source-backed listing from NSW Health. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official NSW Health source page for the current application method.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/aboriginal-undergraduate-scholarships.aspx",
+    "source_name": "Aboriginal nursing and midwifery undergraduate scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "nsw-health-aboriginal-postgraduate-nursing-and-midwifery-scholarships",
+    "slug": "nsw-health-aboriginal-postgraduate-nursing-and-midwifery-scholarships",
+    "scholarship_name": "Aboriginal postgraduate nursing and midwifery scholarships",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "Aboriginal postgraduate nursing and midwifery scholarships is listed by NSW Health. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$10,000",
+    "value_amount": 10000000,
+    "value_type": "Relocation or placement support",
+    "opens_at": null,
+    "closes_at": "2025-12-15",
+    "status": "closed",
+    "eligibility_summary": "Source-backed listing from NSW Health. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official NSW Health source page for the current application method.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/aboriginal-postgraduate-scholarships.aspx",
+    "source_name": "Aboriginal postgraduate nursing and midwifery scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "nsw-health-nsw-aboriginal-nursing-and-midwifery-cadetships",
+    "slug": "nsw-health-nsw-aboriginal-nursing-and-midwifery-cadetships",
+    "scholarship_name": "NSW Aboriginal Nursing and Midwifery Cadetships",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "NSW Aboriginal Nursing and Midwifery Cadetships is listed by NSW Health. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "Check official source for current value.",
+    "value_amount": null,
+    "value_type": "Relocation or placement support",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from NSW Health. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "relocation"
+    ],
+    "study_level": [
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official NSW Health source page for the current application method.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/aboriginal-strategy/cadetship",
+    "source_name": "NSW Aboriginal Nursing and Midwifery Cadetships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "nsw-health-nursing-and-midwifery-innovation-scholarships",
+    "slug": "nsw-health-nursing-and-midwifery-innovation-scholarships",
+    "scholarship_name": "Nursing and midwifery innovation scholarships",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "Nursing and midwifery innovation scholarships is listed by NSW Health. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$15,000",
+    "value_amount": 15000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": "2026-05-29",
+    "status": "closed",
+    "eligibility_summary": "Source-backed listing from NSW Health. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official NSW Health source page for the current application method.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/innovation-scholarships.aspx",
+    "source_name": "Nursing and midwifery innovation scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "nsw-health-postgraduate-nursing-and-midwifery-scholarships",
+    "slug": "nsw-health-postgraduate-nursing-and-midwifery-scholarships",
+    "scholarship_name": "Postgraduate nursing and midwifery scholarships",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "Postgraduate nursing and midwifery scholarships is listed by NSW Health. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$10,000",
+    "value_amount": 10000,
+    "value_type": "Relocation or placement support",
+    "opens_at": null,
+    "closes_at": "2026-03-31",
+    "status": "closed",
+    "eligibility_summary": "Source-backed listing from NSW Health. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official NSW Health source page for the current application method.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/schol-postgraduate.aspx",
+    "source_name": "Postgraduate nursing and midwifery scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "nsw-health-re-entry-to-midwifery-scholarships",
+    "slug": "nsw-health-re-entry-to-midwifery-scholarships",
+    "scholarship_name": "Re-entry to midwifery scholarships",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "Re-entry to midwifery scholarships is listed by NSW Health. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$15,000",
+    "value_amount": 15000,
+    "value_type": "Relocation or placement support",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from NSW Health. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official NSW Health source page for the current application method.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/re-entry-to-midwifery-scholarships.aspx",
+    "source_name": "Re-entry to midwifery scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "nsw-health-re-entry-to-nursing-scholarships",
+    "slug": "nsw-health-re-entry-to-nursing-scholarships",
+    "scholarship_name": "Re-entry to nursing scholarships",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "Re-entry to nursing scholarships is listed by NSW Health. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$15,000",
+    "value_amount": 15000,
+    "value_type": "Relocation or placement support",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from NSW Health. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official NSW Health source page for the current application method.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/reentry.aspx",
+    "source_name": "Re-entry to nursing scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "nsw-health-rhodanthe-lipsett-midwifery-postgraduate-scholarship",
+    "slug": "nsw-health-rhodanthe-lipsett-midwifery-postgraduate-scholarship",
+    "scholarship_name": "Rhodanthe Lipsett midwifery postgraduate scholarship",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "Rhodanthe Lipsett midwifery postgraduate scholarship is listed by NSW Health. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$15,000,",
+    "value_amount": 15000,
+    "value_type": "Relocation or placement support",
+    "opens_at": null,
+    "closes_at": "2025-12-15",
+    "status": "closed",
+    "eligibility_summary": "Source-backed listing from NSW Health. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official NSW Health source page for the current application method.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/rhodanthe-lipsett-scholarship.aspx",
+    "source_name": "Rhodanthe Lipsett midwifery postgraduate scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "nsw-health-undergraduate-clinical-placement-grants-2026",
+    "slug": "nsw-health-undergraduate-clinical-placement-grants",
+    "scholarship_name": "Undergraduate Nursing and Midwifery Clinical Placement Grants",
+    "provider": "NSW Health",
+    "institution": "NSW Health",
+    "description": "Clinical placement grants for NSW undergraduate nursing and midwifery students completing placements in NSW public health facilities.",
+    "value_text": "Up to $1,000 based on distance from home university campus to placement location.",
+    "value_amount": 1000,
+    "value_type": "Placement grant",
+    "opens_at": "2026-07-20",
+    "closes_at": "2026-11-04",
+    "status": "upcoming",
+    "eligibility_summary": "For Australian citizens or permanent residents who reside in NSW and are enrolled in undergraduate nursing or midwifery with a NSW public health placement.",
+    "eligibility_tags": [
+      "regional-rural",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW"
+    ],
+    "field_of_study": [
+      "nursing",
+      "midwifery",
+      "health"
+    ],
+    "required_documents": [
+      "University letter confirming placement location",
+      "Placement dates",
+      "Placement duration",
+      "Semester details"
+    ],
+    "application_method": "Use the NSW Health online application form when the relevant round opens.",
+    "source_url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/undergrad_clinical.aspx",
+    "source_name": "NSW Health clinical placement grants",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The next verified 2026 round opens on 20 July 2026 for placements from July to December 2026."
+  },
+  {
+    "id": "scu-colfuturo-colombian-scholarship",
+    "slug": "scu-colfuturo-colombian-scholarship",
+    "scholarship_name": "Colfuturo Colombian scholarship",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "Studying English at Southern Cross University is now more affordable for Colombian citizens thanks to a new partnership with COLFUTURO",
+    "value_text": "Check official source for current value.",
+    "value_amount": null,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Southern Cross University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "science"
+    ],
+    "required_documents": [
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Southern Cross University source page for the current application method.",
+    "source_url": "https://www.scu.edu.au/news/2025/colfuturo-colombian-scholarship/",
+    "source_name": "Colfuturo Colombian scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "scu-commonwealth-indigenous-scholarships-2026",
+    "slug": "scu-commonwealth-indigenous-scholarships",
+    "scholarship_name": "Commonwealth Indigenous Scholarships",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "Indigenous accommodation and education-cost scholarships funded through the Indigenous Student Success Program for eligible SCU students.",
+    "value_text": "Accommodation scholarship up to $8,000 per year; education costs scholarship up to $4,000 per year.",
+    "value_amount": 8000,
+    "value_type": "Indigenous accommodation and education-cost scholarship",
+    "opens_at": "2026-04-08",
+    "closes_at": "2026-07-07",
+    "status": "open",
+    "eligibility_summary": "For eligible Aboriginal and Torres Strait Islander SCU students, with preference for commencing undergraduate students in Commonwealth Supported Places.",
+    "eligibility_tags": [
+      "aboriginal-torres-strait-islander",
+      "accommodation",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "QLD",
+      "regional-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "SCU online application",
+      "Indigenous identity evidence where requested",
+      "Financial or accommodation evidence where relevant"
+    ],
+    "application_method": "Complete the SCU online application before the relevant term close date.",
+    "source_url": "https://www.scu.edu.au/scholarships/commonwealth-indigenous-scholarships/",
+    "source_name": "Southern Cross University Commonwealth Indigenous Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The source page lists Term 3 2026 applications closing 7 July 2026."
+  },
+  {
+    "id": "scu-pro-invest-rise-hotel-management-scholarship-2026",
+    "slug": "scu-pro-invest-rise-hotel-management-scholarship",
+    "scholarship_name": "Pro-invest Group RISE Hotel Management Scholarship",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "Scholarship for students pursuing degrees that prepare them for hotel or tourism sector careers, with potential mentoring, internship and employment opportunities.",
+    "value_text": "$5,000.",
+    "value_amount": 5000,
+    "value_type": "Industry scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "For eligible students in hotel, tourism or related degrees as listed in SCU scholarship finder.",
+    "eligibility_tags": [
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "QLD"
+    ],
+    "field_of_study": [
+      "hospitality",
+      "tourism",
+      "business"
+    ],
+    "required_documents": [
+      "SCU scholarship application requirements vary by round",
+      "Course eligibility evidence"
+    ],
+    "application_method": "Use the SCU scholarship finder and follow the individual scholarship application instructions.",
+    "source_url": "https://www.scu.edu.au/scholarships/",
+    "source_name": "Southern Cross University scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Marked check source because the SCU overview verifies the award and value but not a stable close date in the retrieved page."
+  },
+  {
+    "id": "scu-pro-invest-group-rise-hotel-management-scholarship",
+    "slug": "scu-pro-invest-group-rise-hotel-management-scholarship",
+    "scholarship_name": "Pro-invest Group RISE Hotel Management Scholarship",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "The Pro-invest Group RISE Hotel Management Scholarship is designed for students studying in Hotel or Tourism degrees.",
+    "value_text": "$5,000",
+    "value_amount": 5000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": "2026-02-15",
+    "status": "closed",
+    "eligibility_summary": "Source-backed listing from Southern Cross University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "health",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Southern Cross University source page for the current application method.",
+    "source_url": "https://www.scu.edu.au/scholarships/pro-invest-group-rise-hotel-management-scholarship/",
+    "source_name": "Pro-invest Group RISE Hotel Management Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "scu-research-futures-scholarship-nurtures-the-next-generation",
+    "slug": "scu-research-futures-scholarship-nurtures-the-next-generation",
+    "scholarship_name": "Research Futures Scholarship nurtures the next generation",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "Research Futures Scholarship nurtures the next generation is listed by Southern Cross University. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$2,100",
+    "value_amount": 2100,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Southern Cross University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "health",
+      "science"
+    ],
+    "required_documents": [
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Southern Cross University source page for the current application method.",
+    "source_url": "https://www.scu.edu.au/news/2026/research-futures-scholarship-nurtures-the-next-generation/",
+    "source_name": "Research Futures Scholarship nurtures the next generation",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "scu-scholarship-opens-door-to-career-in-mental-health-nursing",
+    "slug": "scu-scholarship-opens-door-to-career-in-mental-health-nursing",
+    "scholarship_name": "Scholarship opens door to career in mental health nursing",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "Following the support of a Student Opportunities Fund scholarship, nursing graduate John is now forging a career in mental health nursing.",
+    "value_text": "$7,500",
+    "value_amount": 7500,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Southern Cross University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "leadership-community",
+      "academic-merit",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Southern Cross University source page for the current application method.",
+    "source_url": "https://www.scu.edu.au/news/2025/scholarship-opens-door-to-career-in-mental-health-nursing/",
+    "source_name": "Scholarship opens door to career in mental health nursing",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "scu-equity-scholarships-2026",
+    "slug": "scu-equity-scholarships",
+    "scholarship_name": "SCU Equity Scholarships",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "Equity scholarships helping future and current undergraduate students at Southern Cross University who are experiencing disadvantage.",
+    "value_text": "$800 per unit up to a maximum value of $4,800.",
+    "value_amount": 4800,
+    "value_type": "Equity scholarship",
+    "opens_at": "2026-04-08",
+    "closes_at": "2026-06-05",
+    "status": "closed",
+    "eligibility_summary": "For disadvantaged undergraduate students in Commonwealth-supported bachelor degrees on any SCU campus, assessed through UAC Equity Scholarships.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "regional-rural",
+      "disability-accessibility"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "QLD",
+      "regional-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship application",
+      "Centrelink or financial hardship evidence",
+      "Equity supporting documents"
+    ],
+    "application_method": "Complete an online UAC Equity Scholarships application.",
+    "source_url": "https://www.scu.edu.au/scholarships/scu-equity-scholarships/",
+    "source_name": "Southern Cross University SCU Equity Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Term 3 2026 application close was 5 June 2026; future term rounds should be checked on the official page."
+  },
+  {
+    "id": "scu-southern-cross-university-vice-chancellor-s-regional-leadership",
+    "slug": "scu-southern-cross-university-vice-chancellor-s-regional-leadership",
+    "scholarship_name": "Southern Cross University Vice Chancellor's Regional Leadership",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "The Vice Chancellor's Regional Leadership Scholarship will support high achievers studying an Undergraduate Bachelor Course.",
+    "value_text": "$50,000",
+    "value_amount": 50000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Southern Cross University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "science"
+    ],
+    "required_documents": [
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Southern Cross University source page for the current application method.",
+    "source_url": "https://www.scu.edu.au/scholarships/southern-cross-university-vice-chancellors-regional-leadership/",
+    "source_name": "Southern Cross University Vice Chancellor's Regional Leadership",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "scu-southern-cross-university-vice-chancellor-s-scholarship",
+    "slug": "scu-southern-cross-university-vice-chancellor-s-scholarship",
+    "scholarship_name": "Southern Cross University Vice Chancellor's Scholarship",
+    "provider": "Southern Cross University",
+    "institution": "Southern Cross University",
+    "description": "The Southern Cross University Vice Chancellor's Scholarship will support high achievers studying an Undergraduate Bachelor Course.",
+    "value_text": "$50,000",
+    "value_amount": 50000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Southern Cross University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "health",
+      "science"
+    ],
+    "required_documents": [
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Southern Cross University source page for the current application method.",
+    "source_url": "https://www.scu.edu.au/scholarships/southern-cross-university-vice-chancellors-scholarship/",
+    "source_name": "Southern Cross University Vice Chancellor's Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "uac-equity-scholarships-2026",
+    "slug": "uac-equity-scholarships",
+    "scholarship_name": "UAC Equity Scholarships",
+    "provider": "Universities Admissions Centre",
+    "institution": "UAC participating institutions",
+    "description": "Central equity scholarship application for participating NSW and ACT institutions, including institution equity scholarships and Indigenous Student Success Program scholarships.",
+    "value_text": "Value, eligibility criteria and duration differ by institution.",
+    "value_amount": null,
+    "value_type": "Equity scholarship",
+    "opens_at": "2026-04-08",
+    "closes_at": "2026-06-05",
+    "status": "closing_soon",
+    "eligibility_summary": "Applicants must be enrolled at, or applying to, a UAC participating institution and demonstrate financial need or eligible educational disadvantage.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "regional-rural",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "ACT",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Centrelink CRN or income evidence where applicable",
+      "PDF supporting documents requested by UAC",
+      "Institution-specific documents where requested"
+    ],
+    "application_method": "Apply through the UAC Equity Scholarships application portal.",
+    "source_url": "https://www.uac.edu.au/future-applicants/scholarships-and-schemes/equity-scholarships",
+    "source_name": "UAC Equity Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "UAC lists later 2026 offer-round deadlines after the June round; students should check the official key dates before submitting."
+  },
+  {
+    "id": "une-wilmot-residential-scholarship-2026",
+    "slug": "une-wilmot-residential-scholarship",
+    "scholarship_name": "Wilmot Residential Scholarship",
+    "provider": "University of New England",
+    "institution": "University of New England",
+    "description": "Residential support for UNE students living on campus and studying agriculture or related fields while facing financial barriers.",
+    "value_text": "$10,000 for one year, paid to the residential fee account.",
+    "value_amount": 10000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": "2026-01-04",
+    "status": "closed",
+    "eligibility_summary": "For new or continuing domestic UNE students studying full-time in agriculture-related courses with regional or remote address criteria and financial need.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "regional-or-remote-australia",
+      "une-residential-college"
+    ],
+    "field_of_study": [
+      "agriculture",
+      "rural-science",
+      "animal-science"
+    ],
+    "required_documents": [
+      "Address evidence",
+      "Financial hardship evidence",
+      "Course and residential enrolment evidence"
+    ],
+    "application_method": "Applications are closed for the verified 2026 round; monitor UNE new-student scholarships for the next round.",
+    "source_url": "https://www.une.edu.au/scholarships/new-student-scholarships/wilmot-residential-scholarship",
+    "source_name": "UNE Wilmot Residential Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Included as an example of accommodation support and regional-field eligibility even though the 2026 round has closed."
+  },
+  {
+    "id": "newcastle-essun-scholarships-2026",
+    "slug": "newcastle-essun-scholarships",
+    "scholarship_name": "ESSUN Scholarships",
+    "provider": "University of Newcastle",
+    "institution": "University of Newcastle",
+    "description": "Equity Scholarships Scheme University of Newcastle support for students experiencing financial hardship or educational disadvantage.",
+    "value_text": "Up to $5,000 in financial support.",
+    "value_amount": 5000,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": "2026-02-01",
+    "status": "closed",
+    "eligibility_summary": "For University of Newcastle students assessed through UAC-style equity criteria, including hardship, medical conditions, caring responsibilities, regional or remote residence and recognised equity groups.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "regional-rural",
+      "disability-accessibility",
+      "aboriginal-torres-strait-islander"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "University of Newcastle scholarship application",
+      "UAC-style equity evidence",
+      "Supporting documents for claimed disadvantage"
+    ],
+    "application_method": "Apply through the University of Newcastle scholarships process for the relevant intake.",
+    "source_url": "https://www.newcastle.edu.au/study/international/scholarships",
+    "source_name": "University of Newcastle Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The official scholarships page references ESSUN support; eligibility detail is supported by the AskUON equity scholarship guidance."
+  },
+  {
+    "id": "newcastle-ma-and-morley-scholarship-program-2027",
+    "slug": "newcastle-ma-and-morley-scholarship-program",
+    "scholarship_name": "Ma and Morley Scholarship Program",
+    "provider": "University of Newcastle",
+    "institution": "University of Newcastle",
+    "description": "Values-based scholarship program at the University of Newcastle with equity principles and a future application round opening in July 2026.",
+    "value_text": "Value varies by Ma and Morley scholarship category; check official source.",
+    "value_amount": null,
+    "value_type": "Leadership and equity scholarship",
+    "opens_at": "2026-07-01",
+    "closes_at": null,
+    "status": "upcoming",
+    "eligibility_summary": "For eligible University of Newcastle applicants in the relevant Ma and Morley application category.",
+    "eligibility_tags": [
+      "leadership-community",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Official Ma and Morley application requirements",
+      "Personal statement or selection evidence where requested"
+    ],
+    "application_method": "Apply through the Ma and Morley Scholarship Program when applications open.",
+    "source_url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program",
+    "source_name": "University of Newcastle Ma and Morley Scholarship Program",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Applications for the 2027 program open 1 July 2026 according to the official source."
+  },
+  {
+    "id": "newcastle-student-residences-scholarship-2026",
+    "slug": "newcastle-student-residences-scholarship",
+    "scholarship_name": "Student Residences Scholarship",
+    "provider": "University of Newcastle",
+    "institution": "University of Newcastle",
+    "description": "Accommodation-linked scholarship supporting students in University of Newcastle Student Living accommodation who are managing educational disadvantage.",
+    "value_text": "Check official source for current value and availability.",
+    "value_amount": null,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "For eligible full-time undergraduate students residing within University of Newcastle Student Living accommodation.",
+    "eligibility_tags": [
+      "accommodation",
+      "regional-rural",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Student Living accommodation evidence",
+      "University scholarship application",
+      "Equity evidence where requested"
+    ],
+    "application_method": "Use the University of Newcastle scholarships browser and current conditions of award.",
+    "source_url": "https://www.newcastle.edu.au/study/international/scholarships",
+    "source_name": "University of Newcastle Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Marked check source because the current public scholarship listing verifies the scholarship type but not a single current application close date."
+  },
+  {
+    "id": "uts-built-equity-scholarship-2026",
+    "slug": "uts-built-equity-scholarship",
+    "scholarship_name": "Built Equity Scholarship",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "Equity scholarship for UTS undergraduate students experiencing educational barriers or financial hardship and entering building, construction or civil engineering pathways.",
+    "value_text": "$40,000 plus paid work placement over four years.",
+    "value_amount": 40000,
+    "value_type": "Equity and industry placement scholarship",
+    "opens_at": "2026-04-07",
+    "closes_at": "2026-04-27",
+    "status": "closed",
+    "eligibility_summary": "For commencing eligible UTS undergraduate students in listed built environment or civil engineering programs with financial need and educational barriers.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "disability-accessibility",
+      "first-in-family"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW"
+    ],
+    "field_of_study": [
+      "engineering",
+      "construction",
+      "built-environment"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship assessment",
+      "UTS scholarship application evidence",
+      "Program eligibility evidence"
+    ],
+    "application_method": "Apply through the UTS scholarship page before the close date.",
+    "source_url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/built-equity-scholarship",
+    "source_name": "UTS Built Equity Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Closed for the verified 2026 round but high-value and strongly aligned to equity and industry pathways."
+  },
+  {
+    "id": "uts-equal-access-scholarship-2026",
+    "slug": "uts-equal-access-scholarship",
+    "scholarship_name": "Equal Access Scholarship",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "Institution equity scholarship program for UTS students from low socioeconomic backgrounds and students receiving income support payments.",
+    "value_text": "Value varies by UTS equity allocation and scholarship round.",
+    "value_amount": null,
+    "value_type": "Institution equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "For eligible undergraduate, postgraduate and research students from low socioeconomic backgrounds, with Indigenous Commonwealth scholarship options also referenced by UTS.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "accommodation",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research"
+    ],
+    "location_eligibility": [
+      "NSW"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship application",
+      "Centrelink or financial hardship evidence where relevant"
+    ],
+    "application_method": "Apply through UAC Equity Scholarships or UTS instructions for the relevant round.",
+    "source_url": "https://www.uts.edu.au/current-students/opportunities/scholarships-prizes-and-awards/scholarships-uts/equal-access-scholarship",
+    "source_name": "UTS Equal Access Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Marked check source because the retrieved page verifies purpose and eligibility but not a single current close date or value."
+  },
+  {
+    "id": "uts-equal-access-scholarship-institution-equity-scholarship",
+    "slug": "uts-equal-access-scholarship-institution-equity-scholarship",
+    "scholarship_name": "Equal Access Scholarship (Institution Equity Scholarship)",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "Equal Access Scholarship (Institution Equity Scholarship) is listed by University of Technology Sydney. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$500",
+    "value_amount": 6000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from University of Technology Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "science"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official University of Technology Sydney source page for the current application method.",
+    "source_url": "https://www.uts.edu.au/scholarship/equal-access-scholarship-institution-equity-scholarship",
+    "source_name": "Equal Access Scholarship (Institution Equity Scholarship)",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "uts-law-diversity-equity-scholarship-2026",
+    "slug": "uts-law-diversity-equity-scholarship",
+    "scholarship_name": "Law Diversity and Equity Scholarship",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "UTS Faculty of Law scholarship supporting undergraduate law students who can demonstrate financial disadvantage.",
+    "value_text": "$10,000 for one year.",
+    "value_amount": 10000,
+    "value_type": "Law equity scholarship",
+    "opens_at": "2026-04-07",
+    "closes_at": "2026-05-04",
+    "status": "closed",
+    "eligibility_summary": "For commencing or continuing eligible UTS undergraduate law students enrolled full-time with financial disadvantage.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW"
+    ],
+    "field_of_study": [
+      "law"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship application",
+      "UTS law scholarship application",
+      "Financial disadvantage evidence"
+    ],
+    "application_method": "Apply through UTS Scholarships and ensure UAC Equity Scholarship information is current.",
+    "source_url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/law-diversity-and-equity-scholarship",
+    "source_name": "UTS Law Diversity and Equity Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The official page preference criteria include women from refugee, asylum seeker, migrant or Indigenous backgrounds facing disadvantage."
+  },
+  {
+    "id": "uts-scholarships-for-indigenous-students",
+    "slug": "uts-scholarships-for-indigenous-students",
+    "scholarship_name": "Scholarships for Indigenous Students",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "UTS is committed to offering scholarships and prizes to support the ongoing success of Australian Aboriginal and Torres Strait Islander students. Listed below...",
+    "value_text": "Check official source for current value.",
+    "value_amount": null,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from University of Technology Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "law",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official University of Technology Sydney source page for the current application method.",
+    "source_url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/indigenous",
+    "source_name": "Scholarships for Indigenous Students",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "uts-scholarships-for-international-students",
+    "slug": "uts-scholarships-for-international-students",
+    "scholarship_name": "Scholarships for international students",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "Explore a wide range of scholarships for international students at UTS. Find funding support for undergraduate, postgraduate, and research programs in Sydney.",
+    "value_text": "$5,000",
+    "value_amount": 5000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from University of Technology Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "engineering",
+      "science"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official University of Technology Sydney source page for the current application method.",
+    "source_url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/international",
+    "source_name": "Scholarships for international students",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "uts-uts-humanitarian-scholarship",
+    "slug": "uts-uts-humanitarian-scholarship",
+    "scholarship_name": "UTS Humanitarian Scholarship",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "UTS Tuition Fees + Student Services and Amenities Fees. A stipend will be provided if funding is available.",
+    "value_text": "Check official source for current value.",
+    "value_amount": null,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": "2026-06-22",
+    "status": "closing_soon",
+    "eligibility_summary": "Source-backed listing from University of Technology Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "science"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official University of Technology Sydney source page for the current application method.",
+    "source_url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-humanitarian-scholarship",
+    "source_name": "UTS Humanitarian Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "uts-vice-chancellor-s-merit-scholarship",
+    "slug": "uts-vice-chancellor-s-merit-scholarship",
+    "scholarship_name": "Vice-Chancellor's Merit Scholarship",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "Vice-Chancellor's Merit Scholarship is listed by University of Technology Sydney. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$12,500 per year Application Open 31/08/2025 Application Close 08/12/2025 DURATION For the",
+    "value_amount": 12500,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from University of Technology Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "engineering",
+      "law",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official University of Technology Sydney source page for the current application method.",
+    "source_url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/vice-chancellors-merit-scholarship",
+    "source_name": "Vice-Chancellor's Merit Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "uts-vice-chancellor-s-outstanding-achievement-scholarship",
+    "slug": "uts-vice-chancellor-s-outstanding-achievement-scholarship",
+    "scholarship_name": "Vice-Chancellor's Outstanding Achievement Scholarship",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "Vice-Chancellor's Outstanding Achievement Scholarship is listed by University of Technology Sydney. Check the official source for current eligibility, value and application conditions.",
+    "value_text": "$12,500 per year Application Open 31/08/2025 Application Close 08/12/2025 DURATION For the",
+    "value_amount": 12500,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from University of Technology Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "engineering",
+      "law",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official University of Technology Sydney source page for the current application method.",
+    "source_url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/vice-chancellors-outstanding-achievement-scholarship",
+    "source_name": "Vice-Chancellor's Outstanding Achievement Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "uts-women-in-engineering-and-it-scholarships",
+    "slug": "uts-women-in-engineering-and-it-scholarships",
+    "scholarship_name": "Women in Engineering and IT Scholarships",
+    "provider": "University of Technology Sydney",
+    "institution": "University of Technology Sydney",
+    "description": "Explore Women in Engineering and IT scholarships at UTS. Get up to $66,000 in financial support, industry experience, and mentoring to start your career in STEM.",
+    "value_text": "$66,000",
+    "value_amount": 66000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": "2026-09-06",
+    "status": "open",
+    "eligibility_summary": "Source-backed listing from University of Technology Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research",
+      "tafe",
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "engineering",
+      "science"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official University of Technology Sydney source page for the current application method.",
+    "source_url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/women-engineering-it",
+    "source_name": "Women in Engineering and IT Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "uow-country-to-coast-scholarship-2026",
+    "slug": "uow-country-to-coast-scholarship",
+    "scholarship_name": "Country to Coast Scholarship",
+    "provider": "University of Wollongong",
+    "institution": "University of Wollongong",
+    "description": "Regional and remote NSW scholarship supporting eligible UOW Early Admission and Indigenous Access Program offer holders with relocation and setup costs.",
+    "value_text": "$5,000.",
+    "value_amount": 5000,
+    "value_type": "Regional relocation scholarship",
+    "opens_at": "2025-06-16",
+    "closes_at": "2025-08-08",
+    "status": "closed",
+    "eligibility_summary": "For eligible school leavers from defined regional and remote areas of NSW applying to UOW via Early Admission or selected Indigenous Access Program offers.",
+    "eligibility_tags": [
+      "regional-rural",
+      "relocation",
+      "accommodation",
+      "aboriginal-torres-strait-islander"
+    ],
+    "study_level": [
+      "undergraduate",
+      "diploma"
+    ],
+    "location_eligibility": [
+      "regional-nsw",
+      "remote-nsw"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UOW Early Admission pathway evidence",
+      "Regional/remote school or home address evidence where requested"
+    ],
+    "application_method": "No separate scholarship application; eligibility is assessed through UOW Early Admission or selected IAP offers.",
+    "source_url": "https://www.uow.edu.au/study/scholarships/domestic/country-coast-scholarship/",
+    "source_name": "UOW Country to Coast Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Closed for the 2026 cohort but important for planning because the pathway is tied to early admission timing."
+  },
+  {
+    "id": "uow-equity-scholarships-2026",
+    "slug": "uow-equity-scholarships",
+    "scholarship_name": "UOW Equity Scholarships",
+    "provider": "University of Wollongong",
+    "institution": "University of Wollongong",
+    "description": "Equity scholarships for undergraduate UOW students experiencing financial hardship and educational challenges.",
+    "value_text": "$5,000 for commencing students or $1,000 for continuing students.",
+    "value_amount": 5000,
+    "value_type": "Equity scholarship",
+    "opens_at": "2025-12-19",
+    "closes_at": "2026-02-06",
+    "status": "closed",
+    "eligibility_summary": "For domestic undergraduate students in their first undergraduate degree who demonstrate financial challenge and other educational disadvantage.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "regional-rural",
+      "disability-accessibility",
+      "aboriginal-torres-strait-islander",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship application",
+      "Centrelink or financial hardship evidence",
+      "Supporting evidence for educational challenges"
+    ],
+    "application_method": "Submit one UAC Equity Scholarship application during the relevant annual period.",
+    "source_url": "https://www.uow.edu.au/study/scholarships/domestic/equity-scholarships/",
+    "source_name": "UOW Equity scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "UOW lists regional relocation, disability, carer responsibilities, Indigenous Australian status and refugee status among considered factors."
+  },
+  {
+    "id": "uow-regional-kick-start-2026",
+    "slug": "uow-regional-kick-start",
+    "scholarship_name": "UOW Regional Kick Start Scholarships",
+    "provider": "University of Wollongong",
+    "institution": "University of Wollongong",
+    "description": "Regional-campus scholarships supporting first-year regional students with resources and living costs while studying close to home.",
+    "value_text": "$3,000",
+    "value_amount": 3000,
+    "value_type": "Regional scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "For eligible students connected to UOW regional campuses; official source identifies regional scholarship options including Regional Kick Start.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "regional-nsw",
+      "uow-regional-campuses"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Check UOW scholarship portal for current application and evidence requirements"
+    ],
+    "application_method": "Use the UOW scholarships portal or linked scholarship page when applications are available.",
+    "source_url": "https://www.uow.edu.au/study/scholarships/regional-scholarships/",
+    "source_name": "UOW Regional scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The source page verifies the program and value but does not expose a current close date in the retrieved page text."
+  },
+  {
+    "id": "unsw-origin-foundation-grant-king-indigenous-scholarship-2026",
+    "slug": "unsw-origin-foundation-grant-king-indigenous-scholarship",
+    "scholarship_name": "Origin Foundation Grant King Indigenous Scholarships",
+    "provider": "UNSW Sydney",
+    "institution": "UNSW Sydney",
+    "description": "Accommodation-linked scholarship supporting Indigenous students commencing science or engineering at UNSW.",
+    "value_text": "$25,000 paid as accommodation fees plus UNSW equity stipend support where applicable.",
+    "value_amount": 25000,
+    "value_type": "Indigenous accommodation scholarship",
+    "opens_at": "2026-04-08",
+    "closes_at": "2026-04-24",
+    "status": "closed",
+    "eligibility_summary": "For eligible Indigenous students commencing an undergraduate degree in UNSW Science or Engineering.",
+    "eligibility_tags": [
+      "aboriginal-torres-strait-islander",
+      "accommodation",
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "science",
+      "engineering"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship application",
+      "Indigenous identity evidence where requested",
+      "Accommodation application requirements"
+    ],
+    "application_method": "Apply through UAC Equity Scholarships and UNSW accommodation/scholarship processes where required.",
+    "source_url": "https://www.scholarships.unsw.edu.au/scholarships/id/1878",
+    "source_name": "UNSW 2026 Equity Scholarships for Commencing Undergraduate Students",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "UNSW notes accommodation scholarship offers do not include a guaranteed accommodation offer."
+  },
+  {
+    "id": "unsw-peter-ware-equity-scholarship-2026",
+    "slug": "unsw-peter-ware-equity-scholarship",
+    "scholarship_name": "Peter Ware Equity Scholarship",
+    "provider": "UNSW Sydney",
+    "institution": "UNSW Sydney",
+    "description": "UNSW equity scholarship supporting financially disadvantaged students commencing undergraduate or postgraduate coursework study.",
+    "value_text": "$15,000 per year for the minimum duration of the program.",
+    "value_amount": 15000,
+    "value_type": "Equity scholarship",
+    "opens_at": "2026-04-08",
+    "closes_at": "2026-04-24",
+    "status": "closed",
+    "eligibility_summary": "For students considered through the UAC Equity Scholarship process who meet UNSW equity scholarship criteria.",
+    "eligibility_tags": [
+      "low-income-equity"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "ACT"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship application",
+      "Financial disadvantage evidence",
+      "Supporting documents requested by UAC or UNSW"
+    ],
+    "application_method": "Submit a UAC Equity Scholarship application and monitor UNSW scholarship offers.",
+    "source_url": "https://www.scholarships.unsw.edu.au/scholarships/id/1878",
+    "source_name": "UNSW 2026 Equity Scholarships for Commencing Undergraduate Students",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "UNSW lists this within the 2026 equity scholarship table; later equity rounds may consider the same UAC application."
+  },
+  {
+    "id": "unsw-unsw-community-plus-scholarship",
+    "slug": "unsw-unsw-community-plus-scholarship",
+    "scholarship_name": "UNSW Community Plus Scholarship",
+    "provider": "UNSW Sydney",
+    "institution": "UNSW Sydney",
+    "description": "The purpose of the Scholarship is to support commencing students from low-socioeconomic backgrounds with on-campus accommodation at UNSW.",
+    "value_text": "$25,000",
+    "value_amount": 25000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from UNSW Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "health",
+      "engineering",
+      "law",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official UNSW Sydney source page for the current application method.",
+    "source_url": "https://www.scholarships.unsw.edu.au/scholarships/id/1809/",
+    "source_name": "UNSW Community Plus Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "unsw-gateway-low-ses-equity-scholarship-2026",
+    "slug": "unsw-gateway-low-ses-equity-scholarship",
+    "scholarship_name": "UNSW Gateway and Low SES Equity Scholarship",
+    "provider": "UNSW Sydney",
+    "institution": "UNSW Sydney",
+    "description": "Scholarship supporting students from low-socioeconomic backgrounds and low-socioeconomic Gateway schools to complete undergraduate study at UNSW.",
+    "value_text": "$10,000 per year for the minimum duration of the program.",
+    "value_amount": 10000,
+    "value_type": "Gateway equity scholarship",
+    "opens_at": "2026-04-08",
+    "closes_at": "2026-04-24",
+    "status": "closed",
+    "eligibility_summary": "For commencing UNSW students who meet Gateway and low-socioeconomic criteria through UNSW/UAC processes.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "regional-rural"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "gateway-schools"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship application where required",
+      "Gateway pathway or school eligibility evidence"
+    ],
+    "application_method": "Apply through the relevant UNSW Gateway and UAC scholarship pathways.",
+    "source_url": "https://www.scholarships.unsw.edu.au/scholarships/id/1878",
+    "source_name": "UNSW 2026 Equity Scholarships for Commencing Undergraduate Students",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Included because it links low-SES and pathway entry support for students from eligible schools."
+  },
+  {
+    "id": "unsw-general-merit-undergraduate-scholarships-2026",
+    "slug": "unsw-general-merit-undergraduate-scholarships",
+    "scholarship_name": "UNSW General Merit Undergraduate Scholarships",
+    "provider": "UNSW Sydney",
+    "institution": "UNSW Sydney",
+    "description": "Merit scholarship application for recent school leavers commencing undergraduate coursework at UNSW who show academic, leadership and community engagement strengths.",
+    "value_text": "Minimum listed value $5,000 for duration of program; individual awards vary.",
+    "value_amount": 5000,
+    "value_type": "Merit scholarship",
+    "opens_at": "2025-07-01",
+    "closes_at": "2025-09-30",
+    "status": "closed",
+    "eligibility_summary": "For recent high school leavers commencing full-time undergraduate study at UNSW who meet academic and scholarship-specific criteria.",
+    "eligibility_tags": [
+      "academic-merit",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UNSW scholarship application",
+      "Academic achievement evidence",
+      "Leadership and community engagement evidence"
+    ],
+    "application_method": "Apply through UNSW Scholarships during the relevant annual round.",
+    "source_url": "https://www.scholarships.unsw.edu.au/scholarships/id/1891",
+    "source_name": "UNSW 2026 General Merit Undergraduate Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "Retained as a closed merit benchmark so students can plan for the next annual round."
+  },
+  {
+    "id": "unsw-unsw-veterans-scholarship",
+    "slug": "unsw-unsw-veterans-scholarship",
+    "scholarship_name": "UNSW Veterans Scholarship",
+    "provider": "UNSW Sydney",
+    "institution": "UNSW Sydney",
+    "description": "The Scholarship has been established to support former and transitioning Australian Defence Force Personnel or their dependents, who are experiencing disadvantage to commence studies in any UNSW undergraduate or postgraduate coursework degree program.",
+    "value_text": "$5,000",
+    "value_amount": 20000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from UNSW Sydney. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community",
+      "academic-merit",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "health",
+      "engineering",
+      "law",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official UNSW Sydney source page for the current application method.",
+    "source_url": "https://www.scholarships.unsw.edu.au/scholarships/id/1328",
+    "source_name": "UNSW Veterans Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-airtrunk-stem-scholarship-2026",
+    "slug": "western-sydney-airtrunk-stem-scholarship",
+    "scholarship_name": "AirTrunk STEM Scholarships",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Equity scholarship listed by Western Sydney University for new students in STEM-related pathways.",
+    "value_text": "$7,500 per year for up to three years.",
+    "value_amount": 7500,
+    "value_type": "STEM equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "closed",
+    "eligibility_summary": "For eligible new Western Sydney University students assessed through WSU equity scholarship availability and criteria.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "academic-merit"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "western-sydney",
+      "NSW"
+    ],
+    "field_of_study": [
+      "stem",
+      "engineering",
+      "information-technology"
+    ],
+    "required_documents": [
+      "WSU scholarship application or UAC Equity evidence where required",
+      "Course eligibility evidence"
+    ],
+    "application_method": "Check the WSU equity scholarship table and apply through the listed WSU/UAC process.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/important-dates/equity",
+    "source_name": "Western Sydney University Equity Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The verified WSU table listed this scholarship as awarded at time of check."
+  },
+  {
+    "id": "western-sydney-airtrunk-stem-scholarships",
+    "slug": "western-sydney-airtrunk-stem-scholarships",
+    "scholarship_name": "AirTrunk STEM Scholarships",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "AirTrunk is a hyperscale data centre specialist creating a platform for cloud, content and large enterprise customers across the Asia-Pacific and Middle East. We develop ...",
+    "value_text": "$7,500 per year for up to three years* *full-time, or part-time equivalent Eligibility Cri",
+    "value_amount": 7500,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "health",
+      "engineering",
+      "science"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/airtrunk-stem-scholarships",
+    "source_name": "AirTrunk STEM Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-ann-d-clark-scholarship",
+    "slug": "western-sydney-ann-d-clark-scholarship",
+    "scholarship_name": "Ann D Clark Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "The Ann D Clark Scholarship was developed in honour of Ann D Clark. Ann had a distinguished career in all levels of Catholic Education and ...",
+    "value_text": "$6,000 per year for up to three years* *full-time, or part-time equivalent Eligibility Cri",
+    "value_amount": 6000,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "leadership-community",
+      "academic-merit"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/annedclar",
+    "source_name": "Ann D Clark Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-bankstown-sports-social-work-scholarship-2026",
+    "slug": "western-sydney-bankstown-sports-social-work-scholarship",
+    "scholarship_name": "Bankstown Sports Club Scholarship in Social Work",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Western Sydney University equity scholarship for new undergraduate social work students.",
+    "value_text": "$10,000 per year for up to four years.",
+    "value_amount": 10000,
+    "value_type": "Social work equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "closed",
+    "eligibility_summary": "For eligible new Western Sydney University undergraduate social work students under WSU equity scholarship criteria.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "western-sydney",
+      "NSW"
+    ],
+    "field_of_study": [
+      "social-work",
+      "community-services"
+    ],
+    "required_documents": [
+      "WSU scholarship application or equity evidence",
+      "Course enrolment evidence"
+    ],
+    "application_method": "Check WSU scholarship availability and apply through the listed WSU process.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/important-dates/equity",
+    "source_name": "Western Sydney University Equity Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The verified WSU table listed this scholarship as awarded at time of check."
+  },
+  {
+    "id": "western-sydney-bankstown-sports-club-scholarship-in-social-work",
+    "slug": "western-sydney-bankstown-sports-club-scholarship-in-social-work",
+    "scholarship_name": "Bankstown Sports Club Scholarship in Social Work",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Bankstown Sports Club is a sport and community focused not-for-profit organisation, based in the heart of Sydney’s southwest. From humble beginnings in a small church ...",
+    "value_text": "$10,000 per year for up to four years* *full-time, or part-time equivalent Eligibility Crit",
+    "value_amount": 10000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "health",
+      "social-work"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/bankstown-sports-club-scholarship",
+    "source_name": "Bankstown Sports Club Scholarship in Social Work",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-brydens-lawyers-scholarship-2026",
+    "slug": "western-sydney-brydens-lawyers-scholarship",
+    "scholarship_name": "Brydens Lawyers Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Western Sydney University equity scholarship listed for new and continuing undergraduate students.",
+    "value_text": "$7,500 per year for up to five years.",
+    "value_amount": 7500,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "under_assessment",
+    "eligibility_summary": "For eligible new and continuing Western Sydney University undergraduate students assessed under WSU equity scholarship criteria.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "first-in-family"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "western-sydney",
+      "NSW"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "WSU scholarship application or equity evidence",
+      "Supporting hardship evidence where requested"
+    ],
+    "application_method": "Check WSU scholarship availability and follow the listed application process.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/important-dates/equity",
+    "source_name": "Western Sydney University Equity Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "The verified WSU table listed this scholarship as under assessment at time of check."
+  },
+  {
+    "id": "western-sydney-commonwealth-prac-payment",
+    "slug": "western-sydney-commonwealth-prac-payment",
+    "scholarship_name": "Commonwealth Prac Payment",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Starting in July 2025, the Commonwealth Prac Payment (CPP) will help students manage the costs associated with undertaking a mandatory placement (also known as a ...",
+    "value_text": "$338.60",
+    "value_amount": 1536.37,
+    "value_type": "Relocation or placement support",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "relocation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "tafe"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "social-work"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/important-dates/cpp",
+    "source_name": "Commonwealth Prac Payment",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-dr-mushtaq-a-khan-scholarship",
+    "slug": "western-sydney-dr-mushtaq-a-khan-scholarship",
+    "scholarship_name": "Dr Mushtaq A Khan Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Mushtaq Khan was born in 1938 in a small village near Gujrat in Pakistan. He graduated in 1959 from King Edward Medical College, Lahore and ...",
+    "value_text": "$7,500 per year for one year* *full-time, or part-time equivalent Eligibility Criteria App",
+    "value_amount": 7500,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "disability-accessibility",
+      "leadership-community",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health",
+      "science"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/drmkhan",
+    "source_name": "Dr Mushtaq A Khan Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-dr-wayne-wai-kung-wong-scholarship-in-medicine",
+    "slug": "western-sydney-dr-wayne-wai-kung-wong-scholarship-in-medicine",
+    "scholarship_name": "Dr Wayne Wai-Kung Wong Scholarship in Medicine",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Dr Wayne Wai-Kung Wong is a doctor specialised in medical diagnostic radiology/imaging, recently retired. In the mid-1970s, he immigrated to Australia from Hong Kong as ...",
+    "value_text": "$7,500 per year for up to five years* *full-time Eligibility Criteria Applicants must meet",
+    "value_amount": 7500,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "low-income-equity",
+      "disability-accessibility",
+      "leadership-community"
+    ],
+    "study_level": [
+      "training"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "health"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/drwong",
+    "source_name": "Dr Wayne Wai-Kung Wong Scholarship in Medicine",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-ellen-rigby-memorial-scholarship",
+    "slug": "western-sydney-ellen-rigby-memorial-scholarship",
+    "scholarship_name": "Ellen Rigby Memorial Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Ellen Rigby was a much-loved family matriarch who died on 30 June 2019 at 91 years of age. She immigrated to Australia in 1965 with ...",
+    "value_text": "$5,000 per year for duration of degree* *full-time, or part-time equivalent Eligibility Cr",
+    "value_amount": 5000,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "science"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/ellenrig",
+    "source_name": "Ellen Rigby Memorial Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-enid-helen-hort-and-family-scholarship",
+    "slug": "western-sydney-enid-helen-hort-and-family-scholarship",
+    "scholarship_name": "Enid Helen Hort and Family Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "In August 2011 Mr Harold Hort, a resident of Greater Western Sydney, made a gift of $600,000 to Western Sydney University –one of the largest ...",
+    "value_text": "$7,500 per year for duration of degree* *full-time, or part-time equivalent Eligibility Cr",
+    "value_amount": 600000,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/enidhort",
+    "source_name": "Enid Helen Hort and Family Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-george-masterman-scholarship",
+    "slug": "western-sydney-george-masterman-scholarship",
+    "scholarship_name": "George Masterman Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "I wish to provide the opportunity of advancement to a student of law who might not have the means to concentrate on his or her ...",
+    "value_text": "$7,500 per year for one year* *full-time, or part-time equivalent Eligibility Criteria App",
+    "value_amount": 7500,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "law"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/masterman",
+    "source_name": "George Masterman Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-george-wh-lan-nursing-scholarship",
+    "slug": "western-sydney-george-wh-lan-nursing-scholarship",
+    "scholarship_name": "George WH Lan Nursing Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "This Scholarship has been founded by the son of George WH Lan and graduate of the University, Professor Yi-Chen Lan. The Scholarship is in memory ...",
+    "value_text": "$5,000 per year for duration of degree* *full-time, or part-time equivalent Eligibility Cr",
+    "value_amount": 5000,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate",
+      "research"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "business"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/ghlann",
+    "source_name": "George WH Lan Nursing Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-gilder-nursing-scholarship",
+    "slug": "western-sydney-gilder-nursing-scholarship",
+    "scholarship_name": "Gilder Nursing Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "The late Miss Dorothy Gilder provided a number of generous donations to the Hawkesbury Foundation to assist students studying nursing at the Hawkesbury campus. Her ...",
+    "value_text": "$7,500 per year for one year* *full-time, or part-time equivalent Eligibility Criteria App",
+    "value_amount": 7500,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "nursing"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/gildernur",
+    "source_name": "Gilder Nursing Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-gladys-amy-skipton-arts-scholarship",
+    "slug": "western-sydney-gladys-amy-skipton-arts-scholarship",
+    "scholarship_name": "Gladys Amy Skipton Arts Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Applications are to be submitted through the Universities Admissions Centre. Shortlisted applicants, as determined by the UAC Equity Ranking, may be required to make a ...",
+    "value_text": "$7,500 per year for duration of degree Eligibility Criteria Applicants must meet the follo",
+    "value_amount": 7500,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/gskipton",
+    "source_name": "Gladys Amy Skipton Arts Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-high-potential-scholarships",
+    "slug": "western-sydney-high-potential-scholarships",
+    "scholarship_name": "High Potential Scholarships",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Scholarships recognising excellence, engaged leaders, elite athletes, and Western program participants. These scholarships are designed for students who show exceptional promise within and beyond their ...",
+    "value_text": "$7,500 for up to 3 years Under Assessment Academy U Excellence Scholarship A New students,",
+    "value_amount": 30000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "regional-rural",
+      "disability-accessibility",
+      "leadership-community",
+      "academic-merit",
+      "relocation",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate",
+      "research"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "regional-or-remote-australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "law",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "Address, relocation or accommodation evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/important-dates/high-potential",
+    "source_name": "High Potential Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-hill-trust-scholarship",
+    "slug": "western-sydney-hill-trust-scholarship",
+    "scholarship_name": "Hill Trust Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Dorothea Roma Hill was born in Lakemba in 1925, the daughter of English migrants George Frederick and Ada (née Sugden) Hill who came to Australia ...",
+    "value_text": "$6,000 per year for up to four years* *full-time, or part-time equivalent Eligibility Crit",
+    "value_amount": 6000,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "disability-accessibility",
+      "leadership-community"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/hilltrust",
+    "source_name": "Hill Trust Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-humanitarian-scholarships",
+    "slug": "western-sydney-humanitarian-scholarships",
+    "scholarship_name": "Humanitarian Scholarships",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Western Sydney University has a long history of supporting talented and hardworking students from a refugee or asylum seeker background. Our Humanitarian scholarships aim to ...",
+    "value_text": "$7,500 per year for up to 3 years Awarded Berg Family Foundation Scholarship for Refugee S",
+    "value_amount": 10000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "health",
+      "law"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/important-dates/humanitarian",
+    "source_name": "Humanitarian Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-indigenous-achievement-scholarship",
+    "slug": "western-sydney-indigenous-achievement-scholarship",
+    "scholarship_name": "Indigenous Achievement Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "The Indigenous Achievement Scholarships aim to encourage academically gifted Australian Aboriginal and Torres Strait Islander students who are either commencing or continuing their tertiary education ...",
+    "value_text": "$7,500 per year for up to three years* *full-time, or part-time equivalent Eligibility Cri",
+    "value_amount": 7500,
+    "value_type": "First Nations scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "academic-merit"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/indigenous",
+    "source_name": "Indigenous Achievement Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-indigenous-scholarships",
+    "slug": "western-sydney-indigenous-scholarships",
+    "scholarship_name": "Indigenous Scholarships",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "This category is for applicants who are Indigenous Australians, and who identify as an Indigenous Australian and are accepted as such by an Indigenous Australian ...",
+    "value_text": "$7,500 per year for up to 4 years Awarded Aunty Kerrie Doyle Scholarship in Medicine, Nurs",
+    "value_amount": 30000,
+    "value_type": "Accommodation scholarship",
+    "opens_at": null,
+    "closes_at": "2026-06-07",
+    "status": "closing_soon",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "aboriginal-torres-strait-islander",
+      "disability-accessibility",
+      "leadership-community",
+      "accommodation"
+    ],
+    "study_level": [
+      "undergraduate",
+      "postgraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "nursing",
+      "health",
+      "engineering",
+      "law",
+      "social-work",
+      "science",
+      "business"
+    ],
+    "required_documents": [
+      "Financial hardship or income evidence",
+      "Indigenous identity evidence where requested",
+      "Address, relocation or accommodation evidence where requested"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/important-dates/indigenous",
+    "source_name": "Indigenous Scholarships",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-jd-lovich-scholarship",
+    "slug": "western-sydney-jd-lovich-scholarship",
+    "scholarship_name": "JD Lovich Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Australia's diversity is a strength. It creates a vibrant, innovative and inclusive culture. We believe that Western Sydney University will continue to make a major ...",
+    "value_text": "$7,500 per year for duration of degree Eligibility Criteria Applicants must meet the follo",
+    "value_amount": 7500,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "check_source",
+    "eligibility_summary": "Source-backed listing from Western Sydney University. Check the official source for current eligibility and round-specific rules.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "leadership-community",
+      "academic-merit"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "NSW",
+      "Australia"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC scholarship or equity application where required",
+      "Financial hardship or income evidence",
+      "Academic achievement evidence"
+    ],
+    "application_method": "Use the official Western Sydney University source page for the current application method.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/jdlovich",
+    "source_name": "JD Lovich Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "source-check-required",
+    "notes": "Generated by the provider import workflow. Record should be reviewed before being promoted to curated verified status."
+  },
+  {
+    "id": "western-sydney-community-scholarship-2026",
+    "slug": "western-sydney-community-scholarship",
+    "scholarship_name": "Western Sydney University Community Scholarship",
+    "provider": "Western Sydney University",
+    "institution": "Western Sydney University",
+    "description": "Equity scholarship for new and continuing undergraduate students experiencing financial or other hardship, including first-in-family students.",
+    "value_text": "$6,000 per year for the duration of the degree, subject to scholarship rules.",
+    "value_amount": 6000,
+    "value_type": "Equity scholarship",
+    "opens_at": null,
+    "closes_at": null,
+    "status": "under_assessment",
+    "eligibility_summary": "Australian citizens, permanent residents or eligible New Zealand citizens in any undergraduate degree who demonstrate financial or other hardship.",
+    "eligibility_tags": [
+      "low-income-equity",
+      "first-in-family"
+    ],
+    "study_level": [
+      "undergraduate"
+    ],
+    "location_eligibility": [
+      "western-sydney-preference"
+    ],
+    "field_of_study": [
+      "all-fields"
+    ],
+    "required_documents": [
+      "UAC Equity Scholarship evidence",
+      "Written submission if shortlisted"
+    ],
+    "application_method": "Submit through UAC Equity Scholarships; WSU assesses shortlisted applicants.",
+    "source_url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/community",
+    "source_name": "Western Sydney University Community Scholarship",
+    "last_verified_at": "2026-06-06",
+    "confidence_status": "verified-official-source",
+    "notes": "WSU's equity scholarship page shows current availability across individual awards; students should check the linked WSU and UAC pages."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "region": "NSW",
+  "output": "data/timelines/nsw/admission-rounds.json",
+  "notes": "Timeline importer fetches these official source pages before regeneration. Structured date extraction is conservative; ambiguous dates stay in the curated generator until source-specific parsers are added.",
+  "sources": [
+    {
+      "provider": "UAC",
+      "urls": [
+        "https://www.uac.edu.au/key-dates",
+        "https://www.uac.edu.au/current-applicants/undergraduate-applications-and-offers",
+        "https://www.uac.edu.au/current-applicants/undergraduate-applications-and-offers/early-offer-schemes-for-year-12-students"
+      ]
+    },
+    {
+      "provider": "NSW universities",
+      "urls": [
+        "https://www.unsw.edu.au/study/how-to-apply/undergraduate/admission-pathways/gateway",
+        "https://www.uts.edu.au/study/undergraduate/admission-requirements/admission-schemes/year-12-early-entry-program",
+        "https://www.uow.edu.au/study/apply/early-admission/",
+        "https://www.newcastle.edu.au/study/undergraduate/getting-in/entry-schemes/early-entry-program",
+        "https://www.mq.edu.au/study/admissions-and-entry/undergraduate/entry-requirements/early-entry",
+        "https://www.westernsydney.edu.au/future/study/application-pathways/hsc-true-reward",
+        "https://www.une.edu.au/study/study-on-campus/early-entry",
+        "https://www.scu.edu.au/study-at-scu/high-school-students/star-early-offer/",
+        "https://www.csu.edu.au/study/high-school-students/early-offer-program",
+        "https://www.acu.edu.au/study-at-acu/admission-pathways/acu-guarantee"
+      ]
+    }
+  ]
+}

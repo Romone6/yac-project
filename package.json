@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --import tsx --test tests/**/*.test.ts"
+    "test": "node --import tsx --test tests/**/*.test.ts",
+    "import:scholarships": "node scripts/import-scholarships.mjs",
+    "import:timelines": "node scripts/import-timelines.mjs",
+    "import:subjects": "node scripts/import-subject-alignment.mjs",
+    "import:all": "node scripts/refresh-pathway-data.mjs all"
   },
   "dependencies": {
     "@next/mdx": "^16.1.6",

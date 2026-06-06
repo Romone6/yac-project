@@ -1,0 +1,71 @@
+import { Container } from "@/components/Container";
+import { PageHeader } from "@/components/PageHeader";
+import { Section } from "@/components/Section";
+import { Card } from "@/components/Card";
+import { PrimaryButton } from "@/components/PrimaryButton";
+import { SecondaryButton } from "@/components/SecondaryButton";
+
+export const metadata = {
+  title: "Research | Pathway to Entry",
+  description:
+    "Consultation findings, student voice data and policy recommendations behind Pathway to Entry.",
+};
+
+<Container className="space-y-12">
+  <PageHeader
+    eyebrow="Research"
+    title="Consultation, Evidence And Recommendations"
+    summary="The research page keeps the heavier project framing together: consultation findings, student voice data, policy recommendations and the evidence base behind the public toolkit."
+  >
+    <div className="flex flex-wrap gap-3">
+      <PrimaryButton href="/reports/pathway-to-entry-consultation-report-2026.pdf">
+        {"Download Consultation Report"}
+      </PrimaryButton>
+      <SecondaryButton href="/toolkit">{"Explore Practical Tools"}</SecondaryButton>
+    </div>
+  </PageHeader>
+
+  <Section title="Research Focus">
+    <div className="grid gap-6 md:grid-cols-3">
+      <Card title="Information Gap">
+        Regional students can know they want a pathway but still miss the
+        practical sequence of dates, documents, costs, eligibility checks and
+        support contacts needed to reach entry.
+      </Card>
+      <Card title="Student Voice">
+        Consultation evidence is used to identify where students need clearer
+        language, earlier prompts and source-backed tools across university,
+        TAFE, training, employment and other pathways.
+      </Card>
+      <Card title="Policy Translation">
+        Findings are translated into recommendations that can support NSW
+        YAC-aligned advocacy and practical program design for regional students.
+      </Card>
+    </div>
+  </Section>
+
+  <Section title="Current Evidence Products">
+    <Card title="Pathway to Entry consultation report">
+      The latest public consultation report remains the primary research
+      artifact. The homepage now introduces the initiative in public-facing
+      language, while this page carries the deeper framing and evidence.
+      <div className="pt-2">
+        <PrimaryButton href="/reports/pathway-to-entry-consultation-report-2026.pdf">
+          {"Open Report PDF"}
+        </PrimaryButton>
+      </div>
+    </Card>
+  </Section>
+
+  <Section title="How Research Feeds The Toolkit">
+    <div className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-6">
+      <ul className="space-y-3 text-sm leading-6 text-slate-700">
+        <li>Consultation themes inform checklist prompts and support categories.</li>
+        <li>Student pathway questions inform toolkit labels and page structure.</li>
+        <li>Financial uncertainty informs the scholarship finder and financial explainer.</li>
+        <li>Deadline confusion informs the application timeline tracker.</li>
+        <li>Policy recommendations remain separate from student-facing tool instructions.</li>
+      </ul>
+    </div>
+  </Section>
+</Container>
