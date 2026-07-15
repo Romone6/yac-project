@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "test": "node --import tsx --test tests/**/*.test.ts",
+    "scholarships:health": "node scripts/check-scholarship-sources.mjs",
     "import:scholarships": "node scripts/import-scholarships.mjs",
     "import:timelines": "node scripts/import-timelines.mjs",
     "import:subjects": "node scripts/import-subject-alignment.mjs",

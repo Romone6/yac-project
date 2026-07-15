@@ -49,8 +49,6 @@ export type ScholarshipFilters = {
 
 export const scholarships = rawScholarships as Scholarship[];
 
-export const scholarshipVerificationDate = "2026-06-06";
-
 export const scholarshipFilterOptions = [
   { label: "Open now", value: "open-now" },
   { label: "Closing soon", value: "closing-soon" },
@@ -89,6 +87,16 @@ export function formatScholarshipDate(date: string | null) {
     month: "short",
     year: "numeric",
   });
+}
+
+export function getScholarshipFreshness(lastVerifiedAt: string, now = new Date()) {
+  const verifiedAt = new Date(`${lastVerifiedAt}T12:00:00+10:00`);
+  const ageInDays = Math.floor((now.getTime() - verifiedAt.getTime()) / 86_400_000);
+
+  return {
+    label: `Verified ${formatScholarshipDate(lastVerifiedAt)}`,
+    stale: ageInDays > 35,
+  };
 }
 
 export function getScholarshipInstitutions() {

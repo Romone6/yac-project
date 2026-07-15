@@ -30,6 +30,23 @@ node scripts/smoke-scholarship-routes.mjs http://127.0.0.1:4300
 
 Run from `C:\YAC PROJECT WEBSITE\yac-project-main` in PowerShell.
 
+Run the read-only daily source health check before publishing changes:
+
+```powershell
+pnpm scholarships:health
+```
+
+Persist the health evidence when preparing a refresh PR:
+
+```powershell
+pnpm scholarships:health -- --write
+```
+
+This report never changes the public catalogue. Failed providers retain their
+previous records during a scholarship refresh, including their prior
+`last_verified_at` date. Review records older than 35 days and repair their
+official source configuration before treating them as current.
+
 ```powershell
 pnpm import:scholarships
 ```

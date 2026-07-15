@@ -8,6 +8,7 @@ import {
   filterScholarships,
   formatScholarshipDate,
   formatScholarshipStatus,
+  getScholarshipFreshness,
   getScholarshipFields,
   getScholarshipInstitutions,
   getScholarshipStudyLevels,
@@ -237,8 +238,10 @@ export function ScholarshipFinder() {
 
       <Section title="Scholarship Results">
         <div className="grid gap-5">
-          {results.map((item) => (
-            <Card
+          {results.map((item) => {
+            const freshness = getScholarshipFreshness(item.last_verified_at);
+
+            return <Card
               key={item.id}
               title={item.scholarship_name}
               className="bg-[var(--surface)]"
@@ -257,8 +260,11 @@ export function ScholarshipFinder() {
                     <span className="rounded-sm bg-[var(--accent-soft)] px-2 py-1 text-xs font-semibold text-[var(--green)]">
                       Source-backed
                     </span>
-                    <span className="text-xs uppercase tracking-wide text-slate-400">
-                      Verified {formatScholarshipDate(item.last_verified_at)}
+                    <span className={cx(
+                      "text-xs uppercase tracking-wide",
+                      freshness.stale ? "text-amber-700" : "text-slate-400"
+                    )}>
+                      {freshness.stale ? "Check source - " : ""}{freshness.label}
                     </span>
                   </div>
                   <p className="text-sm font-semibold text-slate-700">
@@ -303,8 +309,8 @@ export function ScholarshipFinder() {
                   Official source link
                 </a>
               </div>
-            </Card>
-          ))}
+            </Card>;
+          })}
           {results.length === 0 ? (
             <div className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-8 text-center text-sm text-slate-600">
               No scholarships match those filters. Reset filters or check the official
