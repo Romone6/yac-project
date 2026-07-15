@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-07-15T13:07:34.163Z",
+  "write_mode": "write",
+  "checked_sources": 41,
+  "healthy_sources": 29,
+  "sources": [
+    {
+      "provider": "Universities Admissions Centre",
+      "url": "https://www.uac.edu.au/future-applicants/scholarships-and-schemes/equity-scholarships",
+      "ok": true,
+      "status": 200,
+      "bytes": 18062
+    },
+    {
+      "provider": "Universities Admissions Centre",
+      "url": "https://www.uac.edu.au/key-dates",
+      "ok": true,
+      "status": 200,
+      "bytes": 27063
+    },
+    {
+      "provider": "Services Australia",
+      "url": "https://www.servicesaustralia.gov.au/tertiary-access-payment",
+      "ok": true,
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "provider": "Services Australia",
+      "url": "https://www.servicesaustralia.gov.au/relocation-scholarship",
+      "ok": true,
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "provider": "NSW Health",
+      "url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/undergrad_clinical.aspx",
+      "ok": true,
+      "status": 200,
+      "bytes": 27431
+    },
+    {
+      "provider": "NSW Health",
+      "url": "https://www.health.nsw.gov.au/nursing/scholarship/Pages/default.aspx",
+      "ok": true,
+      "status": 200,
+      "bytes": 22517
+    },
+    {
+      "provider": "Country Education Foundation of Australia",
+      "url": "https://cef.org.au/student-support-program/",
+      "ok": true,
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "provider": "Country Education Foundation of Australia",
+      "url": "https://cef.org.au/search-for-scholarships/",
+      "ok": true,
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "provider": "Australian Catholic University",
+      "url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship",
+      "ok": true,
+      "status": 200,
+      "bytes": 57716
+    },
+    {
+      "provider": "Australian Catholic University",
+      "url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-accommodation-scholarship",
+      "ok": true,
+      "status": 200,
+      "bytes": 54334
+    },
+    {
+      "provider": "Australian Catholic University",
+      "url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/indigenous-commonwealth-accommodation-scholarship",
+      "ok": true,
+      "status": 200,
+      "bytes": 54644
+    },
+    {
+      "provider": "Australian Catholic University",
+      "url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-relocation-scholarship",
+      "ok": true,
+      "status": 200,
+      "bytes": 54401
+    },
+    {
+      "provider": "Charles Sturt University",
+      "url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/equity",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "Charles Sturt University",
+      "url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "Charles Sturt University",
+      "url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/grants",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "Macquarie University",
+      "url": "https://www.mq.edu.au/study/admissions-and-entry/scholarships",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "Macquarie University",
+      "url": "https://www.mq.edu.au/about/about-the-university/indigenous-engagement-and-initiatives/engage-with-walanga-muru/student-engagement/early-entry-scholarships",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "Macquarie University",
+      "url": "https://www.mq.edu.au/research/phd-and-research-degrees/how-to-apply/scholarship-opportunities/scholarship-search/indigenous-research-excellence-scholarship",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "Southern Cross University",
+      "url": "https://www.scu.edu.au/scholarships/",
+      "ok": true,
+      "status": 200,
+      "bytes": 43183
+    },
+    {
+      "provider": "Southern Cross University",
+      "url": "https://www.scu.edu.au/scholarships/scu-equity-scholarships/",
+      "ok": true,
+      "status": 200,
+      "bytes": 27656
+    },
+    {
+      "provider": "Southern Cross University",
+      "url": "https://www.scu.edu.au/scholarships/commonwealth-indigenous-scholarships/",
+      "ok": true,
+      "status": 200,
+      "bytes": 28133
+    },
+    {
+      "provider": "University of Newcastle",
+      "url": "https://www.newcastle.edu.au/scholarships",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "University of Newcastle",
+      "url": "https://www.newcastle.edu.au/scholarships/ma-and-morley-scholarship-program",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "University of Newcastle",
+      "url": "https://www.newcastle.edu.au/study/international/scholarships",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "University of New England",
+      "url": "https://www.une.edu.au/scholarships",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "University of New England",
+      "url": "https://www.une.edu.au/scholarships/new-student-scholarships",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "University of New England",
+      "url": "https://www.une.edu.au/scholarships/new-student-scholarships/wilmot-residential-scholarship",
+      "ok": false,
+      "status": 403,
+      "bytes": 0
+    },
+    {
+      "provider": "UNSW Sydney",
+      "url": "https://www.scholarships.unsw.edu.au/scholarships/search",
+      "ok": true,
+      "status": 200,
+      "bytes": 370908
+    },
+    {
+      "provider": "UNSW Sydney",
+      "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1878",
+      "ok": true,
+      "status": 200,
+      "bytes": 102431
+    },
+    {
+      "provider": "UNSW Sydney",
+      "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1891",
+      "ok": true,
+      "status": 200,
+      "bytes": 65985
+    },
+    {
+      "provider": "University of Sydney",
+      "url": "https://www.sydney.edu.au/scholarships/",
+      "ok": true,
+      "status": 200,
+      "bytes": 6306
+    },
+    {
+      "provider": "University of Sydney",
+      "url": "https://www.sydney.edu.au/scholarships/domestic.html",
+      "ok": true,
+      "status": 200,
+      "bytes": 6397
+    },
+    {
+      "provider": "University of Technology Sydney",
+      "url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships",
+      "ok": true,
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "provider": "University of Technology Sydney",
+      "url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search",
+      "ok": true,
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "provider": "University of Technology Sydney",
+      "url": "https://www.uts.edu.au/current-students/opportunities/scholarships-prizes-and-awards/scholarships-uts/equal-access-scholarship",
+      "ok": true,
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "provider": "University of Wollongong",
+      "url": "https://www.uow.edu.au/study/scholarships/",
+      "ok": true,
+      "status": 200,
+      "bytes": 9379
+    },
+    {
+      "provider": "University of Wollongong",
+      "url": "https://www.uow.edu.au/study/scholarships/domestic/equity-scholarships/",
+      "ok": true,
+      "status": 200,
+      "bytes": 9059
+    },
+    {
+      "provider": "University of Wollongong",
+      "url": "https://www.uow.edu.au/study/scholarships/regional-scholarships/",
+      "ok": true,
+      "status": 200,
+      "bytes": 10148
+    },
+    {
+      "provider": "Western Sydney University",
+      "url": "https://www.westernsydney.edu.au/scholarships",
+      "ok": true,
+      "status": 200,
+      "bytes": 3966
+    },
+    {
+      "provider": "Western Sydney University",
+      "url": "https://www.westernsydney.edu.au/scholarships/important-dates/equity",
+      "ok": true,
+      "status": 200,
+      "bytes": 3690
+    },
+    {
+      "provider": "Western Sydney University",
+      "url": "https://www.westernsydney.edu.au/scholarships/all-scholarships/community",
+      "ok": true,
+      "status": 200,
+      "bytes": 1645
+    }
+  ]
+}

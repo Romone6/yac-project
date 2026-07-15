@@ -1,13 +1,15 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 import {
   filterScholarships,
+  getScholarshipFreshness,
   scholarshipFilterOptions,
   scholarships,
 } from "../src/lib/scholarships";
+import { fallbackRecordsForProvider } from "../src/lib/scholarship-refresh.mjs";
 
 const requiredKeys = [
   "id",
@@ -62,7 +64,43 @@ test("scholarship import workflow is configured for repeatable provider refresh"
   assert.ok(existsSync(join(root, "data/scholarships/nsw/curated-scholarships.json")));
   assert.ok(existsSync(join(root, "data/scholarships/nsw/import-report.json")));
   assert.ok(existsSync(join(root, "scripts/import-scholarships.mjs")));
+  assert.ok(existsSync(join(root, "scripts/check-scholarship-sources.mjs")));
+  assert.ok(existsSync(join(root, "data/scholarships/nsw/provider-health.json")));
   assert.ok(existsSync(join(root, "scripts/refresh-pathway-data.mjs")));
+
+  const packageJson = JSON.parse(readFileSync(join(root, "package.json"), "utf8"));
+  assert.equal(packageJson.scripts["scholarships:health"], "node scripts/check-scholarship-sources.mjs");
+
+  const importer = readFileSync(join(root, "scripts/import-scholarships.mjs"), "utf8");
+  assert.match(importer, /previousPublished/);
+  assert.match(importer, /fallback_records/);
+});
+
+test("scholarship freshness distinguishes current and stale records", () => {
+  assert.deepEqual(
+    getScholarshipFreshness("2026-07-10", new Date("2026-07-15T12:00:00+10:00")),
+    { label: "Verified 10 July 2026", stale: false }
+  );
+  assert.equal(
+    getScholarshipFreshness("2026-05-01", new Date("2026-07-15T12:00:00+10:00")).stale,
+    true
+  );
+});
+
+test("failed scholarship providers retain only their own prior records", () => {
+  const previous = [
+    { id: "acu-a", provider: "Australian Catholic University" },
+    { id: "uts-a", provider: "University of Technology Sydney" },
+  ];
+
+  assert.deepEqual(
+    fallbackRecordsForProvider(previous, "Australian Catholic University", 0),
+    [previous[0]]
+  );
+  assert.deepEqual(
+    fallbackRecordsForProvider(previous, "Australian Catholic University", 1),
+    []
+  );
 });
 
 test("scholarship database excludes obvious generic non-record pages", () => {

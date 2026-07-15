@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fallbackRecordsForProvider } from "../src/lib/scholarship-refresh.mjs";
 
 const ROOT = process.cwd();
 const SOURCE_FILE = path.join(ROOT, "data/import-sources/scholarships.nsw.json");
@@ -423,6 +424,7 @@ async function discoverProvider(provider) {
     discovered_links: 0,
     fetched_candidate_pages: 0,
     generated_records: 0,
+    fallback_records: 0,
     errors: [],
   };
   const candidates = new Map();
@@ -469,22 +471,32 @@ async function discoverProvider(provider) {
 async function main() {
   const sources = readJson(SOURCE_FILE);
   const curated = readJson(CURATED_FILE);
+  const previousPublished = fs.existsSync(OUTPUT_FILE) ? readJson(OUTPUT_FILE) : [];
   const allGenerated = [];
+  const allFallback = [];
   const providerReports = [];
 
   for (const provider of sources.providers) {
     console.log(`scraping ${provider.provider}`);
     const { records, report } = await discoverProvider(provider);
     allGenerated.push(...records);
+    const fallback = fallbackRecordsForProvider(
+      previousPublished,
+      provider.provider,
+      report.generated_records
+    );
+    report.fallback_records = fallback.length;
+    allFallback.push(...fallback);
     providerReports.push(report);
   }
 
-  const merged = mergeRecords(curated, allGenerated);
+  const merged = mergeRecords(curated, [...allFallback, ...allGenerated]);
   const report = {
     generated_at: new Date().toISOString(),
     write_mode: WRITE ? "write" : "dry-run",
     curated_records: curated.length,
     discovered_records: allGenerated.length,
+    fallback_records: allFallback.length,
     output_records: merged.length,
     providers: providerReports,
   };
