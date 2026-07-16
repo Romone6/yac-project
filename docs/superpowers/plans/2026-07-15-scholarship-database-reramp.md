@@ -233,3 +233,52 @@ Expected: both automations are enabled and their IDs are included in the PR summ
 - Scope, safety, daily health, weekly refresh, UI freshness, test gates, automation, and PR review are each covered by a task.
 - All referenced files and commands exist or are created by the named task.
 - The plan intentionally excludes a hosted database, headless browser, paid service, and automatic merge.
+
+### Task 6: Add a discovery-only scholarship queue
+
+**Files:**
+- Create: `data/import-sources/scholarship-discovery.json`
+- Create: `scripts/discover-scholarships.mjs`
+- Create: `data/scholarships/nsw/discovery-queue.json`
+- Create: `data/scholarships/nsw/discovery-report.json`
+- Modify: `package.json`, `tests/scholarship-data.test.ts`, `docs/runbook.md`
+
+**Interfaces:**
+- Consumes: CEF's regional scholarship guide plus Study Australia's `regional` and `rural` search result pages.
+- Produces: `pnpm discover:scholarships`, a review-only queue with `title`, `tracker`, `discovery_url`, `candidate_provider_url`, and `requires_official_review`.
+
+- [ ] **Step 1: Write the failing queue contract test**
+
+```ts
+assert.ok(existsSync(join(root, "scripts/discover-scholarships.mjs")));
+assert.ok(existsSync(join(root, "data/scholarships/nsw/discovery-queue.json")));
+assert.equal(packageJson.scripts["discover:scholarships"], "node scripts/discover-scholarships.mjs");
+```
+
+- [ ] **Step 2: Run the focused test**
+
+Run: `pnpm test -- --test-name-pattern "discovery queue"`
+Expected: fail because discovery is not yet separated from public publication.
+
+- [ ] **Step 3: Implement bounded lead discovery**
+
+```js
+const queueItem = {
+  title,
+  tracker: source.name,
+  discovery_url: detailUrl,
+  candidate_provider_url: providerUrl,
+  requires_official_review: true,
+};
+```
+
+Extract only links and titles. Deduplicate by the candidate provider URL. Do not import queue items into `scholarships.json`.
+
+- [ ] **Step 4: Build the initial queue and validate it**
+
+Run: `pnpm discover:scholarships; pnpm test -- --test-name-pattern "discovery queue"`
+Expected: queue and report JSON record source totals and every queue item requires official review.
+
+- [ ] **Step 5: Extend weekly maintenance**
+
+Add the discovery command before `pnpm import:scholarships` in the weekly Codex automation. The weekly PR includes queue changes but never promotes candidates automatically.

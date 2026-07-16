@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-16T02:46:45.528Z",
+  "write_mode": "write",
+  "candidates": 21,
+  "sources": [
+    {
+      "source_id": "cef-regional-guide",
+      "discovered": 9,
+      "queued": 9,
+      "errors": []
+    },
+    {
+      "source_id": "study-australia-regional",
+      "discovered": 10,
+      "queued": 10,
+      "errors": []
+    },
+    {
+      "source_id": "study-australia-rural",
+      "discovered": 8,
+      "queued": 8,
+      "errors": []
+    },
+    {
+      "source_id": "uac-equity",
+      "discovered": 1,
+      "queued": 1,
+      "errors": []
+    }
+  ]
+}

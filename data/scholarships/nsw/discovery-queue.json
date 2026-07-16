@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-07-16T02:46:45.528Z",
+  "source_policy": "Review queue only. Do not publish a candidate until its provider URL is confirmed as the official award page.",
+  "candidates": [
+    {
+      "title": "A&K Gestier Veterinary Scholarship",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation/continuing/a-and-k-gestier-veterinary-scholarship2",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "Aboriginal and Torres Strait Islander Scholarship",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.newcastle.edu.au/scholarships/EXT_152",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "Adam's Garden Scholarship for Child Health",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation/any-year/adams-garden-scholarship-for-child-health",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "Adrian Scott Rural Journalism Scholarship",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.qut.edu.au/study/fees-and-scholarships/scholarships/adrian-scott-journalism-scholarship",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "Affinity Nursing and Midwifery Scholarship",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation/any-year/affinity-nursing-and-midwifery-scholarship",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "AGcessibility Scholarship",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation/1st-year/Agcessibility-scholarship",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "AGL Aboriginal and Torres Strait Islander Scholarship",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.newcastle.edu.au/scholarships/EXT_361",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "AHO Tertiary Accommodation Grants",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.csu.edu.au/current-students/fees/costs-fees/scholarships-grants/find-scholarship/equity/university-accommodation-grants",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "Albury City Foundation Scholarship",
+      "discovery_url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "candidate_provider_url": "https://www.csu.edu.au/scholarships/scholarships-grants/find-scholarship/foundation/any-year/albury-city-scholarship",
+      "tracker": "Country Education Foundation scholarship guide",
+      "source_id": "cef-regional-guide",
+      "requires_official_review": true
+    },
+    {
+      "title": "Brian Clarkson Rural Scholarship",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/brian-clarkson-rural-scholarship/85354fcbb05413bb60a63a5f15a84c44",
+      "candidate_provider_url": "https://www.hale.wa.edu.au/",
+      "tracker": "Study Australia rural scholarship search",
+      "source_id": "study-australia-rural",
+      "requires_official_review": true
+    },
+    {
+      "title": "Dr Laurie Cowled Learning Potential Fund Scholarship",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/dr-laurie-cowled-learning-potential-fund-scholarship/17f0ce9845232d6994cf78ce2c3def81",
+      "candidate_provider_url": "http://www.qut.edu.au/study/fees-and-scholarships/scholarships/laurie-cowled-learning-potential-fund-scholarship",
+      "tracker": "Study Australia rural scholarship search",
+      "source_id": "study-australia-rural",
+      "requires_official_review": true
+    },
+    {
+      "title": "Mauritius Scholarship",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/mauritius-scholarship/205d9ad769c25cd7ab3d9505f6a316f0",
+      "candidate_provider_url": "https://www.torrens.edu.au/how-to-apply/fees-scholarships/scholarships/international-scholarships",
+      "tracker": "Study Australia regional scholarship search",
+      "source_id": "study-australia-regional",
+      "requires_official_review": true
+    },
+    {
+      "title": "Pegasus Scholarship - Regional Boarding, Indigenous and General Excellence",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/pegasus-scholarship-regional-boarding-indigenous-and-general-excellence/a6508624c3f032963eb7aa9b7462f90a",
+      "candidate_provider_url": "https://www.geelongcollege.vic.edu.au/",
+      "tracker": "Study Australia rural scholarship search",
+      "source_id": "study-australia-rural",
+      "requires_official_review": true
+    },
+    {
+      "title": "Practicum Support Scheme",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/practicum-support-scheme/b266d6c7d2224f69c39c7f2f2d249033",
+      "candidate_provider_url": "https://www.notredame.edu.au/study/fees-costs-and-scholarships/scholarships/scholarship-list",
+      "tracker": "Study Australia rural scholarship search",
+      "source_id": "study-australia-rural",
+      "requires_official_review": true
+    },
+    {
+      "title": "Regional bursary for TAFE international students",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/regional-bursary-for-tafe-international-students/c1c324b016877c57778c21562aed0d16",
+      "candidate_provider_url": "https://www.tafeinternational.wa.edu.au/tafe-courses/regional-bursary-tafe-international-students?",
+      "tracker": "Study Australia regional scholarship search",
+      "source_id": "study-australia-regional",
+      "requires_official_review": true
+    },
+    {
+      "title": "Regional Diversity Scholarships",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/regional-diversity-scholarships/9a885dd598aa2027551489828b590109",
+      "candidate_provider_url": "https://ikon.edu.au/scholarships/",
+      "tracker": "Study Australia regional scholarship search",
+      "source_id": "study-australia-regional",
+      "requires_official_review": true
+    },
+    {
+      "title": "Rural Assistance Boarding Bursary (Years 8 to 11 entry)",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/rural-assistance-boarding-bursary-years-8-to-11-entry/ae45baf8bbdb181da3359b4e5dd1af82",
+      "candidate_provider_url": "https://www.kambala.nsw.edu.au/",
+      "tracker": "Study Australia rural scholarship search",
+      "source_id": "study-australia-rural",
+      "requires_official_review": true
+    },
+    {
+      "title": "The Ravenswood Residential College Scholarship",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/the-ravenswood-residential-college-scholarship/594b1a93d136c58c281f5cf97de1198f",
+      "candidate_provider_url": "https://www.ravenswood.nsw.edu.au/",
+      "tracker": "Study Australia regional scholarship search",
+      "source_id": "study-australia-regional",
+      "requires_official_review": true
+    },
+    {
+      "title": "UAC Equity Scholarships",
+      "discovery_url": "https://www.uac.edu.au/future-applicants/scholarships-and-schemes/equity-scholarships/universities-offering-equity-scholarships",
+      "candidate_provider_url": "https://www.uac.edu.au/future-applicants/scholarships-and-schemes/equity-scholarships/universities-offering-equity-scholarships",
+      "tracker": "UAC equity scholarships",
+      "source_id": "uac-equity",
+      "requires_official_review": true
+    },
+    {
+      "title": "W.S. Morcom Rural Boarding Scholarship at Caulfield Campus",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/ws-morcom-rural-boarding-scholarship-at-caulfield-campus/aa2dbacb1870803743cb95884ac43bbd",
+      "candidate_provider_url": "https://www.caulfieldgs.vic.edu.au/",
+      "tracker": "Study Australia rural scholarship search",
+      "source_id": "study-australia-rural",
+      "requires_official_review": true
+    },
+    {
+      "title": "Year 7 and Year 8 Boarding Scholarships (ACER)",
+      "discovery_url": "https://search.studyaustralia.gov.au/scholarship/year-7-and-year-8-boarding-scholarships-acer/77310b73e8cfee33bc407845e7ee28e9",
+      "candidate_provider_url": "https://www.marash.qld.edu.au/",
+      "tracker": "Study Australia rural scholarship search",
+      "source_id": "study-australia-rural",
+      "requires_official_review": true
+    }
+  ]
+}
