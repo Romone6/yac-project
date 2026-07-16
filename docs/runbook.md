@@ -42,6 +42,15 @@ Persist the health evidence when preparing a refresh PR:
 pnpm scholarships:health -- --write
 ```
 
+Build the discovery-only review queue from approved regional and government sources:
+
+```powershell
+pnpm discover:scholarships
+```
+
+The queue stores leads and candidate provider URLs only. It is not public site data;
+confirm each official award page before moving a candidate into the curated catalogue.
+
 This report never changes the public catalogue. Failed providers retain their
 previous records during a scholarship refresh, including their prior
 `last_verified_at` date. Review records older than 35 days and repair their

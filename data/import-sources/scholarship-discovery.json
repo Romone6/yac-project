@@ -1,0 +1,34 @@
+{
+  "region": "NSW",
+  "source_policy": "Discovery sources may create review leads only. A lead never enters the public catalogue until its candidate provider URL is confirmed as the official award page.",
+  "sources": [
+    {
+      "id": "cef-regional-guide",
+      "name": "Country Education Foundation scholarship guide",
+      "url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "kind": "direct-provider-links",
+      "limit": 120
+    },
+    {
+      "id": "study-australia-regional",
+      "name": "Study Australia regional scholarship search",
+      "url": "https://search.studyaustralia.gov.au/scholarships?query=regional",
+      "kind": "detail-pages",
+      "limit": 12
+    },
+    {
+      "id": "study-australia-rural",
+      "name": "Study Australia rural scholarship search",
+      "url": "https://search.studyaustralia.gov.au/scholarships?query=rural",
+      "kind": "detail-pages",
+      "limit": 12
+    },
+    {
+      "id": "uac-equity",
+      "name": "UAC equity scholarships",
+      "url": "https://www.uac.edu.au/future-applicants/scholarships-and-schemes/equity-scholarships/universities-offering-equity-scholarships",
+      "kind": "official-program",
+      "limit": 1
+    }
+  ]
+}

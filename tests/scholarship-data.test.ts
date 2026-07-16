@@ -76,6 +76,27 @@ test("scholarship import workflow is configured for repeatable provider refresh"
   assert.match(importer, /fallback_records/);
 });
 
+test("discovery queue keeps tracker leads outside public publication", () => {
+  const root = process.cwd();
+  const packageJson = JSON.parse(readFileSync(join(root, "package.json"), "utf8"));
+  const queue = JSON.parse(
+    readFileSync(join(root, "data/scholarships/nsw/discovery-queue.json"), "utf8")
+  );
+
+  assert.ok(existsSync(join(root, "data/import-sources/scholarship-discovery.json")));
+  assert.ok(existsSync(join(root, "scripts/discover-scholarships.mjs")));
+  assert.ok(existsSync(join(root, "data/scholarships/nsw/discovery-report.json")));
+  assert.equal(packageJson.scripts["discover:scholarships"], "node scripts/discover-scholarships.mjs");
+  assert.ok(Array.isArray(queue.candidates));
+
+  for (const item of queue.candidates) {
+    assert.equal(item.requires_official_review, true);
+    assert.match(item.discovery_url, /^https?:\/\//);
+    assert.match(item.candidate_provider_url, /^https?:\/\//);
+    assert.doesNotMatch(item.title, /&#(?:x[\da-f]+|\d+);?/i);
+  }
+});
+
 test("scholarship freshness distinguishes current and stale records", () => {
   assert.deepEqual(
     getScholarshipFreshness("2026-07-10", new Date("2026-07-15T12:00:00+10:00")),
