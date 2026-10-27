@@ -173,7 +173,7 @@ export default function ApplicationTimelinesPage() {
               return (
                 <div
                   key={round.id}
-                  className="border-t border-[var(--line)] py-5"
+                  className="rounded-sm border border-slate-200 bg-white p-5"
                 >
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex-1">
@@ -260,7 +260,7 @@ export default function ApplicationTimelinesPage() {
                     return (
                       <div
                         key={round.id}
-                        className="flex items-center gap-4 border-t border-[var(--line)] py-4"
+                        className="flex items-center gap-4 rounded-sm border border-slate-200 bg-white p-4"
                       >
                         <div className="w-28 shrink-0 text-right">
                           <p className="text-sm font-semibold text-slate-900">

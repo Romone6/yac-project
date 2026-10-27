@@ -78,7 +78,7 @@ export function ScholarshipFinder() {
 
   return (
     <div>
-      <section aria-labelledby="scholarship-search-title" className="border-y border-[var(--line)] py-6">
+      <section aria-labelledby="scholarship-search-title" className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-5">
         <h2 id="scholarship-search-title" className="text-2xl font-semibold text-[var(--accent)]">Find scholarships</h2>
         <label htmlFor="scholarship-query" className={`${labelClass} mt-5`}>Search by name, provider or keyword</label>
         <input
@@ -155,9 +155,9 @@ export function ScholarshipFinder() {
           <p className="text-sm text-slate-600">Confirm the current round and eligibility with the provider before applying.</p>
         </div>
 
-        <div className="mt-4 divide-y divide-[var(--line)]" aria-live="polite">
+        <div className="mt-4 grid gap-5" aria-live="polite">
           {results.map((item) => (
-            <article key={item.id} className="py-6">
+            <article key={item.id} className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-6">
               <div className="flex flex-wrap items-center gap-2">
                 {item.status !== "check_source" && (
                   <span className={cx("rounded-sm px-2.5 py-1 text-sm font-semibold", statusClass(item.status))}>
@@ -184,7 +184,7 @@ export function ScholarshipFinder() {
             </article>
           ))}
           {results.length === 0 && (
-            <p className="py-10 text-center text-slate-700">No scholarships match these filters. Clear the filters or try a broader search.</p>
+            <p className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-8 text-center text-slate-700">No scholarships match these filters. Clear the filters or try a broader search.</p>
           )}
         </div>
       </section>

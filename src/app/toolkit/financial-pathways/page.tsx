@@ -21,7 +21,7 @@ export default function FinancialPathwaysPage() {
       />
 
       <Section title="Financial support options">
-        <div className="divide-y divide-[var(--line)]">
+        <div className="grid gap-6 md:grid-cols-2">
           {financialResources.map((resource) => (
             <Card key={resource.title} title={resource.title}>
               <Tag>{resource.tag}</Tag>

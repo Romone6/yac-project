@@ -64,7 +64,6 @@ export default function ToolkitPage() {
             <Link key={tool.title} href={tool.href} className="block">
               <Card
                 title={tool.title}
-                variant="boxed"
                 className="h-full cursor-pointer bg-[var(--surface)] transition hover:border-[var(--green)] hover:shadow-sm"
               >
                 <p className="text-sm leading-6 text-slate-700">{tool.summary}</p>
