@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   description:
     "Pathway to Entry is a NSW Youth Advisory Council-aligned initiative helping regional NSW students navigate post-school pathways with consultation, tools, scholarship information and financial support resources.",
   metadataBase: new URL("https://pathwaytoentry.org.au"),
+  icons: { icon: "/school-icon.svg" },
 };
 
 export default function RootLayout({

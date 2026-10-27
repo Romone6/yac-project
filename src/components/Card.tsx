@@ -9,13 +9,13 @@ type CardProps = {
 
 export function Card({ title, children, className }: CardProps) {
   return (
-    <div className={cx("rounded-sm border border-slate-200 bg-white p-6", className)}>
+    <article className={cx("border-t border-[var(--line)] py-5", className)}>
       {title ? (
-        <h3 className="text-lg font-semibold tracking-tight text-slate-900">
+        <h3 className="text-xl font-semibold tracking-tight text-[var(--accent)]">
           {title}
         </h3>
       ) : null}
-      <div className={cx(title ? "mt-3" : "", "space-y-3")}>{children}</div>
-    </div>
+      <div className={cx(title ? "mt-2" : "", "space-y-3 leading-7 text-slate-700")}>{children}</div>
+    </article>
   );
 }

@@ -1,14 +1,11 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Card } from "@/components/Card";
-import { Section } from "@/components/Section";
 import { cx } from "@/lib/cx";
 import {
   filterScholarships,
   formatScholarshipDate,
   formatScholarshipStatus,
-  getScholarshipFreshness,
   getScholarshipFields,
   getScholarshipInstitutions,
   getScholarshipStudyLevels,
@@ -17,31 +14,23 @@ import {
   type ScholarshipStatus,
 } from "@/lib/scholarships";
 
-function getStatusClass(status: ScholarshipStatus) {
+function statusClass(status: ScholarshipStatus) {
   switch (status) {
-    case "open":
-      return "bg-emerald-100 text-emerald-800";
-    case "closing_soon":
-      return "bg-amber-100 text-amber-900";
-    case "upcoming":
-      return "bg-blue-100 text-blue-800";
-    case "under_assessment":
-      return "bg-slate-100 text-slate-700";
-    case "closed":
-      return "bg-slate-200 text-slate-500";
-    case "check_source":
-      return "bg-orange-100 text-orange-900";
-    default:
-      return "bg-slate-100 text-slate-700";
+    case "open": return "bg-emerald-100 text-emerald-900";
+    case "closing_soon": return "bg-amber-100 text-amber-950";
+    case "upcoming": return "bg-blue-100 text-blue-900";
+    case "closed": return "bg-slate-100 text-slate-600";
+    case "under_assessment": return "bg-slate-100 text-slate-800";
+    case "check_source": return "bg-slate-100 text-slate-700";
   }
 }
 
-function humaniseToken(value: string) {
-  return value
-    .split("-")
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(" ");
+function humanise(value: string) {
+  return value.split("-").map((part) => part[0]?.toUpperCase() + part.slice(1)).join(" ");
 }
+
+const fieldClass = "mt-1 w-full rounded-sm border border-[var(--line)] bg-white px-3 py-2.5 text-base text-slate-900 focus:border-[var(--accent)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/20";
+const labelClass = "block text-sm font-semibold text-slate-800";
 
 export function ScholarshipFinder() {
   const [query, setQuery] = useState("");
@@ -52,48 +41,29 @@ export function ScholarshipFinder() {
   const [minValue, setMinValue] = useState("");
   const [maxValue, setMaxValue] = useState("");
 
-  const institutions = useMemo(() => getScholarshipInstitutions(), []);
-  const fields = useMemo(() => getScholarshipFields(), []);
-  const studyLevels = useMemo(() => getScholarshipStudyLevels(), []);
-
+  const institutions = useMemo(getScholarshipInstitutions, []);
+  const fields = useMemo(getScholarshipFields, []);
+  const studyLevels = useMemo(getScholarshipStudyLevels, []);
   const openNow = selectedTags.includes("open-now");
   const closingSoon = selectedTags.includes("closing-soon");
-  const eligibilityTags = selectedTags.filter(
-    (tag) => tag !== "open-now" && tag !== "closing-soon"
-  );
+  const eligibilityTags = selectedTags.filter((tag) => tag !== "open-now" && tag !== "closing-soon");
 
-  const results = useMemo(
-    () =>
-      filterScholarships({
-        query,
-        tags: eligibilityTags,
-        institution: institution || undefined,
-        fieldOfStudy: fieldOfStudy || undefined,
-        studyLevel: studyLevel || undefined,
-        openNow,
-        closingSoon,
-        minValue: minValue ? Number(minValue) : undefined,
-        maxValue: maxValue ? Number(maxValue) : undefined,
-      }),
-    [
-      query,
-      eligibilityTags,
-      institution,
-      fieldOfStudy,
-      studyLevel,
-      openNow,
-      closingSoon,
-      minValue,
-      maxValue,
-    ]
-  );
+  const results = useMemo(() => filterScholarships({
+    query,
+    tags: eligibilityTags,
+    institution: institution || undefined,
+    fieldOfStudy: fieldOfStudy || undefined,
+    studyLevel: studyLevel || undefined,
+    openNow,
+    closingSoon,
+    minValue: minValue ? Number(minValue) : undefined,
+    maxValue: maxValue ? Number(maxValue) : undefined,
+  }), [query, eligibilityTags, institution, fieldOfStudy, studyLevel, openNow, closingSoon, minValue, maxValue]);
 
   function toggleTag(tag: string) {
-    setSelectedTags((current) =>
-      current.includes(tag)
-        ? current.filter((item) => item !== tag)
-        : [...current, tag]
-    );
+    setSelectedTags((current) => current.includes(tag)
+      ? current.filter((item) => item !== tag)
+      : [...current, tag]);
   }
 
   function resetFilters() {
@@ -107,218 +77,117 @@ export function ScholarshipFinder() {
   }
 
   return (
-    <div className="space-y-10">
-      <Section title="Search And Filter">
-        <div className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-5">
-          <div className="grid gap-4 lg:grid-cols-[1.2fr_0.8fr_0.8fr]">
-            <div>
-              <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">
-                Search scholarships
-              </label>
-              <input
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                placeholder="Try regional, nursing, relocation, equity..."
-                className="w-full rounded-sm border border-[var(--line)] bg-white px-3 py-2 text-sm text-slate-900 focus:border-[var(--accent)] focus:outline-none"
-              />
-            </div>
-            <div>
-              <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">
-                Institution
-              </label>
-              <select
-                value={institution}
-                onChange={(event) => setInstitution(event.target.value)}
-                className="w-full rounded-sm border border-[var(--line)] bg-white px-3 py-2 text-sm text-slate-900 focus:border-[var(--accent)] focus:outline-none"
-              >
-                <option value="">All institutions</option>
-                {institutions.map((item) => (
-                  <option key={item} value={item}>
-                    {item}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">
-                Study level
-              </label>
-              <select
-                value={studyLevel}
-                onChange={(event) => setStudyLevel(event.target.value)}
-                className="w-full rounded-sm border border-[var(--line)] bg-white px-3 py-2 text-sm text-slate-900 focus:border-[var(--accent)] focus:outline-none"
-              >
-                <option value="">All study levels</option>
-                {studyLevels.map((item) => (
-                  <option key={item} value={item}>
-                    {humaniseToken(item)}
-                  </option>
-                ))}
-              </select>
-            </div>
-          </div>
+    <div>
+      <section aria-labelledby="scholarship-search-title" className="border-y border-[var(--line)] py-6">
+        <h2 id="scholarship-search-title" className="text-2xl font-semibold text-[var(--accent)]">Find scholarships</h2>
+        <label htmlFor="scholarship-query" className={`${labelClass} mt-5`}>Search by name, provider or keyword</label>
+        <input
+          id="scholarship-query"
+          type="search"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Try nursing, regional, relocation or equity"
+          className={fieldClass}
+        />
 
-          <div className="mt-4 grid gap-4 md:grid-cols-3">
-            <div>
-              <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">
-                Field of study
-              </label>
-              <select
-                value={fieldOfStudy}
-                onChange={(event) => setFieldOfStudy(event.target.value)}
-                className="w-full rounded-sm border border-[var(--line)] bg-white px-3 py-2 text-sm text-slate-900 focus:border-[var(--accent)] focus:outline-none"
-              >
-                <option value="">All fields</option>
-                {fields.map((item) => (
-                  <option key={item} value={item}>
-                    {humaniseToken(item)}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">
-                Minimum value
-              </label>
-              <input
-                value={minValue}
-                onChange={(event) => setMinValue(event.target.value)}
-                inputMode="numeric"
-                placeholder="Any"
-                className="w-full rounded-sm border border-[var(--line)] bg-white px-3 py-2 text-sm text-slate-900 focus:border-[var(--accent)] focus:outline-none"
-              />
-            </div>
-            <div>
-              <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">
-                Maximum value
-              </label>
-              <input
-                value={maxValue}
-                onChange={(event) => setMaxValue(event.target.value)}
-                inputMode="numeric"
-                placeholder="Any"
-                className="w-full rounded-sm border border-[var(--line)] bg-white px-3 py-2 text-sm text-slate-900 focus:border-[var(--accent)] focus:outline-none"
-              />
-            </div>
+        <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <div>
+            <label className={labelClass} htmlFor="institution">Institution</label>
+            <select id="institution" value={institution} onChange={(event) => setInstitution(event.target.value)} className={fieldClass}>
+              <option value="">All institutions</option>
+              {institutions.map((item) => <option key={item} value={item}>{item}</option>)}
+            </select>
           </div>
+          <div>
+            <label className={labelClass} htmlFor="study-level">Study level</label>
+            <select id="study-level" value={studyLevel} onChange={(event) => setStudyLevel(event.target.value)} className={fieldClass}>
+              <option value="">All levels</option>
+              {studyLevels.map((item) => <option key={item} value={item}>{humanise(item)}</option>)}
+            </select>
+          </div>
+          <div>
+            <label className={labelClass} htmlFor="field-of-study">Field of study</label>
+            <select id="field-of-study" value={fieldOfStudy} onChange={(event) => setFieldOfStudy(event.target.value)} className={fieldClass}>
+              <option value="">All fields</option>
+              {fields.map((item) => <option key={item} value={item}>{humanise(item)}</option>)}
+            </select>
+          </div>
+          <div>
+            <label className={labelClass} htmlFor="minimum-value">Minimum value</label>
+            <input id="minimum-value" type="number" min="0" step="100" inputMode="numeric" value={minValue} onChange={(event) => setMinValue(event.target.value)} placeholder="Any amount" className={fieldClass} />
+          </div>
+          <div>
+            <label className={labelClass} htmlFor="maximum-value">Maximum value</label>
+            <input id="maximum-value" type="number" min="0" step="100" inputMode="numeric" value={maxValue} onChange={(event) => setMaxValue(event.target.value)} placeholder="Any amount" className={fieldClass} />
+          </div>
+        </div>
 
-          <div className="mt-5 flex flex-wrap gap-2">
+        <fieldset className="mt-6">
+          <legend className={labelClass}>More ways to narrow your search</legend>
+          <div className="mt-3 flex flex-wrap gap-x-5 gap-y-3">
             {scholarshipFilterOptions.map((option) => (
-              <button
-                key={option.value}
-                type="button"
-                onClick={() => toggleTag(option.value)}
-                className={cx(
-                  "rounded-sm border px-3 py-1.5 text-xs font-semibold transition",
-                  selectedTags.includes(option.value)
-                    ? "border-[var(--accent)] bg-[var(--accent)] text-white"
-                    : "border-[var(--line)] bg-white text-slate-700 hover:border-[var(--green)]"
-                )}
-              >
+              <label key={option.value} className="inline-flex cursor-pointer items-center gap-2 text-sm text-slate-800">
+                <input
+                  type="checkbox"
+                  checked={selectedTags.includes(option.value)}
+                  onChange={() => toggleTag(option.value)}
+                  className="h-4 w-4 accent-[var(--accent)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+                />
                 {option.label}
-              </button>
+              </label>
             ))}
           </div>
+        </fieldset>
 
-          <div className="mt-5 flex items-center justify-between gap-4 border-t border-[var(--line)] pt-4 text-sm text-slate-600">
-            <p>
-              Showing <span className="font-semibold text-slate-900">{results.length}</span>{" "}
-              of {scholarships.length} source-backed records.
-            </p>
-            <button
-              type="button"
-              onClick={resetFilters}
-              className="text-sm font-semibold text-[var(--accent)] underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
-            >
-              Reset filters
-            </button>
-          </div>
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[var(--line)] pt-4">
+          <p className="text-base text-slate-700" aria-live="polite">
+            Showing <strong className="text-slate-950">{results.length}</strong> of {scholarships.length} scholarships
+          </p>
+          <button type="button" onClick={resetFilters} className="text-sm font-semibold text-[var(--accent)] underline underline-offset-4 hover:text-[var(--green)]">
+            Clear all filters
+          </button>
         </div>
-      </Section>
+      </section>
 
-      <Section title="Scholarship Results">
-        <div className="grid gap-5">
-          {results.map((item) => {
-            const freshness = getScholarshipFreshness(item.last_verified_at);
+      <section aria-labelledby="scholarship-results-title" className="pt-8">
+        <div className="flex flex-wrap items-baseline justify-between gap-3">
+          <h2 id="scholarship-results-title" className="text-2xl font-semibold text-[var(--accent)]">Scholarship results</h2>
+          <p className="text-sm text-slate-600">Confirm the current round and eligibility with the provider before applying.</p>
+        </div>
 
-            return <Card
-              key={item.id}
-              title={item.scholarship_name}
-              className="bg-[var(--surface)]"
-            >
-              <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
-                <div className="space-y-3">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span
-                      className={cx(
-                        "rounded-sm px-2 py-1 text-xs font-semibold",
-                        getStatusClass(item.status)
-                      )}
-                    >
-                      {formatScholarshipStatus(item.status)}
-                    </span>
-                    <span className="rounded-sm bg-[var(--accent-soft)] px-2 py-1 text-xs font-semibold text-[var(--green)]">
-                      Source-backed
-                    </span>
-                    <span className={cx(
-                      "text-xs uppercase tracking-wide",
-                      freshness.stale ? "text-amber-700" : "text-slate-400"
-                    )}>
-                      {freshness.stale ? "Check source - " : ""}{freshness.label}
-                    </span>
-                  </div>
-                  <p className="text-sm font-semibold text-slate-700">
-                    {item.provider}
-                    {item.institution !== item.provider ? ` / ${item.institution}` : ""}
-                  </p>
-                  <p className="text-sm leading-6 text-slate-700">{item.description}</p>
-                  <p className="text-sm leading-6 text-slate-700">
-                    <span className="font-semibold text-slate-900">Eligibility: </span>
-                    {item.eligibility_summary}
-                  </p>
-                </div>
-                <div className="min-w-48 rounded-sm border border-[var(--line)] bg-white p-4 text-sm">
-                  <p className="text-xs uppercase tracking-wide text-slate-400">Value</p>
-                  <p className="mt-1 font-semibold text-slate-900">{item.value_text}</p>
-                  <p className="mt-3 text-xs uppercase tracking-wide text-slate-400">Closing date</p>
-                  <p className="mt-1 font-semibold text-slate-900">
-                    {formatScholarshipDate(item.closes_at)}
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap gap-2 pt-2">
-                {item.eligibility_tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-sm bg-white px-2 py-1 text-xs font-medium text-slate-600 ring-1 ring-[var(--line)]"
-                  >
-                    {humaniseToken(tag)}
+        <div className="mt-4 divide-y divide-[var(--line)]" aria-live="polite">
+          {results.map((item) => (
+            <article key={item.id} className="py-6">
+              <div className="flex flex-wrap items-center gap-2">
+                {item.status !== "check_source" && (
+                  <span className={cx("rounded-sm px-2.5 py-1 text-sm font-semibold", statusClass(item.status))}>
+                    {formatScholarshipStatus(item.status)}
                   </span>
-                ))}
+                )}
+                <span className="text-sm text-slate-600">{item.provider}{item.institution !== item.provider ? ` · ${item.institution}` : ""}</span>
               </div>
-
-              <div className="flex flex-col gap-3 border-t border-[var(--line)] pt-4 text-sm md:flex-row md:items-center md:justify-between">
-                <p className="text-slate-600">{item.notes}</p>
-                <a
-                  href={item.source_url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="shrink-0 font-semibold text-[var(--accent)] underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
-                >
-                  Official source link
-                </a>
-              </div>
-            </Card>;
-          })}
-          {results.length === 0 ? (
-            <div className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-8 text-center text-sm text-slate-600">
-              No scholarships match those filters. Reset filters or check the official
-              provider pages for newer rounds.
-            </div>
-          ) : null}
+              <h3 className="mt-2 text-xl font-semibold leading-snug text-[var(--accent)]">{item.scholarship_name}</h3>
+              {!item.description.includes("is listed by") && <p className="mt-2 max-w-4xl leading-7 text-slate-700">{item.description}</p>}
+              {!item.eligibility_summary.startsWith("Source-backed listing from") && (
+                <p className="mt-2 max-w-4xl leading-7 text-slate-700">
+                  <strong className="text-slate-900">Eligibility:</strong> {item.eligibility_summary}
+                </p>
+              )}
+              <dl className="mt-4 flex flex-wrap gap-x-8 gap-y-2 text-sm">
+                <div><dt className="inline font-semibold text-slate-900">Value: </dt><dd className="inline text-slate-700">{item.value_text}</dd></div>
+                <div><dt className="inline font-semibold text-slate-900">Closes: </dt><dd className="inline text-slate-700">{item.closes_at ? formatScholarshipDate(item.closes_at) : "Not listed"}</dd></div>
+                {item.eligibility_tags.length > 0 && <div className="basis-full"><dt className="inline font-semibold text-slate-900">May suit students who are: </dt><dd className="inline text-slate-700">{item.eligibility_tags.map(humanise).join(", ")}</dd></div>}
+              </dl>
+              <a href={item.source_url} target="_blank" rel="noreferrer" className="mt-3 inline-flex font-semibold text-[var(--accent)] underline decoration-[var(--amber)] underline-offset-4 hover:text-[var(--green)]">
+                Visit provider website <span aria-hidden="true" className="ml-1">↗</span>
+              </a>
+            </article>
+          ))}
+          {results.length === 0 && (
+            <p className="py-10 text-center text-slate-700">No scholarships match these filters. Clear the filters or try a broader search.</p>
+          )}
         </div>
-      </Section>
+      </section>
     </div>
   );
 }

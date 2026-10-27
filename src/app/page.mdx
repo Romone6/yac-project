@@ -1,6 +1,5 @@
 import { Container } from "@/components/Container";
 import { Section } from "@/components/Section";
-import { Card } from "@/components/Card";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { SecondaryButton } from "@/components/SecondaryButton";
 
@@ -11,17 +10,16 @@ export const metadata = {
 };
 
 <Container className="space-y-14">
-  <section className="overflow-hidden rounded-sm border border-[var(--line)] bg-[var(--surface)]">
-    <div className="grid gap-8 p-6 md:grid-cols-[1.15fr_0.85fr] md:p-10">
-      <div className="space-y-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--green)]">
-          NSW Youth Advisory Council-aligned initiative
+  <section className="grid gap-8 border-b border-[var(--line)] pb-10 md:grid-cols-[1.1fr_0.9fr] md:items-center md:gap-12">
+    <div className="space-y-6">
+        <p className="text-sm font-semibold text-[var(--green)]">
+          Regional NSW · After school
         </p>
         <div className="space-y-4">
-          <h1 className="max-w-4xl text-4xl font-semibold tracking-tight text-slate-950 md:text-6xl">
-            Helping regional NSW students navigate life after school.
+          <h1 className="max-w-4xl text-4xl font-semibold leading-[1.08] tracking-tight text-slate-950 md:text-6xl">
+            <span className="block">Helping regional NSW students navigate life after school.</span>
           </h1>
-          <p className="max-w-3xl text-lg leading-8 text-slate-700">
+          <p className="max-w-3xl text-lg leading-8 text-slate-700 md:text-xl">
             Pathway to Entry brings together student consultation, practical
             pathway tools, application timelines, scholarship information, and
             financial support resources to make post-school entry clearer,
@@ -33,65 +31,63 @@ export const metadata = {
           <SecondaryButton href="/scholarships">{"Search Scholarships"}</SecondaryButton>
           <SecondaryButton href="/research">{"Read the Research"}</SecondaryButton>
         </div>
-      </div>
-      <div className="relative min-h-72 rounded-sm bg-[#f0eadc] p-6">
-        <div className="absolute inset-x-6 top-8 h-px bg-[var(--line)]" />
-        <div className="absolute bottom-6 left-6 right-6 h-24 rounded-t-full border-x border-t border-[var(--green)]" />
-        <div className="absolute bottom-6 left-1/2 h-36 w-24 -translate-x-1/2 rounded-t-sm bg-[var(--accent)]" />
-        <div className="absolute bottom-6 left-1/2 h-28 w-14 -translate-x-1/2 rounded-t-sm bg-[var(--surface)]" />
-        <div className="absolute bottom-10 left-8 right-8 h-3 rounded-full bg-[var(--amber)]" />
-        <div className="absolute bottom-16 left-12 right-16 h-3 rounded-full bg-[var(--green)]/80" />
-        <div className="absolute bottom-[5.5rem] left-[4.5rem] right-24 h-3 rounded-full bg-[var(--accent)]/80" />
-        <div className="absolute right-8 top-12 rounded-sm bg-[var(--surface)] px-3 py-2 text-xs font-semibold uppercase tracking-wide text-slate-700 shadow-sm">
-          Source-backed tools
-        </div>
-      </div>
+    </div>
+    <div className="overflow-hidden">
+      <img
+        src="/coona-high-school.jpg"
+        alt="Students outside Coonabarabran High School in regional New South Wales"
+        className="aspect-[4/3] w-full object-cover object-center"
+      />
+      <p className="mt-2 text-xs text-slate-500">
+        Photo: <a href="https://coonabarab-h.schools.nsw.gov.au/" className="underline underline-offset-2">Coonabarabran High School</a>
+      </p>
     </div>
   </section>
 
   <Section title="What The Project Does">
-    <div className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-6 text-base leading-8 text-slate-700">
+    <p className="max-w-4xl text-base leading-8 text-slate-700 md:text-lg">
       Built from regional student consultation and aligned with the NSW Youth
       Advisory Council, Pathway to Entry responds to the information gap
       students face when moving from school into university, TAFE, training,
       employment, and other post-school pathways.
-    </div>
+    </p>
   </Section>
 
-  <div className="grid gap-6 md:grid-cols-3">
-    <Card title="Consultation Into Action">
-      Student voice and regional consultation shape the tools, timelines and
+  <div className="divide-y divide-[var(--line)]">
+    <article className="py-5">
+      <h3 className="text-xl font-semibold text-[var(--accent)]">Consultation into action</h3>
+      <p className="mt-2 max-w-4xl text-slate-700">Student voice and regional consultation shape the tools, timelines and
       advocacy priorities so the project stays grounded in real post-school
-      decision points.
-    </Card>
-    <Card title="Practical Pathway Support">
-      The toolkit helps students track deadlines, compare subject signals,
-      understand financial options and find source-backed support before key
-      dates pass.
-    </Card>
-    <Card title="Policy Recommendations">
-      Research findings remain visible through the research page, where
+      decision points.</p>
+    </article>
+    <article className="py-5">
+      <h3 className="text-xl font-semibold text-[var(--accent)]">Practical pathway support</h3>
+      <p className="mt-2 max-w-4xl text-slate-700">The toolkit helps students track deadlines, compare subject signals,
+      understand financial options and find support before key
+      dates pass.</p>
+    </article>
+    <article className="py-5">
+      <h3 className="text-xl font-semibold text-[var(--accent)]">Policy recommendations</h3>
+      <p className="mt-2 max-w-4xl text-slate-700">Research findings remain visible through the research page, where
       consultation themes and recommendations can inform NSW YAC-aligned
-      advocacy.
-    </Card>
+      advocacy.</p>
+    </article>
   </div>
 
   <Section title="Start With The Toolkit">
-    <div className="grid gap-6 md:grid-cols-2">
-      <Card title="Scholarship Finder">
-        Search scholarships, bursaries, relocation support, accommodation help
-        and equity funding with official source links and last-verified dates.
-        <div className="pt-2">
-          <PrimaryButton href="/scholarships">{"Search Scholarships"}</PrimaryButton>
-        </div>
-      </Card>
-      <Card title="Timelines And Pathway Tools">
-        Use the application timeline tracker, subject alignment tool, financial
-        explainer and checklists to plan the next step after school.
-        <div className="pt-2">
+    <div className="divide-y divide-[var(--line)]">
+      <article className="py-5">
+        <h3 className="text-xl font-semibold text-[var(--accent)]">Scholarship finder</h3>
+        <p className="mt-2 max-w-3xl text-slate-700">Search scholarships, bursaries, relocation support, accommodation help and equity funding.</p>
+        <div className="mt-3"><PrimaryButton href="/scholarships">{"Search Scholarships"}</PrimaryButton></div>
+      </article>
+      <article className="py-5">
+        <h3 className="text-xl font-semibold text-[var(--accent)]">Timelines and pathway tools</h3>
+        <p className="mt-2 max-w-3xl text-slate-700">Use the application timeline tracker, subject alignment tool, financial explainer, and checklists to plan the next step after school.</p>
+        <div className="mt-3">
           <SecondaryButton href="/toolkit">{"Explore Tools"}</SecondaryButton>
         </div>
-      </Card>
+      </article>
     </div>
   </Section>
 </Container>

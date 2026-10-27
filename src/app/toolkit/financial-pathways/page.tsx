@@ -3,10 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { Tag } from "@/components/Tag";
-import {
-  financialResources,
-  toolkitVerificationDate,
-} from "@/lib/toolkit-data";
+import { financialResources } from "@/lib/toolkit-data";
 
 export const metadata = {
   title: "Financial Pathway Explainer | Pathway to Entry",
@@ -23,20 +20,8 @@ export default function FinancialPathwaysPage() {
         summary="Official-source guidance on the main support options students ask about most: HELP loans, income support, regional relocation help and scholarships."
       />
 
-      <div className="rounded-sm border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
-        This page was refreshed against Services Australia and StudyAssist sources on{" "}
-        <span className="font-semibold">
-          {new Date(toolkitVerificationDate).toLocaleDateString("en-AU", {
-            day: "numeric",
-            month: "short",
-            year: "numeric",
-          })}
-        </span>
-        . Payment rates and eligibility rules move, so use the official link on each card before you make a decision or submit a claim.
-      </div>
-
       <Section title="Financial support options">
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="divide-y divide-[var(--line)]">
           {financialResources.map((resource) => (
             <Card key={resource.title} title={resource.title}>
               <Tag>{resource.tag}</Tag>
@@ -58,9 +43,6 @@ export default function FinancialPathwaysPage() {
                 >
                   {resource.sourceLabel} →
                 </a>
-                <p className="mt-2 text-xs uppercase tracking-wide text-slate-400">
-                  Last verified {resource.lastVerified}
-                </p>
               </div>
             </Card>
           ))}

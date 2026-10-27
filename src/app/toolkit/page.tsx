@@ -15,13 +15,13 @@ const tools = [
     title: "Application Timeline Tracker",
     href: "/toolkit/application-timelines",
     summary:
-      "Track verified admissions, early-entry and scholarship milestones from UAC and university sources.",
+      "Track admissions, early-entry and scholarship milestones from UAC and university sources.",
   },
   {
     title: "Scholarship Finder",
     href: "/scholarships",
     summary:
-      "Search source-backed scholarships, bursaries, relocation support, accommodation help and equity funding.",
+      "Search scholarships, bursaries, relocation support, accommodation help and equity funding.",
   },
   {
     title: "Subject Alignment Tool",
@@ -59,7 +59,7 @@ export default function ToolkitPage() {
       />
 
       <Section title="Available Tools">
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="divide-y divide-[var(--line)]">
           {tools.map((tool) => (
             <Link key={tool.title} href={tool.href} className="block">
               <Card

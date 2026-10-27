@@ -7,7 +7,6 @@ import { Section } from "@/components/Section";
 import { cx } from "@/lib/cx";
 import {
   applicationTimelineEntries,
-  toolkitVerificationDate,
   type TimelineEntry,
 } from "@/lib/toolkit-data";
 
@@ -102,20 +101,8 @@ export default function ApplicationTimelinesPage() {
       <PageHeader
         eyebrow="Toolkit"
         title="Application Timelines"
-        summary="Track verified NSW admissions and early-entry milestones from official UAC or university sources. Each item links back to the source page so students can confirm the live details before applying."
+        summary="Track NSW admissions and early-entry milestones from UAC and university sources. Follow each link for current application details."
       />
-
-      <div className="rounded-sm border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
-        This page now only shows source-backed dates that were last checked on{" "}
-        <span className="font-semibold">
-          {new Date(toolkitVerificationDate).toLocaleDateString("en-AU", {
-            day: "numeric",
-            month: "short",
-            year: "numeric",
-          })}
-        </span>
-        . If a university is missing, it means the current dataset has not been verified to production standard yet.
-      </div>
 
       <Section title="Filters">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end">
@@ -186,7 +173,7 @@ export default function ApplicationTimelinesPage() {
               return (
                 <div
                   key={round.id}
-                  className="rounded-sm border border-slate-200 bg-white p-5"
+                  className="border-t border-[var(--line)] py-5"
                 >
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex-1">
@@ -212,9 +199,6 @@ export default function ApplicationTimelinesPage() {
                       </h3>
                       <p className="mt-1 text-sm text-slate-500">{round.university}</p>
                       <p className="mt-2 text-sm leading-6 text-slate-700">{round.description}</p>
-                      <p className="mt-2 text-xs uppercase tracking-wide text-slate-400">
-                        Source: {round.sourceLabel} · Last verified {round.lastVerified}
-                      </p>
                     </div>
                   </div>
                   <div className="mt-4 grid grid-cols-3 gap-4 border-t border-slate-100 pt-4 text-sm">
@@ -254,9 +238,9 @@ export default function ApplicationTimelinesPage() {
               );
             })}
             {sortedRounds.length === 0 && (
-              <div className="rounded-sm border border-slate-200 bg-slate-50 p-8 text-center text-sm text-slate-500">
+              <p className="border-t border-[var(--line)] py-8 text-center text-base text-slate-600">
                 No deadlines match your filters.
-              </div>
+              </p>
             )}
           </div>
         </Section>
@@ -276,7 +260,7 @@ export default function ApplicationTimelinesPage() {
                     return (
                       <div
                         key={round.id}
-                        className="flex items-center gap-4 rounded-sm border border-slate-200 bg-white p-4"
+                        className="flex items-center gap-4 border-t border-[var(--line)] py-4"
                       >
                         <div className="w-28 shrink-0 text-right">
                           <p className="text-sm font-semibold text-slate-900">
@@ -297,9 +281,6 @@ export default function ApplicationTimelinesPage() {
                             <p className="text-sm font-medium text-slate-900">{round.roundName}</p>
                           </div>
                           <p className="mt-0.5 text-xs text-slate-500">{round.university}</p>
-                          <p className="mt-1 text-xs text-slate-400">
-                            {round.sourceLabel} · verified {round.lastVerified}
-                          </p>
                         </div>
                         <a
                           href={round.officialUrl}
