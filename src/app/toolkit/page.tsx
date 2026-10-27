@@ -59,11 +59,12 @@ export default function ToolkitPage() {
       />
 
       <Section title="Available Tools">
-        <div className="divide-y divide-[var(--line)]">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {tools.map((tool) => (
             <Link key={tool.title} href={tool.href} className="block">
               <Card
                 title={tool.title}
+                variant="boxed"
                 className="h-full cursor-pointer bg-[var(--surface)] transition hover:border-[var(--green)] hover:shadow-sm"
               >
                 <p className="text-sm leading-6 text-slate-700">{tool.summary}</p>
