@@ -129,7 +129,8 @@ export function filterScholarships(filters: ScholarshipFilters) {
         .join(" ")
         .toLowerCase();
 
-      if (!haystack.includes(query)) return false;
+      const terms = query.split(/\s+/).filter(Boolean);
+      if (!terms.every((term) => haystack.includes(term))) return false;
     }
 
     if (filters.openNow && item.status !== "open" && item.status !== "closing_soon") {

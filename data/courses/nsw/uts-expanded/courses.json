@@ -33,7 +33,7 @@
     "level": "undergraduate",
     "description": "Study Pharmaceutical Science at UTS Sydney. Gain hands-on lab, chemistry & pharmacology skills to start a rewarding career in drug development, research or further study.",
     "duration": "3 years full time,6 years part time",
-    "atar": 90.15,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -43,7 +43,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-advanced-science-pharmaceutical-sciences",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 90.15,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10347",
@@ -56,7 +58,7 @@
     "level": "undergraduate",
     "description": "Study Pre-Medicine at UTS: build skills in anatomy, physiology, biochemistry & more for students aiming at postgraduate medicine or health science careers.",
     "duration": "3 years full time,6 years part time",
-    "atar": 95.15,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -66,7 +68,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-advanced-science-pre-medicine",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 95.15,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10352",
@@ -79,14 +83,16 @@
     "level": "undergraduate",
     "description": "Excel in advanced science and creative innovation to confront complex challenges and lead scientific progress.",
     "duration": "4 years full time,8 years part time",
-    "atar": 95.4,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-advanced-science-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 95.4,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-https-www-uts-edu-au-courses-bachelor-of-artificial-intelligence",
@@ -98,14 +104,16 @@
     "level": "undergraduate",
     "description": "Bachelor of Artificial Intelligence",
     "duration": "3 years full time, 6 years part time",
-    "atar": 82.1,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-artificial-intelligence",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 82.1,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10026",
@@ -118,7 +126,7 @@
     "level": "undergraduate",
     "description": "Build essential business knowledge with one of NSW&#x27;s most popular degrees. Develop practical, job-ready skills and choose a major to match your career goals.",
     "duration": "3 years full time,6 years part time",
-    "atar": 85.4,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -128,7 +136,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-business",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.4,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10326",
@@ -141,7 +151,7 @@
     "level": "undergraduate",
     "description": "Learn to integrate business knowledge with innovative solutions to solve complex industry issues.",
     "duration": "4 years full time,8 years part time",
-    "atar": 85.15,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -151,7 +161,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-business-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.15,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10125",
@@ -164,7 +176,7 @@
     "level": "undergraduate",
     "description": "Combined undergraduate degree integrating business, management and law, developing commercial, legal and professional skills for leadership across industry roles.",
     "duration": "5 years full time",
-    "atar": 97.35,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -174,7 +186,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-business-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.35,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09084",
@@ -210,7 +224,7 @@
     "level": "undergraduate",
     "description": "Prepare for a dynamic career in sustainable business with dual expertise in business and environmental studies.",
     "duration": "4 years full time,8 years part time",
-    "atar": 85.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -220,7 +234,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-business-bachelor-of-sustainability-and-environment",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10449",
@@ -233,7 +249,7 @@
     "level": "postgraduate",
     "description": "Study dual degrees to teach Business Studies in NSW secondary schools.",
     "duration": "4 years full time",
-    "atar": 86.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -243,7 +259,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-business-master-of-teaching-in-secondary-education",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 86.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09047",
@@ -276,14 +294,16 @@
     "level": "undergraduate",
     "description": "Hone your creative and professional writing skills and attain industry-specific publishing insights to launch a rewarding literary career.",
     "duration": "3 years full time",
-    "atar": 73.45,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-creative-writing",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 73.45,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10377",
@@ -296,14 +316,16 @@
     "level": "undergraduate",
     "description": "Learn from award-winning authors and editors in a practice-based writing and publishing course.",
     "duration": "4 years full time",
-    "atar": 85.5,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-creative-writing-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.5,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10378",
@@ -316,7 +338,7 @@
     "level": "undergraduate",
     "description": "Combine creative writing with legal studies to build strong storytelling and analytical skills. Prepare for careers in media, publishing, intellectual property and legal practice.",
     "duration": "5 years full time",
-    "atar": 97.45,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -325,7 +347,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-creative-writing-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.45,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09089",
@@ -360,14 +384,16 @@
     "level": "postgraduate",
     "description": "Establish your writing and publishing expertise and become the advanced, experienced secondary school educator of tomorrow with this unique degree.",
     "duration": "4 years full time",
-    "atar": 70,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-creative-writing-master-of-teaching-in-secondary-education",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 70,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10371",
@@ -380,14 +406,16 @@
     "level": "undergraduate",
     "description": "Acquire the hands-on skills you need to kick-start a rewarding, future-ready career in digital communication and social media.",
     "duration": "3 years full time",
-    "atar": 70.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-digital-and-social-media",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 70.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10359",
@@ -400,14 +428,16 @@
     "level": "undergraduate",
     "description": "Develop solutions to digital communication challenges with a transdisciplinary approach and industry experience.",
     "duration": "4 years full time",
-    "atar": 89.6,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-digital-and-social-media-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 89.6,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10379",
@@ -420,7 +450,7 @@
     "level": "undergraduate",
     "description": "Combined undergraduate degree uniting digital and social media expertise with legal studies, technological literacy, communication strategy and law.",
     "duration": "5 years full time",
-    "atar": 97.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -429,7 +459,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-digital-and-social-media-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09091",
@@ -464,14 +496,16 @@
     "level": "undergraduate",
     "description": "Kick-start a meaningful career where you&#x2019;ll investigate global issues, uncover the facts and communicate them to the public.",
     "duration": "3 years full time",
-    "atar": 72.65,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-journalism",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 72.65,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10380",
@@ -484,7 +518,7 @@
     "level": "undergraduate",
     "description": "Combined undergraduate degree integrating journalism and legal studies, developing skills in media law, reporting, ethics and public interest communication.",
     "duration": "5 years full time",
-    "atar": 97.4,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -493,7 +527,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-journalism-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.4,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09093",
@@ -528,14 +564,16 @@
     "level": "undergraduate",
     "description": "Address complex challenges in media with our combined Communication in Media Business and Creative Intelligence and Innovation program.",
     "duration": "4 years full time",
-    "atar": 72.8,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-media-business-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 72.8,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10455",
@@ -548,7 +586,7 @@
     "level": "undergraduate",
     "description": "Study media business and law to build skills in strategy, regulation and content industries. Gain industry insight and legal expertise for dynamic careers.",
     "duration": "5 years full time",
-    "atar": 97.35,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -557,7 +595,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-media-business-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.35,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10456",
@@ -591,14 +631,16 @@
     "level": "undergraduate",
     "description": "Bachelor of Communication in Public Relations and Advertising",
     "duration": "3 years full time",
-    "atar": 70.6,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-public-relations-and-advertising",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 70.6,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10382",
@@ -611,7 +653,7 @@
     "level": "undergraduate",
     "description": "Combine public relations, advertising and legal studies to lead ethical campaigns and navigate regulation. Build strategy, advocacy and industry-ready expertise.",
     "duration": "5 years full time",
-    "atar": 97.45,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -620,7 +662,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-public-relations-and-advertising-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.45,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10364",
@@ -633,14 +677,16 @@
     "level": "undergraduate",
     "description": "Help create a more just world of tomorrow with a future on the front lines of public policy.",
     "duration": "3 years full time",
-    "atar": 70.8,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-social-and-political-sciences",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 70.8,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10375",
@@ -653,14 +699,16 @@
     "level": "undergraduate",
     "description": "Influence public policy and confront global challenges with a transdisciplinary approach to creative intelligence and innovation.",
     "duration": "4 years full time",
-    "atar": 83.35,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-social-and-political-sciences-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 83.35,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10383",
@@ -673,7 +721,7 @@
     "level": "undergraduate",
     "description": "Combine social and political sciences with legal studies to analyse policy, power and justice. Build research, advocacy and regulatory skills for public, media and legal careers.",
     "duration": "5 years full time",
-    "atar": 97.4,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -682,7 +730,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-communication-in-social-and-political-sciences-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.4,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09096",
@@ -743,7 +793,7 @@
     "level": "undergraduate",
     "description": "Advance your computing science degree with advanced coursework and a research project at UTS. Develop deep expertise in algorithms, AI or systems and graduate with honours.",
     "duration": "4 years full time,8 years part time",
-    "atar": 82.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -756,7 +806,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-computing-science-honours",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 82.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10214",
@@ -769,7 +821,7 @@
     "level": "undergraduate",
     "description": "Build a solid, future-proof career where you&#x2019;ll play a leading role in constructing the world of tomorrow.",
     "duration": "4 years full time,6 years part time",
-    "atar": 76.7,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -779,7 +831,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-construction-project-management",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 76.7,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-https-www-uts-edu-au-courses-bachelor-of-creative-intelligence-and-innovation",
@@ -851,14 +905,16 @@
     "level": "undergraduate",
     "description": "Launch a career in animation with a hands-on creative production degree at UTS.",
     "duration": "3 years full time",
-    "atar": 75.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-creative-production-in-animation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10461",
@@ -871,14 +927,16 @@
     "level": "undergraduate",
     "description": "Gain a competitive edge in the animation industry with a transdisciplinary education.",
     "duration": "4 years full time",
-    "atar": 85,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-creative-production-in-animation-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10362",
@@ -891,14 +949,16 @@
     "level": "undergraduate",
     "description": "Launch a career in the screen industry with a hands-on creative production degree from UTS.",
     "duration": "3 years full time",
-    "atar": 75.15,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-creative-production-in-media-arts",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75.15,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10373",
@@ -911,14 +971,16 @@
     "level": "undergraduate",
     "description": "Gain a competitive edge in the screen industry with a transdisciplinary education.",
     "duration": "4 years full time",
-    "atar": 80.5,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-creative-production-in-media-arts-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80.5,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10381",
@@ -931,7 +993,7 @@
     "level": "undergraduate",
     "description": "Study creative production in media arts and law at UTS. Build skills in storytelling, legal practice and media production for careers creative industries and law.",
     "duration": "5 years full time",
-    "atar": 97.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -940,7 +1002,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-creative-production-in-media-arts-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09094",
@@ -975,14 +1039,16 @@
     "level": "undergraduate",
     "description": "Gain a competitive edge in music and sound design with a transdisciplinary education.",
     "duration": "4 years full time",
-    "atar": 74.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-creative-production-in-music-and-sound-design-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 74.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10446",
@@ -995,7 +1061,7 @@
     "level": "undergraduate",
     "description": "Build the capabilities you need to work at the cutting edge of the meaningful, ever-evolving world of criminal justice.",
     "duration": "3 years full time,6 years part time",
-    "atar": 75.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -1005,7 +1071,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-criminology",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10448",
@@ -1018,7 +1086,7 @@
     "level": "undergraduate",
     "description": "Blend your understanding of criminality with advanced forensic capabilities to help law enforcement deliver real justice.",
     "duration": "4 years full time,8 years part time",
-    "atar": 90,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -1032,7 +1100,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-criminology-bachelor-of-forensic-science",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 90,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10471",
@@ -1045,7 +1115,7 @@
     "level": "undergraduate",
     "description": "Study cyber security at UTS and protect systems, networks and data. Build technical skills in security, cryptography and risk management through real-world projects.",
     "duration": "3 years full time,6 years part time",
-    "atar": 78.4,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -1058,7 +1128,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-cybersecurity",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.4,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10004",
@@ -1071,7 +1143,7 @@
     "level": "undergraduate",
     "description": "Design your own future in a career where technology meets creativity and lead the way to a more sustainable world.",
     "duration": "3 years full time,6 years part time",
-    "atar": 75.65,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -1083,7 +1155,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-architecture",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75.65,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10325",
@@ -1096,14 +1170,16 @@
     "level": "undergraduate",
     "description": "Innovate in architecture with a transdisciplinary approach, integrating diverse perspectives and real projects.",
     "duration": "4 years full time,8 years part time",
-    "atar": 82.6,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-architecture-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 82.6,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10306",
@@ -1116,7 +1192,7 @@
     "level": "undergraduate",
     "description": "Shape the trends of tomorrow and design your own future in the vibrant, electric world of fashion.",
     "duration": "3 years full time,6 years part time",
-    "atar": 79.1,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -1127,7 +1203,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-fashion-and-textiles",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 79.1,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10321",
@@ -1140,14 +1218,16 @@
     "level": "undergraduate",
     "description": "This course is tailored for aspiring fashion and textiles professionals seeking to hone their design skills with a forward-thinking approach. Choose this...",
     "duration": "4 years full time,8 years part time",
-    "atar": 90.6,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-fashion-and-textiles-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 90.6,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10271",
@@ -1160,7 +1240,7 @@
     "level": "undergraduate",
     "description": "Reimagine interior environments and the essential spaces of tomorrow and kick-start a rewarding career in interior architecture.",
     "duration": "3 years full time",
-    "atar": 75.15,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -1171,7 +1251,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-interior-architecture",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75.15,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10322",
@@ -1184,14 +1266,16 @@
     "level": "undergraduate",
     "description": "This course is designed for aspiring professionals in interior architecture and creative intelligence, seeking to lead in the industry. Choose this course for...",
     "duration": "4 years full time",
-    "atar": 81.65,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-interior-architecture-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 81.65,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10304",
@@ -1204,7 +1288,7 @@
     "level": "undergraduate",
     "description": "Advance your creative potential to design innovative, groundbreaking products that meaningfully transform the life experiences of people.",
     "duration": "3 years full time",
-    "atar": 77.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -1215,7 +1299,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-product-design",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 77.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10323",
@@ -1228,14 +1314,16 @@
     "level": "undergraduate",
     "description": "The course offers a practice-based approach to learning through the integration of digital and analogue technologies across the broad field of integrated...",
     "duration": "4 years full time",
-    "atar": 82.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-product-design-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 82.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10308",
@@ -1248,7 +1336,7 @@
     "level": "undergraduate",
     "description": "Combine creativity, design and technology to tell visual stories and understand the complex world around you.",
     "duration": "3 years full time,6 years part time",
-    "atar": 76.9,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -1259,7 +1347,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-visual-communication",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 76.9,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10324",
@@ -1272,14 +1362,16 @@
     "level": "undergraduate",
     "description": "This course is designed for aspiring visual communication professionals seeking to master the interplay between design, culture, and media. Choose this course...",
     "duration": "4 years full time",
-    "atar": 77.8,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-design-in-visual-communication-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 77.8,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10386",
@@ -1292,7 +1384,7 @@
     "level": "undergraduate",
     "description": "Study economics and law at UTS with an honours pathway. Build skills in analysis, regulation and practice, preparing for careers in finance, policy or law.",
     "duration": "5 years full time",
-    "atar": 97.35,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -1302,7 +1394,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-economics-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.35,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09120",
@@ -1338,7 +1432,7 @@
     "level": "postgraduate",
     "description": "Prepare for a teaching career in Economics and Business Studies with our combined program.",
     "duration": "4 years full time",
-    "atar": 82,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -1348,7 +1442,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-economics-master-of-teaching-in-secondary-education",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 82,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10479",
@@ -1381,14 +1477,16 @@
     "level": "postgraduate",
     "description": "Fast-track your future and become a primary-age teaching professional in just four years.",
     "duration": "4 years full time,8 years part time",
-    "atar": 76.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-education-futures-master-of-teaching-in-primary-education",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 76.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1401,7 +1499,7 @@
     "level": "undergraduate",
     "description": "Study Biomedical Engineering at UTS and design medical devices and health technologies. Gain hands-on industry experience and graduate ready for careers in healthcare innovation.",
     "duration": "4 years full time,8 years part time",
-    "atar": 79.15,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1416,7 +1514,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-biomedical",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 79.15,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1429,7 +1529,7 @@
     "level": "undergraduate",
     "description": "Study Chemical Process Engineering at UTS and design sustainable production systems. Build skills in energy, materials and process optimisation with industry experience.",
     "duration": "4 years full time,8 years part time",
-    "atar": 79.5,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1444,7 +1544,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-chemical-process",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 79.5,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1457,7 +1559,7 @@
     "level": "undergraduate",
     "description": "Study Civil and Environmental Engineering at UTS and address sustainable infrastructure, water systems and environmental challenges. Graduate prepared for impactful engineering careers.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78.9,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1472,7 +1574,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-civil-and-environmental",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.9,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1485,7 +1589,7 @@
     "level": "undergraduate",
     "description": "Study Civil Construction Engineering at UTS and develop skills in infrastructure delivery, project management and site operations. Graduate ready for careers in major construction projects.",
     "duration": "4 years full time,8 years part time",
-    "atar": 81.2,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1500,7 +1604,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-civil-construction",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 81.2,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1513,7 +1619,7 @@
     "level": "undergraduate",
     "description": "Study Civil Structures Engineering at UTS and design safe, resilient buildings and bridges. Build expertise in structural analysis and materials for infrastructure careers.",
     "duration": "4 years full time,8 years part time",
-    "atar": 81.2,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1528,7 +1634,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-civil-structures",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 81.2,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1541,7 +1649,7 @@
     "level": "undergraduate",
     "description": "Study civil engineering at UTS to design, construct and manage infrastructure. Develop technical, leadership and project skills for careers in planning, design and construction.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1556,7 +1664,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-civil",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1569,7 +1679,7 @@
     "level": "undergraduate",
     "description": "Study Data Science Engineering degree at UTS and build skills in machine learning, analytics and software systems. Graduate ready to solve complex problems across industries.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78.2,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1584,7 +1694,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-data-science",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.2,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1597,7 +1709,7 @@
     "level": "undergraduate",
     "description": "Study Electrical Engineering at UTS and develop skills in power systems, renewable energy and automation. Graduate prepared for roles in modern infrastructure and industry.",
     "duration": "4 years full time,8 years part time",
-    "atar": 79.6,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1612,7 +1724,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-electrical",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 79.6,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1625,7 +1739,7 @@
     "level": "undergraduate",
     "description": "Study electronic engineering at UTS and build skills in embedded systems, communications and signal processing for careers in advanced technology and industry.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1640,7 +1754,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-electronic",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1653,7 +1769,7 @@
     "level": "undergraduate",
     "description": "Study a flexible engineering degree at UTS with a common first year. Explore disciplines before specialising and graduate with industry-ready skills.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1668,7 +1784,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-flexible",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1681,7 +1799,7 @@
     "level": "undergraduate",
     "description": "Study Mechanical and Mechatronic Engineering with UTS to design machines, robotics and automation systems. Gain hands-on skills and industry-recognised qualification.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1696,7 +1814,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-mechanical-and-mechatronic",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1709,7 +1829,7 @@
     "level": "undergraduate",
     "description": "Study Mechanical Engineering at UTS and build skills in design, energy and advanced manufacturing. Gain industry experience and graduate ready for diverse engineering careers.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78.1,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1724,7 +1844,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-mechanical",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.1,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1737,7 +1859,7 @@
     "level": "undergraduate",
     "description": "Study Mechatronic Engineering at UTS. Develop skills in robotics, automation and intelligent systems, with industry experience solving real engineering challenges.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78.2,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1752,7 +1874,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-mechatronic",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.2,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09066",
@@ -1765,7 +1889,7 @@
     "level": "undergraduate",
     "description": "Study the UTS Bachelor of Engineering (Honours) in Software and build skills in software design, programming and systems through industry projects and practice today.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1780,7 +1904,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-software",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09070",
@@ -1793,7 +1919,7 @@
     "level": "undergraduate",
     "description": "Combine engineering and business at UTS to build technical expertise and commercial insight. Gain industry experience and graduate ready to lead complex projects.",
     "duration": "5 years full time,10 years part time",
-    "atar": 85.15,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1808,7 +1934,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-bachelor-of-business",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.15,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09074",
@@ -1821,7 +1949,7 @@
     "level": "undergraduate",
     "description": "Combine engineering and medical science at UTS. Build technical and biomedical expertise through hands-on learning and industry engagement in health technologies.",
     "duration": "5 years full time,10 years part time",
-    "atar": 83.1,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1836,7 +1964,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-bachelor-of-medical-science",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 83.1,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09072",
@@ -1849,7 +1979,7 @@
     "level": "undergraduate",
     "description": "Combine engineering and science at UTS. Build strong technical foundations and research skills with hands-on learning and industry-focused experience.",
     "duration": "5 years full time,10 years part time",
-    "atar": 81.55,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1864,7 +1994,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-bachelor-of-science",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 81.55,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09073",
@@ -1897,7 +2029,7 @@
     "level": "undergraduate",
     "description": "Combine Engineering and Sustainability at UTS to design practical solutions for climate, energy and environmental challenges through industry projects and practical learning.",
     "duration": "5 years full time,10 years part time",
-    "atar": 80,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1912,7 +2044,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-bachelor-of-sustainability-and-environment",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -1925,7 +2059,7 @@
     "level": "diploma",
     "description": "Study Biomedical Engineering at UTS with the Diploma in Industry Practice. Complete industry placements and develop clinical and technical skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 85.15,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1940,7 +2074,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-biomedical",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.15,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -1953,7 +2089,7 @@
     "level": "diploma",
     "description": "Study Chemical Process Engineering at UTS with the Diploma in Industry Practice. Apply engineering science to energy, materials and manufacturing and gain industry experience and graduate with strong technical skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 78,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1968,7 +2104,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-chemical-process",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -1981,7 +2119,7 @@
     "level": "diploma",
     "description": "Study Civil Construction Engineering at UTS with the Diploma in Industry Practice. Learn how infrastructure projects are planned and delivered and complete industry placements to develop professional practice skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 80.65,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -1996,7 +2134,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-civil-construction",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80.65,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2009,7 +2149,7 @@
     "level": "diploma",
     "description": "Study Civil Engineering at UTS with the Diploma in Industry Practice. Learn to design and deliver major infrastructure and gain industry experience through placements and build design and project skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 78.8,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2024,7 +2164,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-civil",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.8,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2037,7 +2179,7 @@
     "level": "diploma",
     "description": "Study Data Science Engineering at UTS with a Diploma in Industry Practice. Combine analytics, systems and software skills. Complete industry placements and graduate with advanced analytics and engineering skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 87.2,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2052,7 +2194,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-data-science",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 87.2,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2065,7 +2209,7 @@
     "level": "diploma",
     "description": "Study Electrical and Electronic Engineering at UTS with a Diploma in Industry Practice. Develop skills in power, electronics and systems. Complete industry placements and graduate with advanced technical skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 80.75,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2080,7 +2224,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-electrical-and-electronic",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80.75,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2093,7 +2239,7 @@
     "level": "diploma",
     "description": "Study a Bachelor of Engineering (Honours) Electrical Engineering with industry practice. Explore power systems, energy and electronics. Complete industry placements to develop professional engineering practice skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 92.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2108,7 +2254,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-electrical",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 92.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2121,7 +2269,7 @@
     "level": "diploma",
     "description": "Study Electronic Engineering at UTS and design advanced electronic devices and systems. Complete industry practice and placements to build your professional experience.",
     "duration": "5 years full time,10 years part time",
-    "atar": 78,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2136,7 +2284,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-electronic",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2149,7 +2299,7 @@
     "level": "diploma",
     "description": "Start an engineering degree at UTS with flexibility to explore disciplines before specialising. Industry placements build professional practice and career skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 78,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2164,7 +2314,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-flexible",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2177,7 +2329,7 @@
     "level": "diploma",
     "description": "Study Mechanical and Mechatronic Engineering at UTS and design intelligent machines and systems. Complete industry placements and graduate with advanced design and automation skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 78.55,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2192,7 +2344,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-mechanical-and-mechatronic",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.55,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2205,7 +2359,7 @@
     "level": "diploma",
     "description": "Study Mechanical Engineering at UTS and combine mechanical, electronics and software systems. Complete industry placements and graduate with advanced design and manufacturing skills.",
     "duration": "5 years full time,10 years part time",
-    "atar": 80.65,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2220,7 +2374,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-mechanical",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80.65,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09067",
@@ -2233,7 +2389,7 @@
     "level": "diploma",
     "description": "Study software engineering with industry placements at UTS. Build skills in systems design, coding and real-world delivery through professional practice.",
     "duration": "5 years full time,10 years part time",
-    "atar": 79.5,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Extension 1",
@@ -2248,7 +2404,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-engineering-honours-diploma-in-professional-engineering-practice-software",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 79.5,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10066",
@@ -2315,7 +2473,7 @@
     "level": "undergraduate",
     "description": "Combine food science and food technology expertise to launch a future transforming the global food economy",
     "duration": "3 years full time,6 years part time",
-    "atar": 72.9,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2328,7 +2486,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-food-science-and-technology",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 72.9,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10483",
@@ -2341,7 +2501,7 @@
     "level": "undergraduate",
     "description": "Launch your food science career. Study Food Science and Technology at UTS to learn how to research, design and deploy new foods and technologies.",
     "duration": "4 years full time,8 years part time",
-    "atar": 86.65,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2354,7 +2514,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-food-science-and-technology-bachelor-of-business",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 86.65,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10387",
@@ -2367,7 +2529,7 @@
     "level": "undergraduate",
     "description": "Meta description: Explore forensic science through flexible majors, developing laboratory, analytical and evidence skills for careers across justice, science, regulation and research.",
     "duration": "3 years full time,6 years part time",
-    "atar": 85.4,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -2380,7 +2542,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-forensic-science",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.4,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10389",
@@ -2393,7 +2557,7 @@
     "level": "undergraduate",
     "description": "Prepare for a specialist career in forensic science with comprehensive training in innovation and creativity.",
     "duration": "4 years full time,8 years part time",
-    "atar": 90,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -2407,7 +2571,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-forensic-science-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 90,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10391",
@@ -2420,7 +2586,7 @@
     "level": "undergraduate",
     "description": "Study forensic science and law at UTS, combining crime scene investigation with legal training. Prepare for future careers in criminal justice, forensics or law.",
     "duration": "5 years full time",
-    "atar": 97.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2430,7 +2596,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-forensic-science-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09121",
@@ -2466,7 +2634,7 @@
     "level": "undergraduate",
     "description": "Create interactive games at UTS. Build skills in programming, game design and production while working in teams to develop original games for real-world platforms.",
     "duration": "3 years full time,6 years part time",
-    "atar": 75,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2479,7 +2647,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-games-development",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10395",
@@ -2492,7 +2662,7 @@
     "level": "undergraduate",
     "description": "Study how technology supports organisations in UTS&#x2019;s Bachelor of Information Systems. Build practical skills in data, business analysis through industry projects.",
     "duration": "3 years full time,6 years part time",
-    "atar": 75.7,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2505,7 +2675,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-information-systems",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75.7,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10278",
@@ -2518,7 +2690,7 @@
     "level": "undergraduate",
     "description": "Equip yourself with information systems and business skills for a dynamic career in technology management.",
     "duration": "4 years full time,8 years part time",
-    "atar": 85.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2531,7 +2703,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-information-systems-bachelor-of-business",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10485",
@@ -2544,7 +2718,7 @@
     "level": "undergraduate",
     "description": "Drive sustainable change with technology.",
     "duration": "4 years full time,8 years part time",
-    "atar": 75,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2557,7 +2731,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-information-systems-bachelor-of-sustainability-and-environment",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10148",
@@ -2570,7 +2746,7 @@
     "level": "undergraduate",
     "description": "Build in-demand digital skills with the UTS Bachelor of Information Technology. Learn software development, data and cyber security with industry projects and real-world experience.",
     "duration": "3 years full time,6 years part time",
-    "atar": 75,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2583,7 +2759,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-information-technology",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10143",
@@ -2642,7 +2820,7 @@
     "level": "undergraduate",
     "description": "Combine information technology with creative problem solving at UTS. Build technical expertise and innovation skills through real-world projects and interdisciplinary learning.",
     "duration": "4 years full time",
-    "atar": 85.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2655,7 +2833,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-information-technology-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10245",
@@ -2668,7 +2848,7 @@
     "level": "undergraduate",
     "description": "Study information technology and law at UTS, building skills in cybersecurity, data and legal practice. Prepare for careers in tech law, policy or regulation.",
     "duration": "5 years full time",
-    "atar": 97.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -2681,7 +2861,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-information-technology-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09088",
@@ -2720,7 +2902,7 @@
     "level": "undergraduate",
     "description": "Combine information technology with sustainability at UTS. Develop digital solutions that address environmental and social challenges through industry projects and practical learning.",
     "duration": "4 years full time,8 years part time",
-    "atar": 75,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -2733,7 +2915,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-information-technology-bachelor-of-sustainability-and-environment",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10124",
@@ -2746,7 +2930,7 @@
     "level": "undergraduate",
     "description": "Study a practical law at UTS Sydney with core legal subjects, electives and optional PLT to meet NSW lawyer admission requirements.",
     "duration": "4 years full time,6.5 years part time",
-    "atar": 97.3,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -2755,7 +2939,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.3,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09083",
@@ -2812,7 +2998,7 @@
     "level": "undergraduate",
     "description": "Combined undergraduate degree integrating legal studies with creative intelligence and innovation, building practical skills to address complex social and industry challenges.",
     "duration": "4 years full time",
-    "atar": 97.6,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -2821,7 +3007,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-laws-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.6,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10342",
@@ -2834,7 +3022,7 @@
     "level": "undergraduate",
     "description": "Study Event Management at UTS. Learn event design, production and delivery with hands-on experience to prepare for roles in major events.",
     "duration": "3 years full time,6 years part time",
-    "atar": 80.35,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -2843,7 +3031,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-management-events",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80.35,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10342",
@@ -2856,7 +3046,7 @@
     "level": "undergraduate",
     "description": "Turn your passion for sports into a career. Build practical sports management skills to take on roles in professional clubs, sporting venues and governing bodies.",
     "duration": "3 years full time,6 years part time",
-    "atar": 80.1,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -2865,7 +3055,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-management-sport-business",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80.1,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10342",
@@ -2878,7 +3070,7 @@
     "level": "undergraduate",
     "description": "Build essential business management and strategic thinking skills to deploy unique solutions in your own enterprise or within an organisation. Enquire now.",
     "duration": "3 years full time,6 years part time",
-    "atar": 80.1,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -2887,7 +3079,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-management-strategic-innovation-and-entrepreneurship",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80.1,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10342",
@@ -2900,7 +3094,7 @@
     "level": "undergraduate",
     "description": "Build the skills to drive sustainable initiatives to benefit profits, people and the planet. Launch a meaningful and rewarding career driving positive change.",
     "duration": "3 years full time,6 years part time",
-    "atar": 83.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -2909,7 +3103,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-management-sustainability-and-social-impact",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 83.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10355",
@@ -2922,14 +3118,16 @@
     "level": "undergraduate",
     "description": "Combine management expertise with creative innovation to confront complex challenges and design dynamic products and services.",
     "duration": "4 years full time,8 years part time",
-    "atar": 84.35,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-management-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 84.35,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10412",
@@ -2942,14 +3140,16 @@
     "level": "undergraduate",
     "description": "Equip yourself with management and sustainability expertise for a greener business future.",
     "duration": "4 years full time,8 years part time",
-    "atar": 81.75,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-management-bachelor-of-sustainability-and-environment",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 81.75,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10228",
@@ -2962,7 +3162,7 @@
     "level": "undergraduate",
     "description": "Study marine ecosystems and climate change, developing field, lab and data skills for careers in conservation, research, policy and coastal management in Australia.",
     "duration": "3 years full time,6 years part time",
-    "atar": 79.8,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -2972,7 +3172,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-marine-biology-and-climate-change",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 79.8,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09129",
@@ -3028,7 +3230,7 @@
     "level": "undergraduate",
     "description": "Build a broad foundation in medical and health sciences, exploring human biology and disease, and how scientific innovation contributes to improved human health outcomes.",
     "duration": "3 years full time,6 years part time",
-    "atar": 87.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3038,7 +3240,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-medical-science-medical-and-health-related-sciences",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 87.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10131",
@@ -3051,7 +3255,7 @@
     "level": "undergraduate",
     "description": "Combine medical science and law at UTS. Build skills in health research, ethics and legal practice to prepare for future careers in health law, policy or regulation.",
     "duration": "5 years full time",
-    "atar": 97.55,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -3061,7 +3265,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-medical-science-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.55,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09086",
@@ -3117,14 +3323,16 @@
     "level": "undergraduate",
     "description": "Learn to integrate midwifery practice with innovative solutions to address complex healthcare issues.",
     "duration": "4 years full time,8 years part time",
-    "atar": 85,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-midwifery-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 85,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10122",
@@ -3137,7 +3345,7 @@
     "level": "undergraduate",
     "description": "Study a Bachelor of Nursing at UTS and build clinical skills through hands-on placements. Prepare for a career in diverse healthcare settings with broad real-world experience.",
     "duration": "3 years full time,6 years part time",
-    "atar": 70.35,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3147,7 +3355,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-nursing",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 70.35,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09018",
@@ -3180,14 +3390,16 @@
     "level": "undergraduate",
     "description": "Combine nursing with creative intelligence at UTS. Build clinical capability and future-focused problem-solving skills for complex health settings.",
     "duration": "4 years full time",
-    "atar": 76.1,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-nursing-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 76.1,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10310",
@@ -3200,7 +3412,7 @@
     "level": "undergraduate",
     "description": "Build the specialised knowledge you need to kick-start a rewarding, lucrative future in property, economics or business.",
     "duration": "3 years full time,6 years part time",
-    "atar": 75.85,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3210,7 +3422,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-property-economics",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75.85,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09170",
@@ -3243,7 +3457,7 @@
     "level": "undergraduate",
     "description": "Study the Bachelor of Psychology (Honours) at UTS, classified as a professional pathway by the Department of Education. Build research skills for psychologist registration.",
     "duration": "4 years full time,8 years part time",
-    "atar": 80.2,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -3252,7 +3466,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-psychology-honours",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 80.2,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10478",
@@ -3265,7 +3481,7 @@
     "level": "undergraduate",
     "description": "Combine psychology and criminology to understand behaviour and crime with our dual-degree program.",
     "duration": "4 years full time,8 years part time",
-    "atar": 70.2,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard"
@@ -3274,7 +3490,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-psychology-bachelor-of-criminology",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 70.2,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09049",
@@ -3307,7 +3525,7 @@
     "level": "undergraduate",
     "description": "Launch your scientific career. Study Biotechnology and Medical Science at UTS and gain hands-on lab skills through real-world applications.",
     "duration": "3 years full time,6 years part time",
-    "atar": 76.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3317,7 +3535,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-science-biotechnologymedical-science",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 76.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10162",
@@ -3330,7 +3550,7 @@
     "level": "undergraduate",
     "description": "Prepare for a career in science and business across technical, health, and regulatory sectors.",
     "duration": "4 years full time,8 years part time",
-    "atar": 87,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3340,7 +3560,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-science-bachelor-of-business",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 87,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10330",
@@ -3353,7 +3575,7 @@
     "level": "undergraduate",
     "description": "Combine specialised science with creative intelligence to address wicked problems and innovate in diverse fields.",
     "duration": "4 years full time,8 years part time",
-    "atar": 98.25,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3363,7 +3585,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-science-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 98.25,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10126",
@@ -3376,7 +3600,7 @@
     "level": "undergraduate",
     "description": "Combine science and law at UTS to build skills in research, evidence and legal practice in real contexts. Prepare for careers in science, regulation, policy or law.",
     "duration": "5 years full time",
-    "atar": 97.5,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "Mathematics Advanced",
@@ -3386,7 +3610,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-science-bachelor-of-laws",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 97.5,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10399",
@@ -3399,7 +3625,7 @@
     "level": "undergraduate",
     "description": "Combine ecosystem protection with professional skills to address social, economic, and regulatory impacts.",
     "duration": "4 years full time,8 years part time",
-    "atar": 78.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3409,7 +3635,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-science-bachelor-of-sustainability-and-environment",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 78.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10404",
@@ -3422,7 +3650,7 @@
     "level": "postgraduate",
     "description": "Prepare for a dynamic teaching career with deep disciplinary knowledge and practical experience in science.",
     "duration": "4 years full time,8 years part time",
-    "atar": 75.2,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3434,7 +3662,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-science-master-of-teaching-in-secondary-education",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 75.2,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c10300",
@@ -3447,7 +3677,7 @@
     "level": "undergraduate",
     "description": "Study the Bachelor of Sport and Exercise Science (Exercise Therapy) at UTS. Develop clinical and exercise skills to support rehabilitation and optimise physical performance.",
     "duration": "3 years full time",
-    "atar": 98.05,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [
       "English Standard",
@@ -3457,7 +3687,9 @@
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-sport-and-exercise-science-exercise-therapy",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 98.05,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c09057",
@@ -3490,14 +3722,16 @@
     "level": "undergraduate",
     "description": "Prepare for a dynamic career in sport science, combining physical activity services with innovative problem-solving.",
     "duration": "4 years full time",
-    "atar": 82.85,
+    "atar": null,
     "prerequisites": [],
     "assumedKnowledge": [],
     "recommendedSubjects": [],
     "secondarySubjects": [],
     "careerOutcomes": [],
     "officialUrl": "https://www.uts.edu.au/courses/bachelor-of-sport-and-exercise-science-bachelor-of-creative-intelligence-and-innovation",
-    "lastUpdated": "2026-06-06T05:33:19.398Z"
+    "lastUpdated": "2026-06-06T05:33:19.398Z",
+    "selectionRank": 82.85,
+    "selectionRankYear": 2026
   },
   {
     "id": "uts-c20061",

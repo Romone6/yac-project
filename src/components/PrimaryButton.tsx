@@ -13,7 +13,7 @@ export function PrimaryButton({ href, children, className }: PrimaryButtonProps)
     <Link
       href={href}
       className={cx(
-        "inline-flex items-center justify-center rounded-sm border border-transparent bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-900 focus-visible:ring-offset-2 [&_*]:text-white",
+        "inline-flex items-center justify-center rounded-md border border-transparent bg-[var(--green)] px-5 py-3 text-base font-bold text-white shadow-sm transition hover:bg-[var(--accent)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--green)] focus-visible:ring-offset-2 [&_*]:text-white",
         className
       )}
     >

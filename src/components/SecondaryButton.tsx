@@ -17,7 +17,7 @@ export function SecondaryButton({
     <Link
       href={href}
       className={cx(
-        "inline-flex items-center justify-center rounded-sm border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition hover:border-slate-400",
+        "inline-flex items-center justify-center rounded-md border border-[var(--line)] bg-[var(--surface)] px-5 py-3 text-base font-bold text-[var(--foreground)] transition hover:border-[var(--green)] hover:bg-[var(--accent-soft)]",
         className
       )}
     >

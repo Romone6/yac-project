@@ -31,8 +31,13 @@ function absoluteUrl(href, baseUrl) {
 
 function anchors(html, baseUrl) {
   return [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
-    .map((match) => ({ url: absoluteUrl(match[1], baseUrl), label: cleanText(match[2]) }))
-    .filter((item) => item.url && item.label);
+    .map((match) => {
+      const markup = match[0];
+      const label = cleanText(match[2]);
+      const accessibleLabel = markup.match(/(?:aria-label|title|alt)=["']([^"']+)["']/i)?.[1] ?? "";
+      return { url: absoluteUrl(match[1], baseUrl), label: label || cleanText(accessibleLabel) };
+    })
+    .filter((item) => item.url);
 }
 
 async function fetchHtml(url) {
@@ -79,6 +84,10 @@ function directProviderLinks(html, source) {
 
 function detailLinks(html, source) {
   return anchors(html, source.url)
+    .map((link) => {
+      const slug = new URL(link.url).pathname.split("/").filter(Boolean).at(-1);
+      return { ...link, label: link.label || slug?.replaceAll("-", " ") || "" };
+    })
     .filter((link) => /\/scholarship\//.test(new URL(link.url).pathname))
     .filter((link) => !/\/enquiry$/.test(new URL(link.url).pathname))
     .filter((link) => isUsefulTitle(link.label))
@@ -91,7 +100,7 @@ async function providerUrlFromDetail(detailUrl) {
   const trackerHost = new URL(detailUrl).hostname.replace(/^www\./, "");
   const link = anchors(html, detailUrl).find((item) => {
     const host = new URL(item.url).hostname.replace(/^www\./, "");
-    return host !== trackerHost && /visit website/i.test(item.label);
+    return host !== trackerHost && /visit website|official website|website:|scholarship|bursary|grant/i.test(`${item.label} ${item.url}`);
   });
   return link?.url ?? null;
 }
@@ -136,12 +145,17 @@ async function main() {
       const leads = await discoverSource(source);
       const queued = leads.filter((lead) => !publicUrls.has(lead.candidate_provider_url));
       for (const lead of queued) {
-        queue.set(lead.candidate_provider_url, {
-          ...lead,
-          tracker: source.name,
-          source_id: source.id,
-          requires_official_review: true,
-        });
+        const prior = queue.get(lead.candidate_provider_url);
+        const evidence = { source_id: source.id, source_name: source.name, discovery_url: lead.discovery_url };
+        queue.set(lead.candidate_provider_url, prior
+          ? { ...prior, corroborating_discovery_sources: [...prior.corroborating_discovery_sources, evidence] }
+          : {
+              ...lead,
+              tracker: source.name,
+              source_id: source.id,
+              requires_official_review: true,
+              corroborating_discovery_sources: [evidence],
+            });
       }
       reports.push({ source_id: source.id, discovered: leads.length, queued: queued.length, errors: [] });
     } catch (error) {

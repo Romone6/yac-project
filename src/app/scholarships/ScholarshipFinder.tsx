@@ -29,11 +29,11 @@ function humanise(value: string) {
   return value.split("-").map((part) => part[0]?.toUpperCase() + part.slice(1)).join(" ");
 }
 
-const fieldClass = "mt-1 w-full rounded-sm border border-[var(--line)] bg-white px-3 py-2.5 text-base text-slate-900 focus:border-[var(--accent)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/20";
-const labelClass = "block text-sm font-semibold text-slate-800";
+const fieldClass = "mt-1 w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-3 py-3 text-base text-[var(--foreground)] focus:border-[var(--green)] focus:outline-none focus:ring-2 focus:ring-[var(--green)]/20";
+const labelClass = "block text-xs font-bold uppercase tracking-[0.08em] text-[var(--muted)]";
 
-export function ScholarshipFinder() {
-  const [query, setQuery] = useState("");
+export function ScholarshipFinder({ initialQuery = "" }: { initialQuery?: string }) {
+  const [query, setQuery] = useState(initialQuery);
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [institution, setInstitution] = useState("");
   const [fieldOfStudy, setFieldOfStudy] = useState("");
@@ -41,9 +41,9 @@ export function ScholarshipFinder() {
   const [minValue, setMinValue] = useState("");
   const [maxValue, setMaxValue] = useState("");
 
-  const institutions = useMemo(getScholarshipInstitutions, []);
-  const fields = useMemo(getScholarshipFields, []);
-  const studyLevels = useMemo(getScholarshipStudyLevels, []);
+  const institutions = useMemo(() => getScholarshipInstitutions(), []);
+  const fields = useMemo(() => getScholarshipFields(), []);
+  const studyLevels = useMemo(() => getScholarshipStudyLevels(), []);
   const openNow = selectedTags.includes("open-now");
   const closingSoon = selectedTags.includes("closing-soon");
   const eligibilityTags = selectedTags.filter((tag) => tag !== "open-now" && tag !== "closing-soon");
@@ -78,8 +78,8 @@ export function ScholarshipFinder() {
 
   return (
     <div>
-      <section aria-labelledby="scholarship-search-title" className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-5">
-        <h2 id="scholarship-search-title" className="text-2xl font-semibold text-[var(--accent)]">Find scholarships</h2>
+      <section aria-labelledby="scholarship-search-title" className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[0_12px_32px_rgba(16,35,67,0.05)] sm:p-7">
+        <h2 id="scholarship-search-title" className="text-2xl font-extrabold tracking-tight text-[var(--accent)] sm:text-3xl">Search and filter</h2>
         <label htmlFor="scholarship-query" className={`${labelClass} mt-5`}>Search by name, provider or keyword</label>
         <input
           id="scholarship-query"
@@ -124,9 +124,9 @@ export function ScholarshipFinder() {
 
         <fieldset className="mt-6">
           <legend className={labelClass}>More ways to narrow your search</legend>
-          <div className="mt-3 flex flex-wrap gap-x-5 gap-y-3">
+          <div className="mt-3 flex flex-wrap gap-2">
             {scholarshipFilterOptions.map((option) => (
-              <label key={option.value} className="inline-flex cursor-pointer items-center gap-2 text-sm text-slate-800">
+              <label key={option.value} className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-[var(--line)] bg-[var(--background)] px-3 py-2 text-sm text-[var(--foreground)] transition hover:border-[var(--green)]">
                 <input
                   type="checkbox"
                   checked={selectedTags.includes(option.value)}
@@ -139,7 +139,7 @@ export function ScholarshipFinder() {
           </div>
         </fieldset>
 
-        <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[var(--line)] pt-4">
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[var(--line)] pt-5">
           <p className="text-base text-slate-700" aria-live="polite">
             Showing <strong className="text-slate-950">{results.length}</strong> of {scholarships.length} scholarships
           </p>
@@ -151,13 +151,13 @@ export function ScholarshipFinder() {
 
       <section aria-labelledby="scholarship-results-title" className="pt-8">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <h2 id="scholarship-results-title" className="text-2xl font-semibold text-[var(--accent)]">Scholarship results</h2>
+          <h2 id="scholarship-results-title" className="text-2xl font-extrabold text-[var(--accent)] sm:text-3xl">Scholarship results</h2>
           <p className="text-sm text-slate-600">Confirm the current round and eligibility with the provider before applying.</p>
         </div>
 
         <div className="mt-4 grid gap-5" aria-live="polite">
           {results.map((item) => (
-            <article key={item.id} className="rounded-sm border border-[var(--line)] bg-[var(--surface)] p-6">
+            <article key={item.id} className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-6 shadow-[0_8px_24px_rgba(16,35,67,0.04)] sm:p-7">
               <div className="flex flex-wrap items-center gap-2">
                 {item.status !== "check_source" && (
                   <span className={cx("rounded-sm px-2.5 py-1 text-sm font-semibold", statusClass(item.status))}>

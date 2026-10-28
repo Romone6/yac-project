@@ -1,0 +1,137 @@
+[
+  {
+    "id": "skills-nsw-smart-skilled",
+    "pathway": "tafe-vet",
+    "title": "Search NSW TAFE and vocational courses",
+    "provider": "Skills NSW · Smart and Skilled",
+    "description": "Search current NSW subsidised training by course, provider and location. Confirm current fees, eligibility and availability with the training provider.",
+    "officialUrl": "https://skills.education.nsw.gov.au/",
+    "sourceUrl": "https://education.nsw.gov.au/skills-nsw/students-and-job-seekers/how-to-enrol/find-a-course",
+    "searchTerms": "tafe vet vocational training course nursing aged care childcare early childhood construction carpentry plumbing electrical engineering hospitality cookery automotive mechanic hairdressing community disability mental health business information technology",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "australian-apprenticeships",
+    "pathway": "apprenticeship",
+    "title": "Explore apprenticeships and traineeships",
+    "provider": "Australian Apprenticeships · Australian Government",
+    "description": "Learn about apprenticeship and traineeship types and how to get started. This is pathway information, not a live vacancy list.",
+    "officialUrl": "https://www.apprenticeships.gov.au/about-apprenticeships/types-apprenticeships",
+    "sourceUrl": "https://www.apprenticeships.gov.au/about-apprenticeships/types-apprenticeships",
+    "searchTerms": "apprenticeship apprentices traineeship trainee trade electrician plumber mechanic carpentry chef hairdressing automotive construction employer",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "your-career-vet-search",
+    "pathway": "work",
+    "title": "Explore vocational courses across Australia",
+    "provider": "Your Career · Australian Government",
+    "description": "Use the national course search when you want to look beyond NSW subsidised training. Check details with the course provider.",
+    "officialUrl": "https://my.gov.au/en/services/education/vocational-education-and-training/vocational-education-and-training-courses",
+    "sourceUrl": "https://my.gov.au/en/services/education/vocational-education-and-training/vocational-education-and-training-courses",
+    "searchTerms": "work job employment occupation career course training certificate diploma qualification industry",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "course-seeker-national",
+    "pathway": "university",
+    "title": "Compare undergraduate courses across Australia",
+    "provider": "Course Seeker · Australian Government and Tertiary Admissions Centres",
+    "description": "Search and compare undergraduate higher education courses nationally by location, study area, qualification and entry information. Confirm requirements with the university.",
+    "officialUrl": "https://courseseeker.edu.au/",
+    "sourceUrl": "https://www.education.gov.au/higher-education/find-course-study",
+    "searchTerms": "university undergraduate bachelor course compare Australia location study area qualification ATAR",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "compared-provider-outcomes",
+    "pathway": "university",
+    "title": "Compare student experience and graduate outcomes",
+    "provider": "ComparED · Australian Government",
+    "description": "Compare provider and study-area survey results and graduate outcomes. Use this alongside course details and direct advice from providers.",
+    "officialUrl": "https://www.compared.edu.au/",
+    "sourceUrl": "https://www.education.gov.au/higher-education/find-course-study",
+    "searchTerms": "university compare student experience graduate employment outcomes providers study areas",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "open-universities-australia",
+    "pathway": "university",
+    "sourceType": "independent-marketplace",
+    "title": "Browse online university courses and subjects",
+    "provider": "Open Universities Australia · independent course marketplace",
+    "description": "Browse a marketplace of online degrees, subjects and short courses from partner universities. Its catalogue is not a complete list of Australian courses; check availability and enrolment details with the provider.",
+    "officialUrl": "https://www.open.edu.au/courses",
+    "sourceUrl": "https://www.open.edu.au/courses/free-online-courses",
+    "searchTerms": "online university course degree subject short course flexible distance study",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "tafe-nsw-course-search",
+    "pathway": "tafe-vet",
+    "title": "Search TAFE NSW courses",
+    "provider": "TAFE NSW",
+    "description": "Browse current TAFE NSW certificates, diplomas and short courses by study area and location. Check course-specific fees, eligibility and start dates.",
+    "officialUrl": "https://www.tafensw.edu.au/courses",
+    "sourceUrl": "https://www.tafensw.edu.au/courses",
+    "searchTerms": "tafe NSW course certificate diploma training nursing construction carpentry childcare hospitality business digital health study location",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "training-gov-national-register",
+    "pathway": "tafe-vet",
+    "title": "Check nationally recognised training and providers",
+    "provider": "training.gov.au · Australian Government",
+    "description": "Search the National Register for current qualifications, training packages, units and registered providers. Registration does not confirm a course is currently offered near you.",
+    "officialUrl": "https://training.gov.au/search",
+    "sourceUrl": "https://training.gov.au/",
+    "searchTerms": "training.gov.au qualification registered training organisation RTO certificate diploma nationally recognised",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "workforce-australia-jobs",
+    "pathway": "work",
+    "title": "Search current job vacancies",
+    "provider": "Workforce Australia · Australian Government",
+    "description": "Search advertised jobs across Australia, including entry-level and apprenticeship opportunities. Check the employer’s own listing before applying.",
+    "officialUrl": "https://www.workforceaustralia.gov.au/individuals/jobs/",
+    "sourceUrl": "https://education.nsw.gov.au/skills-nsw/apprentices-and-trainees/how-to-enrol/getting-started",
+    "searchTerms": "jobs work vacancies employment entry level apprenticeship trainee employer hiring",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "nsw-apprenticeship-start",
+    "pathway": "apprenticeship",
+    "title": "Plan how to start a NSW apprenticeship",
+    "provider": "Skills NSW · NSW Government",
+    "description": "Follow NSW steps for choosing a trade or traineeship, finding an employer, training and support. This is guidance, not a vacancy list.",
+    "officialUrl": "https://education.nsw.gov.au/skills-nsw/apprentices-and-trainees/how-to-enrol/getting-started",
+    "sourceUrl": "https://education.nsw.gov.au/skills-nsw/students-and-job-seekers/traineeships-and-apprenticeships",
+    "searchTerms": "apprenticeship traineeship start NSW employer support training contract how to enrol",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "myfuture-career-exploration",
+    "pathway": "work",
+    "sourceType": "independent",
+    "title": "Explore occupations and career options",
+    "provider": "myfuture · Education Services Australia",
+    "description": "Explore career profiles, interests and work options to generate ideas. Use official course, licensing and job sources to confirm next steps.",
+    "officialUrl": "https://myfuture.edu.au/",
+    "sourceUrl": "https://myfuture.edu.au/career-insight",
+    "searchTerms": "myfuture explore careers occupations jobs interests career profiles",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "naaa-apprentice-connect",
+    "pathway": "apprenticeship",
+    "sourceType": "independent",
+    "title": "Find apprenticeship support and a local provider",
+    "provider": "National Apprentice Employment Network",
+    "description": "Find information about Apprentice Connect Australia Providers and support available to apprentices and trainees. Provider services help with individual next steps; confirm current details with a local provider.",
+    "officialUrl": "https://naaa.com.au/start-an-apprenticeship",
+    "sourceUrl": "https://education.nsw.gov.au/skills-nsw/apprentices-and-trainees/how-to-enrol/getting-started",
+    "searchTerms": "apprentice connect provider apprenticeship support traineeship help employer",
+    "sourceCheckedAt": "2026-10-28"
+  }
+]

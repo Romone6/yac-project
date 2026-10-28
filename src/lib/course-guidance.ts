@@ -540,12 +540,12 @@ function buildEnhancedDescription(
           .join(" alongside ");
   const subjectSentence =
     primarySubjects.length > 0
-      ? `The subject-selection pathway prioritises ${primarySubjects.join(", ")}${
+      ? `For optional HSC preparation planning, consider ${primarySubjects.join(", ")}${
           supportSubjects.length > 0
             ? `, with ${supportSubjects.join(", ")} as supporting preparation`
             : ""
         }.`
-      : "The subject-selection pathway prioritises strong literacy, numeracy and evidence-based study habits.";
+      : "For optional HSC preparation planning, build strong literacy, numeracy and evidence-based study habits.";
 
   const pathwayLabel =
     subjectAreas.length > 1
@@ -565,14 +565,10 @@ export function enrichCourseRecord<T extends CourseLike>(
     ...domains.map((domain) => domain.faculty),
     ...(course.subjectAreas ?? []),
   ]);
-  const prerequisites = uniq([
-    ...course.prerequisites,
-    ...domains.flatMap((domain) => domain.required ?? []),
-  ]);
-  const assumedKnowledge = uniq([
-    ...course.assumedKnowledge,
-    ...domains.flatMap((domain) => domain.assumed ?? []),
-  ]);
+  // Keep entry requirements source-backed. Domain rules below are planning
+  // suggestions only; they must never be presented as required prerequisites.
+  const prerequisites = uniq(course.prerequisites);
+  const assumedKnowledge = uniq(course.assumedKnowledge);
   const recommendedSubjects = uniq([
     ...course.recommendedSubjects,
     ...domains.flatMap((domain) => domain.recommended),

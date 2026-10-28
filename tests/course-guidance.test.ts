@@ -20,20 +20,20 @@ function makeBaseCourse(courseName: string, description = "") {
     courseName,
     description,
     level: "undergraduate" as const,
-    prerequisites: [],
-    assumedKnowledge: [],
-    recommendedSubjects: [],
-    secondarySubjects: [],
+    prerequisites: [] as string[],
+    assumedKnowledge: [] as string[],
+    recommendedSubjects: [] as string[],
+    secondarySubjects: [] as string[],
   };
 }
 
-test("physics courses infer maths and physics-heavy school preparation", () => {
+test("physics courses keep inferred preparation separate from entry requirements", () => {
   const course = enrichCourseRecord(
     makeCourse("Bachelor of Physics", "Study theoretical and applied physics.")
   );
 
-  assert.ok(course.prerequisites.includes("Mathematics Advanced"));
-  assert.ok(course.assumedKnowledge.includes("Physics"));
+  assert.deepEqual(course.prerequisites, []);
+  assert.deepEqual(course.assumedKnowledge, []);
   assert.ok(course.recommendedSubjects.includes("Mathematics Extension 1"));
 });
 
@@ -42,7 +42,7 @@ test("mathematics courses avoid software-specific recommendations", () => {
     makeCourse("Bachelor of Mathematics", "Advanced mathematical theory and modelling.")
   );
 
-  assert.ok(course.prerequisites.includes("Mathematics Advanced"));
+  assert.deepEqual(course.prerequisites, []);
   assert.ok(course.recommendedSubjects.includes("Mathematics Extension 1"));
   assert.ok(!course.recommendedSubjects.includes("Software Engineering"));
 });
@@ -54,6 +54,18 @@ test("psychology courses include english alongside science preparation", () => {
 
   assert.ok(course.recommendedSubjects.includes("Biology"));
   assert.ok(course.recommendedSubjects.includes("English Advanced"));
+});
+
+test("provider-supplied entry requirements are preserved without adding inferred requirements", () => {
+  const course = enrichCourseRecord(
+    makeCourse("Bachelor of Engineering", "Engineering design and applied science.", {
+      prerequisites: ["Mathematics Advanced"],
+      assumedKnowledge: ["Physics"],
+    })
+  );
+
+  assert.deepEqual(course.prerequisites, ["Mathematics Advanced"]);
+  assert.deepEqual(course.assumedKnowledge, ["Physics"]);
 });
 
 test("nursing courses include communication-oriented school subjects", () => {
@@ -71,7 +83,7 @@ test("architecture courses include design-focused visual preparation", () => {
     makeCourse("Bachelor of Architecture", "Studio-based design for the built environment.")
   );
 
-  assert.ok(course.prerequisites.includes("Mathematics Advanced"));
+  assert.deepEqual(course.prerequisites, []);
   assert.ok(course.recommendedSubjects.includes("Design and Technology"));
   assert.ok(course.secondarySubjects.includes("Visual Arts"));
 });
@@ -81,7 +93,7 @@ test("economics courses elevate extension maths into the recommended pathway", (
     makeCourse("Bachelor of Economics", "Quantitative economics, markets and policy.")
   );
 
-  assert.ok(course.prerequisites.includes("Mathematics Advanced"));
+  assert.deepEqual(course.prerequisites, []);
   assert.ok(course.recommendedSubjects.includes("Economics"));
   assert.ok(course.recommendedSubjects.includes("Mathematics Extension 1"));
 });
@@ -95,8 +107,8 @@ test("engineering college labels do not add biology to aerospace engineering pat
     )
   );
 
-  assert.ok(course.prerequisites.includes("Mathematics Advanced"));
-  assert.ok(course.assumedKnowledge.includes("Physics"));
+  assert.deepEqual(course.prerequisites, []);
+  assert.deepEqual(course.assumedKnowledge, []);
   assert.ok(course.recommendedSubjects.includes("Mathematics Extension 1"));
   assert.ok(course.recommendedSubjects.includes("Engineering Studies"));
   assert.ok(!course.recommendedSubjects.includes("Biology"));
@@ -112,7 +124,7 @@ test("construction management stays in the built-environment engineering pathway
   );
 
   assert.equal(course.faculty, "Engineering, Design and Technology");
-  assert.ok(course.prerequisites.includes("Mathematics Advanced"));
+  assert.deepEqual(course.prerequisites, []);
   assert.ok(course.recommendedSubjects.includes("Engineering Studies"));
   assert.ok(!course.recommendedSubjects.includes("Business Studies"));
 });

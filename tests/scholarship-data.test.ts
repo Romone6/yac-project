@@ -197,7 +197,7 @@ test("scholarship database has broad provider and support-type coverage", () => 
 });
 
 test("scholarship filters cover the requested public filter set", () => {
-  const labels = scholarshipFilterOptions.map((option) => option.label);
+  const labels: string[] = scholarshipFilterOptions.map((option) => option.label);
 
   for (const expected of [
     "Open now",

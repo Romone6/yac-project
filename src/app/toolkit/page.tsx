@@ -12,6 +12,11 @@ export const metadata = {
 
 const tools = [
   {
+    title: "Events and Deadlines Calendar",
+    href: "/calendar",
+    summary: "Browse confirmed application dates, offer rounds, open events and careers opportunities.",
+  },
+  {
     title: "Application Timeline Tracker",
     href: "/toolkit/application-timelines",
     summary:
@@ -37,15 +42,15 @@ const tools = [
   },
   {
     title: "Regional Student Checklist",
-    href: "/research",
+    href: "/checklist",
     summary:
-      "Use consultation-backed prompts to plan documents, travel, accommodation, costs and support conversations.",
+      "Track pathway-specific actions and personal target dates from exploring options to your first weeks.",
   },
   {
     title: "Support Directory",
-    href: "/get-involved",
+    href: "/support",
     summary:
-      "Find the right next contact point for school, institution, community and project involvement support.",
+      "Search regional and suburban NSW University Study Hubs and contact a local centre directly.",
   },
 ];
 

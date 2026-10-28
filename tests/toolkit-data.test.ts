@@ -3,8 +3,11 @@ import test from "node:test";
 
 import {
   applicationTimelineEntries,
-  financialResources,
 } from "../src/lib/toolkit-data";
+import sourceCrosschecks from "../data/cross-references/tool-sources.json";
+import rawTimelineEntries from "../data/timelines/nsw/admission-rounds.json";
+import studyHubs from "../data/support/nsw/study-hubs.json";
+import pathwaySearches from "../data/pathways/nsw/official-searches.json";
 import {
   allNswCourses,
   subjectAlignmentCourses,
@@ -15,9 +18,15 @@ import utsCoursesJson from "../data/courses/nsw/uts-expanded/courses.json";
 import sydneyCoursesJson from "../data/courses/nsw/university-of-sydney/courses.json";
 import sydneyExpandedCoursesJson from "../data/courses/nsw/university-of-sydney-expanded/courses.json";
 import universities from "../data/courses/nsw/universities.json";
+import events from "../data/events/nsw/calendar.json";
 
 test("application timeline entries expose verified official sources", () => {
   assert.ok(applicationTimelineEntries.length >= 8);
+  assert.equal(rawTimelineEntries.length, applicationTimelineEntries.length);
+
+  for (const entry of rawTimelineEntries) {
+    assert.match(entry.officialUrl, /^https?:\/\//, `${entry.id} is missing a stored official source`);
+  }
 
   for (const entry of applicationTimelineEntries) {
     assert.match(entry.officialUrl, /^https?:\/\//);
@@ -32,14 +41,59 @@ test("application timeline entries expose verified official sources", () => {
   }
 });
 
-test("financial resources carry dates and official source links", () => {
-  assert.ok(financialResources.length >= 6);
+test("study hub directory covers the current regional and suburban NSW hub set", () => {
+  assert.equal(studyHubs.length, 19);
+  assert.equal(studyHubs.filter((hub) => hub.programType === "regional").length, 14);
+  assert.equal(studyHubs.filter((hub) => hub.programType === "suburban").length, 5);
 
-  for (const resource of financialResources) {
-    assert.match(resource.sourceUrl, /^https?:\/\//);
-    assert.match(resource.lastVerified, /^\d{4}-\d{2}-\d{2}$/);
-    assert.ok(resource.steps.length >= 2, `${resource.title} needs action steps`);
+  for (const hub of studyHubs) {
+    assert.match(hub.officialUrl, /^https?:\/\//, `${hub.id} is missing its local source`);
+    assert.match(hub.sourceUrl, /^https?:\/\//, `${hub.id} is missing a cross-check source`);
   }
+});
+
+test("pathway search includes course, apprenticeship and job discovery routes", () => {
+  const ids = new Set(pathwaySearches.map((pathway) => pathway.id));
+  for (const id of [
+    "tafe-nsw-course-search",
+    "training-gov-national-register",
+    "workforce-australia-jobs",
+    "nsw-apprenticeship-start",
+    "myfuture-career-exploration",
+    "naaa-apprentice-connect",
+  ]) {
+    assert.ok(ids.has(id), `missing pathway search ${id}`);
+  }
+  for (const pathway of pathwaySearches) {
+    assert.match(pathway.officialUrl, /^https?:\/\//, `${pathway.id} needs a discovery URL`);
+    assert.match(pathway.sourceUrl, /^https?:\/\//, `${pathway.id} needs a source URL`);
+  }
+});
+
+test("every tool family has official and independent source cross-checks", () => {
+  for (const [tool, sources] of Object.entries(sourceCrosschecks)) {
+    const kinds = new Set(sources.map((source) => source.kind));
+    assert.equal(new Set(sources.map((source) => source.url)).size, sources.length, `${tool} has duplicate source links`);
+    assert.ok(kinds.has("official"), `${tool} is missing an official source`);
+    assert.ok(kinds.has("independent"), `${tool} is missing an independent source`);
+    for (const source of sources) {
+      assert.match(source.url, /^https?:\/\//, `${tool}: ${source.name} has an invalid URL`);
+      assert.ok(source.purpose && source.limits, `${tool}: ${source.name} needs source scope and limitations`);
+    }
+  }
+});
+
+test("calendar entries have unique official source records and verified audience details", () => {
+  assert.equal(events.length, 12);
+  assert.equal(new Set(events.map((event) => event.id)).size, events.length);
+  for (const event of events) {
+    assert.match(event.officialUrl, /^https:\/\//, `${event.id} needs an official source`);
+    assert.match(event.checkedAt, /^\d{4}-\d{2}-\d{2}$/);
+    assert.ok(event.audience.length > 10 && event.summary.length > 50, `${event.id} needs useful audience and event details`);
+  }
+  assert.equal(events.find((event) => event.id === "uac-srs-nov-offers-2026")?.startAt, "2026-11-12T10:00:00+11:00");
+  assert.equal(events.find((event) => event.id === "national-careers-week-2027")?.endAt, "2027-05-17");
+  assert.equal(events.find((event) => event.id === "aie-online-campus-day-2026")?.startAt, "2026-12-05T11:00:00+11:00");
 });
 
 test("course dataset covers every NSW university in the selector list", () => {
@@ -52,6 +106,16 @@ test("course dataset covers every NSW university in the selector list", () => {
       availableUniversities.has(university.name),
       `missing course coverage for ${university.name}`
     );
+  }
+});
+
+test("selection-rank values remain distinct from ATAR values and carry their reference year", () => {
+  const rankCourses = allNswCourses.filter((course) => typeof course.selectionRank === "number");
+  assert.ok(rankCourses.length >= 250, "expected the imported UNSW and UTS selection-rank coverage");
+  for (const course of rankCourses) {
+    assert.equal(course.atar, null, `${course.id} selection rank must not be stored as an ATAR`);
+    assert.equal(course.selectionRankYear, 2026, `${course.id} needs its rank data year`);
+    assert.match(course.officialUrl, /^https:\/\//);
   }
 });
 
@@ -300,27 +364,27 @@ test("Sydney subject alignment uses bachelor-entry records instead of profession
   );
 });
 
-test("UNSW and UTS scrape retains non-zero ATAR coverage for undergraduate listings", () => {
-  const unswUndergraduate = (unswCoursesJson as Array<{ level?: string; atar?: number | null }>).filter(
+test("UNSW and UTS selection-rank data is not mislabeled as ATAR", () => {
+  const unswUndergraduate = (unswCoursesJson as Array<{ level?: string; atar?: number | null; selectionRank?: number | null }>).filter(
     (course) => course.level === "undergraduate"
   );
-  const utsUndergraduate = (utsCoursesJson as Array<{ level?: string; atar?: number | null }>).filter(
+  const utsUndergraduate = (utsCoursesJson as Array<{ level?: string; atar?: number | null; selectionRank?: number | null }>).filter(
     (course) => course.level === "undergraduate"
   );
 
-  const unswWithAtar = unswUndergraduate.filter(
-    (course) => typeof course.atar === "number"
+  const unswWithRank = unswUndergraduate.filter(
+    (course) => typeof course.selectionRank === "number" && course.atar === null
   ).length;
-  const utsWithAtar = utsUndergraduate.filter(
-    (course) => typeof course.atar === "number"
+  const utsWithRank = utsUndergraduate.filter(
+    (course) => typeof course.selectionRank === "number" && course.atar === null
   ).length;
 
   assert.ok(
-    unswWithAtar >= 120,
-    "UNSW undergraduate ATAR coverage dropped below expected baseline"
+    unswWithRank >= 120,
+    "UNSW undergraduate selection-rank coverage dropped below expected baseline"
   );
   assert.ok(
-    utsWithAtar >= 70,
-    "UTS undergraduate ATAR coverage dropped below expected baseline"
+    utsWithRank >= 70,
+    "UTS undergraduate selection-rank coverage dropped below expected baseline"
   );
 });

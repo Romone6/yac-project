@@ -160,6 +160,7 @@ function baseRecord({
   description,
   duration,
   atar,
+  selectionRank,
   officialUrl,
   prerequisites = [],
   assumedKnowledge = [],
@@ -179,6 +180,7 @@ function baseRecord({
     description: stripTags(description),
     ...(duration ? { duration: stripTags(duration) } : {}),
     atar: typeof atar === "number" ? atar : null,
+    ...(typeof selectionRank === "number" ? { selectionRank, selectionRankYear: 2026 } : {}),
     prerequisites,
     assumedKnowledge,
     recommendedSubjects,
@@ -911,7 +913,7 @@ async function generateNewcastle() {
           level: levelFromText(content.title, `${content.study_level_ref || ""} ${content.type?.label || ""}`),
           description,
           duration: formatNewcastleDuration(content, indexEntry?.duration || ""),
-          atar: typeof indexEntry?.selectionRank === "number" ? indexEntry.selectionRank : null,
+          selectionRank: typeof indexEntry?.selectionRank === "number" ? indexEntry.selectionRank : null,
           officialUrl: url,
         });
       } catch {
@@ -1078,7 +1080,7 @@ async function generateUnsw() {
       const meta = result.metaData || {};
       const html = await fetchText(result.liveUrl).catch(() => "");
       const subjectGuidance = parseSubjectGuidanceText(extractUnswAssumedKnowledgeText(html));
-      const parsedAtar = extractSelectionRankFromHtml(html);
+      const parsedSelectionRank = extractSelectionRankFromHtml(html);
       return baseRecord({
         university: "University of New South Wales",
         universitySlug: "unsw",
@@ -1088,7 +1090,7 @@ async function generateUnsw() {
         level: levelFromText(result.title || "", `${meta.degreeType || ""} ${meta.degreeCategory || ""}`),
         description: meta.degreeTagline || result.summary || result.title,
         duration: meta.degreeDuration || "",
-        atar: parsedAtar,
+        selectionRank: parsedSelectionRank,
         officialUrl: result.liveUrl,
         assumedKnowledge: subjectGuidance.assumedKnowledge,
         recommendedSubjects: subjectGuidance.recommendedSubjects,
@@ -1148,7 +1150,7 @@ async function generateUts() {
         hit.title;
       const description = extractMeta(html, "description") || hit.title;
       const duration = dataLayer.course_period || (hit.duration || []).join(", ");
-      const atar = parseFirstNumber(hit.selectionRanks || []);
+      const selectionRank = parseFirstNumber(hit.selectionRanks || []);
 
       return baseRecord({
         university: "University of Technology Sydney",
@@ -1159,7 +1161,7 @@ async function generateUts() {
         level: levelFromText(courseName, dataLayer.course_level || ""),
         description,
         duration,
-        atar,
+        selectionRank,
         officialUrl: hit.url,
         assumedKnowledge: subjectGuidance.assumedKnowledge,
         recommendedSubjects: subjectGuidance.recommendedSubjects,
@@ -1173,7 +1175,7 @@ async function generateUts() {
         level: levelFromText(hit.title, ""),
         description: hit.title,
         duration: (hit.duration || []).join(", "),
-        atar: parseFirstNumber(hit.selectionRanks || []),
+        selectionRank: parseFirstNumber(hit.selectionRanks || []),
         officialUrl: hit.url,
       });
     }

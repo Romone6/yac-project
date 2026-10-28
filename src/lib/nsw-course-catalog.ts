@@ -27,6 +27,8 @@ export type CourseRecord = {
   description: string;
   duration?: string;
   atar: number | null;
+  selectionRank?: number | null;
+  selectionRankYear?: number;
   prerequisites: string[];
   assumedKnowledge: string[];
   recommendedSubjects: string[];

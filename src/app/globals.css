@@ -1,27 +1,114 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fbf7ed;
+  --background: #fbf8ef;
   --surface: #fffdf7;
-  --foreground: #0b1f33;
-  --line: #dfd7c8;
-  --muted: #4d6170;
-  --accent: #0b2a42;
-  --green: #426f50;
-  --amber: #d89121;
-  --accent-soft: #eef4ea;
+  --foreground: #102343;
+  --line: #e7e0d2;
+  --muted: #5b6066;
+  --accent: #102343;
+  --green: #52784b;
+  --amber: #e6a623;
+  --accent-soft: #e7e9d8;
+  --font-body: var(--font-manrope);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-source-sans);
+  --font-sans: var(--font-body);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: var(--font-body), sans-serif;
+}
+
+.site-main :where(h1, h2, h3, h4) {
+  font-family: var(--font-body), sans-serif;
+  color: var(--foreground);
+  letter-spacing: -0.025em;
+}
+
+.home-hero-title {
+  color: var(--foreground);
+  font-family: var(--font-manrope), sans-serif;
+  font-size: 2.35rem;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.04;
+  text-wrap: balance;
+}
+
+.home-cta-link {
+  color: #fff !important;
+}
+
+.home-cta-link :where(p, span) {
+  color: #fff !important;
+}
+
+@media (min-width: 640px) {
+  .home-hero-title {
+    font-size: clamp(2.25rem, 4vw, 3.5rem);
+  }
+}
+
+.site-main :where(p, li, td, th, label, input, select, textarea) {
+  font-family: var(--font-body), sans-serif;
+}
+
+.site-main :where(input, select, textarea) {
+  border-color: var(--line);
+  border-radius: 0.45rem;
+  background-color: var(--surface);
+  color: var(--foreground);
+}
+
+.site-main :where(input, select, textarea):focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--green), transparent 55%);
+  border-color: var(--green);
+  outline-offset: 1px;
+}
+
+.site-main :where(table) {
+  border-color: var(--line);
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.site-main :where(.text-slate-900, .text-slate-800) {
+  color: var(--foreground);
+}
+
+.site-main :where(.text-slate-700, .text-slate-600) {
+  color: var(--muted);
+}
+
+.site-main :where(.border-slate-200) {
+  border-color: var(--line);
+}
+
+.site-main :where(.bg-white) {
+  background-color: var(--surface);
+}
+
+.site-main :where(.bg-slate-50) {
+  background-color: var(--accent-soft);
+}
+
+/* Keep older route-level utility classes inside the same visual system. */
+.site-main .rounded-sm {
+  border-radius: 0.75rem;
+}
+
+.site-main .rounded-xl {
+  border-radius: 1rem;
+}
+
+.site-main :where(.border-slate-300, .border-slate-400) {
+  border-color: var(--line);
 }
 
 ::selection {

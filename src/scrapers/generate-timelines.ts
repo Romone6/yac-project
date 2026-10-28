@@ -85,9 +85,42 @@ const TIMELINE_ENTRIES = [
   { id: "scu-main", university: "Southern Cross University", universitySlug: "southern-cross-university", roundType: "regular", roundName: "Main Round", applicationOpen: null, applicationClose: "2026-10-01T23:59:00+10:00", offerDate: "2026-11-12T07:30:00+11:00", description: "Standard undergraduate offers." },
 ];
 
+const UAC_KEY_DATES = "https://uac.edu.au/key-dates/";
+const UAC_EARLY_ENTRY = "https://www.uac.edu.au/current-applicants/undergraduate-applications-and-offers/early-offer-schemes-for-year-12-students";
+const UNIVERSITY_EARLY_ENTRY_URLS: Record<string, string> = {
+  "university-of-sydney": "https://www.sydney.edu.au/study/applying/admission-pathways/mysydney-entry-scheme.html",
+  "unsw": "https://www.unsw.edu.au/study/how-to-apply/undergraduate/admission-pathways/gateway/admission-pathway",
+  "uts": "https://www.uts.edu.au/news/2026/03/uts-to-retire-early-entry-program",
+  "macquarie-university": "https://www.mq.edu.au/study/admissions-and-entry/undergraduate/entry-requirements/early-entry",
+  "university-of-wollongong": "https://www.uow.edu.au/early-admission/",
+  "university-of-newcastle": "https://www.newcastle.edu.au/study/undergraduate/getting-in/entry-schemes/early-entry-program",
+  "western-sydney-university": "https://www.westernsydney.edu.au/future/study/application-pathways/hsc-true-reward",
+  "australian-catholic-university": "https://www.acu.edu.au/study-at-acu/admission-pathways/acu-guarantee",
+  "charles-sturt-university": "https://www.csu.edu.au/study/high-school-students/early-offer-program",
+  "university-of-new-england": "https://www.une.edu.au/study/study-on-campus/early-entry",
+  "southern-cross-university": "https://www.scu.edu.au/study/high-school-students/entry-pathways/early-offer/",
+};
+
+function sourceUrlFor(entry: (typeof TIMELINE_ENTRIES)[number]) {
+  if (entry.university.startsWith("UAC")) {
+    return entry.roundType === "early-entry" ? UAC_EARLY_ENTRY : UAC_KEY_DATES;
+  }
+  if (entry.roundType === "regular") return UAC_KEY_DATES;
+  return UNIVERSITY_EARLY_ENTRY_URLS[entry.universitySlug] ?? UAC_EARLY_ENTRY;
+}
+
 writeFileSync(
   "data/timelines/nsw/admission-rounds.json",
-  JSON.stringify(TIMELINE_ENTRIES.map(e => ({...e, state: "NSW", officialUrl: ""})).map(e => ({...e, lastUpdated: new Date().toISOString()})), null, 2)
+  JSON.stringify(
+    TIMELINE_ENTRIES.map((entry) => ({
+      ...entry,
+      state: "NSW",
+      officialUrl: sourceUrlFor(entry),
+      lastUpdated: new Date().toISOString(),
+    })),
+    null,
+    2
+  )
 );
 
 console.log(`✅ Generated ${TIMELINE_ENTRIES.length} timeline entries`);

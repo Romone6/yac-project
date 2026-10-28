@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
-const sourceSans = Source_Sans_3({
+const manrope = Manrope({
   subsets: ["latin"],
-  variable: "--font-source-sans",
+  variable: "--font-manrope",
 });
 
 export const metadata: Metadata = {
@@ -14,7 +14,10 @@ export const metadata: Metadata = {
   description:
     "Pathway to Entry is a NSW Youth Advisory Council-aligned initiative helping regional NSW students navigate post-school pathways with consultation, tools, scholarship information and financial support resources.",
   metadataBase: new URL("https://pathwaytoentry.org.au"),
-  icons: { icon: "/school-icon.svg" },
+  icons: {
+    icon: [{ url: "/pathway-favicon.png?v=1", type: "image/png" }],
+    shortcut: "/pathway-favicon.png?v=1",
+  },
 };
 
 export default function RootLayout({
@@ -23,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={sourceSans.variable}>
+    <html lang="en" className={manrope.variable}>
       <body className="min-h-screen bg-[var(--background)] text-slate-900 antialiased">
         <a
           href="#main-content"
@@ -32,7 +35,7 @@ export default function RootLayout({
           Skip to content
         </a>
         <SiteHeader />
-        <main id="main-content" className="py-10 md:py-14">
+        <main id="main-content" className="site-main py-10 md:py-14">
           {children}
         </main>
         <SiteFooter />

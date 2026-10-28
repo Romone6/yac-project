@@ -17,17 +17,18 @@ export function PageHeader({
   className,
 }: PageHeaderProps) {
   return (
-    <header className={cx("space-y-4 border-b border-slate-200 pb-8", className)}>
+    <header className={cx("relative space-y-4 border-b border-[var(--line)] pb-9 sm:pb-11", className)}>
       {eyebrow ? (
-        <p className="text-xs uppercase tracking-[0.2em] text-slate-500">
+        <p className="flex items-center gap-3 text-sm font-extrabold uppercase tracking-[0.14em] text-[var(--green)]">
+          <span aria-hidden="true" className="h-0.5 w-8 bg-[var(--amber)]" />
           {eyebrow}
         </p>
       ) : null}
-      <h1 className="text-3xl font-semibold tracking-tight text-slate-900 md:text-4xl">
+      <h1 className="max-w-4xl text-[clamp(2.35rem,5vw,3.75rem)] font-extrabold leading-[1.04] tracking-[-0.04em] text-[var(--foreground)]">
         {title}
       </h1>
       {summary ? (
-        <p className="max-w-3xl text-lg leading-7 text-slate-700">{summary}</p>
+        <p className="max-w-3xl text-lg leading-8 text-[var(--muted)] sm:text-xl">{summary}</p>
       ) : null}
       {children}
     </header>

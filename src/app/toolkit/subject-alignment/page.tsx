@@ -6,6 +6,7 @@ import { Container } from "@/components/Container";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { cx } from "@/lib/cx";
+import { ToolSourceCrosschecks } from "@/components/ToolSourceCrosschecks";
 import { buildCourseDetailHref } from "@/lib/course-directory";
 import universitiesData from "../../../../data/courses/nsw/universities.json";
 import {
@@ -77,9 +78,10 @@ export default function SubjectAlignmentPage() {
         summary="Explore undergraduate bachelor-entry course coverage across NSW universities, then click into any course for its summary and official university course-information link."
       />
 
-      <div className="rounded-sm border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
+      <p className="max-w-5xl text-sm leading-6 text-[var(--muted)]">
         This explorer is intentionally undergraduate-first for regional school students making HSC subject and post-school pathway decisions. Postgraduate, professional certificate and non-entry pathway records are not shown here unless they become relevant to undergraduate entry.
-      </div>
+      </p>
+      <p className="max-w-5xl text-sm leading-6 text-[var(--muted)]">Entry-data coverage differs by provider. Course details show ATAR and selection-rank references separately when captured, and each course page links to the provider and a live UAC course search for current entry criteria. Suggested HSC subjects are preparation ideas, not prerequisites.</p>
 
       <Section title="Select a university">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -133,9 +135,7 @@ export default function SubjectAlignmentPage() {
             {selectedUniversityAtarCoverage.total > 0 &&
             selectedUniversityAtarCoverage.withAtar === 0 ? (
               <div className="rounded-sm border border-amber-200 bg-amber-50 p-3 text-xs text-amber-900">
-                Indicative ATAR values are not currently available in the verified
-                dataset for this university. Use each course&apos;s official link to confirm
-                admission requirements.
+                No indicative ATAR values are captured for this university here. Published selection ranks are shown where captured; use the course&apos;s official link and UAC to confirm current entry details.
               </div>
             ) : null}
           </div>
@@ -171,8 +171,14 @@ export default function SubjectAlignmentPage() {
                   </div>
                   {courseHasAtar(course) && (
                     <div className="shrink-0 rounded-sm bg-slate-100 px-3 py-1.5 text-center">
-                      <p className="text-xs uppercase tracking-wide text-slate-500">ATAR</p>
+                      <p className="text-xs uppercase tracking-wide text-slate-500">Indicative ATAR</p>
                       <p className="text-lg font-bold text-slate-900">{course.atar}</p>
+                    </div>
+                  )}
+                  {typeof course.selectionRank === "number" && (
+                    <div className="shrink-0 rounded-sm bg-slate-100 px-3 py-1.5 text-center">
+                      <p className="text-xs uppercase tracking-wide text-slate-500">Selection rank</p>
+                      <p className="text-lg font-bold text-slate-900">{course.selectionRank}</p>
                     </div>
                   )}
                 </div>
@@ -183,6 +189,7 @@ export default function SubjectAlignmentPage() {
                   {course.subjectAreas.slice(0, 3).join(" · ")}
                 </p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
+                  {(course.recommendedSubjects.length > 0 || course.prerequisites.length > 0) && <span className="self-center text-xs text-slate-500">Subject planning:</span>}
                   {(course.recommendedSubjects.length > 0
                     ? course.recommendedSubjects
                     : course.prerequisites
@@ -226,6 +233,8 @@ export default function SubjectAlignmentPage() {
           </div>
         </Section>
       )}
+      <p className="text-sm leading-6 text-[var(--muted)]">ATAR and selection-rank figures are published reference data, not guaranteed entry cutoffs. Selection ranks can include adjustment factors and differ from an ATAR. Suggested HSC subjects are preparation ideas; only prerequisites and assumed knowledge stated by the provider are entry requirements. Check the linked university page and UAC before making decisions.</p>
+      <ToolSourceCrosschecks tool="subject-alignment" title="Compare courses and verify subject requirements" />
     </Container>
   );
 }

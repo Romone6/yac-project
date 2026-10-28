@@ -5,6 +5,7 @@ import { Container } from "@/components/Container";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { cx } from "@/lib/cx";
+import { ToolSourceCrosschecks } from "@/components/ToolSourceCrosschecks";
 import {
   applicationTimelineEntries,
   type TimelineEntry,
@@ -299,6 +300,7 @@ export default function ApplicationTimelinesPage() {
           </div>
         </Section>
       )}
+      <ToolSourceCrosschecks tool="timelines" title="Cross-check application dates and related events" />
     </Container>
   );
 }

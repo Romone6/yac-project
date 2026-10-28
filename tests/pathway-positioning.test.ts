@@ -9,39 +9,31 @@ function read(path: string) {
   return readFileSync(join(root, path), "utf8");
 }
 
-test("homepage keeps Pathway to Entry broad and tool-oriented", () => {
+test("homepage introduces the cross-pathway finder clearly", () => {
   const homepage = read("src/app/page.mdx");
 
-  assert.ok(
-    homepage.includes("Helping regional NSW students navigate life after school.")
-  );
-  assert.ok(homepage.includes("Explore the Toolkit"));
-  assert.ok(homepage.includes("Search Scholarships"));
-  assert.ok(homepage.includes("Read the Research"));
-  assert.ok(
-    homepage.includes(
-      "Built from regional student consultation and aligned with the NSW Youth"
-    )
-  );
-  assert.ok(homepage.includes("university, TAFE, training"));
+  assert.ok(homepage.includes("For regional NSW students"));
+  assert.ok(homepage.includes("What are you "));
+  assert.ok(homepage.includes("considering after high school?"));
+  assert.ok(homepage.includes("/search?pathway=university&q=course"));
+  assert.ok(homepage.includes("/search?pathway=tafe-vet&q=course"));
+  assert.ok(homepage.includes("/search?pathway=apprenticeship&q=trade"));
+  assert.ok(homepage.includes("existing partnership with the NSW Youth Advisory Council"));
 });
 
-test("navigation uses requested public route set", () => {
+test("navigation exposes pathway, planning, and support features", () => {
   const header = read("src/components/SiteHeader.tsx");
 
   for (const label of [
-    "Home",
-    "Toolkit",
-    "Scholarships",
-    "Timelines",
+    "Search across pathways",
+    "Financial pathway guide",
+    "Transition checklist",
+    "Events and deadlines",
+    "Regional study support directory",
     "Research",
-    "Get Involved",
   ]) {
     assert.ok(header.includes(`label: "${label}"`), `missing nav label ${label}`);
   }
-
-  assert.ok(!header.includes("The Problem"));
-  assert.ok(!header.includes("Consultation"));
 });
 
 test("toolkit hub lists all requested tool cards", () => {
@@ -54,6 +46,7 @@ test("toolkit hub lists all requested tool cards", () => {
     "Financial Pathway Explainer",
     "Regional Student Checklist",
     "Support Directory",
+    "Events and Deadlines Calendar",
   ]) {
     assert.ok(toolkit.includes(tool), `missing toolkit card ${tool}`);
   }

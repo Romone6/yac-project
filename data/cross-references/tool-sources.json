@@ -1,0 +1,300 @@
+{
+  "course-search": [
+    {
+      "kind": "official",
+      "name": "Course Seeker",
+      "url": "https://courseseeker.edu.au/",
+      "purpose": "National undergraduate course search and comparison.",
+      "limits": "Not a substitute for the current course page or admissions advice from the provider."
+    },
+    {
+      "kind": "official",
+      "name": "ComparED",
+      "url": "https://www.compared.edu.au/",
+      "purpose": "Government comparison data for student experience and graduate outcomes.",
+      "limits": "Compare providers and study areas; it does not confirm course entry requirements."
+    },
+    {
+      "kind": "independent",
+      "name": "My Shortlist",
+      "url": "https://myshortlist.au/",
+      "purpose": "Independent comparison of undergraduate courses and student outcomes, with a published data methodology.",
+      "limits": "Coverage is limited to participating universities; use it as a comparison layer."
+    },
+    {
+      "kind": "independent",
+      "name": "Open Universities Australia",
+      "url": "https://www.open.edu.au/courses/degrees",
+      "purpose": "Online degrees, subjects and short courses from marketplace partners.",
+      "limits": "Commercial marketplace with partner-only and online-focused coverage; not a complete course catalogue."
+    }
+  ],
+  "pathway-search": [
+    {
+      "kind": "official",
+      "name": "Skills NSW course finder",
+      "url": "https://skills.education.nsw.gov.au/",
+      "purpose": "NSW subsidised training discovery.",
+      "limits": "Confirm current course availability, fees and eligibility with the provider."
+    },
+    {
+      "kind": "official",
+      "name": "training.gov.au",
+      "url": "https://training.gov.au/search",
+      "purpose": "National Register of VET qualifications, training packages and registered providers.",
+      "limits": "Registration does not guarantee a course is currently offered at a particular location."
+    },
+    {
+      "kind": "official",
+      "name": "Australian Apprenticeships",
+      "url": "https://www.apprenticeships.gov.au/",
+      "purpose": "National apprenticeship and traineeship pathway information.",
+      "limits": "Pathway guidance rather than a current vacancy listing."
+    },
+    {
+      "kind": "independent",
+      "name": "ReachOut: TAFE study",
+      "url": "https://au.reachout.com/study-work-and-money/school-and-study/the-inside-scoop-on-studying-at-tafe",
+      "purpose": "Student-friendly context on vocational study and possible pathway experiences.",
+      "limits": "General guidance only; providers decide course credit, eligibility and enrolment terms."
+    },
+    {
+      "kind": "official",
+      "name": "Workforce Australia job search",
+      "url": "https://www.workforceaustralia.gov.au/individuals/jobs/",
+      "purpose": "Current advertised jobs, including jobs suitable for new entrants.",
+      "limits": "Vacancies change quickly; confirm requirements with the employer."
+    },
+    {
+      "kind": "official",
+      "name": "TAFE NSW course catalogue",
+      "url": "https://www.tafensw.edu.au/courses",
+      "purpose": "Current TAFE NSW course discovery.",
+      "limits": "Course availability, fees and entry requirements vary by location and intake."
+    },
+    {
+      "kind": "independent",
+      "name": "myfuture",
+      "url": "https://myfuture.edu.au/",
+      "purpose": "Career exploration, interests and occupation profiles for students.",
+      "limits": "Use as an idea-generation resource; confirm training and job requirements with official providers."
+    },
+    {
+      "kind": "independent",
+      "name": "National Apprentice Employment Network",
+      "url": "https://naaa.com.au/start-an-apprenticeship",
+      "purpose": "Apprenticeship support information and pathways to local Apprentice Connect Australia Providers.",
+      "limits": "The network is a discovery and support route; provider services and eligibility can change."
+    }
+  ],
+  "subject-alignment": [
+    {
+      "kind": "official",
+      "name": "NSW university course pages",
+      "url": "https://www.uac.edu.au/future-applicants/search-for-courses",
+      "purpose": "Admissions-centre course listings for participating NSW institutions.",
+      "limits": "Always follow through to the institution’s live course page for prerequisites and assumed knowledge."
+    },
+    {
+      "kind": "official",
+      "name": "Course Seeker",
+      "url": "https://courseseeker.edu.au/",
+      "purpose": "National undergraduate course comparison with entry information.",
+      "limits": "Course and subject advice can change; verify with the provider."
+    },
+    {
+      "kind": "independent",
+      "name": "My Shortlist",
+      "url": "https://myshortlist.au/",
+      "purpose": "Independent comparison to help students explore course options and outcomes.",
+      "limits": "Partial university coverage; not an authority for prerequisites or admission decisions."
+    }
+  ],
+  "scholarships": [
+    {
+      "kind": "official",
+      "name": "Award provider source pages",
+      "url": "https://www.studyassist.gov.au/financial-and-study-support/scholarships",
+      "purpose": "Official starting point for scholarships; individual records link to the award sponsor or provider.",
+      "limits": "Provider award pages control current eligibility, dates, amounts and application steps."
+    },
+    {
+      "kind": "independent",
+      "name": "Study Work Grow scholarship search",
+      "url": "https://studyworkgrow.com/find-scholarships/",
+      "purpose": "Independent discovery across scholarships, grants, accommodation and equity support.",
+      "limits": "Discovery only. Confirm each award with its sponsor before relying on details."
+    },
+    {
+      "kind": "independent",
+      "name": "Country Education Foundation",
+      "url": "https://cef.org.au/student-support/search-for-scholarships/",
+      "purpose": "Regional and rural scholarship discovery.",
+      "limits": "Use the individual provider page to check current award conditions."
+    },
+    {
+      "kind": "independent",
+      "name": "Aurora Foundation scholarship search",
+      "url": "https://banksia.aurorafoundation.com.au/Scholarship-Search/",
+      "purpose": "Scholarship discovery for Aboriginal and Torres Strait Islander students.",
+      "limits": "Check each award’s official terms and application status."
+    },
+    {
+      "kind": "independent",
+      "name": "Refugee Education Australia",
+      "url": "https://refugee-education.org.au/for-students",
+      "purpose": "Scholarship and support discovery for people from refugee backgrounds.",
+      "limits": "Confirm current eligibility and award details with the provider."
+    },
+    {
+      "kind": "independent",
+      "name": "CAAT scholarship catalogue",
+      "url": "https://www.mycaat.com/scholarship",
+      "purpose": "Searchable independent catalogue spanning Australian providers.",
+      "limits": "Broad catalogue; not all awards fit regional NSW school leavers or undergraduate entry."
+    }
+  ],
+  "timelines": [
+    {
+      "kind": "official",
+      "name": "UAC key dates",
+      "url": "https://uac.edu.au/key-dates/",
+      "purpose": "Current application, offer and admissions dates for UAC processes.",
+      "limits": "University early-entry and scholarship dates may be published separately by each institution."
+    },
+    {
+      "kind": "official",
+      "name": "University admission scheme pages",
+      "url": "https://www.uac.edu.au/current-applicants/undergraduate-applications-and-offers/early-offer-schemes-for-year-12-students",
+      "purpose": "Official admissions pathway starting point for UAC and participating institutions.",
+      "limits": "Confirm the named program’s current cycle dates on the institution’s own page."
+    },
+    {
+      "kind": "independent",
+      "name": "Study Work Grow events and open days",
+      "url": "https://studyworkgrow.com/open-days/",
+      "purpose": "Additional event discovery alongside admissions timelines.",
+      "limits": "Dates can be outdated; do not treat as the source of a deadline."
+    }
+  ],
+  "financial-planning": [
+    {
+      "kind": "official",
+      "name": "Services Australia Payment Finder",
+      "url": "https://www.servicesaustralia.gov.au/online-estimators?context=64107",
+      "purpose": "Personal estimate and eligibility route for government payments.",
+      "limits": "An estimate is not a determination; the agency decides eligibility."
+    },
+    {
+      "kind": "official",
+      "name": "MoneySmart student budgeting",
+      "url": "https://moneysmart.gov.au/student-life-and-money/studying",
+      "purpose": "Student cost categories and practical budget guidance.",
+      "limits": "General planning information, not a student payment assessment."
+    },
+    {
+      "kind": "independent",
+      "name": "headspace: finance your studies",
+      "url": "https://headspace.org.au/explore-topics/for-young-people/finance-your-studies/",
+      "purpose": "Youth-centred explanation of study costs, moving and looking for support.",
+      "limits": "Use for planning prompts; government entitlement rules come from the responsible agency."
+    },
+    {
+      "kind": "independent",
+      "name": "National Debt Helpline",
+      "url": "https://ndh.org.au/financial-counselling/",
+      "purpose": "Free, independent financial counselling and referral for financial hardship.",
+      "limits": "Counselling and referral, not a payment eligibility decision."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "official",
+      "name": "Your Career",
+      "url": "https://www.yourcareer.gov.au/",
+      "purpose": "Government career exploration and training information.",
+      "limits": "Confirm course, entry and employment arrangements with the relevant provider or employer."
+    },
+    {
+      "kind": "official",
+      "name": "Services Australia",
+      "url": "https://www.servicesaustralia.gov.au/",
+      "purpose": "Current payment rules and claims.",
+      "limits": "Personal eligibility is determined by Services Australia."
+    },
+    {
+      "kind": "independent",
+      "name": "headspace: leaving secondary school",
+      "url": "https://headspace.org.au/explore-topics/for-young-people/leaving-secondary-school/",
+      "purpose": "Wellbeing, routine, living and support topics that complement administrative tasks.",
+      "limits": "General wellbeing guidance, not admissions or clinical advice."
+    },
+    {
+      "kind": "independent",
+      "name": "The Smith Family post-school plans checklist",
+      "url": "https://www.thesmithfamily.com.au/-/media/files/my-smith-family/content-hub/supporting-your-childrens-post-school-plans.pdf",
+      "purpose": "Additional prompts for course exploration, open days and conversations with supporters.",
+      "limits": "Use official providers for actions, dates and requirements."
+    }
+  ],
+  "study-hubs": [
+    {
+      "kind": "official",
+      "name": "Australian Government University Study Hubs finder",
+      "url": "https://www.education.gov.au/access-and-participation/university-study-hubs",
+      "purpose": "Current finder for regional and suburban University Study Hubs nationally, including the NSW hub set.",
+      "limits": "The finder lists physical locations; this directory groups related sites under their hub program or operator."
+    },
+    {
+      "kind": "official",
+      "name": "Country Universities Centre directory",
+      "url": "https://www.cuc.edu.au/our-centres/",
+      "purpose": "Official CUC network centre directory.",
+      "limits": "CUC is one hub network, not the whole national program."
+    },
+    {
+      "kind": "independent",
+      "name": "Regional University Study Hubs Network",
+      "url": "https://www.regionaluniversitystudyhubsnetwork.edu.au/locations",
+      "purpose": "Network cross-check of community-run hub locations.",
+      "limits": "Directory information can lag; verify individual details with the local centre."
+    },
+    {
+      "kind": "independent",
+      "name": "Study Hubs Australia",
+      "url": "https://studyhubs.edu.au/",
+      "purpose": "Sector and community context on study hubs and support models.",
+      "limits": "Context only; does not set every centre’s facilities or access rules."
+    }
+  ],
+  "calendar": [
+    {
+      "kind": "official",
+      "name": "UAC key dates and events",
+      "url": "https://uac.edu.au/key-dates/",
+      "purpose": "Admissions deadlines, offer dates and listed events.",
+      "limits": "Confirm the date and registration details with the event host where applicable."
+    },
+    {
+      "kind": "official",
+      "name": "TAFE NSW events",
+      "url": "https://www.tafensw.edu.au/events/",
+      "purpose": "TAFE NSW open days, information sessions and events.",
+      "limits": "Event details may change; check the organiser before attending."
+    },
+    {
+      "kind": "independent",
+      "name": "NAPSA NSW/ACT careers events",
+      "url": "https://napsanswact.org.au/",
+      "purpose": "Independent careers-adviser association calendar for NSW and ACT careers events.",
+      "limits": "Discovery only; confirm details with event organisers."
+    },
+    {
+      "kind": "independent",
+      "name": "Study Work Grow careers events",
+      "url": "https://studyworkgrow.com/careers-events-calendar/",
+      "purpose": "Additional discovery for careers expos, information sessions and workshops.",
+      "limits": "Third-party listings can change; publish or export only after organiser confirmation."
+    }
+  ]
+}

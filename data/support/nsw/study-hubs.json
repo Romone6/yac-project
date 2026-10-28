@@ -1,0 +1,174 @@
+[
+  {
+    "id": "cuc-clarence-valley",
+    "name": "CUC Clarence Valley",
+    "location": "Grafton",
+    "officialUrl": "https://www.cucclarencevalley.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-cowra-region",
+    "name": "CUC Cowra Region",
+    "location": "Cowra",
+    "officialUrl": "https://cuccowraregion.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-far-west",
+    "name": "CUC Far West",
+    "location": "Broken Hill",
+    "officialUrl": "https://cucfarwest.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-goulburn",
+    "name": "CUC Goulburn",
+    "location": "Goulburn",
+    "officialUrl": "https://cucgoulburn.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-hay",
+    "name": "CUC Hay",
+    "location": "Hay",
+    "officialUrl": "https://www.cuchay.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-macleay-valley",
+    "name": "CUC Macleay Valley",
+    "location": "Kempsey",
+    "officialUrl": "https://cucmacleayvalley.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-mudgee-region",
+    "name": "CUC Mudgee Region",
+    "location": "Mudgee region",
+    "officialUrl": "https://www.cucmudgeeregion.org.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-north-west",
+    "name": "CUC North West",
+    "location": "Moree and Narrabri",
+    "officialUrl": "https://cucnorthwest.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-parkes",
+    "name": "CUC Parkes",
+    "location": "Parkes",
+    "officialUrl": "https://cucparkes.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-snowy-monaro",
+    "name": "CUC Snowy Monaro",
+    "location": "Cooma",
+    "officialUrl": "https://cucsnowymonaro.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-snowy-valleys",
+    "name": "CUC Snowy Valleys",
+    "location": "Tumut",
+    "officialUrl": "https://www.cucsnowyvalleys.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-southern-shoalhaven",
+    "name": "CUC Southern Shoalhaven",
+    "location": "Ulladulla",
+    "officialUrl": "https://www.cucsouthernshoalhaven.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "cuc-western-riverina",
+    "name": "CUC Western Riverina",
+    "location": "Griffith and Leeton",
+    "officialUrl": "https://cucwesternriverina.edu.au",
+    "sourceUrl": "https://www.cuc.edu.au/our-centres/",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "taree-universities-campus",
+    "name": "Taree Universities Campus",
+    "location": "Taree",
+    "officialUrl": "https://www.tareeuni.org.au/",
+    "sourceUrl": "https://www.education.gov.au/access-and-participation/university-study-hubs",
+    "crossCheckUrl": "https://www.regionaluniversitystudyhubsnetwork.edu.au/locations",
+    "sourceCheckedAt": "2026-10-28",
+    "programType": "regional"
+  },
+  {
+    "id": "sush-kurri-kurri",
+    "name": "Kurri Kurri Community Services (KKCS) Study Hub",
+    "location": "Kurri Kurri",
+    "programType": "suburban",
+    "officialUrl": "https://www.kkcs.org.au/study-hub",
+    "sourceUrl": "https://www.education.gov.au/access-and-participation/university-study-hubs",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "sush-mt-druitt-emerton",
+    "name": "Mt Druitt and Emerton University Study Hub",
+    "location": "Mt Druitt and Emerton",
+    "programType": "suburban",
+    "officialUrl": "https://www.meca.org.au/uni-study-hub/",
+    "sourceUrl": "https://www.education.gov.au/access-and-participation/university-study-hubs",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "sush-fairfield-connect",
+    "name": "Fairfield Connect University Study Hub",
+    "location": "Fairfield",
+    "programType": "suburban",
+    "officialUrl": "https://www.westernsydney.edu.au/future/our-campuses/fairfield-connect",
+    "sourceUrl": "https://www.education.gov.au/higher-education/ush/fairfield-connect-university-study-hub",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "sush-liverpool",
+    "name": "Liverpool Study Hub",
+    "location": "Liverpool",
+    "programType": "suburban",
+    "officialUrl": "https://www.liverpoolstudyhub.org.au/",
+    "sourceUrl": "https://www.education.gov.au/higher-education/ush/liverpool-study-hub",
+    "sourceCheckedAt": "2026-10-28"
+  },
+  {
+    "id": "sush-macquarie-fields",
+    "name": "Suburban Study Hub Macquarie Fields",
+    "location": "Macquarie Fields",
+    "programType": "suburban",
+    "officialUrl": "https://www.tafensw.edu.au/partnerships/suburban-study-hub",
+    "sourceUrl": "https://www.education.gov.au/higher-education/ush/suburban-study-hub-macquarie-fields",
+    "sourceCheckedAt": "2026-10-28"
+  }
+]

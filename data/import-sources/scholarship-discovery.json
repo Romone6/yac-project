@@ -29,6 +29,13 @@
       "url": "https://www.uac.edu.au/future-applicants/scholarships-and-schemes/equity-scholarships/universities-offering-equity-scholarships",
       "kind": "official-program",
       "limit": 1
+    },
+    {
+      "id": "refugee-education-australia",
+      "name": "Refugee Education Australia scholarship directory",
+      "url": "https://refugee-education.org.au/scholarships",
+      "kind": "detail-pages",
+      "limit": 120
     }
   ]
 }

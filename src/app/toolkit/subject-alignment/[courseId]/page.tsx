@@ -21,6 +21,11 @@ function formatList(items: string[]) {
   return `${items.slice(0, -1).join(", ")} and ${items.at(-1)}`;
 }
 
+function uacCourseSearchUrl(courseName: string, university: string) {
+  const search = encodeURIComponent(`${courseName} ${university}`);
+  return `https://uac.edu.au/course-search/search/find-a-course-undergraduate?search=${search}`;
+}
+
 type CourseDetailPageProps = {
   params: Promise<{
     courseId: string;
@@ -102,7 +107,12 @@ export default async function CourseDetailPage({
               </div>
             ) : (
               <div className="rounded-sm bg-amber-50 px-4 py-2 text-sm text-amber-900">
-                Indicative ATAR is not currently available in the verified dataset.
+                No provider-published ATAR value is captured in this dataset.
+              </div>
+            )}
+            {typeof course.selectionRank === "number" && (
+              <div className="rounded-sm bg-slate-100 px-4 py-2 text-sm text-slate-800">
+                Published selection rank{course.selectionRankYear ? ` (${course.selectionRankYear})` : ""}: <span className="font-semibold">{course.selectionRank}</span>
               </div>
             )}
             <a
@@ -113,9 +123,17 @@ export default async function CourseDetailPage({
             >
               View course details / application info →
             </a>
+            <a
+              href={uacCourseSearchUrl(course.courseName, course.university)}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center rounded-sm border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-800 transition hover:bg-slate-50"
+            >
+              Cross-check UAC course entry data →
+            </a>
           </div>
           <p className="text-xs uppercase tracking-wide text-slate-400">
-            Dataset last refreshed {course.lastUpdated.slice(0, 10)}
+            Course record refreshed {course.lastUpdated.slice(0, 10)}. Entry figures are historical or indicative and do not guarantee admission. UAC&apos;s current course search provides admission profiles where available; the university controls its current prerequisites and entry conditions.
           </p>
         </div>
       </Section>
@@ -137,9 +155,9 @@ export default async function CourseDetailPage({
               Subject Logic
             </h2>
             <p className="mt-3 text-sm leading-6 text-slate-700">
-              Prioritise {formatList(course.recommendedSubjects.slice(0, 4))}.
-              These subjects are selected because they build the strongest school-level
-              preparation for the skills this course is likely to use.
+              Suggested preparation includes {formatList(course.recommendedSubjects.slice(0, 4))}.
+              These are general planning signals based on the course area and do not set
+              provider entry requirements.
             </p>
           </div>
           <div className="rounded-sm border border-slate-200 bg-white p-6">
@@ -167,7 +185,7 @@ export default async function CourseDetailPage({
                 <ul className="mt-2 space-y-1.5 text-sm text-slate-700">
                   {(course.prerequisites.length > 0
                     ? course.prerequisites
-                    : ["No explicit required school subjects captured in the dataset."]).map(
+                    : ["Entry requirements are not captured here; check the linked university page."]).map(
                     (subject) => (
                       <li key={subject} className="flex gap-2">
                         <span className="mt-1 inline-block h-2 w-2 rounded-full bg-red-500" />
@@ -182,7 +200,7 @@ export default async function CourseDetailPage({
                 <ul className="mt-2 space-y-1.5 text-sm text-slate-700">
                   {(course.assumedKnowledge.length > 0
                     ? course.assumedKnowledge
-                    : ["No explicit assumed knowledge captured in the dataset."]).map(
+                    : ["Assumed knowledge is not captured here; check the linked university page."]).map(
                     (subject) => (
                       <li key={subject} className="flex gap-2">
                         <span className="mt-1 inline-block h-2 w-2 rounded-full bg-amber-500" />
@@ -197,8 +215,9 @@ export default async function CourseDetailPage({
 
           <div className="rounded-sm border border-slate-200 bg-slate-50 p-6">
             <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-              Recommended HSC Subjects
+              Suggested HSC Preparation
             </h2>
+            <p className="mt-2 text-sm leading-6 text-slate-600">These are planning suggestions based on the course area. They are not prerequisites. Check the official course page for required subjects and assumed knowledge.</p>
             <div className="mt-4 space-y-4">
               <div>
                 <p className="text-xs font-semibold text-slate-700">Recommended</p>

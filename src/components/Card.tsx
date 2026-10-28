@@ -9,9 +9,9 @@ type CardProps = {
 
 export function Card({ title, children, className }: CardProps) {
   return (
-    <div className={cx("rounded-sm border border-slate-200 bg-white p-6", className)}>
+    <div className={cx("rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-6 shadow-[0_12px_32px_rgba(16,35,67,0.06)] sm:p-7", className)}>
       {title ? (
-        <h3 className="text-lg font-semibold tracking-tight text-slate-900">
+        <h3 className="text-xl font-bold tracking-tight text-[var(--foreground)]">
           {title}
         </h3>
       ) : null}
