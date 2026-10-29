@@ -6,65 +6,16 @@ import { ToolSourceCrosschecks } from "@/components/ToolSourceCrosschecks";
 import { allNswCourses } from "@/lib/nsw-course-catalog";
 import { buildCourseDetailHref } from "@/lib/course-directory";
 import { scholarships } from "@/lib/scholarships";
+import { matchScore, searchPageResources, searchTokens } from "@/lib/site-search";
 import officialPathwaySearches from "../../../data/pathways/nsw/official-searches.json";
+import events from "../../../data/events/nsw/calendar.json";
+import studyHubs from "../../../data/support/nsw/study-hubs.json";
+import { applicationTimelineEntries } from "@/lib/toolkit-data";
 
 export const metadata = {
   title: "Explore pathways | Pathway to Entry",
   description: "Explore NSW university, TAFE, apprenticeship and work entry pathways.",
 };
-
-const stopWords = new Set(["a", "an", "and", "are", "for", "i", "in", "is", "me", "my", "of", "or", "the", "to", "what", "with"]);
-
-function tokensFor(query: string) {
-  return query
-    .toLowerCase()
-    .split(/[^a-z0-9]+/)
-    .filter((word) => word.length > 1 && !stopWords.has(word));
-}
-
-function matchScore(text: string, tokens: string[]) {
-  const haystack = text.toLowerCase();
-  return tokens.reduce((score, token) => score + (haystack.includes(token) ? 1 : 0), 0);
-}
-
-const pathwayResources = [
-  {
-    title: "University courses and HSC subject alignment",
-    description: "Explore NSW university courses, entry details and subject information.",
-    href: "/toolkit/subject-alignment",
-    terms: "university universities course courses degree nursing health teaching engineering design science subjects hsc atar career industry",
-  },
-  {
-    title: "Scholarship finder",
-    description: "Search scholarships, bursaries, relocation and student support.",
-    href: "/scholarships",
-    terms: "scholarship scholarships bursary bursaries funding money grant grants equity regional rural accommodation relocation nursing",
-  },
-  {
-    title: "Application timelines",
-    description: "Check admissions, early-entry and scholarship milestones.",
-    href: "/toolkit/application-timelines",
-    terms: "application applications dates deadline deadlines timeline timelines admissions early entry university",
-  },
-  {
-    title: "Financial pathway guide",
-    description: "Understand HELP loans, student payments and regional support.",
-    href: "/toolkit/financial-pathways",
-    terms: "financial finance cost costs help loan hecs payment payments youth allowance regional support tafe trade apprenticeship work",
-  },
-  {
-    title: "Explore all current tools",
-    description: "Browse practical planning and support resources in the toolkit.",
-    href: "/toolkit",
-    terms: "toolkit tools resources pathway pathways after school tafe training apprenticeship trade work career jobs industry",
-  },
-  {
-    title: "Research and consultation",
-    description: "Read the project’s regional student consultation and evidence.",
-    href: "/research",
-    terms: "research consultation students evidence report findings",
-  },
-];
 
 type PathwayFilter = "all" | "university" | "tafe-vet" | "apprenticeship" | "work";
 
@@ -76,7 +27,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const selectedPathway: PathwayFilter = ["university", "tafe-vet", "apprenticeship", "work"].includes(pathway)
     ? pathway as PathwayFilter
     : "all";
-  const tokens = tokensFor(query);
+  const tokens = searchTokens(query);
   const courseResults = tokens.length && ["all", "university"].includes(selectedPathway)
     ? allNswCourses
         .map((course) => ({
@@ -88,9 +39,16 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             course.description,
             course.university,
             course.faculty,
+            course.level,
+            course.courseCode ?? "",
             course.subjectAreas.join(" "),
+            course.prerequisites.join(" "),
+            course.assumedKnowledge.join(" "),
             course.recommendedSubjects.join(" "),
+            course.secondarySubjects.join(" "),
             course.careerOutcomes.join(" "),
+            String(course.atar ?? ""),
+            String(course.selectionRank ?? ""),
           ].join(" "), tokens),
         }))
         .filter((item) => item.score > 0)
@@ -115,18 +73,29 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         .filter((item) => item.score > 0)
         .sort((a, b) => b.score - a.score || a.scholarship.scholarship_name.localeCompare(b.scholarship.scholarship_name))
     : [];
-  const resourceResults = tokens.length && selectedPathway === "all"
-    ? pathwayResources
-        .map((resource) => ({ resource, score: matchScore(`${resource.title} ${resource.description} ${resource.terms}`, tokens) }))
-        .filter((item) => item.score > 0)
-        .sort((a, b) => b.score - a.score)
-    : [];
+  const resourceResults = tokens.length ? searchPageResources(query) : [];
   const officialResults = tokens.length
     ? officialPathwaySearches
         .filter((item) => selectedPathway === "all" || item.pathway === selectedPathway)
         .map((item) => ({ item, score: matchScore(`${item.title} ${item.description} ${item.searchTerms}`, tokens) }))
         .filter((result) => result.score > 0)
         .sort((a, b) => b.score - a.score)
+    : [];
+  const eventResults = tokens.length
+    ? events.map((event) => ({ event, score: matchScore(`${event.title} ${event.provider} ${event.audience} ${event.location} ${event.summary}`, tokens) }))
+        .filter((result) => result.score > 0)
+        .sort((a, b) => b.score - a.score || a.event.title.localeCompare(b.event.title))
+    : [];
+  const hubResults = tokens.length
+    ? studyHubs.map((hub) => ({ hub, score: matchScore(`${hub.name} ${hub.location} ${hub.programType} university study hub regional suburban community centre`, tokens) }))
+        .filter((result) => result.score > 0)
+        .sort((a, b) => b.score - a.score || a.hub.name.localeCompare(b.hub.name))
+    : [];
+  const timelineResults = tokens.length && ["all", "university"].includes(selectedPathway)
+    ? applicationTimelineEntries
+        .map((round) => ({ round, score: matchScore(`${round.university} ${round.roundName} ${round.roundType} ${round.description} ${round.applicationOpen ?? ""} ${round.applicationClose ?? ""} ${round.offerDate ?? ""}`, tokens) }))
+        .filter((result) => result.score > 0)
+        .sort((a, b) => b.score - a.score || a.round.university.localeCompare(b.round.university))
     : [];
 
   return (
@@ -223,9 +192,9 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             <section aria-labelledby="resource-results-title">
               <h2 id="resource-results-title" className="mb-4 text-2xl font-bold text-[var(--foreground)]">Pathway tools and information</h2>
               <div className="divide-y divide-[var(--line)] border-y border-[var(--line)] bg-[var(--surface)]">
-                {resourceResults.map(({ resource }) => (
-                  <Link key={resource.href} href={resource.href} className="group flex items-center justify-between gap-4 px-5 py-4 hover:bg-[var(--accent-soft)]">
-                    <span><span className="block font-bold text-[var(--foreground)] group-hover:text-[var(--green)]">{resource.title}</span><span className="mt-1 block text-sm text-[var(--muted)]">{resource.description}</span></span>
+                {resourceResults.map(({ page }) => (
+                  <Link key={page.href} href={page.href} className="group flex items-center justify-between gap-4 px-5 py-4 hover:bg-[var(--accent-soft)]">
+                    <span><span className="block font-bold text-[var(--foreground)] group-hover:text-[var(--green)]">{page.title}</span><span className="mt-1 block text-sm text-[var(--muted)]">{page.description}</span></span>
                     <ArrowRight aria-hidden="true" className="shrink-0 text-[var(--green)]" />
                   </Link>
                 ))}
@@ -233,7 +202,60 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             </section>
           )}
 
-          {courseResults.length + scholarshipResults.length + resourceResults.length + officialResults.length === 0 && (
+          {eventResults.length > 0 && (
+            <section aria-labelledby="event-results-title">
+              <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+                <h2 id="event-results-title" className="text-2xl font-bold text-[var(--foreground)]">Events and deadlines</h2>
+                <Link href="/calendar" className="font-semibold text-[var(--green)] underline underline-offset-4">Browse the calendar</Link>
+              </div>
+              <div className="grid gap-3 md:grid-cols-2">
+                {eventResults.slice(0, 8).map(({ event }) => (
+                  <Link key={event.id} href={`/calendar#${event.id}`} className="rounded-lg border border-[var(--line)] bg-[var(--surface)] p-5 transition hover:border-[var(--green)] hover:shadow-sm">
+                    <span className="text-sm font-semibold text-[var(--green)]">{event.provider} · {event.type}</span>
+                    <span className="mt-1 block text-lg font-bold text-[var(--foreground)]">{event.title}</span>
+                    <span className="mt-2 block text-sm leading-6 text-[var(--muted)]">{event.summary}</span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {timelineResults.length > 0 && (
+            <section aria-labelledby="timeline-results-title">
+              <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+                <h2 id="timeline-results-title" className="text-2xl font-bold text-[var(--foreground)]">University application rounds</h2>
+                <Link href="/toolkit/application-timelines" className="font-semibold text-[var(--green)] underline underline-offset-4">Browse all timelines</Link>
+              </div>
+              <div className="divide-y divide-[var(--line)] border-y border-[var(--line)] bg-[var(--surface)]">
+                {timelineResults.slice(0, 8).map(({ round }) => (
+                  <Link key={round.id} href={`/toolkit/application-timelines#${round.id}`} className="block px-5 py-4 hover:bg-[var(--accent-soft)]">
+                    <span className="block font-bold text-[var(--foreground)]">{round.university} · {round.roundName}</span>
+                    <span className="mt-1 block text-sm text-[var(--muted)]">{round.description}</span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {hubResults.length > 0 && (
+            <section aria-labelledby="hub-results-title">
+              <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+                <h2 id="hub-results-title" className="text-2xl font-bold text-[var(--foreground)]">Study hubs and local support</h2>
+                <Link href="/support" className="font-semibold text-[var(--green)] underline underline-offset-4">Browse all study hubs</Link>
+              </div>
+              <div className="grid gap-3 md:grid-cols-2">
+                {hubResults.slice(0, 8).map(({ hub }) => (
+                  <Link key={hub.id} href={`/support#${hub.id}`} className="rounded-lg border border-[var(--line)] bg-[var(--surface)] p-5 transition hover:border-[var(--green)] hover:shadow-sm">
+                    <span className="text-sm font-semibold text-[var(--green)]">{hub.location} · {hub.programType} study hub</span>
+                    <span className="mt-1 block text-lg font-bold text-[var(--foreground)]">{hub.name}</span>
+                    <span className="mt-2 block text-sm leading-6 text-[var(--muted)]">Open the hub’s official page for local study facilities, registration and contact details.</span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {courseResults.length + scholarshipResults.length + resourceResults.length + officialResults.length + eventResults.length + hubResults.length + timelineResults.length === 0 && (
             <div className="rounded-lg border border-[var(--line)] bg-[var(--surface)] p-6">
               <h2 className="text-xl font-bold text-[var(--foreground)]">No matches yet</h2>
               <p className="mt-2 text-[var(--muted)]">Try a broader term such as nursing, teaching, regional, university, scholarships or support.</p>

@@ -6,7 +6,13 @@ import centres from "../../data/support/nsw/study-hubs.json";
 
 export function SupportDirectory() {
   const [query, setQuery] = useState("");
-  const results = useMemo(() => centres.filter((centre) => `${centre.name} ${centre.location}`.toLowerCase().includes(query.trim().toLowerCase())), [query]);
+  const results = useMemo(() => {
+    const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    return centres.filter((centre) => {
+      const text = `${centre.name} ${centre.location} ${centre.programType} university study hub regional suburban community centre`.toLowerCase();
+      return terms.every((term) => text.includes(term));
+    });
+  }, [query]);
   const regionalCount = centres.filter((centre) => centre.programType === "regional").length;
   const suburbanCount = centres.filter((centre) => centre.programType === "suburban").length;
 
@@ -20,7 +26,7 @@ export function SupportDirectory() {
       <p className="mt-4 text-sm text-[var(--muted)]">Showing {results.length} of {centres.length} NSW University Study Hubs ({regionalCount} regional and {suburbanCount} suburban). Ask each centre about current opening hours, registration, facilities and access.</p>
       <ul className="mt-4 grid gap-x-8 md:grid-cols-2">
         {results.map((centre) => (
-          <li key={centre.id} className="border-t border-[var(--line)] py-5">
+          <li id={centre.id} key={centre.id} className="border-t border-[var(--line)] py-5">
             <p className="text-sm font-semibold text-[var(--green)]">{centre.programType === "suburban" ? "Suburban University Study Hub" : "Regional University Study Hub"} · {centre.location}</p>
             <h2 className="mt-1 text-xl font-bold">{centre.name}</h2>
             <p className="mt-2 text-sm leading-6 text-[var(--muted)]">A community-led study centre. Facilities and registration are set locally; check the centre’s official site for current details.</p>

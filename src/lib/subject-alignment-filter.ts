@@ -9,27 +9,15 @@ export type SubjectAlignmentFilters = {
   searchQuery: string;
 };
 
-const levelSearchTerms: Record<CourseLevel, string[]> = {
-  undergraduate: ["undergraduate", "undergrad", "ug"],
-  postgraduate: ["postgraduate", "postgrad", "pg"],
-  diploma: ["diploma"],
-  pathway: ["pathway", "foundation"],
-};
-
 export function courseHasAtar(course: Pick<CourseRecord, "atar">): boolean {
   return typeof course.atar === "number" && Number.isFinite(course.atar);
-}
-
-function matchesLevelQuery(course: CourseRecord, query: string): boolean {
-  const terms = levelSearchTerms[course.level];
-  return terms.some((term) => term.includes(query) || query.includes(term));
 }
 
 export function filterSubjectAlignmentCourses(
   courses: CourseRecord[],
   filters: SubjectAlignmentFilters
 ): CourseRecord[] {
-  const query = filters.searchQuery.trim().toLowerCase();
+  const query = filters.searchQuery.trim().toLowerCase().split(/\s+/).filter(Boolean);
 
   return courses.filter((course) => {
     if (filters.selectedUni && course.universitySlug !== filters.selectedUni) return false;
@@ -39,16 +27,14 @@ export function filterSubjectAlignmentCourses(
 
     if (!query) return true;
 
-    return (
-      matchesLevelQuery(course, query) ||
-      course.courseName.toLowerCase().includes(query) ||
-      (course.courseCode ?? "").toLowerCase().includes(query) ||
-      course.description.toLowerCase().includes(query) ||
-      course.faculty.toLowerCase().includes(query) ||
-      course.subjectAreas.some((subjectArea) => subjectArea.toLowerCase().includes(query)) ||
-      course.recommendedSubjects.some((subject) => subject.toLowerCase().includes(query)) ||
-      course.prerequisites.some((subject) => subject.toLowerCase().includes(query)) ||
-      course.assumedKnowledge.some((subject) => subject.toLowerCase().includes(query))
-    );
+    const searchableText = [
+      course.courseName, course.courseCode, course.description, course.faculty,
+      course.university, course.level, course.subjectAreas.join(" "),
+      course.recommendedSubjects.join(" "), course.prerequisites.join(" "),
+      course.assumedKnowledge.join(" "), course.secondarySubjects.join(" "),
+      course.careerOutcomes.join(" "), String(course.atar ?? ""),
+      String(course.selectionRank ?? ""),
+    ].join(" ").toLowerCase();
+    return query.every((term) => searchableText.includes(term));
   });
 }

@@ -114,3 +114,7 @@ body {
 ::selection {
   background: var(--accent-soft);
 }
+/* The decorative wave stays clear of the expanded in-flow search suggestions. */
+.home-hero:has(#home-resource-search-results) .homepage-wave {
+  visibility: hidden;
+}

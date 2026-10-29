@@ -55,6 +55,7 @@ function downloadCalendar(records: CalendarRecord[]) {
 
 export function EventsCalendar({ records }: { records: CalendarRecord[] }) {
   const [type, setType] = useState("all");
+  const [query, setQuery] = useState("");
   const [now, setNow] = useState<number | null>(null);
   useEffect(() => {
     const timeout = window.setTimeout(() => setNow(Date.now()), 0);
@@ -64,11 +65,17 @@ export function EventsCalendar({ records }: { records: CalendarRecord[] }) {
   const upcoming = useMemo(() => records
     .filter((record) => now === null || new Date(record.endAt ?? record.startAt).getTime() >= now)
     .filter((record) => type === "all" || record.type === type)
-    .sort((a, b) => new Date(a.startAt).getTime() - new Date(b.startAt).getTime()), [now, records, type]);
+    .filter((record) => query.trim().toLowerCase().split(/\s+/).filter(Boolean).every((term) =>
+      `${record.title} ${record.provider} ${record.audience} ${record.location} ${record.summary} ${record.startAt} ${record.type}`.toLowerCase().includes(term)
+    ))
+    .sort((a, b) => new Date(a.startAt).getTime() - new Date(b.startAt).getTime()), [now, query, records, type]);
 
   return (
     <>
       <section className="flex flex-wrap items-end justify-between gap-4 border-y border-[var(--line)] py-5">
+        <label className="min-w-60 flex-1 font-semibold">Search events and dates
+          <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try UAC, HSC, TAFE or open day" className="mt-2 block w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-3 py-3 font-normal" />
+        </label>
         <label className="font-semibold">Show
           <select value={type} onChange={(event) => setType(event.target.value)} className="mt-2 block min-w-64 rounded-md border border-[var(--line)] bg-[var(--surface)] px-3 py-3 font-normal">
             <option value="all">All upcoming dates</option><option value="deadline">Deadlines</option><option value="offer">Offers and outcomes</option><option value="event">Events</option>
@@ -80,7 +87,7 @@ export function EventsCalendar({ records }: { records: CalendarRecord[] }) {
       {upcoming.length ? (
         <ol className="mt-4 divide-y divide-[var(--line)] border-y border-[var(--line)]">
           {upcoming.map((record) => (
-            <li key={record.id} className="grid gap-4 py-5 md:grid-cols-[12rem_1fr_auto] md:items-start">
+            <li id={record.id} key={record.id} className="grid gap-4 py-5 md:grid-cols-[12rem_1fr_auto] md:items-start">
               <p className="font-bold text-[var(--green)]">{eventDate(record)}</p>
               <div><div className="flex flex-wrap items-center gap-2"><span className="text-xs font-bold uppercase tracking-wide text-[var(--green)]">{typeLabels[record.type]}</span><span className="text-sm text-[var(--muted)]">{record.provider}</span></div><h2 className="mt-1 text-xl font-bold">{record.title}</h2><p className="mt-2 leading-6 text-[var(--muted)]">{record.summary}</p><p className="mt-2 text-sm"><strong>For:</strong> {record.audience}</p><p className="mt-1 text-sm text-[var(--muted)]">{record.location}</p><p className="mt-2 text-xs text-[var(--muted)]">Source checked 28 October 2026</p></div>
               <div className="flex flex-col items-start gap-2"><a href={record.officialUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 font-semibold text-[var(--green)] underline underline-offset-4">Official details <ArrowUpRight aria-hidden="true" size={17} /></a>{record.crossCheckUrl && <a href={record.crossCheckUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm text-[var(--green)] underline underline-offset-4">Cross-check date <ArrowUpRight aria-hidden="true" size={15} /></a>}</div>

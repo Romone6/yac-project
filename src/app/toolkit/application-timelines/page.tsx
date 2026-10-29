@@ -61,6 +61,7 @@ const roundTypes = ["All", "early-entry", "regular", "scholarship"];
 export default function ApplicationTimelinesPage() {
   const [selectedUni, setSelectedUni] = useState("All");
   const [selectedType, setSelectedType] = useState("All");
+  const [query, setQuery] = useState("");
   const [viewMode, setViewMode] = useState<"list" | "calendar">("list");
 
   const universities = useMemo(
@@ -72,9 +73,12 @@ export default function ApplicationTimelinesPage() {
     return applicationTimelineEntries.filter((r) => {
       if (selectedUni !== "All" && r.university !== selectedUni) return false;
       if (selectedType !== "All" && r.roundType !== selectedType) return false;
+      const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+              const text = `${r.university} ${r.roundName} ${r.roundType} ${r.description} ${r.applicationOpen ?? ""} ${r.applicationClose ?? ""} ${r.offerDate ?? ""}`.toLowerCase();
+      if (!terms.every((term) => text.includes(term))) return false;
       return true;
     });
-  }, [selectedUni, selectedType]);
+  }, [selectedUni, selectedType, query]);
 
   const sortedRounds = useMemo(() => {
     return [...filteredRounds].sort((a, b) => {
@@ -106,6 +110,9 @@ export default function ApplicationTimelinesPage() {
       />
 
       <Section title="Filters">
+        <label className="mb-4 block max-w-2xl text-xs font-semibold uppercase tracking-wide text-slate-500" htmlFor="timeline-search">Search dates and rounds
+          <input id="timeline-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try university, early entry, scholarship or a date" className="mt-1 w-full rounded-sm border border-slate-200 bg-white px-3 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder:text-slate-400" />
+        </label>
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end">
           <div className="flex-1">
             <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">
@@ -173,6 +180,7 @@ export default function ApplicationTimelinesPage() {
               const status = getStatus(round);
               return (
                 <div
+                  id={round.id}
                   key={round.id}
                   className="rounded-sm border border-slate-200 bg-white p-5"
                 >
@@ -260,6 +268,7 @@ export default function ApplicationTimelinesPage() {
                       round.applicationClose || round.offerDate || round.applicationOpen || "";
                     return (
                       <div
+                        id={round.id}
                         key={round.id}
                         className="flex items-center gap-4 rounded-sm border border-slate-200 bg-white p-4"
                       >

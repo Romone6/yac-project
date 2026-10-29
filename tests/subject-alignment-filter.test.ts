@@ -72,6 +72,20 @@ test("text search routes level keywords to the matching level classification", (
   assert.deepEqual(diplomaResults.map((course) => course.level), ["diploma"]);
 });
 
+test("course keyword search can match career outcomes and multiple terms", () => {
+  const course = makeCourse("undergraduate");
+  course.courseName = "Bachelor of Nursing";
+  course.careerOutcomes = ["Registered nurse"];
+  const results = filterSubjectAlignmentCourses([course], {
+    selectedUni: null,
+    selectedFaculty: null,
+    selectedLevel: "All",
+    searchQuery: "nursing registered",
+  });
+
+  assert.deepEqual(results.map((item) => item.id), [course.id]);
+});
+
 test("subject alignment catalog exposes only undergraduate UNSW results", () => {
   const filtered = filterSubjectAlignmentCourses(subjectAlignmentCourses, {
     selectedUni: "unsw",
