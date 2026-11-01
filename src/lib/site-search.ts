@@ -1,28 +1,57 @@
 export type SearchablePage = {
+  pageTitle: string;
   title: string;
   description: string;
   href: string;
-  keywords: string;
+  content: string;
 };
 
+// Keep this index grounded in headings and copy people can actually read on the
+// site. Each entry is one destination or section, rather than a page-level bag
+// of related search terms.
 export const searchablePages: SearchablePage[] = [
-  { title: "Home and pathway overview", description: "Start with an interest, compare post-school options and find clear information for regional NSW students.", href: "/", keywords: "HSC after high school Year 12 university TAFE VET apprenticeships traineeships trade jobs careers regional rural NSW Port Macquarie Westport school" },
-  { title: "Explore all tools", description: "Browse practical pathway, planning, money, dates and support tools.", href: "/toolkit", keywords: "toolkit resources guides calculator checklist calendar support pathway options" },
-  { title: "University courses and HSC subjects", description: "Search NSW undergraduate courses, published entry information, prerequisites and subject planning guidance.", href: "/toolkit/subject-alignment", keywords: "course degree university bachelor ATAR selection rank prerequisite assumed knowledge HSC subjects maths English biology chemistry physics nursing teaching engineering psychology design" },
-  { title: "Scholarships and student support", description: "Search scholarships, bursaries, grants, accommodation, relocation and equity support.", href: "/scholarships", keywords: "funding financial money award bursary grant rural regional low income first family disability Aboriginal Indigenous equity accommodation relocation nursing open closing eligibility" },
-  { title: "Application dates and timelines", description: "Check university admissions rounds, UAC application dates, early entry and scholarship milestones.", href: "/toolkit/application-timelines", keywords: "deadline dates close opens application admissions UAC SRS Schools Recommendation Scheme preferences offers enrolment census scholarship key dates" },
-  { title: "Application timeline tracker", description: "Review application rounds and key dates by NSW university.", href: "/timelines", keywords: "university application timeline round offer date semester intake 2026 2027 UAC early entry" },
-  { title: "Regional study costs and financial support", description: "Plan study, travel and moving costs and check student payments and official support.", href: "/toolkit/financial-pathways", keywords: "finance financial cost costs budget moving accommodation rent travel transport living HELP HECS loan student payment Youth Allowance Austudy apprenticeship tools fee concession Centrelink regional" },
-  { title: "Scholarship search tool", description: "Filter scholarships by closing date, institution, study level, field and eligibility.", href: "/toolkit/scholarships", keywords: "scholarship search bursary funding grant equity filter value field institution eligibility closing soon open" },
-  { title: "Events and deadlines calendar", description: "Find confirmed application deadlines, offers, open days and careers events.", href: "/calendar", keywords: "event open day dates deadline offer HSC results ATAR release career week TAFE NSW university information session workshop" },
-  { title: "Transition checklist", description: "Plan actions for exploring, applying, accepting an offer and starting study or work.", href: "/checklist", keywords: "checklist first year transition preparation enrollment enrolment apply offer placement move accommodation documents reminder wellbeing apprenticeship TAFE university" },
-  { title: "Study hub and local support directory", description: "Find regional and suburban University Study Hubs, study spaces and community support.", href: "/support", keywords: "study hub centre centre location town regional suburban community facilities registration study space CUC Country Universities Centre library" },
-  { title: "Research and consultation findings", description: "Read student voice evidence, consultation findings and policy recommendations.", href: "/research", keywords: "research report evidence consultation student voice regional participation policy recommendations access barriers information gap" },
-  { title: "Consultation", description: "Read about the student consultation, survey and focus group report.", href: "/consultation", keywords: "survey focus group participate consultation student feedback research report evidence" },
-  { title: "The project", description: "Understand the purpose, scope and design of Pathway to Entry.", href: "/the-project", keywords: "project YAC Youth Advisory Council NSW youth advisory regional students initiative purpose" },
-  { title: "The pathway information gap", description: "Explore barriers between choosing a post-school pathway and reaching entry.", href: "/the-problem", keywords: "barriers gap participation university TAFE skilled employment regional metro information execution support" },
-  { title: "Get involved", description: "Register interest as a mentor, educator, training provider or community partner.", href: "/get-involved", keywords: "mentor stakeholder educator school provider community partner expression interest EOI contact" },
-  { title: "Project updates", description: "Read project milestones, consultation status and publications.", href: "/updates", keywords: "updates milestones publication consultation status next steps report" },
+  { pageTitle: "Home", title: "University", description: "Explore subject and course information for university pathways in NSW.", href: "/search?pathway=university&q=course", content: "University NSW subject course pathways" },
+  { pageTitle: "Home", title: "TAFE or trade", description: "Search NSW vocational courses and check current options with the training provider.", href: "/search?pathway=tafe-vet&q=course", content: "TAFE trade vocational courses provider" },
+  { pageTitle: "Home", title: "Work or apprenticeship", description: "Compare apprenticeship and traineeship options and learn how to get started.", href: "/search?pathway=apprenticeship&q=trade", content: "Work apprenticeship traineeship options" },
+  { pageTitle: "Home", title: "Still exploring", description: "Search current tools, practical information and support.", href: "/search", content: "Explore tools practical information support" },
+  { pageTitle: "Home", title: "Application timelines", description: "Track admissions, early-entry and scholarship dates.", href: "/toolkit/application-timelines", content: "Application timeline admissions early entry scholarship dates" },
+  { pageTitle: "Home", title: "Scholarship finder", description: "Search current scholarships, bursaries and student support.", href: "/scholarships", content: "Scholarship bursary student support funding" },
+  { pageTitle: "Home", title: "Subject alignment tool", description: "Compare HSC subject signals across available university courses.", href: "/toolkit/subject-alignment", content: "HSC subjects university courses prerequisites assumed knowledge ATAR selection rank" },
+  { pageTitle: "Home", title: "Financial pathway guide", description: "Understand student payments, HELP loans and regional support.", href: "/toolkit/financial-pathways#official-cost-support-title", content: "Financial costs student payments HELP loans regional support" },
+  { pageTitle: "Home", title: "Explore your options", description: "Start with your interests and browse the pathways and tools currently available.", href: "/toolkit", content: "Explore interests pathways available tools" },
+  { pageTitle: "Home", title: "Plan the details", description: "Check application dates, scholarships and financial support as you make a plan.", href: "/toolkit/financial-pathways", content: "Plan application dates scholarships financial support" },
+  { pageTitle: "Home", title: "Confirm with the provider", description: "Follow the official source links to confirm current dates and eligibility before applying.", href: "/toolkit", content: "Confirm official source links current dates eligibility applying" },
+
+  { pageTitle: "Toolkit", title: "Events and Deadlines Calendar", description: "Browse confirmed application dates, offer rounds, open events and careers opportunities.", href: "/calendar", content: "Events deadlines application dates offer rounds open days careers" },
+  { pageTitle: "Toolkit", title: "Application Timeline Tracker", description: "Track admissions, early-entry and scholarship milestones from UAC and university sources.", href: "/toolkit/application-timelines", content: "Application timeline admissions early entry scholarships UAC university" },
+  { pageTitle: "Toolkit", title: "Scholarship Finder", description: "Search scholarships, bursaries, relocation support, accommodation help and equity funding.", href: "/scholarships", content: "Scholarships bursaries relocation accommodation equity funding" },
+  { pageTitle: "Toolkit", title: "Subject Alignment Tool", description: "Compare subject signals across NSW university courses before finalising senior subject or course choices.", href: "/toolkit/subject-alignment", content: "Subject alignment HSC prerequisites assumed knowledge ATAR university course" },
+  { pageTitle: "Toolkit", title: "Financial Pathway Explainer", description: "Understand HELP loans, student payments, regional relocation support and non-repayable funding.", href: "/toolkit/financial-pathways", content: "Financial pathway HELP loans payments regional relocation funding" },
+  { pageTitle: "Toolkit", title: "Regional Student Checklist", description: "Track pathway-specific actions and personal target dates from exploring options to your first weeks.", href: "/checklist", content: "Regional student checklist actions target dates first weeks" },
+  { pageTitle: "Toolkit", title: "Support Directory", description: "Search regional and suburban NSW University Study Hubs and contact a local centre directly.", href: "/support", content: "Regional suburban NSW University Study Hubs local centre" },
+
+  { pageTitle: "Financial Pathways", title: "Staying at home", description: "Estimate travel, meals away from home, devices and course-specific equipment. Check provider course costs and transport concessions.", href: "/toolkit/financial-pathways#cost-scenarios-title", content: "Travel meals devices course equipment costs transport concessions staying home" },
+  { pageTitle: "Financial Pathways", title: "Moving for study", description: "Include travel to inspect accommodation, bond, setup costs, rent, utilities, food and return trips. Confirm payment eligibility through Services Australia.", href: "/toolkit/financial-pathways#cost-scenarios-title", content: "Moving accommodation bond setup rent utilities food travel Services Australia" },
+  { pageTitle: "Financial Pathways", title: "Apprenticeship or traineeship costs", description: "Ask the employer and training provider about tools, uniforms, travel, paid training time and course fees.", href: "/toolkit/financial-pathways#cost-scenarios-title", content: "Apprenticeship traineeship employer provider tools uniforms travel training fees" },
+  { pageTitle: "Financial Pathways", title: "Online or mixed study costs", description: "Plan for reliable internet, a suitable device, occasional campus travel and required materials or placement travel.", href: "/toolkit/financial-pathways#cost-scenarios-title", content: "Online mixed study internet device campus materials placement travel" },
+
+  { pageTitle: "Subject Alignment", title: "Course prerequisites and assumed knowledge", description: "Compare published ATAR or selection-rank references, prerequisites, assumed knowledge, recommended HSC subjects and career outcomes by course.", href: "/toolkit/subject-alignment", content: "Course prerequisites assumed knowledge ATAR selection rank recommended HSC subjects career outcomes" },
+  { pageTitle: "Scholarships", title: "Find scholarships by eligibility", description: "Filter scholarships by closing date, institution, study level, field of study and eligibility.", href: "/scholarships", content: "Scholarship eligibility closing date institution study level field" },
+  { pageTitle: "Application Timelines", title: "University application rounds", description: "Find application opening and closing dates, offer rounds and university-specific admissions milestones.", href: "/toolkit/application-timelines", content: "University application round opening closing dates offers admissions milestones" },
+  { pageTitle: "Support Directory", title: "University Study Hubs", description: "Find regional and suburban study spaces, local facilities, registration information and contacts.", href: "/support", content: "University Study Hubs regional suburban facilities registration contact" },
+  { pageTitle: "Calendar", title: "Events, open days and deadlines", description: "Browse confirmed university and TAFE events, application deadlines, offer rounds and careers opportunities.", href: "/calendar", content: "Events open days deadlines university TAFE careers" },
+  { pageTitle: "Checklist", title: "Plan your next steps", description: "Track actions for exploring, applying, accepting an offer and starting study or work.", href: "/checklist", content: "Checklist explore apply accept offer start study work" },
+
+  { pageTitle: "Research", title: "Information Gap", description: "Understand where students have trouble finding clear, practical pathway information.", href: "/research", content: "Research regional student information access gap" },
+  { pageTitle: "Research", title: "Student Voice", description: "Read what regional students raised through consultation and student voice activities.", href: "/research", content: "Regional students student voice consultation findings" },
+  { pageTitle: "Research", title: "Policy Translation", description: "See how research and consultation inform practical tools and recommendations.", href: "/research", content: "Research policy recommendations practical tools" },
+  { pageTitle: "Consultation", title: "2026 consultation report", description: "Read the consultation report and find information about the survey and focus group process.", href: "/consultation", content: "2026 consultation report survey focus group student feedback" },
+  { pageTitle: "Get Involved", title: "Mentor expression of interest", description: "Register interest in mentoring regional students as they explore post-school options.", href: "/get-involved", content: "Mentor expression of interest regional students" },
+  { pageTitle: "Get Involved", title: "Educator and community partners", description: "Contact the project about school, training provider or community collaboration.", href: "/get-involved", content: "Educator school training provider community partner collaboration" },
+  { pageTitle: "The Problem", title: "Regional versus metro participation gap", description: "Explore evidence about differences in post-school participation and access to opportunity.", href: "/the-problem", content: "Regional metro participation university access evidence" },
+  { pageTitle: "The Problem", title: "Execution support after selection", description: "Understand the practical support students need after choosing a course or pathway.", href: "/the-problem", content: "Practical execution support after pathway selection" },
+  { pageTitle: "The Project", title: "What the project does", description: "Learn how Pathway to Entry brings practical pathway information together for regional NSW students.", href: "/the-project", content: "Project purpose regional NSW students pathways" },
+  { pageTitle: "Project Updates", title: "Milestones and publications", description: "Follow consultation progress, project milestones and published resources.", href: "/updates", content: "Project updates milestones publications consultation" },
 ];
 
 const stopWords = new Set(["a", "an", "and", "are", "for", "find", "i", "in", "is", "me", "my", "of", "or", "the", "to", "what", "with"]);
@@ -44,7 +73,14 @@ export function searchPageResources(query: string) {
   const tokens = searchTokens(query);
   if (!tokens.length) return [];
   return searchablePages
-    .map((page) => ({ page, score: matchScore(page.title, tokens) * 6 + matchScore(page.description, tokens) * 2 + matchScore(page.keywords, tokens) }))
-    .filter((result) => result.score > 0)
+    .map((page) => {
+      const titleScore = matchScore(page.title, tokens);
+      const descriptionScore = matchScore(page.description, tokens);
+      const contentScore = matchScore(page.content, tokens);
+      const matched = Math.max(titleScore, descriptionScore, contentScore);
+      const coverage = (titleScore + descriptionScore + contentScore) / (tokens.length * 3);
+      return { page, score: titleScore * 8 + descriptionScore * 3 + contentScore * 2 + coverage * 4, matched };
+    })
+    .filter((result) => result.matched > 0)
     .sort((a, b) => b.score - a.score || a.page.title.localeCompare(b.page.title));
 }

@@ -20,5 +20,18 @@ test("site search includes the major tools and project information pages", () =>
 
 test("multi-keyword searches rank pages containing the full topic higher", () => {
   const results = searchPageResources("moving costs rent");
-  assert.equal(results[0]?.page.href, "/toolkit/financial-pathways");
+  assert.equal(results[0]?.page.title, "Moving for study");
+  assert.equal(results[0]?.page.href, "/toolkit/financial-pathways#cost-scenarios-title");
+});
+
+test("specific terms return the section that contains the relevant detail", () => {
+  const result = searchPageResources("bond utilities")[0];
+  assert.equal(result?.page.title, "Moving for study");
+  assert.match(result?.page.description ?? "", /bond.*rent, utilities/i);
+});
+
+test("mentor searches show the mentor destination instead of a generic project page", () => {
+  const results = searchPageResources("mentor expression interest");
+  assert.equal(results[0]?.page.title, "Mentor expression of interest");
+  assert.equal(results[0]?.page.href, "/get-involved");
 });

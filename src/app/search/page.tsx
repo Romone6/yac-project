@@ -190,11 +190,11 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
           {resourceResults.length > 0 && (
             <section aria-labelledby="resource-results-title">
-              <h2 id="resource-results-title" className="mb-4 text-2xl font-bold text-[var(--foreground)]">Pathway tools and information</h2>
+              <h2 id="resource-results-title" className="mb-4 text-2xl font-bold text-[var(--foreground)]">Matching pages and sections</h2>
               <div className="divide-y divide-[var(--line)] border-y border-[var(--line)] bg-[var(--surface)]">
                 {resourceResults.map(({ page }) => (
-                  <Link key={page.href} href={page.href} className="group flex items-center justify-between gap-4 px-5 py-4 hover:bg-[var(--accent-soft)]">
-                    <span><span className="block font-bold text-[var(--foreground)] group-hover:text-[var(--green)]">{page.title}</span><span className="mt-1 block text-sm text-[var(--muted)]">{page.description}</span></span>
+                  <Link key={`${page.pageTitle}:${page.title}:${page.href}`} href={page.href} className="group flex items-center justify-between gap-4 px-5 py-4 hover:bg-[var(--accent-soft)]">
+                    <span><span className="block text-xs font-semibold uppercase tracking-wide text-[var(--green)]">{page.pageTitle}</span><span className="mt-1 block font-bold text-[var(--foreground)] group-hover:text-[var(--green)]">{page.title}</span><span className="mt-1 block text-sm text-[var(--muted)]">{page.description}</span></span>
                     <ArrowRight aria-hidden="true" className="shrink-0 text-[var(--green)]" />
                   </Link>
                 ))}

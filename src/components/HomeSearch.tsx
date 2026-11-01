@@ -59,7 +59,7 @@ export function HomeSearch() {
             <>
               <ul className="divide-y divide-[var(--line)]">
                 {visibleResults.map(({ page }) => (
-                  <li key={page.href}>
+                  <li key={`${page.pageTitle}:${page.title}:${page.href}`}>
                     <Link
                       href={page.href}
                       className="flex items-center justify-between gap-4 px-3 py-3 hover:bg-[var(--accent-soft)] focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--green)]"
@@ -67,6 +67,9 @@ export function HomeSearch() {
                       <span>
                         <span className="block font-semibold text-[var(--accent)]">
                           {page.title}
+                        </span>
+                        <span className="block text-xs font-medium uppercase tracking-wide text-[var(--green)]">
+                          {page.pageTitle}
                         </span>
                         <span className="mt-1 block text-sm text-slate-600">
                           {page.description}
